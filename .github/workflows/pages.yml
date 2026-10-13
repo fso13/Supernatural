@@ -50,6 +50,9 @@ jobs:
 
       - name: Настроить Pages
         uses: actions/configure-pages@v5
+        with:
+          # включить Pages автоматически, если ещё не включён вручную
+          enablement: true
 
       - name: Загрузить артефакт
         uses: actions/upload-pages-artifact@v3

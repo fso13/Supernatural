@@ -375,6 +375,51 @@ assets/
 > чёрным. Поэтому все эмблемы идут через маску, а знак на обложке книги встроен в HTML
 > как inline-SVG.
 
+---
+
+## Публикация на GitHub Pages
+
+Сайт собирается и публикуется автоматически при пуше в `master`
+(workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml)).
+
+```
+push в master  →  python3 scripts/build_pages.py  →  public/  →  GitHub Pages
+```
+
+**Адрес сайта:** <https://fso13.github.io/Supernatural/>
+
+### Что делает пайплайн
+
+1. забирает репозиторий и ставит Python 3.12;
+2. проверяет, что все карточки бестиария — валидный JSON (падает, если нет);
+3. собирает `public/` скриптом [`scripts/build_pages.py`](scripts/build_pages.py);
+4. загружает артефакт и публикует его через `actions/deploy-pages`.
+
+Сборка ничего не компилирует: сайт статический, скрипт только копирует нужное
+в `public/` и переименовывает PDF в ASCII-имена. Структура внутри `public/`
+повторяет корень репозитория, поэтому относительные ссылки между редакциями
+(`../site/img/`, `../assets/`) работают без правок.
+
+### Если Pages ещё не включён
+
+Workflow делает это сам (`enablement: true` в `actions/configure-pages`).
+Если по какой-то причине не сработает — **Settings → Pages → Build and
+deployment → Source → GitHub Actions**, затем перезапустить job.
+
+### Локальная проверка того, что уедет на Pages
+
+```bash
+python3 scripts/build_pages.py                    # собрать public/
+python3 -m http.server 8080 --directory public    # посмотреть
+```
+
+### Пересборка PDF
+
+```bash
+bash scripts/serve.sh          # в одном окне
+bash scripts/make_pdfs.sh      # в другом
+```
+
 ## Дисклеймер
 
 *Supernatural* — торговая марка Warner Bros. Television. *Dungeons & Dragons* — Wizards of the Coast.
