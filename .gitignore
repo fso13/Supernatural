@@ -18,6 +18,7 @@ public/
 # служебные файлы сборки книги
 scripts/_vendor/
 site-gumshoe/book-overlay.html
+site/bestiary-overlay.html
 
 # промежуточные файлы конвертации (пересобираются скриптами)
 data/creatures/groups/
