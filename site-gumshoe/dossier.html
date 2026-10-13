@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Досье охотника — «Охотники» на GUMSHOE</title>
+<link rel="icon" type="image/svg+xml" href="../assets/brand/favicon.svg">
+<style>
+@font-face { font-family: "Ruslan"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/RuslanDisplay-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Yeseva"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/YesevaOne-Regular.ttf") format("truetype"); }
+
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #fff;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  color: #111; -webkit-font-smoothing: antialiased; }
+
+.sheet { width: 210mm; height: 297mm; padding: 11mm 12mm 9mm; position: relative; }
+
+/* ── шапка: мазок кистью ───────────────────────────────────────────────── */
+.banner { position: relative; height: 30mm; margin: 0 -2mm 6mm; }
+.banner::before {
+  content: ""; position: absolute; inset: 0;
+  background: url("../assets/brand/brush.svg") center / 100% 100% no-repeat;
+  -webkit-mask: none;
+}
+.banner .in { position: absolute; inset: 0; display: flex; align-items: center;
+               justify-content: space-between; padding: 0 9mm; }
+.banner .who { color: #fff; text-align: left; line-height: 1.15; padding-top: 1mm; }
+.banner .who b { display: block; font-family: "Ruslan", serif; font-weight: 400;
+                  font-size: 10.5pt; letter-spacing: .2em; }
+.banner .who i { display: block; font-family: "Yeseva", serif; font-style: normal;
+                  font-size: 6.4pt; letter-spacing: .3em; text-transform: uppercase; opacity: .95; }
+.banner h1 { font-family: "Ruslan", serif; font-weight: 400; color: #fff;
+              font-size: 27pt; letter-spacing: .07em; margin: 0; line-height: 1; }
+
+/* ── две колонки ───────────────────────────────────────────────────────── */
+.cols { display: grid; grid-template-columns: 78mm 1fr; gap: 9mm; }
+
+.sect { font-family: "Yeseva", serif; font-weight: 400; font-size: 11pt;
+         text-align: center; margin: 0 0 3mm; line-height: 1.16;
+         border-bottom: 1.2px solid #111; padding-bottom: 1.4mm; }
+.sect.small { font-size: 9.6pt; margin-bottom: 2.4mm; }
+
+.hd { display: grid; grid-template-columns: 1fr 20mm 1.6mm 20mm; align-items: baseline;
+       margin: 4mm 0 1.2mm; }
+.hd.gen { margin-top: 0; }
+.hd .g { font-weight: 700; font-size: 8.8pt; }
+.hd .c1, .hd .c2 { font-family: "Yeseva", serif; font-size: 6.2pt; letter-spacing: .12em;
+                    text-transform: uppercase; text-align: right; color: #333; }
+.hd .c2 { grid-column: 4; }
+
+.ab { display: grid; grid-template-columns: 1fr 20mm 1.6mm 20mm; align-items: center;
+       height: 4.4mm; }
+.ab .nm { font-size: 8.8pt; white-space: nowrap; overflow: hidden; }
+.ab .rt { border-bottom: 1px dashed #555; height: 0; margin-top: 2.6mm; }
+.ab .bar { border-left: 1.2px solid #333; height: 4mm; }
+.ab .pl { border-bottom: 1px solid #333; height: 0; margin-top: 2.6mm; }
+.ab.extra .nm { font-size: 1pt; }
+
+/* ── правая колонка ────────────────────────────────────────────────────── */
+.fld { margin-bottom: 2.8mm; }
+.fld label { display: block; font-family: "Yeseva", serif; font-size: 6.4pt;
+              letter-spacing: .18em; text-transform: uppercase; color: #222; margin-bottom: .6mm; }
+.fld .ln { display: block; border-bottom: 1px solid #333; height: 5mm; }
+.fld.tall .ln { height: 4.8mm; }
+.hintline { font-size: 6.2pt; color: #6a6a6a; margin-top: .7mm; font-style: italic; }
+
+.lower { display: grid; grid-template-columns: 1fr 66mm; gap: 7mm; margin-top: 2mm; }
+.general .hd { grid-template-columns: 1fr 12mm 1.6mm 12mm; }
+.general .ab { grid-template-columns: 1fr 12mm 1.6mm 12mm; height: 4.4mm; }
+
+.crow { display: flex; align-items: center; gap: 2.5mm; margin-bottom: 2.4mm; }
+.crow label { font-family: "Yeseva", serif; font-size: 7.6pt; }
+.crow .box { width: 13mm; height: 6mm; border: 1.2px solid #333; }
+
+.wpn { margin-bottom: 3mm; }
+.wh { display: grid; grid-template-columns: 1fr 20mm; font-family: "Yeseva", serif;
+       font-size: 6.2pt; letter-spacing: .12em; text-transform: uppercase; color: #333; }
+.wh span:last-child { text-align: right; }
+.wr { display: grid; grid-template-columns: 1fr 20mm; gap: 2mm; }
+.wr .ln { border-bottom: 1px solid #333; height: 5mm; }
+.wpn-hint { margin-bottom: 2.4mm; }
+
+.trkblk { margin-bottom: 2.8mm; }
+.trkblk > label { display: block; font-family: "Yeseva", serif; font-size: 7.6pt;
+                   margin-bottom: 1mm; }
+.trk .nums { font-size: 6.6pt; letter-spacing: .04em; color: #222;
+              font-variant-numeric: tabular-nums; white-space: pre; }
+.trk .nums + .nums { color: #555; }
+.boxes { display: flex; gap: 1.2mm; }
+.boxes .bx { width: 4.6mm; height: 4.6mm; border: 1.2px solid #333; }
+
+
+.scars { margin-top: 3mm; }
+.exp { margin-top: 3.5mm; }
+.exp > label { display: block; font-family: "Yeseva", serif; font-size: 7.2pt;
+                letter-spacing: .14em; text-transform: uppercase; margin-bottom: 1.6mm; }
+.exrow { display: grid; grid-template-columns: 32mm 1fr; align-items: end; gap: 2mm;
+          margin-bottom: 1.6mm; }
+.exrow span:first-child { font-size: 8pt; }
+.exrow .ln { border-bottom: 1px solid #333; height: 4.4mm; }
+.scars > label { display: block; font-family: "Yeseva", serif; font-size: 7.2pt;
+                  letter-spacing: .14em; text-transform: uppercase; margin-bottom: 1.4mm; }
+.scar { display: grid; grid-template-columns: 5mm 1fr; align-items: end; gap: 2mm;
+         margin-bottom: 1.6mm; }
+.scar span:first-child { font-family: "Yeseva", serif; font-size: 7pt; color: #444; }
+.scar .ln { border-bottom: 1px solid #333; height: 4.4mm; }
+.scar em { grid-column: 2; font-size: 6pt; color: #6a6a6a; margin-top: .5mm; }
+
+/* ── напоминания внизу ─────────────────────────────────────────────────── */
+.notes { position: absolute; left: 12mm; right: 12mm; bottom: 7mm;
+          border-top: 1.2px solid #111; padding-top: 2mm;
+          font-family: "Yeseva", serif; font-size: 6.1pt; line-height: 1.55;
+          letter-spacing: .01em; text-align: left; color: #222; }
+.notes b { font-family: "Yeseva", serif; }
+.notes .sep { color: #888; }
+
+/* ── экран ─────────────────────────────────────────────────────────────── */
+.screenbar { position: fixed; top: 0; left: 0; right: 0; z-index: 9;
+  background: #14121a; color: #e8e2d8; padding: 9px 16px; display: flex; gap: 14px;
+  align-items: center; font-family: "Yeseva", serif; font-size: 12px; }
+.screenbar a { color: #4fb3c7; text-decoration: none; }
+.screenbar button { background: #4fb3c7; color: #06222a; border: 0; border-radius: 7px;
+  padding: 6px 14px; font: inherit; font-weight: 700; cursor: pointer; }
+@media print { .screenbar { display: none !important; }
+  body { padding: 0 !important; }
+  .sheet { box-shadow: none !important; margin: 0 !important; } }
+@media screen { body { background: #2a2733; padding: 52px 0 40px; }
+  .sheet { margin: 0 auto; background: #fff; box-shadow: 0 12px 50px rgba(0,0,0,.55); } }
+</style>
+</head>
+<body>
+
+<div class="screenbar">
+  <span>Досье охотника · «Охотники» на GUMSHOE</span>
+  <button onclick="window.print()">🖨 Печать</button>
+  <a href="sheet.html">Заполняемый лист в браузере →</a>
+  <a href="rules.html">Правила →</a>
+</div>
+
+<div class="sheet">
+
+  <header class="banner">
+    <div class="in">
+      <div class="who"><b>ОХОТНИКИ</b><i>досье охотника</i></div>
+      <h1>Охотники</h1>
+    </div>
+  </header>
+
+  <div class="cols">
+    <div class="col-left"><h2 class="sect">Расследовательские<br>способности</h2><div class="hd"><span class="g">Академические</span><span class="c1">рейтинг</span><span class="c2">запас</span></div><div class="ab"><span class="nm">Антропология</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Археология</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Архивы</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Баллистика</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Демонология</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">История</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Криптозоология</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Медицина</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Оккультизм</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Теология</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Химия</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Языки</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="hd"><span class="g">Межличностные</span><span class="c1">рейтинг</span><span class="c2">запас</span></div><div class="ab"><span class="nm">Допрос</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Запугивание</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Лесть</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Ложь</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Проницательность</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Репутация</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Уличное чутьё</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="hd"><span class="g">Технические</span><span class="c1">рейтинг</span><span class="c2">запас</span></div><div class="ab"><span class="nm">Взлом</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Наружное наблюдение</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Осмотр места</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Слежка</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Фотосъёмка</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Эксплуатация</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab extra"><span class="nm"></span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div></div>
+    <div class="col-right">
+    <div class="ident">
+      <div class="fld"><label>Имя</label><span class="ln"></span></div>
+      <div class="fld"><label>Игрок</label><span class="ln"></span></div>
+      <div class="fld"><label>Драйв</label><span class="ln"></span>
+        <div class="hintline">Долг · Месть · Искупление · Знание · Защита · Азарт</div></div>
+      <div class="fld"><label>Легенда</label><span class="ln"></span>
+        <div class="hintline">кем представляешься в морге, в участке, на пороге дома</div></div>
+      <div class="fld tall"><label>Источники стабильности</label><span class="ln"></span>
+        <span class="ln"></span>
+        <div class="hintline">только люди. Разговор с ними возвращает Стабильность</div></div>
+      <div class="fld tall"><label>Заметки и контакты</label><span class="ln"></span>
+        <span class="ln"></span></div>
+    </div>
+
+    <div class="lower">
+      <div class="combat">
+        <div class="crow"><label>Защита</label><span class="box"></span></div>
+        <div class="wpn">
+          <div class="wh"><span>Оружие</span><span>модификатор</span></div>
+          <div class="wr"><span class="ln"></span><span class="ln short"></span></div>
+          <div class="wr"><span class="ln"></span><span class="ln short"></span></div>
+          <div class="hintline wpn-hint">Безоружный −2 · нож −1 · пистолет +0 · дробовик +1</div>
+        </div>
+
+        <div class="trkblk">
+          <label>Здоровье</label>
+          <div class="trk"><div class="nums">12 11 10 9 8 7 6 5 4 3 2 1</div><div class="nums">0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12</div></div>
+          <div class="hintline">на 0 — тяжёлое ранение, на −5 — мёртв</div>
+        </div>
+        <div class="trkblk">
+          <label>Стабильность</label>
+          <div class="trk"><div class="nums">12 11 10 9 8 7 6 5 4 3 2 1</div><div class="nums">0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12</div></div>
+          <div class="hintline">на 0 — срыв и шрам. Сном не восстанавливается</div>
+        </div>
+        <div class="trkblk">
+          <label>Убеждённость</label>
+          <div class="boxes"><span class="bx"></span><span class="bx"></span><span class="bx"></span><span class="bx"></span><span class="bx"></span><span class="bx"></span><span class="bx"></span><span class="bx"></span><span class="bx"></span><span class="bx"></span></div>
+          <div class="hintline">не растёт никогда. На 0 охотник уходит из дела</div>
+        </div>
+      </div>
+
+      <div class="general"><h2 class="sect small">Общие способности</h2><div class="hd gen"><span class="g"></span><span class="c1">рейтинг</span><span class="c2">запас</span></div><div class="ab"><span class="nm">Атлетика</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Бдительность</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Бой</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Вера</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Вождение</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Здоровье</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Первая помощь</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Подготовка</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Связи</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Скрытность</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Стабильность</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Стрельба</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div><div class="ab"><span class="nm">Воля</span><span class="rt"></span><span class="bar"></span><span class="pl"></span></div></div>
+    </div>
+
+    <div class="scars">
+      <label>Шрамы</label>
+      <div class="scar"><span>1</span><span class="ln"></span></div>
+      <div class="scar"><span>2</span><span class="ln"></span></div>
+      <div class="scar"><span>3</span><span class="ln"></span></div>
+      <div class="hintline">третий шрам — уход из дела</div>
+    </div>
+
+    <div class="exp">
+      <label>Опыт и рост</label>
+      <div class="exrow"><span>Свободных ОО</span><span class="ln"></span></div>
+      <div class="exrow"><span>Узлы архетипа</span><span class="ln"></span></div>
+      <div class="hintline">узел — 3 ОО · +1 к общей способности — 1 ОО ·
+        +1 к расследовательской — 2 ОО · новая способность — 1 ОО</div>
+    </div>
+    </div>
+  </div>
+
+  <div class="notes">
+    <b>РАССЛЕДОВАТЕЛЬСКИЕ СПОСОБНОСТИ:</b> 18 очков на старте, от 1 до 4 в способность,
+    не меньше восьми разных. Расследование не бросают кубик — есть способность и подходящая
+    сцена, значит есть улика; очко даёт дополнительную правду.
+    <span class="sep">•</span>
+    <b>Единица в «Языках»</b> — один дополнительный язык.
+    <span class="sep">•</span>
+    <b>ОБЩИЕ СПОСОБНОСТИ:</b> 50 очков, от 1 до 12. Бесплатно: <b>Здоровье 4</b>,
+    <b>Стабильность 4</b>, <b>Бдительность 2</b>.
+    <span class="sep">•</span>
+    <b>Проверка:</b> 1к6 плюс потраченные очки против Сл. Обычная Сл — 4, трудная — 5,
+    почти невозможная — 6. Потраченные очки уходят даже при провале.
+    <span class="sep">•</span>
+    <b>ПРАВИЛО ТВАРИ:</b> пока слабость существа не установлена, любая атака наносит
+    ровно 1 урона. Оружие по правилу: +2 и тварь смертна.
+    <span class="sep">•</span>
+    <b>Стабильность:</b> разговор с Источником возвращает 1к6, признание вслух — 1к3
+    (раз за дело), ночь не в деле — 1. Сном и выпивкой — нельзя.
+  </div>
+
+</div>
+</body>
+</html>
