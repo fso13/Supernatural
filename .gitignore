@@ -15,6 +15,10 @@ __pycache__/
 # сборка для GitHub Pages — генерируется в CI
 public/
 
+# служебные файлы сборки книги
+scripts/_vendor/
+site-gumshoe/book-overlay.html
+
 # промежуточные файлы конвертации (пересобираются скриптами)
 data/creatures/groups/
 data/gumshoe/groups/

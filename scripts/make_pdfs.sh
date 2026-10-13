@@ -34,11 +34,13 @@ echo "Печатаю PDF из $BASE"
 build "site/adventure.html"          "adventure-dnd5e.pdf"
 build "site/statblocks.html"         "statblocks-dnd5e.pdf" 60000
 build "site-gumshoe/quickstart.html" "quickstart-gumshoe.pdf"
-build "site-gumshoe/rules.html"      "rules-gumshoe.pdf" 90000
 build "site-gumshoe/sheet.html"      "sheet-gumshoe.pdf"
 build "site-gumshoe/adventure.html"  "adventure-gumshoe.pdf"
 build "site-edge/rules.html"         "rules-edge.pdf"
 build "site-edge/adventure.html"     "adventure-edge.pdf"
+echo
+echo "Книга правил («Охотники») — отдельным скриптом, с обложкой и оглавлением:"
+echo "  python3 scripts/build_gumshoe_pdf.py"
 echo
 echo "Книга на 677 страниц собирается отдельно (долго):"
 echo "  Chrome --print-to-pdf=bestiary-dnd5e.pdf $BASE/site/book.html"

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<title>Охотники — правила</title>
+<style>
+:root { --red: #8c1420; --red-2: #b7222b; --ink: #131313; --grey: #6a6a6a;
+        --rule: #c9c9c9; --tint: #f2f2f2; }
+
+@page { size: A4; margin: 15mm 14mm 16mm; }
+@page cover { size: A4; margin: 0; }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  font-size: 9.6pt; line-height: 1.46; color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+p { margin: 0 0 4.4pt; text-align: justify; hyphens: auto; }
+
+/* ── обложка ───────────────────────────────────────────────────────────── */
+.cover {
+  page: cover; position: relative; width: 210mm; height: 297mm;
+  margin: 0; overflow: hidden;
+  background: #0a0a0c; color: #f2ece2; break-after: page;
+}
+.cover::before {
+  content: ""; position: absolute; inset: 0;
+  background:
+    radial-gradient(closest-side, rgba(183,34,43,.30), rgba(183,34,43,0) 100%)
+      no-repeat 50% 88% / 200mm 150mm,
+    radial-gradient(closest-side, rgba(160,26,36,.20), rgba(183,34,43,0) 100%)
+      no-repeat 50% 6% / 150mm 120mm;
+}
+.cover::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 110mm;
+  background: url("data:image/svg+xml;utf8,ROADURI") center bottom / 100% auto no-repeat;
+  opacity: .9;
+}
+.cover .inner { position: relative; z-index: 3; height: 100%; padding: 24mm 18mm 18mm;
+                display: flex; flex-direction: column; align-items: center; text-align: center;
+                justify-content: space-between; }
+.cover .grp { display: flex; flex-direction: column; align-items: center; width: 100%; }
+.cover .trap { width: 82mm; height: 82mm; color: #b7222b; opacity: .9; margin-bottom: 4mm; }
+.cover .eno { width: 62mm; height: 5mm; color: #d8b26a; opacity: .7; margin-bottom: 8mm; }
+.cover h1 {
+  font-family: "Helvetica Neue", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700; font-size: 52pt; letter-spacing: .09em; line-height: 1;
+  margin: 0; color: #fff;
+}
+.cover .sub {
+  font-size: 13.5pt; font-style: italic; margin-top: 7mm; color: #e8e0d2; max-width: 120mm;
+}
+.cover .sys {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9pt; letter-spacing: .34em;
+  text-transform: uppercase; color: #d8b26a; margin-top: 9mm;
+}
+.cover .salt { width: 100mm; height: 5mm; color: #d8b26a; opacity: .6; margin: 12mm 0 0; }
+.cover .bottom { width: 100%; }
+.cover .impala { width: 96mm; height: 26mm; color: #cfc7ba; opacity: .75; margin: 0 auto 6mm; }
+.cover .strap {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.6pt; letter-spacing: .26em;
+  text-transform: uppercase; color: #f2ece2; opacity: .85;
+}
+.cover .tag { font-size: 10pt; font-style: italic; color: #b9b0a2; margin-top: 3mm; }
+
+/* ── титул ─────────────────────────────────────────────────────────────── */
+.titlepage { break-after: page; padding-top: 34mm; text-align: center; }
+.titlepage .trap { width: 26mm; height: 26mm; color: var(--red-2); margin: 0 auto 8mm; }
+.titlepage h1 {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
+  font-size: 30pt; letter-spacing: .08em; margin: 0 0 4mm; color: var(--ink);
+}
+.titlepage .sub { font-size: 13pt; font-style: italic; color: #333; margin-bottom: 3mm; }
+.titlepage .sys {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; letter-spacing: .3em;
+  text-transform: uppercase; color: var(--red); margin-bottom: 22mm;
+}
+.titlepage .rule { width: 40mm; height: 1px; background: var(--rule); margin: 0 auto 22mm; }
+.colophon { font-size: 9pt; color: #444; line-height: 1.6; max-width: 120mm; margin: 0 auto; }
+.colophon b { color: var(--ink); }
+.colophon .credits { margin-top: 12mm; font-size: 8.4pt; color: var(--grey); }
+
+/* ── оглавление ────────────────────────────────────────────────────────── */
+.toc { break-after: page; }
+.toc h2 {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 15pt; letter-spacing: .16em;
+  text-transform: uppercase; margin: 0 0 2mm; color: var(--ink);
+}
+.toc .rule { height: 2px; background: var(--red); width: 28mm; margin-bottom: 8mm; }
+.toc .cols { column-count: 2; column-gap: 11mm; }
+.tocline { display: flex; align-items: baseline; font-size: 9.4pt; margin-bottom: 1.7mm; }
+.tocline .t { flex: 0 1 auto; }
+.tocline .d { flex: 1 1 auto; border-bottom: 1px dotted #b6b6b6; margin: 0 2mm 0.9mm; min-width: 4mm; }
+.tocline .p { flex: 0 0 auto; font-variant-numeric: tabular-nums; color: #444; }
+.tocline.part { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
+                font-size: 9.6pt; text-transform: uppercase; letter-spacing: .1em;
+                margin: 4.5mm 0 2.2mm; color: var(--red); break-after: avoid; }
+.tocline.part .d { border-bottom-style: solid; border-bottom-color: var(--red); }
+.tocline.part:first-child { margin-top: 0; }
+
+/* ── раздел части ──────────────────────────────────────────────────────── */
+.partpage {
+  break-before: page; break-after: page; height: 250mm;
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  text-align: center;
+}
+.partpage .trap { width: 30mm; height: 30mm; color: var(--red-2); opacity: .85; margin-bottom: 10mm; }
+.partpage .kicker {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; letter-spacing: .34em;
+  text-transform: uppercase; color: var(--grey); margin-bottom: 5mm;
+}
+.partpage h1 {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 24pt;
+  letter-spacing: .06em; margin: 0; color: var(--ink); max-width: 150mm;
+}
+.partpage .rule { width: 46mm; height: 2px; background: var(--red); margin: 9mm 0; }
+.partpage .eno { width: 50mm; height: 4.4mm; color: var(--red-2); opacity: .4; }
+
+/* ── открывалка главы ──────────────────────────────────────────────────── */
+.chapter { break-inside: auto; }
+.partpage + .flow, .flow + .flow, .flow + .partpage { break-before: page; }
+.ch-open {
+  break-inside: avoid; break-after: avoid;
+  margin: 0 0 4.6mm; padding-top: 1mm; border-bottom: 2px solid var(--red); padding-bottom: 3.4mm;
+}
+.chapter + .chapter .ch-open { margin-top: 7mm; }
+.ch-open .kick {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8pt; letter-spacing: .32em;
+  text-transform: uppercase; color: var(--grey); margin-bottom: 1.5mm;
+}
+.ch-open .row { display: flex; align-items: baseline; gap: 5mm; }
+.ch-open .num {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 38pt;
+  line-height: .84; color: var(--red); flex: 0 0 auto; letter-spacing: .01em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.ch-open h1 {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 19pt;
+  line-height: 1.1; margin: 0; color: var(--ink); letter-spacing: .01em;
+}
+
+/* ── текст в две колонки ───────────────────────────────────────────────── */
+.flow { column-count: 2; column-gap: 8mm; column-fill: auto; }
+.flow:first-of-type { break-before: avoid; }
+.flow > .chapter:first-child .ch-open { margin-top: 0; }
+.flow h2 {
+  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
+  font-size: 11.4pt; margin: 6mm 0 2mm; padding-top: 1.6mm; border-top: 1px solid var(--rule);
+  color: var(--ink);
+}
+.flow h2:first-child { margin-top: 0; }
+.flow h3 {
+  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
+  font-size: 9.7pt; margin: 4.4mm 0 1.6mm; color: var(--red);
+}
+.flow h4 {
+  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
+  font-size: 9.1pt; margin: 3.6mm 0 1.2mm; color: #333; letter-spacing: .02em;
+}
+.flow h5, .flow h6 { break-after: avoid; font-size: 9.1pt; margin: 3mm 0 1mm; }
+
+ul, ol { margin: 0 0 4pt; padding-left: 5.4mm; }
+li { margin-bottom: 1.1mm; text-align: left; }
+strong { color: #000; }
+code {
+  font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 8.4pt;
+  background: var(--tint); padding: 0 .7mm; border-radius: 1mm;
+}
+a { color: var(--red); text-decoration: none; }
+
+/* ── врезки ────────────────────────────────────────────────────────────── */
+.sidebar {
+  break-inside: avoid; margin: 3.6mm 0; padding: 2.6mm 3.4mm 2.2mm;
+  background: var(--tint); border-left: 2.6px solid var(--red);
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.5pt; line-height: 1.42;
+}
+.sidebar p { text-align: left; margin: 0 0 2.2mm; }
+.sidebar p:last-child { margin-bottom: 0; }
+.sidebar strong { color: var(--red); }
+.sidebar em { font-style: italic; }
+
+/* ── таблицы ───────────────────────────────────────────────────────────── */
+table.md {
+  width: 100%; border-collapse: collapse; margin: 3mm 0 4mm;
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.1pt; line-height: 1.3;
+  break-inside: auto;
+}
+table.md thead { display: table-header-group; }
+table.md th {
+  background: #232323; color: #fff; text-align: left; font-weight: 700;
+  padding: 1.5mm 1.7mm; border: none; letter-spacing: .02em;
+}
+table.md td {
+  padding: 1.3mm 1.7mm; border-bottom: .5px solid var(--rule); vertical-align: top;
+}
+table.md tbody tr:nth-child(even) td { background: #f7f7f7; }
+table.md tr { break-inside: avoid; }
+table.md strong { color: var(--red); }
+
+pre {
+  break-inside: avoid; background: var(--tint); border-left: 2px solid var(--rule);
+  padding: 2.4mm 3mm; font-size: 8pt; margin: 3mm 0; overflow-wrap: anywhere;
+}
+pre code { background: none; padding: 0; font-size: 8pt; }
+
+.orn {
+  width: 14mm; height: 1.6px; background: var(--rule);
+  margin: 4.5mm auto; break-after: avoid;
+}
+
+/* ── подвал врезки-финала ──────────────────────────────────────────────── */
+.endnote { margin-top: 6mm; font-size: 8.4pt; color: var(--grey); font-style: italic; }
+.endnote p { text-align: left; }
+</style></head><body>
+<div class="flow"><section class="chapter"><div class="ch-open"><div class="kick">Введение</div><div class="row"><h1>Что это за игра</h1></div></div>
+<h3 id="ролевая-игра-по-сверхъестественному-на-системе-gumshoe">Ролевая игра по «Сверхъестественному» на системе GUMSHOE</h3>
+<p><em>Полные правила. Для игрока и хранителя.</em></p>
+<aside class="sidebar"><p><strong>Спасать людей. Охотиться на нечисть. Семейный бизнес.</strong></p></aside>
+<div class="orn"></div>
+<h2 id="что-это-за-игра">Что это за игра</h2>
+<p>«Охотники» — самостоятельная ролевая игра. Вы играете не героев фэнтези и не космических десантников, а обычных людей с дробовиком, блокнотом и очень плохим сном. Вы ездите по стране, находите то, что убивает людей, выясняете, <strong>что это вообще такое</strong>, и только потом убиваете.</p>
+<p>Игра построена на системе <strong>GUMSHOE</strong>, придуманной Робином Д. Лоузом. Она отличается от большинства ролевых игр одной идеей:</p>
+<aside class="sidebar"><p><strong>Расследование не бросают кубик.</strong></p></aside>
+<p>Если у вашего охотника есть нужная способность и он в сцене, где она применима, — он <strong>получает улику</strong>. Без броска. Забуксовать из-за неудачного кубика невозможно.</p>
+<p>Это не упрощение, а точное попадание в жанр. В сериале братья девяносто процентов времени ищут: читают старые газеты в библиотеке, уговаривают патологоанатома, спорят с шерифом, звонят знакомому, который «знает одного парня». Драка занимает тридцать секунд в конце — и заканчивается одним точным ударом в нужное место.</p>
+<h3 id="что-нужно-на-столе">Что нужно на столе</h3>
+<ul><li><strong>По одному шестигранному кубику</strong> каждому игроку. Больше никаких.</li><li>Три–пять игроков и хранитель.</li><li>Листы персонажей (см. приложение).</li><li>Карточки существ — из бестиария или сочинённые хранителем.</li></ul>
+<h3 id="три-вещи-которые-надо-понять-сразу">Три вещи, которые надо понять сразу</h3>
+<ol><li><strong>Расследовательские способности не бросают.</strong> Есть способность → есть улика.</li><li><strong>Общие способности бросают: 1к6 плюс очки.</strong> Тратить очки можно только до броска.</li><li><strong>Стабильность — второй счётчик смерти.</strong> Людей в этой игре ломает не то, что их бьют,</li></ol>
+<p>   а то, что они видят.</p>
+<div class="orn"></div>
+</section></div>
+<section class="partpage"><div class="trap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"> <circle cx="50" cy="50" r="47.2" stroke-width="2.2"/> <circle cx="50" cy="50" r="42.4" stroke-width="0.9" opacity=".75"/> <path d="M50,14 L28.84,79.12 L84.24,38.88 L15.76,38.88 L71.16,79.12 Z" stroke-width="2"/> <path d="M50,6.8 L50,4 M38.82,8.27 L38.09,5.57 M28.4,12.59 L27,10.16 M19.45,19.45 L17.47,17.47 M12.59,28.4 L10.16,27 M8.27,38.82 L5.57,38.09 M6.8,50 L4,50 M8.27,61.18 L5.57,61.91 M12.59,71.6 L10.16,73 M19.45,80.55 L17.47,82.53 M28.4,87.41 L27,89.84 M38.82,91.73 L38.09,94.43 M50,93.2 L50,96 M61.18,91.73 L61.91,94.43 M71.6,87.41 L73,89.84 M80.55,80.55 L82.53,82.53 M87.41,71.6 L89.84,73 M91.73,61.18 L94.43,61.91 M93.2,50 L96,50 M91.73,38.82 L94.43,38.09 M87.41,28.4 L89.84,27 M80.55,19.45 L82.53,17.47 M71.6,12.59 L73,10.16 M61.18,8.27 L61.91,5.57" stroke-width="0.9" opacity=".55"/> <g fill="currentColor" stroke="none"><circle cx="50" cy="14" r="1.7"/><circle cx="15.76" cy="38.88" r="1.7"/><circle cx="28.84" cy="79.12" r="1.7"/><circle cx="71.16" cy="79.12" r="1.7"/><circle cx="84.24" cy="38.88" r="1.7"/></g> </svg></div><div class="kicker">Часть</div><h1>ИГРОК</h1><div class="rule"></div><div class="eno"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.0 10.0 H18.4 M12.2 2 V20.0 M18.4 2 V20.0"/><path d="M24.3 2 V20.0 H32.9 V2"/><path d="M44.8 2 L49.5 20.0 L54.2 2 M44.8 11 H54.2"/><path d="M63.3 2 L71.2 20.0 M71.2 2 L63.3 20.0"/><path d="M78.5 2 V20.0 M78.5 11 H87.6"/><path d="M98.0 2 V20.0 M98.0 11 H112.2"/><path d="M121.2 2 V20.0 M121.2 11 H129.8"/><path d="M141.2 2 L149.2 20.0 M149.2 2 L141.2 20.0"/><path d="M156.9 2 V20.0 M156.9 11 H169.7"/><path d="M177.6 2 V20.0 M177.6 10.0 L185.4 20.0"/><path d="M193.4 2 L207.2 20.0 M207.2 2 L193.4 20.0"/><path d="M216.8 10.0 H226.2 M221.5 2 V20.0 M226.2 2 V20.0"/><path d="M237.1 2 L250.4 20.0 M250.4 2 L237.1 20.0"/><path d="M257.0 2 V20.0 M257.0 10.0 L268.4 20.0"/><path d="M274.1 2 L278.5 20.0 L282.8 2 M274.1 11 H282.8"/><path d="M288.8 2 V20.0 M288.8 11 H300.8"/><path d="M309.6 2 L320.3 20.0 M320.3 2 L309.6 20.0"/><path d="M331.6 10.0 H343.4 M337.5 2 V20.0 M343.4 2 V20.0"/><path d="M351.7 2 V20.0 H362.7 V2"/></svg></div></section>
+<div class="flow"><section class="chapter" id="глава-1-ядро-системы"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">1</div><h1>Ядро системы</h1></div></div>
+<h2 id="11-две-категории-способностей">1.1. Две категории способностей</h2>
+<p>Все способности делятся на две категории, и разница между ними — фундамент игры.</p>
+<table class="md"><thead><tr><th></th><th><strong>Расследовательские</strong></th><th><strong>Общие</strong></th></tr></thead><tbody><tr><td><strong>Кубик</strong></td><td>не бросают</td><td><strong>1к6 + очки</strong></td></tr><tr><td><strong>Как работает</strong></td><td>есть способность → есть улика</td><td>против <strong>Сл</strong></td></tr><tr><td><strong>Обычная сложность</strong></td><td>—</td><td><strong>4</strong></td></tr><tr><td><strong>Трата очка</strong></td><td>даёт <strong>дополнительную</strong> правду</td><td>добавляет к броску</td></tr><tr><td><strong>Когда тратить</strong></td><td>в момент получения улики</td><td><strong>до</strong> броска</td></tr><tr><td><strong>Возврат пула</strong></td><td>между делами</td><td>между делами; 1 очко за ночь сна</td></tr></tbody></table>
+<p><strong>Расследовательские способности</strong> — это знание, умение разговаривать и работать руками. <strong>Общие</strong> — это тело, нервы и рефлексы.</p>
+<h2 id="12-как-работает-расследование">1.2. Как работает расследование</h2>
+<p>Игрок объявляет, что делает охотник. Если у него есть подходящая способность, хранитель <strong>отдаёт базовую улику</strong> — просто рассказывает, что персонаж видит, находит или понимает.</p>
+<p>Если игрок хочет <strong>больше</strong>, он тратит очко: получает подробность, имя, направление, второй смысл. Очко уходит из пула до конца дела.</p>
+<aside class="sidebar"><p><strong>Правило одного ядра.</strong> Если улика обязательна для сюжета, её получает любой, у кого есть подходящая способность. Никогда не прячьте обязательную улику за тратой.</p>
+<p><strong>Правило нескольких путей.</strong> У каждой ключевой улики должно быть минимум <strong>три</strong> способности, которыми до неё можно добраться. Если группа застряла — это вина хранителя, а не игроков.</p></aside>
+<p><strong>Пример.</strong> Охотники в морге. У Роуз есть <code>Медицина</code>.</p>
+<aside class="sidebar"><p><strong>Хранитель:</strong> Тело обескровлено, но ран нет. Две аккуратные точки — под ключицей и на внутренней стороне бедра.</p>
+<p><strong>Игрок:</strong> Трачу очко Медицины.</p>
+<p><strong>Хранитель:</strong> Кровь уходила не сразу. Её откачивали <strong>неделями</strong>. Этого человека держали живым, и держали долго.</p></aside>
+<h2 id="13-как-работает-всё-остальное">1.3. Как работает всё остальное</h2>
+<p>Игрок объявляет, <strong>сколько очков</strong> тратит (не больше рейтинга способности), и бросает <strong>1к6</strong>.</p>
+<p><strong>Результат = 1к6 + потраченные очки.</strong> Если он равен или больше <strong>Сл</strong>, действие удалось.</p>
+<table class="md"><thead><tr><th>Сл</th><th>Когда ставить</th></tr></thead><tbody><tr><td><strong>4</strong></td><td>Обычное дело под давлением: перелезть забор, заметить хвост, выбить дверь</td></tr><tr><td><strong>5</strong></td><td>Трудно: заметить засаду в темноте, выбить дверь, когда по тебе стреляют</td></tr><tr><td><strong>6</strong></td><td>Почти невозможно: прыгнуть с третьего этажа без травм, угнать машину за сорок секунд</td></tr></tbody></table>
+<p><strong>Потраченные очки уходят, даже если бросок провален.</strong> Это и есть цена риска: чем сильнее напрягся, тем меньше осталось.</p>
+<aside class="sidebar"><p><strong>Зачем тратить до броска.</strong> Бросок 1к6 даёт от 1 до 6. Без трат вы проваливаете всё, что сложнее Сл 4, в половине случаев. Трата очка поднимает нижнюю границу: 1к6 + 1 — это уже 2–7. Именно поэтому пулы тают, и именно поэтому они конечны.</p></aside>
+<h2 id="14-противостояния">1.4. Противостояния</h2>
+<p>Когда двое действуют друг против друга, оба бросают свою способность. <strong>Побеждает больший результат.</strong> При равенстве побеждает <strong>защищающийся</strong> (или тот, кто действует пассивно).</p>
+<p>Обычные противостояния:</p>
+<table class="md"><thead><tr><th>Ситуация</th><th>Атакующий</th><th>Защитник</th></tr></thead><tbody><tr><td>Убедить силой</td><td><code>Запугивание</code></td><td><code>Воля</code></td></tr><tr><td>Соврать в лицо</td><td><code>Ложь</code></td><td><code>Проницательность</code></td></tr><tr><td>Подкрасться</td><td><code>Скрытность</code></td><td><code>Бдительность</code></td></tr><tr><td>Уйти от погони</td><td><code>Вождение</code></td><td><code>Вождение</code></td></tr><tr><td>Выбить оружие</td><td><code>Бой</code></td><td><code>Бой</code></td></tr><tr><td>Удержать контроль над телом</td><td><code>Воля</code></td><td><code>Воля</code> демона</td></tr></tbody></table>
+<h2 id="15-когда-не-бросать">1.5. Когда не бросать</h2>
+<p>Не просите бросок, если:</p>
+<ul><li><strong>Провал ничего не меняет.</strong> Открыть незапертую дверь — просто откройте.</li><li><strong>У персонажа явное преимущество.</strong> Специалист с рангом 12 в Бое против безоружного</li></ul>
+<p>  старика не бросает. Он побеждает.</p>
+<ul><li><strong>Это поиск улики.</strong> Улики не бросают. Улики находят.</li></ul>
+<p>Бросок нужен там, где <strong>есть настоящая цена провала</strong> и <strong>есть шанс</strong>.</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-2-создание-охотника"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">2</div><h1>Создание охотника</h1></div></div>
+<p>Создание персонажа занимает двадцать минут. Понадобится лист из приложения.</p>
+<h2 id="шаг-1-концепт">Шаг 1. Концепт</h2>
+<p><strong>Имя, возраст, откуда ты.</strong> Не нужно биографии на три страницы — нужно одно предложение, которое объясняет, почему человек с нормальной жизнью бросил её и поехал по стране убивать монстров.</p>
+<p><strong>Легенда.</strong> Кем ты представляешься, когда стучишь в дверь: страховым следователем из Хелены, журналистом еженедельника, федералом, «другом семьи», сотрудником санитарной службы. Легенда нужна, чтобы <code>Ложь</code> работала без штрафов.</p>
+<h2 id="шаг-2-драйв">Шаг 2. Драйв</h2>
+<p><strong>Драйв</strong> — зачем ты в этом. Он не механика. Он то, за что хранитель будет тебя цеплять.</p>
+<table class="md"><thead><tr><th>Драйв</th><th>Что это значит</th><th>Чем цепляет хранитель</th></tr></thead><tbody><tr><td><strong>Долг</strong></td><td>Кто-то должен, и кроме меня некому</td><td>Ответственность за тех, кого бросил</td></tr><tr><td><strong>Месть</strong></td><td>Тварь забрала моих, и я иду по следу</td><td>Напоминания, что месть не лечит</td></tr><tr><td><strong>Искупление</strong></td><td>Я уже был по другую сторону</td><td>Прошлое, которое возвращается</td></tr><tr><td><strong>Знание</strong></td><td>Я хочу понять, как это устроено</td><td>Запретные книги, цена знания</td></tr><tr><td><strong>Защита</strong></td><td>Я держу конкретных людей подальше от этого</td><td>Угроза этим людям</td></tr><tr><td><strong>Азарт</strong></td><td>Мне нравится. Это худший драйв и лучшая драма</td><td>Скука, риск без нужды, срыв</td></tr></tbody></table>
+<h2 id="шаг-3-источники-стабильности">Шаг 3. Источники стабильности</h2>
+<p>Запиши <strong>два-три имени</strong>. Это <strong>люди</strong>, к которым ты возвращаешься, когда становится совсем плохо. Не идеи. Не вера. Не бутылка. <strong>Люди.</strong></p>
+<ul><li>брат, который не разговаривает с тобой уже пять лет</li><li>барменша, которая наливает без вопросов и слушает</li><li>старый напарник, который ушёл из дела и вырастил детей</li><li>тётя в Биллингсе, которая думает, что ты работаешь в страховой</li></ul>
+<p><strong>Источник стабильности</strong> — единственный способ вернуть Стабильность. Хранитель будет использовать этих людей: ставить их под угрозу, убивать, делать монстрами. Это не жестокость. Это жанр.</p>
+<aside class="sidebar"><p>Если у охотника <strong>не осталось Источников</strong> — он не может восстанавливать Стабильность до конца кампании, пока не найдёт нового человека. Это самый страшный приговор в игре.</p></aside>
+<h2 id="шаг-4-расследовательские-способности-18-очков">Шаг 4. Расследовательские способности: 18 очков</h2>
+<p>Распредели <strong>18 очков</strong> между расследовательскими способностями.</p>
+<ul><li>от <strong>1</strong> до <strong>4</strong> в одну способность на старте;</li><li><strong>не меньше восьми</strong> разных способностей;</li><li>остальные остаются на нуле — это нормально и правильно.</li></ul>
+<aside class="sidebar"><p><strong>Совет.</strong> Возьми хотя бы по одному очку в <code>Оккультизм</code> и <code>Проницательность</code>. Без первого группа не узнает слабость твари, без второго — не поймёт, кто врёт. В этой игре незнание убивает быстрее когтей.</p></aside>
+<h2 id="шаг-5-общие-способности-50-очков">Шаг 5. Общие способности: 50 очков</h2>
+<p>Распредели <strong>50 очков</strong> между общими способностями.</p>
+<ul><li>от <strong>1</strong> до <strong>12</strong> в одну способность на старте;</li><li><strong>обязательный минимум:</strong> <code>Здоровье</code> <strong>4</strong>, <code>Стабильность</code> <strong>4</strong>, <code>Бдительность</code> <strong>2</strong>;</li><li>оставшиеся очки можно копить на потом — неиспользованные очки <strong>не сгорают</strong>, их можно</li></ul>
+<p>  вложить при повышении уровня.</p>
+<h2 id="шаг-6-ресурсы-и-снаряжение">Шаг 6. Ресурсы и снаряжение</h2>
+<table class="md"><thead><tr><th>Ресурс</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Здоровье</strong></td><td>равно рейтингу способности <code>Здоровье</code></td></tr><tr><td><strong>Стабильность</strong></td><td>равно рейтингу способности <code>Стабильность</code></td></tr><tr><td><strong>Убеждённость</strong></td><td><strong>10</strong> у всех на старте (см. главу 6)</td></tr></tbody></table>
+<p><strong>Стартовое снаряжение:</strong> машина (или доступ к ней), дробовик или пистолет, нож, две канистры бензина, мешок соли, набор отмычек, аптечка, фонарь, ноутбук, папка с фальшивыми документами, смена одежды в багажнике.</p>
+<h2 id="шаг-7-архетип-по-желанию">Шаг 7. Архетип (по желанию)</h2>
+<p>Если не хочется распределять самому — возьми готовый архетип из главы 3. Их шесть, у каждого свой стиль игры.</p>
+<h2 id="готовые-архетипы">Готовые архетипы</h2>
+<h3 id="роуз-соль-макэллистер-ветеран">Роуз «Соль» Макэллистер — Ветеран</h3>
+<p>Двадцать лет в деле. Шрам через бровь. Проверяет соль на порогах даже в гостях.</p>
+<table class="md"><thead><tr><th>Расследовательские</th><th>Очк.</th><th></th><th>Общие</th><th>Очк.</th></tr></thead><tbody><tr><td>Криптозоология</td><td>4</td><td></td><td>Бой</td><td>10</td></tr><tr><td>Оккультизм</td><td>3</td><td></td><td>Здоровье</td><td>10</td></tr><tr><td>Осмотр места</td><td>3</td><td></td><td>Стабильность</td><td>8</td></tr><tr><td>Медицина</td><td>3</td><td></td><td>Бдительность</td><td>6</td></tr><tr><td>Допрос</td><td>2</td><td></td><td>Подготовка</td><td>6</td></tr><tr><td>Архивы</td><td>2</td><td></td><td>Стрельба</td><td>5</td></tr><tr><td>Уличное чутьё</td><td>1</td><td></td><td>Вождение</td><td>5</td></tr></tbody></table>
+<p><strong>Драйв:</strong> Месть. <strong>Источники:</strong> брат Джим, барменша Карла, напарник Хэл. <strong>Крючок:</strong> в архиве лежит её собственный отчёт 2011 года с подписью «обстоятельства не установлены».</p>
+<h3 id="отец-иеремия-джерри-восс-священник">Отец Иеремия «Джерри» Восс — Священник</h3>
+<p>Расстриженный священник, 51 год. Чёрная рубашка без воротника. Латынь и энохианский. Не пьёт.</p>
+<table class="md"><thead><tr><th>Расследовательские</th><th>Очк.</th><th></th><th>Общие</th><th>Очк.</th></tr></thead><tbody><tr><td>Теология</td><td>4</td><td></td><td>Вера</td><td>12</td></tr><tr><td>Оккультизм</td><td>4</td><td></td><td>Стабильность</td><td>10</td></tr><tr><td>Демонология</td><td>3</td><td></td><td>Воля</td><td>8</td></tr><tr><td>Языки</td><td>3</td><td></td><td>Здоровье</td><td>7</td></tr><tr><td>Проницательность</td><td>2</td><td></td><td>Бдительность</td><td>5</td></tr><tr><td>Допрос</td><td>2</td><td></td><td>Бой</td><td>4</td></tr><tr><td></td><td></td><td></td><td>Подготовка</td><td>4</td></tr></tbody></table>
+<p><strong>Драйв:</strong> Искупление. <strong>Источники:</strong> сестра Анна, настоятель храма, друг-раввин. <strong>Крючок:</strong> раз за сессию может снять <strong>1 Стабильности</strong> напарнику, если по-настоящему его выслушает.</p>
+<h3 id="кит-мэллори-ловкач">Кит Мэллори — Ловкач</h3>
+<p>26 лет, слишком хорошо одет для охотника. Пять лет назад взял долг, из которого не вылез.</p>
+<table class="md"><thead><tr><th>Расследовательские</th><th>Очк.</th><th></th><th>Общие</th><th>Очк.</th></tr></thead><tbody><tr><td>Ложь</td><td>4</td><td></td><td>Воля</td><td>9</td></tr><tr><td>Уличное чутьё</td><td>3</td><td></td><td>Бдительность</td><td>7</td></tr><tr><td>Взлом</td><td>3</td><td></td><td>Атлетика</td><td>7</td></tr><tr><td>Наружное наблюдение</td><td>2</td><td></td><td>Здоровье</td><td>7</td></tr><tr><td>Лесть</td><td>2</td><td></td><td>Скрытность</td><td>7</td></tr><tr><td>Проницательность</td><td>2</td><td></td><td>Стабильность</td><td>6</td></tr><tr><td>Баллистика</td><td>1</td><td></td><td>Подготовка</td><td>5</td></tr><tr><td>Фотосъёмка</td><td>1</td><td></td><td>Стрельба</td><td>4</td></tr></tbody></table>
+<p><strong>Драйв:</strong> Знание. <strong>Источники:</strong> брат Томас, бар «У Дона», старый кредитор. <strong>Крючок:</strong> раз за сцену может <strong>перебросить один кубик</strong>, если соврёт так, что поверит сам. Хранитель записывает каждый такой обман.</p>
+<h3 id="доктор-амара-окоро-патологоанатом">Доктор Амара Окоро — Патологоанатом</h3>
+<p>Бывший судмедэксперт, 38 лет. Ушла из системы, когда начальство третий раз подписало «несчастный случай» на теле с двумя точками под ключицей.</p>
+<table class="md"><thead><tr><th>Расследовательские</th><th>Очк.</th><th></th><th>Общие</th><th>Очк.</th></tr></thead><tbody><tr><td>Медицина</td><td>4</td><td></td><td>Стабильность</td><td>10</td></tr><tr><td>Химия</td><td>4</td><td></td><td>Бдительность</td><td>8</td></tr><tr><td>Осмотр места</td><td>3</td><td></td><td>Здоровье</td><td>8</td></tr><tr><td>Архивы</td><td>3</td><td></td><td>Воля</td><td>7</td></tr><tr><td>Криптозоология</td><td>2</td><td></td><td>Первая помощь</td><td>7</td></tr><tr><td>Проницательность</td><td>2</td><td></td><td>Стрельба</td><td>5</td></tr><tr><td></td><td></td><td></td><td>Подготовка</td><td>5</td></tr></tbody></table>
+<p><strong>Драйв:</strong> Знание. <strong>Источники:</strong> мать, коллега-патологоанатом, сосед-пенсионер. <strong>Крючок:</strong> она единственная в группе понимает, что происходит с телом <strong>до</strong> того, как оно остынет.</p>
+<h3 id="гарт-тихий-роу-отшельник">Гарт «Тихий» Роу — Отшельник</h3>
+<p>Живёт в трейлере на границе двух штатов. Разговаривает мало, стреляет метко, знает леса лучше, чем карты.</p>
+<table class="md"><thead><tr><th>Расследовательские</th><th>Очк.</th><th></th><th>Общие</th><th>Очк.</th></tr></thead><tbody><tr><td>Криптозоология</td><td>4</td><td></td><td>Стрельба</td><td>12</td></tr><tr><td>Выживание</td><td>4</td><td></td><td>Скрытность</td><td>9</td></tr><tr><td>Природа</td><td>3</td><td></td><td>Бдительность</td><td>8</td></tr><tr><td>Слежка</td><td>3</td><td></td><td>Здоровье</td><td>8</td></tr><tr><td>История</td><td>2</td><td></td><td>Атлетика</td><td>6</td></tr><tr><td>Уличное чутьё</td><td>2</td><td></td><td>Стабильность</td><td>5</td></tr><tr><td></td><td></td><td></td><td>Вождение</td><td>2</td></tr></tbody></table>
+<p><strong>Драйв:</strong> Защита. <strong>Источники:</strong> сестра в городе, пёс, старый егерь. <strong>Крючок:</strong> в лесу он получает <strong>+1</strong> к любой проверке <code>Выживания</code>, <code>Природы</code>, <code>Слежки</code> и <code>Скрытности</code>. В городе — <strong>−1</strong> к <code>Уличному чутью</code> и <code>Лести</code>.</p>
+<h3 id="мила-сорока-ковач-журналистка">Мила «Сорока» Ковач — Журналистка</h3>
+<p>Криминальный репортёр, 29 лет. Ведёт подкаст «Необъяснимое в Монтане», который считает жёлтым даже её собственная редакция.</p>
+<table class="md"><thead><tr><th>Расследовательские</th><th>Очк.</th><th></th><th>Общие</th><th>Очк.</th></tr></thead><tbody><tr><td>Архивы</td><td>4</td><td></td><td>Стабильность</td><td>9</td></tr><tr><td>Допрос</td><td>4</td><td></td><td>Воля</td><td>9</td></tr><tr><td>Ложь</td><td>3</td><td></td><td>Бдительность</td><td>7</td></tr><tr><td>Проницательность</td><td>3</td><td></td><td>Здоровье</td><td>6</td></tr><tr><td>Уличное чутьё</td><td>2</td><td></td><td>Связи</td><td>8</td></tr><tr><td>Фотосъёмка</td><td>2</td><td></td><td>Подготовка</td><td>6</td></tr><tr><td></td><td></td><td></td><td>Вождение</td><td>5</td></tr></tbody></table>
+<p><strong>Драйв:</strong> Знание. <strong>Источники:</strong> редактор, брат-полицейский, информатор. <strong>Крючок:</strong> раз за дело может позвонить <code>Связям</code> и получить <strong>любую публичную информацию</strong> без сцены — газетную вырезку, отчёт, адрес, имя.</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-3-способности"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">3</div><h1>Способности</h1></div></div>
+<h2 id="31-полный-список">3.1. Полный список</h2>
+<h3 id="расследовательские-25">Расследовательские (25)</h3>
+<p><strong>Академические.</strong> <code>Антропология</code> · <code>Археология</code> · <code>Архивы</code> · <code>Баллистика</code> · <code>Демонология</code> · <code>История</code> · <code>Криптозоология</code> · <code>Медицина</code> · <code>Оккультизм</code> · <code>Теология</code> · <code>Химия</code> · <code>Языки</code></p>
+<p><strong>Межличностные.</strong> <code>Допрос</code> · <code>Запугивание</code> · <code>Лесть</code> · <code>Ложь</code> · <code>Проницательность</code> · <code>Репутация</code> · <code>Уличное чутьё</code></p>
+<p><strong>Технические.</strong> <code>Взлом</code> · <code>Наружное наблюдение</code> · <code>Осмотр места</code> · <code>Слежка</code> · <code>Фотосъёмка</code> · <code>Эксплуатация</code></p>
+<h3 id="общие-13">Общие (13)</h3>
+<p><code>Атлетика</code> · <code>Бдительность</code> · <code>Бой</code> · <code>Вера</code> · <code>Вождение</code> · <code>Здоровье</code> · <code>Первая помощь</code> · <code>Подготовка</code> · <code>Связи</code> · <code>Скрытность</code> · <code>Стабильность</code> · <code>Стрельба</code> · <code>Воля</code></p>
+<h2 id="32-расследовательские-что-каждая-даёт">3.2. Расследовательские: что каждая даёт</h2>
+<h3 id="академические">Академические</h3>
+<table class="md"><thead><tr><th>Способность</th><th>Что ею узнают</th></tr></thead><tbody><tr><td><strong>Антропология</strong></td><td>Обычаи, обряды, что значит ритуал для тех, кто его проводит. Погребальные традиции, табу, «почему они это делают»</td></tr><tr><td><strong>Археология</strong></td><td>Возраст вещей, старые захоронения, подделки, слои земли, что лежало здесь до дома</td></tr><tr><td><strong>Архивы</strong></td><td>Газеты, отчёты коронера, микрофильмы, старые дела, карты, статистика. <strong>Самая частая способность в этой игре</strong></td></tr><tr><td><strong>Баллистика</strong></td><td>Оружие, следы выстрелов, чем и с какого расстояния, кто стрелял — левша или правша</td></tr><tr><td><strong>Демонология</strong></td><td>Имена демонов, иерархия Ада, сделки, одержимость, как демон вошёл и что ему нужно</td></tr><tr><td><strong>История</strong></td><td>Что здесь было раньше, кто и почему, совпадения дат, старые преступления</td></tr><tr><td><strong>Криптозоология</strong></td><td>Монстры как биология: повадки, ареал, следы, помёт, циклы, чем питается, когда охотится</td></tr><tr><td><strong>Медицина</strong></td><td>Причина смерти, яды, следы на теле, время смерти, состояние до смерти</td></tr><tr><td><strong>Оккультизм</strong></td><td>Демоны, ангелы, ритуалы, символы, правила изгнания, чем тварь убивается</td></tr><tr><td><strong>Теология</strong></td><td>Религии, Писание, разница между верой и суеверием, что считается святотатством</td></tr><tr><td><strong>Химия</strong></td><td>Вещества, яды, соли, кислоты, что чем нейтрализовать, что горит</td></tr><tr><td><strong>Языки</strong></td><td>Латынь, энохианский, арамейский, цыганский, мёртвые языки, шифры</td></tr></tbody></table>
+<h3 id="межличностные">Межличностные</h3>
+<table class="md"><thead><tr><th>Способность</th><th>Что ею узнают</th></tr></thead><tbody><tr><td><strong>Допрос</strong></td><td>Вытянуть факты из того, кто не хочет говорить. Работает долго, но надёжно</td></tr><tr><td><strong>Запугивание</strong></td><td>То же через страх. Быстро, но портит отношения и закрывает двери</td></tr><tr><td><strong>Лесть</strong></td><td>Понравиться, разговорить, получить доступ, войти в доверие</td></tr><tr><td><strong>Ложь</strong></td><td>Соврать так, чтобы поверили: легенда, документы, алиби, «я из ФБР»</td></tr><tr><td><strong>Проницательность</strong></td><td>Понять, что человек врёт, чего боится, что скрывает, кого защищает</td></tr><tr><td><strong>Репутация</strong></td><td>Использовать имя, связи, звание. Работает только там, где вас знают</td></tr><tr><td><strong>Уличное чутьё</strong></td><td>Кто здесь чужой, где плохое место, кого надо спросить, куда не ходить</td></tr></tbody></table>
+<h3 id="технические">Технические</h3>
+<table class="md"><thead><tr><th>Способность</th><th>Что ею узнают</th></tr></thead><tbody><tr><td><strong>Взлом</strong></td><td>Замки, сейфы, сигнализации, двери моргов, чужие машины, телефоны</td></tr><tr><td><strong>Наружное наблюдение</strong></td><td>Понять, что за тобой следят, и кто. Найти хвост, снять хвост</td></tr><tr><td><strong>Осмотр места</strong></td><td>Криминалистика: следы, отпечатки, порядок событий в комнате, что сдвинули</td></tr><tr><td><strong>Слежка</strong></td><td>Вести и не быть замеченным. Часами. В машине. В дождь</td></tr><tr><td><strong>Фотосъёмка</strong></td><td>Снять то, что нельзя объяснить, и не потерять плёнку. Скрытая съёмка</td></tr><tr><td><strong>Эксплуатация</strong></td><td>Машины, генераторы, электрика, водопровод, ловушки из подручного</td></tr></tbody></table>
+<h2 id="33-общие-что-каждая-даёт">3.3. Общие: что каждая даёт</h2>
+<table class="md"><thead><tr><th>Способность</th><th>Применение</th><th>Типичные Сл</th></tr></thead><tbody><tr><td><strong>Атлетика</strong></td><td>Бег, лазание, прыжки, плавание, драка на земле</td><td>4</td></tr><tr><td><strong>Бдительность</strong></td><td>Заметить засаду, услышать шаги, не быть застигнутым. <strong>Определяет порядок хода</strong></td><td>4</td></tr><tr><td><strong>Бой</strong></td><td>Всё, что в упор: нож, лом, кулак, серебряный клинок</td><td>против Порога попадания</td></tr><tr><td><strong>Вера</strong></td><td>Экзорцизм, освящённая вода, молитва, крест, изгнание</td><td>4–6</td></tr><tr><td><strong>Вождение</strong></td><td>Уйти от погони, догнать, не разбиться на грунтовке</td><td>4–5</td></tr><tr><td><strong>Здоровье</strong></td><td>Сколько выдержишь. <strong>На нуле — тяжёлое ранение</strong></td><td>—</td></tr><tr><td><strong>Первая помощь</strong></td><td>Остановить кровь, вытащить пулю, привести в сознание</td><td>4</td></tr><tr><td><strong>Подготовка</strong></td><td>«У меня в багажнике как раз есть…» — соль, верёвка, канистра, лом</td><td>4</td></tr><tr><td><strong>Связи</strong></td><td>Позвонить нужному человеку: патологоанатому, оружейнику, хакеру</td><td>4</td></tr><tr><td><strong>Скрытность</strong></td><td>Не быть увиденным и не быть услышанным</td><td>против Бдительности</td></tr><tr><td><strong>Стабильность</strong></td><td>Сколько выдержишь <strong>увиденного</strong>. <strong>На нуле — срыв</strong></td><td>4–6</td></tr><tr><td><strong>Стрельба</strong></td><td>Всё, что на дистанции</td><td>против Порога попадания</td></tr><tr><td><strong>Воля</strong></td><td>Противостоять внушению, одержимости, чужому влиянию на разум</td><td>4–6</td></tr></tbody></table>
+<h3 id="про-веру-отдельно">Про <code>Веру</code> отдельно</h3>
+<p><strong>Вера</strong> — не набожность. Атеист может иметь Веру 12, если он точно знает, что делает, и верит в то, что делает. Латинист, который читает экзорцизм как формулу, работает Верой не хуже священника.</p>
+<p>Вера нужна для:</p>
+<ul><li><strong>экзорцизма</strong> — изгнать демона из тела;</li><li><strong>освящения</strong> — вода, масло, оружие;</li><li><strong>отгона</strong> — заставить тварь отступить крестом, молитвой, именем;</li><li><strong>сопротивления</strong> — когда демон лезет в твою голову.</li></ul>
+<p>Вера <strong>не защищает</strong> от монстров, которые не боятся святости. Это важный урок, и хранитель обязан его преподать.</p>
+<h2 id="34-как-тратить-очки-расследования">3.4. Как тратить очки расследования</h2>
+<p>Одна трата = одна дополнительная правда. Хранитель решает заранее, что даёт трата в ключевой сцене. Примеры хороших трат:</p>
+<table class="md"><thead><tr><th>Способность</th><th>Базовая улика</th><th>Что даёт трата</th></tr></thead><tbody><tr><td><strong>Медицина</strong></td><td>«Он обескровлен»</td><td>«Кровь уходила через трубку в бедре. Медленно, неделями»</td></tr><tr><td><strong>Оккультизм</strong></td><td>«Это джинн»</td><td>«Джинн держит человека в грёзе, пока пьёт. Разбудить может только сама жертва»</td></tr><tr><td><strong>Архивы</strong></td><td>«В 1998-м была похожая смерть»</td><td>«В 1998, 2003 и 2009-м — и все три раза в городке работал один и тот же врач»</td></tr><tr><td><strong>Проницательность</strong></td><td>«Он врёт»</td><td>«Он врёт не про убийство. Про то, где был»</td></tr><tr><td><strong>Криптозоология</strong></td><td>«Это хищник»</td><td>«Он не охотится на бегу. Он терпеливо ждёт, пока жертва сама вернётся в лес»</td></tr></tbody></table>
+<p><strong>Плохая трата</strong> — та, которая просто повторяет базовую улику другими словами. Если игрок потратил очко и не узнал ничего нового — верните ему очко.</p>
+<h2 id="35-повышение-способностей">3.5. Повышение способностей</h2>
+<p>При повышении уровня (глава 7) очки можно вкладывать в любые способности, включая расследовательские. Потолок на старте — 4 для расследовательских и 12 для общих; узлы архетипа могут его поднять.</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-4-дело-как-играется-сессия"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">4</div><h1>Дело: как играется сессия</h1></div></div>
+<h2 id="41-структура-серии">4.1. Структура серии</h2>
+<p>Одна игровая встреча — одна <strong>серия</strong>. Серия почти всегда строится по одной схеме. Это не жёсткое правило, а рабочая форма, проверенная сериалом.</p>
+<table class="md"><thead><tr><th>Акт</th><th>Что происходит</th><th>Сколько времени</th></tr></thead><tbody><tr><td><strong>Холодное открытие</strong></td><td>Сценка от лица жертвы. Без охотников. Заканчивается смертью и титрами</td><td>5–10 минут</td></tr><tr><td><strong>Прибытие</strong></td><td>Охотники в городе, первый осмотр, легенда, первое впечатление</td><td>30–40 минут</td></tr><tr><td><strong>Расследование</strong></td><td>Улики, свидетели, ложный след, нарастание</td><td>1,5–2 часа</td></tr><tr><td><strong>Логово</strong></td><td>Охотники находят место. Разведка, подготовка, часто провал</td><td>40 минут</td></tr><tr><td><strong>Развязка</strong></td><td>Бой, ритуал, договор или выбор. Всегда с ценой</td><td>30 минут</td></tr><tr><td><strong>Отъезд</strong></td><td>Машина, шоссе, радио, молчание. Разговор о своём</td><td>10 минут</td></tr></tbody></table>
+<p><strong>Холодное открытие</strong> — не формальность. Оно задаёт тон, показывает правило твари в действии и даёт игрокам то, чего у их персонажей нет: знание, что происходит на самом деле.</p>
+<h2 id="42-сцена">4.2. Сцена</h2>
+<p><strong>Сцена</strong> — единица игры. Хранитель описывает место, игроки объявляют действия, хранитель отдаёт улики.</p>
+<p>Порядок работы хранителя в сцене:</p>
+<ol><li><strong>Опишите место конкретно.</strong> Что видно, чем пахнет, что слышно, кто здесь.</li><li><strong>Спросите: «что вы делаете?»</strong> — а не «бросайте Восприятие».</li><li><strong>Если у кого-то есть подходящая расследовательская способность — отдайте улику.</strong> Сразу.</li><li><strong>Если игрок хочет больше</strong> — он тратит очко и получает подробность.</li><li><strong>Если нужно противостояние</strong> — общая способность, 1к6 плюс очки, против Сл.</li></ol>
+<h2 id="43-ключевые-улики-и-спина-дела">4.3. Ключевые улики и спина дела</h2>
+<p>Перед серией хранитель рисует <strong>спину</strong> — схему того, что группа должна узнать.</p>
+<pre><code>МОРГ ──► это не убийца, это тот, кто КОРМИТСЯ
+  │
+  ▼
+ГОРОДОК ──► за сорок лет девять таких серий
+  │
+  ▼
+ЛОЖНЫЙ СЛЕД ──► потраченная ночь, след закрыт
+  │
+  ▼
+СВИДЕТЕЛЬ ──► адрес логова
+  │
+  ▼
+ЛОГОВО ──► ПРАВИЛО: чем тварь убивается
+  │
+  ▼
+РАЗВЯЗКА</code></pre>
+<p>Правила спины:</p>
+<ul><li><strong>Каждый узел — одна ключевая улика.</strong> Без неё дело не движется.</li><li><strong>К каждому узлу — три пути.</strong> Минимум три разные способности, которыми можно до него дойти.</li><li><strong>Ложный след обязателен.</strong> Он должен стоить группе времени и быть настоящим тупиком.</li><li><strong>Правило твари — предпоследний узел.</strong> До него тварь неубиваема.</li></ul>
+<h3 id="три-пути-к-улике-пример">Три пути к улике: пример</h3>
+<p>Улика: <strong>жертв держат живыми неделями.</strong></p>
+<table class="md"><thead><tr><th>Путь</th><th>Способность</th><th>Что даёт</th></tr></thead><tbody><tr><td>Тело</td><td><code>Медицина</code></td><td>Следы от трубки, а не от укуса</td></tr><tr><td>Бумаги</td><td><code>Архивы</code></td><td>Три жертвы за месяц, а пропаж за полгода — семь</td></tr><tr><td>Люди</td><td><code>Допрос</code> медсестры</td><td>«Он приходил к нам трижды. В последний раз — за неделю до смерти»</td></tr></tbody></table>
+<p>Если группа застряла — виноват хранитель, а не кубики.</p>
+<h2 id="44-двери-и-тупики">4.4. Двери и тупики</h2>
+<p><strong>Дверь</strong> — препятствие, которое можно обойти. <strong>Тупик</strong> — препятствие, которое нельзя.</p>
+<ul><li><strong>Дверь:</strong> запертый кабинет, шериф, который не хочет говорить, собака во дворе.</li></ul>
+<p>  Всегда есть второй путь: <code>Взлом</code>, <code>Ложь</code>, <code>Лесть</code>, <code>Связи</code>, ночь и фонарь.</p>
+<ul><li><strong>Тупик:</strong> в этой игре их быть не должно. Никогда. Если единственный путь к улике — один</li></ul>
+<p>  бросок, вы построили плохую сцену.</p>
+<h2 id="45-что-игрок-может-объявить-в-сцене">4.5. Что игрок может объявить в сцене</h2>
+<p>Игроку не нужно ждать подсказки. Он может объявить:</p>
+<ul><li><strong>«У меня есть способность X. Что я вижу?»</strong> — и получить улику.</li><li><strong>«Я трачу очко X»</strong> — и получить больше.</li><li><strong>«Я хочу сделать Y»</strong> — и хранитель скажет, какая способность подходит и какая Сл.</li><li><strong>«Я звоню своему контакту»</strong> — если у него есть <code>Связи</code>.</li><li><strong>«Я осматриваюсь»</strong> — если у него есть <code>Бдительность</code> или <code>Осмотр места</code>.</li></ul>
+<aside class="sidebar"><p><strong>Правило честности.</strong> Если игрок предлагает разумный путь, который вы не предусмотрели, — <strong>дайте улику</strong>. Импровизация игроков не должна наказываться.</p></aside>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-5-бой"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">5</div><h1>Бой</h1></div></div>
+<p>Бой в GUMSHOE короткий и злой. Три раунда — уже долгий бой. Если он идёт дольше, значит, правило твари не найдено.</p>
+<h2 id="51-порядок-хода">5.1. Порядок хода</h2>
+<ol><li><strong>Начинает тот, кто начал.</strong> Нападающий первым действует в первом раунде.</li><li><strong>Дальше — по <code>Бдительности</code></strong>, от большего рейтинга к меньшему.</li><li>При равенстве первым идёт тот, у кого больше <code>Стрельба</code> или <code>Бой</code> — по ситуации.</li></ol>
+<p>Кубик на инициативу <strong>не бросается</strong>. Никогда.</p>
+<h2 id="52-ход">5.2. Ход</h2>
+<p>В свой ход персонаж может:</p>
+<table class="md"><thead><tr><th>Действие</th><th>Что это</th></tr></thead><tbody><tr><td><strong>Атаковать</strong></td><td>Один бросок атаки. Всё, что дальше, — следствие</td></tr><tr><td><strong>Сдвинуться и атаковать</strong></td><td>Обычное дело при нормальных условиях</td></tr><tr><td><strong>Сделать что-то другое</strong></td><td>Взломать, освятить воду, перевернуть стол, вытащить напарника</td></tr></tbody></table>
+<p>Отдельных «очков действия» в этой игре нет. Если персонаж делает две вещи за ход (стреляет и одновременно лезет в окно) — хранитель может потребовать <strong>−1</strong> на вторую.</p>
+<h2 id="53-атака">5.3. Атака</h2>
+<p><strong>Бросок = 1к6 + потраченные очки против Порога попадания цели.</strong></p>
+<ul><li><strong>В упор</strong> — способность <code>Бой</code>.</li><li><strong>На дистанции</strong> — способность <code>Стрельба</code>.</li><li><strong>Магией, ритуалом, святой водой</strong> — <code>Вера</code> (см. главу 9).</li></ul>
+<p><strong>Порог попадания</strong> — обычно <strong>4</strong>. У быстрых, укрывшихся или бронированных — <strong>5</strong>. У почти неуязвимых — <strong>6</strong>.</p>
+<p>Игрок <strong>объявляет трату до броска</strong>. Потраченные очки уходят из пула независимо от результата.</p>
+<h2 id="54-урон">5.4. Урон</h2>
+<p><strong>Урон не бросается.</strong> Он берётся из таблицы оружия и вычитается из Здоровья цели.</p>
+<table class="md"><thead><tr><th>Оружие</th><th>Урон</th><th>Примечание</th></tr></thead><tbody><tr><td>Кулак, нога, подручное</td><td><strong>−2</strong></td><td>Почти бесполезно против твари</td></tr><tr><td>Нож, лом, монтировка, топор</td><td><strong>−1</strong></td><td></td></tr><tr><td>Пистолет, револьвер</td><td><strong>+0</strong></td><td></td></tr><tr><td>Пистолет в упор</td><td><strong>+1</strong></td><td></td></tr><tr><td>Дробовик</td><td><strong>+1</strong></td><td></td></tr><tr><td>Дробовик в упор</td><td><strong>+2</strong></td><td></td></tr><tr><td>Винтовка</td><td><strong>+1</strong></td><td>Перезарядка — ход</td></tr><tr><td>Серебряный клинок, освящённое оружие</td><td><strong>+1</strong></td><td><strong>Игнорирует броню</strong> уязвимой твари</td></tr><tr><td>Оружие, найденное <strong>по правилу твари</strong></td><td><strong>+2</strong></td><td><strong>Тварь становится смертной</strong></td></tr><tr><td>Огонь (коктейль Молотова, костёр)</td><td><strong>+1</strong></td><td>Продолжает гореть: 1 урон в ход, пока не собьют</td></tr><tr><td>Взрывчатка</td><td><strong>+3</strong></td><td>По площади</td></tr></tbody></table>
+<p><strong>Броня</strong> вычитается из урона. Если урон после брони меньше 1, он равен <strong>0</strong> (или 1, если хранитель использует правило «минимальный урон 1»).</p>
+<h2 id="55-здоровье-и-смерть">5.5. Здоровье и смерть</h2>
+<table class="md"><thead><tr><th>Здоровье</th><th>Состояние</th></tr></thead><tbody><tr><td>Полное</td><td>В порядке</td></tr><tr><td>Больше половины</td><td>Царапины, синяки, «на адреналине»</td></tr><tr><td>Меньше половины</td><td><strong>−1</strong> на все физические действия</td></tr><tr><td>1–2</td><td>Еле стоит, кровь идёт, в глазах темнеет</td></tr><tr><td><strong>0</strong></td><td><strong>Тяжёлое ранение.</strong> Без сознания, выведен из боя</td></tr><tr><td><strong>−5</strong></td><td><strong>Мёртв</strong>, если рядом нет никого с <code>Первой помощью</code> и временем</td></tr></tbody></table>
+<p><strong>Стабилизация.</strong> <code>Первая помощь</code> Сл 4. Успех — персонаж приходит в сознание с <strong>1</strong> Здоровья. Провал — можно повторить, но каждый ход промедления даёт <strong>−1</strong> к Сл.</p>
+<p><strong>Восстановление.</strong> После боя — <strong>1d6</strong> Здоровья за ночь в мотеле. Полное — за <strong>три дня покоя</strong>, без дел. <code>Первая помощь</code> может ускорить: <strong>+2</strong> за успешную проверку.</p>
+<h2 id="56-огнестрел-и-здравый-смысл">5.6. Огнестрел и здравый смысл</h2>
+<p>Огнестрельное оружие <strong>шумное</strong>. В городе каждый выстрел — это:</p>
+<ul><li>кто-то вызвал копов (1d6 минут до сирен);</li><li>кто-то видел (свидетель, который заговорит);</li><li>гильзы на месте (улика для других).</li></ul>
+<p>Хранитель должен показывать это <strong>всегда</strong>. Охота — не перестрелка. Тот, кто стреляет первым, обычно проигрывает: он привлекает внимание, теряет элемент неожиданности и не узнаёт, чем тварь можно убить.</p>
+<h2 id="57-погони">5.7. Погони</h2>
+<p>Погоня — <strong>противостояние</strong> <code>Вождения</code>. Каждый раунд:</p>
+<ol><li>Оба участника бросают <code>Вождение</code> (<strong>1к6 + очки</strong>).</li><li>Проигравший теряет преимущество или получает осложнение.</li><li>Три успеха подряд — отрыв. Три провала подряд — догнали (или разбились).</li></ol>
+<p>Осложнения вместо чистого проигрыша: узкий поворот, встречная машина, тупик, мост, поезд, полицейский кордон. Каждое требует <strong>нового броска</strong> или <strong>траты очка</strong>.</p>
+<h2 id="58-оружие-против-твари-чего-не-бывает">5.8. Оружие против твари: чего не бывает</h2>
+<p>Обычная пуля <strong>не убивает</strong> почти ничего сверхъестественного. И это не «мастер запрещает», а факт мира, который хранитель описывает:</p>
+<aside class="sidebar"><p>Ты попадаешь трижды. Он вздрагивает. Потом выпрямляется, и дырки в куртке затягиваются, как будто ты кинул камень в воду.</p></aside>
+<p>Игроки должны <strong>сами</strong> понять, что бьют не туда, и пойти искать правило.</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-6-стабильность-и-убеждённость"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">6</div><h1>Стабильность и Убеждённость</h1></div></div>
+<p>Это глава о том, как в этой игре ломаются люди. Их ломает не то, что их бьют. Их ломает то, что они видят.</p>
+<p>У охотника <strong>два отдельных счётчика</strong>, и они не заменяют друг друга.</p>
+<table class="md"><thead><tr><th></th><th><strong>Стабильность</strong></th><th><strong>Убеждённость</strong></th></tr></thead><tbody><tr><td><strong>Что это</strong></td><td>Нервы, сон, способность действовать сегодня</td><td>Вера в то, что мир познаваем и стоит того</td></tr><tr><td><strong>Старт</strong></td><td>рейтинг способности <code>Стабильность</code></td><td><strong>10</strong> у всех</td></tr><tr><td><strong>Теряется</strong></td><td>при столкновении с чудовищным</td><td>при столкновении с <strong>бессмысленным</strong></td></tr><tr><td><strong>Восстанавливается</strong></td><td>через <strong>Источники стабильности</strong></td><td>почти никогда</td></tr><tr><td><strong>На нуле</strong></td><td><strong>Срыв</strong> и <strong>шрам</strong></td><td>Охотник <strong>уходит из дела</strong></td></tr></tbody></table>
+<h2 id="61-проверка-стабильности">6.1. Проверка Стабильности</h2>
+<p>Когда охотник впервые видит что-то чудовищное, он делает <strong>проверку Стабильности</strong>.</p>
+<p><strong>Бросок = 1к6 + потраченные очки против Сл.</strong></p>
+<table class="md"><thead><tr><th>Ситуация</th><th>Сл</th><th>Потеря при провале</th></tr></thead><tbody><tr><td>Призрак, гуль, монстр недели</td><td><strong>4</strong></td><td>столько, сколько в карточке существа</td></tr><tr><td>Демон в истинном облике, одержимый, труп в ритуале</td><td><strong>5</strong></td><td>по карточке</td></tr><tr><td>Ангел, архангел, левиафан</td><td><strong>5–6</strong></td><td>по карточке</td></tr><tr><td>Первичная сущность, Смерть, Тьма</td><td><strong>6</strong></td><td>по карточке</td></tr><tr><td>Гибель Источника стабильности на твоих глазах</td><td><strong>6</strong></td><td><strong>3</strong> и потеря самого Источника</td></tr></tbody></table>
+<p><strong>Успех</strong> — потеря <strong>вдвое меньше</strong> (округляя вниз, но не меньше 1, если потеря была больше 0). <strong>Провал</strong> — полная потеря.</p>
+<p><strong>Траты на проверку Стабильности</strong> разрешены и очень важны: это буквально «взять себя в руки».</p>
+<aside class="sidebar"><p><strong>Только один раз.</strong> Повторно на ту же тварь проверка не делается. Иммунитет — вещь реальная: второй демон уже не так страшен, как первый.</p></aside>
+<h2 id="62-как-вернуть-стабильность">6.2. Как вернуть Стабильность</h2>
+<p><strong>Сном и выпивкой — нельзя.</strong> Скажите игрокам это прямо в первой сессии.</p>
+<table class="md"><thead><tr><th>Способ</th><th>Сколько вернёт</th><th>Условие</th></tr></thead><tbody><tr><td><strong>Разговор с Источником стабильности</strong></td><td><strong>1d6</strong></td><td>Целая сцена. Хранитель играет этого человека</td></tr><tr><td><strong>Признание вслух другому охотнику</strong></td><td><strong>1d3</strong></td><td>Правда о том, что ты сделал. <strong>Один раз за дело</strong></td></tr><tr><td><strong>Ночь не в деле</strong></td><td><strong>1</strong></td><td>Не в дороге, не в мотеле на трассе. Просто ночь</td></tr><tr><td><strong>Долгий отдых между делами</strong></td><td>до полного</td><td>Неделя без охоты. Редкость</td></tr></tbody></table>
+<p><strong>Разговор с Источником — это сцена, а не бросок.</strong> Хранитель должен отыграть человека: что он говорит, чего боится, что замечает в охотнике. Часто именно здесь выясняется, что охотник уже не тот, кем был.</p>
+<h2 id="63-срыв">6.3. Срыв</h2>
+<p>Когда <strong>Стабильность падает до нуля</strong>, охотник не сходит с ума навсегда. Он получает <strong>Срыв</strong> — сцену, которую надо отыграть <strong>прямо сейчас</strong>.</p>
+<p><strong>Срыв</strong> длится до конца сцены. Охотник:</p>
+<ul><li>не может добровольно приблизиться к тому, что его сломало;</li><li>получает <strong>−2</strong> на все действия, кроме бегства и защиты;</li><li>говорит и делает то, что скажет игрок, но хранитель вправе добавить одну деталь —</li></ul>
+<p>  и игрок обязан её принять.</p>
+<p>После сцены Стабильность возвращается до <strong>1</strong>, и охотник получает <strong>шрам</strong> (см. ниже).</p>
+<h2 id="64-шрамы">6.4. Шрамы</h2>
+<p><strong>Шрам</strong> — постоянная черта, которая остаётся до конца кампании. Она не механика. Она роль.</p>
+<table class="md"><thead><tr><th>1d6</th><th>Шрам</th></tr></thead><tbody><tr><td>1</td><td>Проверяешь соль на каждом пороге. Даже в гостях. Особенно в гостях</td></tr><tr><td>2</td><td>Не спишь в доме, где есть детская кровать</td></tr><tr><td>3</td><td>Не можешь произносить слово «папа»</td></tr><tr><td>4</td><td>Держишь в машине заряженное оружие и не помнишь, когда зарядил</td></tr><tr><td>5</td><td>Врёшь о мелочах, даже когда не нужно</td></tr><tr><td>6</td><td>Не остаёшься один после заката</td></tr></tbody></table>
+<p><strong>Три шрама — охотник уходит из дела.</strong> Навсегда или до конца арки — решает игрок вместе с хранителем. Уход из дела — не смерть персонажа: он может стать тем, кому звонят <code>Связями</code>, и остаться в игре как NPC.</p>
+<h2 id="65-убеждённость">6.5. Убеждённость</h2>
+<p><strong>Убеждённость</strong> — второй счётчик, и он страшнее.</p>
+<p>Он падает не тогда, когда ты видишь монстра, а тогда, когда понимаешь, что <strong>мир устроен не так, как ты думал</strong>. Что зло не наказывают. Что ангелы убивают детей. Что твоего брата спас дьявол. Что Бога нет — или что он есть, и ему всё равно.</p>
+<p><strong>Проверка Убеждённости</strong> делается, когда охотник сталкивается с <strong>бессмысленным</strong>:</p>
+<table class="md"><thead><tr><th>Событие</th><th>Потеря Убеждённости</th></tr></thead><tbody><tr><td>Тварь оказывается жертвой, а монстр — человеком</td><td><strong>1</strong></td></tr><tr><td>Кто-то, кого ты спас, погибает из-за твоего решения</td><td><strong>1</strong></td></tr><tr><td>Ангел убивает невинного «по приказу»</td><td><strong>2</strong></td></tr><tr><td>Твой Источник стабильности становится монстром</td><td><strong>2</strong></td></tr><tr><td>Ты понимаешь, что тебя использовали как инструмент</td><td><strong>2</strong></td></tr><tr><td>Ты видишь, что всё это уже было и будет снова</td><td><strong>3</strong></td></tr></tbody></table>
+<p><strong>Убеждённость не восстанавливается</strong> обычными способами. Только так:</p>
+<ul><li><strong>Спасти кого-то по-настоящему</strong> — не «убить тварь», а вытащить человека — <strong>+1</strong>;</li><li><strong>Закрыть дело честно</strong>, без сделки с совестью — <strong>+1</strong>;</li><li><strong>Отказаться от мести</strong>, когда была возможность — <strong>+1</strong>;</li><li><strong>Признать вслух, что ты был неправ</strong> перед тем, кому сделал больно — <strong>+1</strong>.</li></ul>
+<table class="md"><thead><tr><th>Убеждённость</th><th>Состояние</th></tr></thead><tbody><tr><td>7–10</td><td>Ты знаешь, зачем ты здесь</td></tr><tr><td>4–6</td><td>Ты уже не уверен. Часто молчишь в машине</td></tr><tr><td>1–3</td><td>Ты держишься на одном человеке. На одном деле. На одном долге</td></tr><tr><td><strong>0</strong></td><td><strong>Ты уходишь из дела</strong></td></tr></tbody></table>
+<p><strong>На нуле</strong> охотник выбирает, кем он стал:</p>
+<table class="md"><thead><tr><th>d6</th><th>Кем он стал</th></tr></thead><tbody><tr><td>1</td><td><strong>Пьёт.</strong> Живёт в мотеле, звонит только когда совсем плохо</td></tr><tr><td>2</td><td><strong>Пропал.</strong> Уехал и не отвечает. Через сезон вернётся — другим</td></tr><tr><td>3</td><td><strong>Продался.</strong> Работает на тех, против кого охотился</td></tr><tr><td>4</td><td><strong>Стал фанатиком.</strong> Убивает всё, включая тех, кого можно было спасти</td></tr><tr><td>5</td><td><strong>Ушёл к людям.</strong> Женился, работает, не отвечает на звонки. Счастлив. Пока</td></tr><tr><td>6</td><td><strong>Стал тем, на кого охотился.</strong> Буквально</td></tr></tbody></table>
+<h2 id="66-восстановление-убеждённости-в-игре">6.6. Восстановление Убеждённости в игре</h2>
+<p>Убеждённость — это <strong>награда за правильные поступки</strong>, и хранитель должен давать её <strong>немедленно и вслух</strong>: «За то, что ты не выстрелил — верни себе одно очко».</p>
+<p>Игрок должен чувствовать, что выбор «спасти вместо убить» <strong>механически вознаграждается</strong>. Это главный этический контур игры.</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-7-опыт-и-рост"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">7</div><h1>Опыт и рост</h1></div></div>
+<h2 id="71-когда-дают-опыт">7.1. Когда дают опыт</h2>
+<p><strong>Опыт (ОО)</strong> даётся <strong>после дела</strong>, а не за убийства. Это принципиально: убить тварь — не достижение. Достижение — понять, что происходит, и не потерять себя.</p>
+<table class="md"><thead><tr><th>Условие</th><th>ОО</th></tr></thead><tbody><tr><td>Дело закрыто</td><td><strong>2</strong></td></tr><tr><td>Дело закрыто <strong>правильно</strong> (пострадавшие спасены, твари дали то, что заслужили)</td><td><strong>+1</strong></td></tr><tr><td>Правило твари <strong>установлено</strong> (а не угадано)</td><td><strong>1</strong></td></tr><tr><td>Ключевая улика найдена <strong>нестандартным путём</strong></td><td><strong>1</strong></td></tr><tr><td>Охотник <strong>сказал правду о себе</strong> другому охотнику (признание вслух)</td><td><strong>1</strong></td></tr><tr><td>Охотник <strong>пожертвовал выгодой</strong> ради человека</td><td><strong>1</strong></td></tr><tr><td>Все персонажи <strong>выжили</strong></td><td><strong>+1</strong></td></tr><tr><td>Кто-то <strong>погиб</strong></td><td><strong>+1</strong> каждому выжившему (и это не награда, а компенсация)</td></tr></tbody></table>
+<p><strong>Обычный итог: 3–5 ОО за дело.</strong></p>
+<h2 id="72-на-что-тратить">7.2. На что тратить</h2>
+<table class="md"><thead><tr><th>Что</th><th>Стоимость</th><th>Правило</th></tr></thead><tbody><tr><td><strong>+1 к общей способности</strong></td><td><strong>1 ОО за 1 очко</strong></td><td>До <strong>12</strong> на старте, дальше — до <strong>18</strong></td></tr><tr><td><strong>+1 к расследовательской способности</strong></td><td><strong>2 ОО за 1 очко</strong></td><td>Потолок <strong>4</strong>; узел архетипа может поднять до <strong>5–6</strong></td></tr><tr><td><strong>Новая расследовательская способность</strong></td><td><strong>1 ОО</strong></td><td>Ставит её на <strong>1</strong></td></tr><tr><td><strong>Новый узел архетипа</strong></td><td><strong>3 ОО</strong></td><td>См. главу 7</td></tr><tr><td><strong>Новый Источник стабильности</strong></td><td>бесценно</td><td>Только через игру</td></tr></tbody></table>
+<p><strong>Неиспользованные очки не сгорают.</strong> Их можно копить на узел или на подъём потолка.</p>
+<h2 id="73-потолки">7.3. Потолки</h2>
+<table class="md"><thead><tr><th></th><th>Старт</th><th>Потолок</th></tr></thead><tbody><tr><td>Расследовательская способность</td><td>4</td><td>6 (с узлом)</td></tr><tr><td>Общая способность</td><td>12</td><td>18</td></tr><tr><td>Здоровье</td><td>12</td><td>18</td></tr><tr><td>Стабильность</td><td>12</td><td>18</td></tr><tr><td>Убеждённость</td><td>10</td><td>10 (<strong>не растёт</strong>)</td></tr></tbody></table>
+<aside class="sidebar"><p><strong>Убеждённость не увеличивается никогда.</strong> Это важнейшее правило игры. Охотник может стать сильнее, быстрее, умнее — но не может стать <strong>целее</strong>. Он только тратит.</p></aside>
+<h2 id="74-узлы-архетипа">7.4. Узлы архетипа</h2>
+<p>Узлы — небольшие постоянные бонусы, привязанные к тому, <strong>как</strong> охотник работает. Каждый узел стоит <strong>3 ОО</strong>.</p>
+<h3 id="ветеран">Ветеран</h3>
+<table class="md"><thead><tr><th>Узел</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Соль на пороге</strong></td><td>Раз за сцену автоматически замечаешь следы сверхъестественного, без броска</td></tr><tr><td><strong>Стреляй первым</strong></td><td>В первом раунде боя <strong>+1</strong> к <code>Стрельбе</code></td></tr><tr><td><strong>Я это уже видел</strong></td><td><strong>+1</strong> к проверкам Стабильности против любого вида твари, который ты встречал раньше</td></tr><tr><td><strong>Список</strong></td><td>Ведёшь записи. Раз за дело можешь вспомнить улику, которую группа упустила</td></tr></tbody></table>
+<h3 id="священник">Священник</h3>
+<table class="md"><thead><tr><th>Узел</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Правильные слова</strong></td><td>Экзорцизм занимает вдвое меньше времени</td></tr><tr><td><strong>Утешение</strong></td><td>Раз за сессию снимаешь <strong>1 Стабильности</strong> напарнику после настоящего разговора</td></tr><tr><td><strong>Сомнение</strong></td><td>Раз за дело можешь перебросить проверку <code>Веры</code></td></tr><tr><td><strong>Тот, кто слушает</strong></td><td>Любой NPC говорит с тобой откровеннее: <strong>+1</strong> к <code>Допросу</code> и <code>Лести</code></td></tr></tbody></table>
+<h3 id="ловкач">Ловкач</h3>
+<table class="md"><thead><tr><th>Узел</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Легенда</strong></td><td>Твоя фальшивая личность выдерживает одну проверку без броска</td></tr><tr><td><strong>Руки</strong></td><td><strong>+1</strong> к <code>Взлому</code> и <code>Эксплуатации</code></td></tr><tr><td><strong>Уйти чистым</strong></td><td>Раз за дело можешь покинуть сцену так, что тебя не запомнят</td></tr><tr><td><strong>Долг</strong></td><td>Раз за сессию получаешь нужную вещь без объяснений. Хранитель записывает — и вернёт это сюжетом</td></tr></tbody></table>
+<h3 id="патологоанатом">Патологоанатом</h3>
+<table class="md"><thead><tr><th>Узел</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Стол</strong></td><td>Осмотр тела занимает минуты, а не часы</td></tr><tr><td><strong>Причина</strong></td><td>Раз за дело точно определяешь, <strong>чем</strong> убито, без броска</td></tr><tr><td><strong>Свои люди</strong></td><td>В любом городе есть коллега. <strong>+1</strong> к <code>Связям</code> по медицинской части</td></tr><tr><td><strong>Холодная голова</strong></td><td><strong>+2</strong> к проверке Стабильности при виде трупа</td></tr></tbody></table>
+<h3 id="отшельник">Отшельник</h3>
+<table class="md"><thead><tr><th>Узел</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Тише воды</strong></td><td><strong>+1</strong> к <code>Скрытности</code> и <code>Слежке</code> на природе</td></tr><tr><td><strong>Читаю след</strong></td><td>Раз за сцену точно определяешь, сколько существ, как давно и куда шли</td></tr><tr><td><strong>Залягу</strong></td><td>Можешь ждать в засаде сутками без штрафов</td></tr><tr><td><strong>Терпение</strong></td><td><strong>+1</strong> к <code>Стрельбе</code>, если целился целый раунд</td></tr></tbody></table>
+<h3 id="журналист">Журналист</h3>
+<table class="md"><thead><tr><th>Узел</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Пресса</strong></td><td>Раз за дело официальный доступ туда, куда не пускают</td></tr><tr><td><strong>Источник</strong></td><td><code>Связи</code> дают не только информацию, но и <strong>человека в сцене</strong></td></tr><tr><td><strong>Никогда не вру</strong></td><td><strong>+1</strong> к <code>Допросу</code>, если говоришь правду</td></tr><tr><td><strong>Записываю</strong></td><td>Раз за дело восстанавливаешь точные слова любого NPC дословно</td></tr></tbody></table>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-8-снаряжение-охотника"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">8</div><h1>Снаряжение охотника</h1></div></div>
+<h2 id="81-что-всегда-в-багажнике">8.1. Что всегда в багажнике</h2>
+<table class="md"><thead><tr><th>Предмет</th><th>Зачем</th></tr></thead><tbody><tr><td><strong>Соль</strong> (два мешка)</td><td>Круги, пороги, подоконники, дробовые патроны с солью</td></tr><tr><td><strong>Железо и серебро</strong></td><td>Железный лом, серебряные ложки, серебряные пули (дорого)</td></tr><tr><td><strong>Освящённая вода</strong></td><td>Против духов, демонов и того, что боится святости</td></tr><tr><td><strong>Дьявольская ловушка</strong></td><td>Нарисованный на полу или на потолке символ. Держит демона</td></tr><tr><td><strong>Аптечка</strong></td><td><code>Первая помощь</code> без штрафа</td></tr><tr><td><strong>Фонари и батарейки</strong></td><td>Подвалы, леса, бункеры</td></tr><tr><td><strong>Канистра бензина</strong></td><td>Сжечь тело, логово, улики</td></tr><tr><td><strong>Набор отмычек</strong></td><td><code>Взлом</code> без штрафа</td></tr><tr><td><strong>Ноутбук с мобильным интернетом</strong></td><td><code>Архивы</code> там, где нет библиотеки</td></tr><tr><td><strong>Фальшивые документы</strong></td><td><code>Ложь</code> без штрафа</td></tr><tr><td><strong>Одежда на смену</strong></td><td>Потому что в этой одежде уже была кровь</td></tr><tr><td><strong>Одноразовый телефон</strong></td><td>Звонки, которые не должны остаться в истории</td></tr></tbody></table>
+<h2 id="82-специальное-снаряжение">8.2. Специальное снаряжение</h2>
+<table class="md"><thead><tr><th>Предмет</th><th>Что даёт</th><th>Цена / доступность</th></tr></thead><tbody><tr><td><strong>Серебряный клинок</strong></td><td>+1 урона, игнорирует броню уязвимой твари</td><td>Редко. Переплавить серебро: <code>Эксплуатация</code> Сл 4</td></tr><tr><td><strong>Серебряные пули</strong></td><td>То же, но для огнестрела</td><td>Очень редко. Обычно 1–2 штуки на группу</td></tr><tr><td><strong>Драконобойный меч</strong></td><td>Убивает драконов</td><td>Сюжетный предмет</td></tr><tr><td><strong>Первое Лезвие</strong></td><td>Убивает всё. Требует Печать Каина</td><td>Сюжетный предмет, с ценой</td></tr><tr><td><strong>Ангельский клинок</strong></td><td>Убивает демонов и ангелов</td><td>Сюжетный предмет</td></tr><tr><td><strong>Кольцо Всадника</strong></td><td>Один эффект на выбор: война, голод, мор, смерть</td><td>Сюжетный предмет</td></tr><tr><td><strong>Ловушка дьявола (переносная)</strong></td><td>Можно нарисовать за 10 минут на любой поверхности</td><td><code>Оккультизм</code> Сл 4</td></tr><tr><td><strong>Антиодержимость</strong></td><td>Татуировка. Демон не может войти в тело</td><td>Сюжетный предмет. Одноразовая защита</td></tr><tr><td><strong>Сигил изгнания ангелов</strong></td><td>Изгоняет всех ангелов в радиусе</td><td>Сюжетный предмет. <strong>Кровь того, кто рисует</strong></td></tr><tr><td><strong>Книга</strong> (гримуар, дневник, отчёт)</td><td><code>Оккультизм</code> или <code>Демонология</code> с бонусом</td><td>Редко, часто в чужом сейфе</td></tr></tbody></table>
+<h2 id="83-наркотики-боль-и-сон">8.3. Наркотики, боль и сон</h2>
+<p>Охотники плохо спят. Это механика, а не фон.</p>
+<table class="md"><thead><tr><th>Средство</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Обезболивающее</strong></td><td>Снимает <strong>−1</strong> от ранения на одну сцену. Потом эффект проходит</td></tr><tr><td><strong>Стимуляторы</strong></td><td><strong>+2</strong> к <code>Бдительности</code> на сцену. Потом <strong>−2</strong> и <strong>1 Стабильности</strong></td></tr><tr><td><strong>Алкоголь</strong></td><td><strong>+1</strong> к <code>Воле</code> против страха. <strong>−1</strong> к <code>Стрельбе</code>, <code>Вождению</code>, <code>Бдительности</code>. Не лечит Стабильность</td></tr><tr><td><strong>Снотворное</strong></td><td>Спишь. <strong>Не</strong> восстанавливает Стабильность. Сны всё равно приходят</td></tr><tr><td><strong>Долгий сон</strong></td><td><strong>+1</strong> Здоровья, <strong>+0</strong> Стабильности</td></tr></tbody></table>
+<aside class="sidebar"><p><strong>Правило трезвости.</strong> Хранитель никогда не наказывает за выпивку напрямую. Он просто показывает, чем это заканчивается. Раз за кампанию — сценой, а не штрафом.</p></aside>
+<h2 id="84-деньги">8.4. Деньги</h2>
+<p>Охотники живут на <strong>фальшивые кредитки</strong>, гонорары от тех, кого спасли, и продажу конфискованного у тварей.</p>
+<table class="md"><thead><tr><th>Уровень</th><th>Что доступно</th></tr></thead><tbody><tr><td><strong>Пусто</strong></td><td>Мотель на ночь, еда, бензин. Ничего больше</td></tr><tr><td><strong>Есть</strong> (1d6×100 долларов)</td><td>Оружие, аптека, мотель на неделю, взятка шерифу</td></tr><tr><td><strong>Густо</strong> (редко)</td><td>Серебро, специальное снаряжение, информация у нужного человека</td></tr></tbody></table>
+<p>Деньги <strong>не отслеживаются по копейкам</strong>. Хранитель решает, может ли группа позволить себе ту или иную покупку, и это часть истории.</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-9-обряды-экзорцизм-и-защита"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">9</div><h1>Обряды, экзорцизм и защита</h1></div></div>
+<p>Это глава, которая делает «Охотников» игрой про «Сверхъестественное», а не про универсальных борцов с нечистью.</p>
+<p><strong>Обряд</strong> — не заклинание. Это <strong>работа</strong>: правильные слова, правильное время, правильные компоненты, правильная вера. Обряды в этой игре <strong>не бросают кубик на «получилось»</strong> — они работают, если выполнены условия. Бросают только для того, чтобы успеть, не сбиться и удержать.</p>
+<h2 id="91-общие-правила-обрядов">9.1. Общие правила обрядов</h2>
+<p>Любой обряд описывается пятью параметрами:</p>
+<table class="md"><thead><tr><th>Параметр</th><th>Что это</th></tr></thead><tbody><tr><td><strong>Способность</strong></td><td>Чем выполняется: <code>Вера</code>, <code>Оккультизм</code>, <code>Теология</code>, <code>Демонология</code>, <code>Языки</code></td></tr><tr><td><strong>Время</strong></td><td>Сколько занимает: 1 ход, 1 минута, 10 минут, час</td></tr><tr><td><strong>Сл</strong></td><td>Если обряд под давлением — сложность проверки</td></tr><tr><td><strong>Компоненты</strong></td><td>Что нужно физически: соль, кровь, вода, символ, имя</td></tr><tr><td><strong>Цена</strong></td><td>Что тратит исполнитель: очки, Здоровье, Стабильность, время, кровь</td></tr></tbody></table>
+<p><strong>Провал обряда</strong> — не «ничего не вышло». Провал — это <strong>сбился на середине</strong>. Что именно пошло не так, хранитель решает по ситуации: демон вырвался на три слова раньше, сигил оказался стёрт, ангел услышал и пришёл.</p>
+<h2 id="92-экзорцизм">9.2. Экзорцизм</h2>
+<p><strong>Изгнание демона из тела.</strong></p>
+<table class="md"><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Способность</strong></td><td><code>Вера</code> (или <code>Языки</code>, если читаешь с листа)</td></tr><tr><td><strong>Время</strong></td><td><strong>10 минут</strong> чтения латыни. Опытный — 5 минут</td></tr><tr><td><strong>Сл</strong></td><td><strong>4</strong> в спокойной обстановке; <strong>5</strong>, если тело сопротивляется; <strong>6</strong>, если демон сильный</td></tr><tr><td><strong>Компоненты</strong></td><td>Святая вода, распятие, связанное или удерживаемое тело, полный текст</td></tr><tr><td><strong>Цена</strong></td><td><strong>2 очка Веры</strong> за попытку. Провал — потрачено</td></tr></tbody></table>
+<p><strong>Противостояние.</strong> Если демон активно сопротивляется (говорит, отвлекает, угрожает), он бросает свою <strong>Волю</strong> против <code>Веры</code> экзорциста. Побеждает больший результат.</p>
+<p><strong>Что происходит при успехе:</strong></p>
+<ul><li>Демон <strong>выходит</strong> из тела чёрным дымом и уходит.</li><li>Тело остаётся: <strong>1d6</strong> Здоровья, обычно без сознания.</li><li>Демон <strong>помнит</strong> экзорциста. Он вернётся. Это не угроза хранителя, это жанр.</li></ul>
+<p><strong>Что происходит при провале:</strong></p>
+<ul><li>Демон <strong>остаётся</strong> и получает ход.</li><li>Экзорцист теряет <strong>1 Стабильности</strong>: он слышал, как демон смеётся его голосом.</li><li>Можно попробовать снова, но Сл растёт на <strong>1</strong> за каждую попытку в одной сцене.</li></ul>
+<aside class="sidebar"><p><strong>Правило трёх попыток.</strong> Больше трёх экзорцизмов над одним человеком за сцену не получится: сорванное горло, сломанные рёбра, потеря крови. Дальше — только нож.</p></aside>
+<h2 id="93-ловушка-дьявола">9.3. Ловушка дьявола</h2>
+<p><strong>Символ, который держит демона внутри.</strong></p>
+<table class="md"><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Способность</strong></td><td><code>Оккультизм</code></td></tr><tr><td><strong>Время</strong></td><td><strong>10 минут</strong> нарисовать (краской, мелом, кровью — без разницы)</td></tr><tr><td><strong>Сл</strong></td><td>Успех автоматический, если есть время и образец. <code>Оккультизм</code> Сл 4 — по памяти</td></tr><tr><td><strong>Компоненты</strong></td><td>Образец или память. Большая ровная поверхность</td></tr><tr><td><strong>Цена</strong></td><td>Время. Это и есть цена</td></tr></tbody></table>
+<p><strong>Что даёт:</strong></p>
+<ul><li>Демон <strong>не может выйти</strong> из ловушки, пока символ цел.</li><li>Демон <strong>не может дотянуться</strong> до того, кто стоит снаружи.</li><li>Если ловушка на потолке — демон прикован к потолку, как в сериале.</li><li><strong>Стереть символ</strong> — освободить. Сделать это может кто угодно, в том числе случайный</li></ul>
+<p>  свидетель.</p>
+<p><strong>Варианты применения:</strong> нарисовать на полу и загнать демона внутрь; нарисовать <strong>на теле</strong> (болезненно, но эффективно); нарисовать <strong>внутри ловушки-приманки</strong>.</p>
+<h2 id="94-соляной-круг">9.4. Соляной круг</h2>
+<table class="md"><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Способность</strong></td><td>Не требует. Нужна соль и ровная рука</td></tr><tr><td><strong>Время</strong></td><td><strong>1 минута</strong> на круг вокруг человека; <strong>10 минут</strong> вокруг дома</td></tr><tr><td><strong>Компоненты</strong></td><td>Соль. Много соли. <strong>Непрерывная линия</strong></td></tr><tr><td><strong>Цена</strong></td><td>Соль. Иногда — время, которого нет</td></tr></tbody></table>
+<p><strong>Что даёт:</strong> призраки, духи, демоны в дымной форме и большинство «нематериальных» тварей <strong>не могут пересечь линию</strong>. Никакую.</p>
+<p><strong>Как ломается:</strong> любая щель. Ветер, собака, человек, шагнувший через линию. <strong>Дверь, открытая изнутри.</strong> Хранитель должен использовать это постоянно.</p>
+<h2 id="95-освящение">9.5. Освящение</h2>
+<table class="md"><thead><tr><th>Что</th><th>Способность</th><th>Время</th><th>Сл</th><th>Что даёт</th></tr></thead><tbody><tr><td><strong>Святая вода</strong></td><td><code>Вера</code></td><td>10 минут</td><td>4</td><td>+1 урона против того, что боится святости. Расходуется</td></tr><tr><td><strong>Освящённое оружие</strong></td><td><code>Вера</code></td><td>1 час</td><td>5</td><td>+1 урона, игнорирует броню уязвимой твари. Действует одно дело</td></tr><tr><td><strong>Освящение порога</strong></td><td><code>Вера</code></td><td>10 минут</td><td>4</td><td>Тварь не входит в дом, пока порог цел</td></tr><tr><td><strong>Молитва над телом</strong></td><td><code>Теология</code></td><td>5 минут</td><td>3</td><td>Тело не поднимется. Работает не всегда</td></tr></tbody></table>
+<p><strong>Цена освящения</strong> — <strong>1 очко Веры</strong> за каждый предмет. Провал — потрачено, предмет не освящён, и <strong>1 Стабильности</strong>: охотник слышит, как в пустой церкви кто-то вздохнул.</p>
+<h2 id="96-сигил-изгнания-ангелов">9.6. Сигил изгнания ангелов</h2>
+<p>Один из немногих способов справиться с ангелом. Требует <strong>крови того, кто рисует</strong>.</p>
+<table class="md"><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Способность</strong></td><td><code>Оккультизм</code> + <code>Языки</code></td></tr><tr><td><strong>Время</strong></td><td><strong>1 минута</strong> нарисовать</td></tr><tr><td><strong>Сл</strong></td><td><strong>5</strong> под давлением</td></tr><tr><td><strong>Компоненты</strong></td><td>Символ, кровь рисующего (минимум <strong>2 Здоровья</strong>), ровная поверхность</td></tr><tr><td><strong>Цена</strong></td><td><strong>2 Здоровья</strong> и <strong>1 Стабильности</strong></td></tr></tbody></table>
+<p><strong>Что даёт:</strong> все ангелы в радиусе <strong>уходят</strong>. Немедленно. Включая союзных. Включая того, кто в этот момент держал твоего напарника.</p>
+<p><strong>Что не даёт:</strong> ангел может вернуться. Обычно — через час. И он будет злее.</p>
+<h2 id="97-защита-от-одержимости">9.7. Защита от одержимости</h2>
+<table class="md"><thead><tr><th>Способ</th><th>Как работает</th></tr></thead><tbody><tr><td><strong>Антиодержимость (татуировка)</strong></td><td>Демон не может войти в тело. <strong>Одноразово</strong> — сгорает после одной попытки. Обычно наносится на грудь</td></tr><tr><td><strong>Оберег</strong></td><td><code>Оккультизм</code> Сл 4, 10 минут. Демон не подойдёт, пока держишь</td></tr><tr><td><strong>Соль за шиворот</strong></td><td>Работает один раз. Противно, но работает</td></tr><tr><td><strong>Задержать дыхание</strong></td><td>Демон входит с выдохом. <code>Воля</code> Сл 4, чтобы продержаться сцену</td></tr><tr><td><strong>Связать себя</strong></td><td>Если уже чувствуешь — попроси напарника пристегнуть тебя наручниками к трубе. Это сцена, а не механика</td></tr></tbody></table>
+<h2 id="98-ритуалы-которые-игроки-захотят-изобрести">9.8. Ритуалы, которые игроки захотят изобрести</h2>
+<p>Игроки <strong>обязательно</strong> попробуют придумать ритуал, которого нет в правилах. Это нормально.</p>
+<p><strong>Алгоритм хранителя:</strong></p>
+<ol><li><strong>Спроси, что именно они делают и откуда знают.</strong> Есть <code>Оккультизм</code> или книга — хорошо.</li></ol>
+<p>   Нет — они гадают, и это опасно.</p>
+<ol><li><strong>Определи способность, время, компоненты и цену.</strong> Цена должна быть настоящей:</li></ol>
+<p>   очки, кровь, время, Стабильность, что-то, что нельзя вернуть.</p>
+<ol><li><strong>Скажи, что произойдёт, если сработает, — и что, если нет.</strong> Провал обряда должен</li></ol>
+<p>   быть <strong>страшнее</strong>, чем отсутствие обряда.</p>
+<ol><li><strong>Дай это сделать.</strong> Не отговаривай. Игроки сами найдут цену.</li></ol>
+<aside class="sidebar"><p><strong>Пример.</strong> Игрок хочет «запечатать» дом от ангела, используя сигил, соль и своё имя, написанное кровью. Хранитель: <code>Оккультизм</code> Сл 5, час работы, 1d6 Здоровья, 2 Стабильности. При успехе ангел не входит в дом трое суток — но <strong>знает теперь имя</strong> того, кто это сделал.</p></aside>
+<div class="orn"></div>
+</section></div>
+<section class="partpage"><div class="trap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"> <circle cx="50" cy="50" r="47.2" stroke-width="2.2"/> <circle cx="50" cy="50" r="42.4" stroke-width="0.9" opacity=".75"/> <path d="M50,14 L28.84,79.12 L84.24,38.88 L15.76,38.88 L71.16,79.12 Z" stroke-width="2"/> <path d="M50,6.8 L50,4 M38.82,8.27 L38.09,5.57 M28.4,12.59 L27,10.16 M19.45,19.45 L17.47,17.47 M12.59,28.4 L10.16,27 M8.27,38.82 L5.57,38.09 M6.8,50 L4,50 M8.27,61.18 L5.57,61.91 M12.59,71.6 L10.16,73 M19.45,80.55 L17.47,82.53 M28.4,87.41 L27,89.84 M38.82,91.73 L38.09,94.43 M50,93.2 L50,96 M61.18,91.73 L61.91,94.43 M71.6,87.41 L73,89.84 M80.55,80.55 L82.53,82.53 M87.41,71.6 L89.84,73 M91.73,61.18 L94.43,61.91 M93.2,50 L96,50 M91.73,38.82 L94.43,38.09 M87.41,28.4 L89.84,27 M80.55,19.45 L82.53,17.47 M71.6,12.59 L73,10.16 M61.18,8.27 L61.91,5.57" stroke-width="0.9" opacity=".55"/> <g fill="currentColor" stroke="none"><circle cx="50" cy="14" r="1.7"/><circle cx="15.76" cy="38.88" r="1.7"/><circle cx="28.84" cy="79.12" r="1.7"/><circle cx="71.16" cy="79.12" r="1.7"/><circle cx="84.24" cy="38.88" r="1.7"/></g> </svg></div><div class="kicker">Часть</div><h1>ХРАНИТЕЛЬ</h1><div class="rule"></div><div class="eno"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.0 10.0 H18.4 M12.2 2 V20.0 M18.4 2 V20.0"/><path d="M24.3 2 V20.0 H32.9 V2"/><path d="M44.8 2 L49.5 20.0 L54.2 2 M44.8 11 H54.2"/><path d="M63.3 2 L71.2 20.0 M71.2 2 L63.3 20.0"/><path d="M78.5 2 V20.0 M78.5 11 H87.6"/><path d="M98.0 2 V20.0 M98.0 11 H112.2"/><path d="M121.2 2 V20.0 M121.2 11 H129.8"/><path d="M141.2 2 L149.2 20.0 M149.2 2 L141.2 20.0"/><path d="M156.9 2 V20.0 M156.9 11 H169.7"/><path d="M177.6 2 V20.0 M177.6 10.0 L185.4 20.0"/><path d="M193.4 2 L207.2 20.0 M207.2 2 L193.4 20.0"/><path d="M216.8 10.0 H226.2 M221.5 2 V20.0 M226.2 2 V20.0"/><path d="M237.1 2 L250.4 20.0 M250.4 2 L237.1 20.0"/><path d="M257.0 2 V20.0 M257.0 10.0 L268.4 20.0"/><path d="M274.1 2 L278.5 20.0 L282.8 2 M274.1 11 H282.8"/><path d="M288.8 2 V20.0 M288.8 11 H300.8"/><path d="M309.6 2 L320.3 20.0 M320.3 2 L309.6 20.0"/><path d="M331.6 10.0 H343.4 M337.5 2 V20.0 M343.4 2 V20.0"/><path d="M351.7 2 V20.0 H362.7 V2"/></svg></div></section>
+<div class="flow"><section class="chapter" id="глава-10-как-вести-сверхъестественное"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">10</div><h1>Как вести «Сверхъестественное»</h1></div></div>
+<h2 id="101-три-вещи-которые-делают-жанр">10.1. Три вещи, которые делают жанр</h2>
+<p><strong>Первое: монстр всегда сначала человек.</strong> Самая страшная сцена сериала — не та, где тварь убивает. А та, где тварь оказывается жертвой. Где доктор Прайс двенадцать лет приносила людей, чтобы её дочь осталась жива. Где отец семейства стал ругару и не знал об этом. Где ведьма — просто женщина, которую сожгли бы в любом веке.</p>
+<p><strong>Второе: победа всегда стоит.</strong> Если охотники уехали, ничего не потеряв, — вы провели не серию, а тренировку. Кто-то должен остаться в земле: свидетель, которого не успели спасти; мальчик, которого пришлось убить; напарник, которого не вытащили.</p>
+<p><strong>Третье: правда важнее драки.</strong> Игроки должны уходить из-за стола со знанием, чего именно они не поняли вовремя.</p>
+<h2 id="102-ритм-серии">10.2. Ритм серии</h2>
+<table class="md"><thead><tr><th>Акт</th><th>Задача</th><th>Ошибка хранителя</th></tr></thead><tbody><tr><td>Холодное открытие</td><td>Показать правило твари в действии</td><td>Сделать его слишком длинным</td></tr><tr><td>Прибытие</td><td>Дать город, людей, атмосферу</td><td>Сразу вывалить все улики</td></tr><tr><td>Расследование</td><td>Давать улики и тратить ресурсы</td><td>Задерживать группу, требуя бросков</td></tr><tr><td>Ложный след</td><td>Потратить время и силы впустую</td><td>Сделать его очевидно фальшивым</td></tr><tr><td>Логово</td><td>Дать провал и цену</td><td>Дать немедленную победу</td></tr><tr><td>Развязка</td><td>Дать выбор</td><td>Дать только один выход</td></tr><tr><td>Отъезд</td><td>Дать выдохнуть и поговорить</td><td>Пропустить его</td></tr></tbody></table>
+<h2 id="103-как-описывать">10.3. Как описывать</h2>
+<p><strong>Конкретно, а не оценочно.</strong></p>
+<table class="md"><thead><tr><th>Плохо</th><th>Хорошо</th></tr></thead><tbody><tr><td>«В комнате жутко»</td><td>«На стене сохнут пять пар детских ботинок, все разные»</td></tr><tr><td>«Он выглядит зловеще»</td><td>«Он не мигает. Совсем. За три минуты разговора — ни разу»</td></tr><tr><td>«Вы чувствуете опасность»</td><td>«Собаки во дворе замолчали одновременно»</td></tr><tr><td>«Монстр силён»</td><td>«Он поднимает пикап за бампер и отставляет в сторону»</td></tr></tbody></table>
+<p><strong>Не называйте тварь.</strong> Пока охотники не установили, что это, говорите «оно», «человек в пальто», «то, что сидело на потолке». Название — награда за расследование.</p>
+<h2 id="104-как-давать-улики">10.4. Как давать улики</h2>
+<p><strong>Правило трёх.</strong> К каждой ключевой улике — три пути разными способностями.</p>
+<p><strong>Правило первой сцены.</strong> В первой же сцене дела группа должна получить <strong>минимум две</strong> улики. Иначе игроки решат, что искать бессмысленно.</p>
+<p><strong>Правило щедрости.</strong> Если игрок предлагает разумный путь, который вы не предусмотрели, дайте улику именно через него. Игроки должны верить, что мир отзывается на их идеи.</p>
+<p><strong>Правило молчания.</strong> Если группа спорит дольше пяти минут и не двигается — вмешайтесь. Свидетель звонит сам. Шериф приходит. Что-то происходит. Скука — единственный настоящий враг этой игры.</p>
+<h2 id="105-как-играть-npc">10.5. Как играть NPC</h2>
+<p>В каждом городке нужны <strong>три-четыре человека</strong>, не больше.</p>
+<table class="md"><thead><tr><th>Роль</th><th>Зачем</th></tr></thead><tbody><tr><td><strong>Тот, кто врёт</strong></td><td>Шериф, врач, работодатель. Знает больше, чем говорит</td></tr><tr><td><strong>Тот, кто боится</strong></td><td>Свидетель, ребёнок, сосед. Говорит правду, но его надо убедить</td></tr><tr><td><strong>Тот, кто знает город</strong></td><td>Бармен, библиотекарь, старик. Даёт слухи и адреса</td></tr><tr><td><strong>Тот, кого жалко</strong></td><td>Родственник жертвы, ребёнок, старуха. Через него болит</td></tr></tbody></table>
+<p><strong>Дайте каждому одну деталь.</strong> Не характер, а деталь: обручальное кольцо на цепочке, привычка вытирать руки, собака, которая не лает на него.</p>
+<h2 id="106-восемь-правил-ведущего">10.6. Восемь правил ведущего</h2>
+<ol><li><strong>Никогда не прячьте обязательную улику за броском.</strong> Улики — не награда за удачу.</li><li><strong>У каждой улики три пути.</strong> Держите альтернативы в голове.</li><li><strong>Трата очка — это дополнительная правда</strong>, а не «ещё один бросок».</li><li><strong>Описание важнее цифр.</strong> «Две точки под ключицей, аккуратные, как от катетера»</li></ol>
+<p>   работает лучше, чем «успех».</p>
+<ol><li><strong>Стабильность — это про людей.</strong> Напоминайте игрокам звонить своим Источникам.</li><li><strong>Монстр всегда сначала человек.</strong> Не забывайте об этом ни в одной серии.</li><li><strong>Бой заканчивайте быстро.</strong> Три раунда — уже долгий бой.</li><li><strong>Дайте им уехать.</strong> Финал — это машина, шоссе и молчание.</li></ol>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-11-правило-твари"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">11</div><h1>Правило твари</h1></div></div>
+<p>Это главная механика игры, и она отличает «Охотников» от любого другого GUMSHOE.</p>
+<p><strong>Пока слабость твари не установлена, тварь нельзя убить.</strong></p>
+<p>Это не запрет хранителя. Это факт мира, и охотники быстро его понимают.</p>
+<h2 id="111-как-это-работает">11.1. Как это работает</h2>
+<table class="md"><thead><tr><th>Состояние знания</th><th>Механика</th></tr></thead><tbody><tr><td><strong>Ничего не известно</strong></td><td>Любая атака наносит <strong>ровно 1 урона</strong>, каким бы ни был бросок. Тварь может восстанавливаться</td></tr><tr><td><strong>Установлен вид</strong> (<code>Криптозоология</code>)</td><td>Обычным оружием <strong>не убить насовсем</strong>: встаёт. Но появился рычаг</td></tr><tr><td><strong>Установлено правило</strong> (<code>Оккультизм</code>, <code>Архивы</code>, <code>Языки</code>)</td><td>Оружие по правилу: <strong>+2 и тварь смертна</strong>. Бой идёт на обычных правилах</td></tr><tr><td><strong>Установлена повадка или логово</strong></td><td>Тварь можно застать, запереть, отрезать, загнать в ловушку</td></tr></tbody></table>
+<h2 id="112-как-это-описывать">11.2. Как это описывать</h2>
+<p>Не «мастер не даёт». А:</p>
+<aside class="sidebar"><p>Ты стреляешь в упор. Три попадания, все в грудь. Он смотрит на дырки, потом на тебя — с интересом. И дырки закрываются. Как будто ты кинул камень в воду.</p></aside>
+<aside class="sidebar"><p>Ты бьёшь ножом. Клинок входит легко, до рукояти. Она смеётся и говорит: «Серебро? Милый, ты не первый».</p></aside>
+<p>Игрок должен <strong>сам</strong> понять, что бьёт не туда, и пойти искать правило.</p>
+<h2 id="113-где-искать-правило">11.3. Где искать правило</h2>
+<table class="md"><thead><tr><th>Источник</th><th>Способность</th><th>Что даёт</th></tr></thead><tbody><tr><td>Тело и место</td><td><code>Медицина</code>, <code>Осмотр места</code></td><td>Как убивали, чем, как долго</td></tr><tr><td>Бумаги</td><td><code>Архивы</code>, <code>История</code></td><td>Как это делали раньше, в других городах</td></tr><tr><td>Люди</td><td><code>Допрос</code>, <code>Проницательность</code></td><td>Что видели, что помнят, что скрывают</td></tr><tr><td>Символы</td><td><code>Оккультизм</code>, <code>Языки</code>, <code>Теология</code></td><td>Название, правило, способ убийства</td></tr><tr><td>Повадки</td><td><code>Криптозоология</code>, <code>Природа</code></td><td>Циклы, ареал, слабые места</td></tr><tr><td>Местные</td><td><code>Уличное чутьё</code>, <code>Лесть</code></td><td>Легенда, которую все знают, но не рассказывают</td></tr></tbody></table>
+<p><strong>Установление правила — это событие.</strong> Когда группа находит его, скажите <strong>прямо</strong>: «Теперь вы знаете, что с этим делать». Это перелом серии, и он должен быть слышен.</p>
+<h2 id="114-правило-может-быть-неприятным">11.4. Правило может быть неприятным</h2>
+<p>Правило не обязано быть «серебряная пуля». Иногда это:</p>
+<ul><li><strong>убить человека</strong> — того, кто держит тварь;</li><li><strong>отдать что-то</strong> — кровь, воспоминание, годы жизни;</li><li><strong>позволить уйти</strong> — потому что тварь не виновата;</li><li><strong>сжечь дом</strong> вместе с тем, что внутри.</li></ul>
+<p>Хорошее правило заставляет игроков <strong>выбрать</strong>, а не просто применить.</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-12-конструктор-существ"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">12</div><h1>Конструктор существ</h1></div></div>
+<p>Бестиарий на сайте — 354 существа из сериала. Но хранителю нужны <strong>свои</strong>. Это конструктор.</p>
+<h2 id="121-пять-полей-карточки">12.1. Пять полей карточки</h2>
+<table class="md"><thead><tr><th>Поле</th><th>Что это</th></tr></thead><tbody><tr><td><strong>Угроза</strong></td><td>Нарративная сложность: низкая, средняя, высокая, очень высокая, смертельная</td></tr><tr><td><strong>Атрибуты</strong></td><td>Тело, Ловкость, Разум, Воля — для противостояний и описания</td></tr><tr><td><strong>Здоровье / Стресс</strong></td><td>Сколько держится; Стресс для психических тварей</td></tr><tr><td><strong>Оружие</strong></td><td>Название <code>+N</code> и дистанция</td></tr><tr><td><strong>Особое</strong></td><td><strong>Одна-две</strong> особенности, не больше</td></tr><tr><td>Плюс: <strong>Слабость</strong> и <strong>Как узнать</strong></td><td>То, без чего в этой игре тварь не работает</td></tr></tbody></table>
+<h2 id="122-таблица-характеристик-по-угрозе">12.2. Таблица характеристик по угрозе</h2>
+<table class="md"><thead><tr><th>Угроза</th><th>Здоровье</th><th>Порог попадания</th><th>Урон</th><th>Бой/Стрельба</th><th>Потеря Стабильности</th></tr></thead><tbody><tr><td><strong>Низкая</strong></td><td>4–8</td><td>3</td><td>−1 … +0</td><td>3–5</td><td>0 / 1</td></tr><tr><td><strong>Средняя</strong></td><td>8–13</td><td>4</td><td>+0 … +1</td><td>5–7</td><td>2 / 3</td></tr><tr><td><strong>Высокая</strong></td><td>13–20</td><td>4–5</td><td>+1 … +3</td><td>7–10</td><td>3 / 5</td></tr><tr><td><strong>Очень высокая</strong></td><td>20–30</td><td>5</td><td>+3 … +4</td><td>10–14</td><td>5 / 7</td></tr><tr><td><strong>Смертельная</strong></td><td>30+</td><td>6</td><td>+4 … +5</td><td>14+</td><td>7 / 8</td></tr></tbody></table>
+<aside class="sidebar"><p><strong>Помните:</strong> в GUMSHOE Здоровье — это <strong>маленькие числа</strong>. Человек — 6–10, монстр недели — 10–20, архангел — 30–45. Не переносите сюда «300 хитов». Бой должен кончаться за три раунда.</p></aside>
+<h2 id="123-как-собрать-существо-за-пять-минут">12.3. Как собрать существо за пять минут</h2>
+<ol><li><strong>Выбери угрозу</strong> и возьми числа из таблицы.</li><li><strong>Дай одно имя.</strong> Не «демон», а «Моракс, демон второго ранга».</li><li><strong>Придумай ОДНУ особенность</strong>, которая делает его узнаваемым. Одну, не пять.</li><li><strong>Придумай слабость.</strong> Чем он <strong>на самом деле</strong> убивается.</li><li><strong>Придумай, как это узнать.</strong> Какой навык, какая Сл, что именно выясняется.</li><li><strong>Придумай, что он делает с людьми.</strong> Не как дерётся, а зачем ему люди.</li></ol>
+<h2 id="124-генератор-существ-1d6-4">12.4. Генератор существ (1d6 × 4)</h2>
+<p><strong>Что это (1d6):</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>Существо</th></tr></thead><tbody><tr><td>1</td><td><strong>Вурдалак-одиночка</strong> — живёт на свалке, питается трупами. Не нападает первым</td></tr><tr><td>2</td><td><strong>Семья</strong> — четыре-пять существ, живут как люди, охотятся вместе, любят друг друга</td></tr><tr><td>3</td><td><strong>Одержимый</strong> — человек, который ещё борется. Иногда берёт контроль</td></tr><tr><td>4</td><td><strong>Охотник, который сломался</strong> — убивает «нечисть», включая людей. Хуже монстра</td></tr><tr><td>5</td><td><strong>Древняя тварь</strong> — та, что была здесь до города. Город построен на её территории</td></tr><tr><td>6</td><td><strong>Чужой инструмент</strong> — работает на кого-то. Настоящий враг — где-то ещё</td></tr></tbody></table>
+<p><strong>Чего хочет (1d6):</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>Мотив</th></tr></thead><tbody><tr><td>1</td><td><strong>Есть.</strong> Просто есть, и всё</td></tr><tr><td>2</td><td><strong>Договор.</strong> Кто-то должен по расписанию</td></tr><tr><td>3</td><td><strong>Потомство.</strong> Размножается, и это никого не радует</td></tr><tr><td>4</td><td><strong>Месть.</strong> За конкретное, давнее, своё</td></tr><tr><td>5</td><td><strong>Свобода.</strong> Сидит под заклятием и хочет выйти</td></tr><tr><td>6</td><td><strong>Любовь.</strong> По-своему. И это страшнее всего</td></tr></tbody></table>
+<p><strong>Слабость (1d6):</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>Чем убивается</th></tr></thead><tbody><tr><td>1</td><td><strong>Вещество</strong> — серебро, железо, соль, огонь, освящённая вода, баранья кровь</td></tr><tr><td>2</td><td><strong>Ритуал</strong> — сжечь предмет, прочитать формулу, вернуть украденное</td></tr><tr><td>3</td><td><strong>Место</strong> — только на освящённой земле, только не на своей территории</td></tr><tr><td>4</td><td><strong>Слово</strong> — настоящее имя, признание, приглашение (то, чего нельзя давать)</td></tr><tr><td>5</td><td><strong>Человек</strong> — тот, кто держит. Убить его — освободить всех</td></tr><tr><td>6</td><td><strong>Ничего.</strong> Слабости нет. Есть только цена, которую надо заплатить</td></tr></tbody></table>
+<p><strong>Цена победы (1d6):</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>Что придётся отдать</th></tr></thead><tbody><tr><td>1</td><td><strong>Кровь.</strong> Свою. 1d6 Здоровья и шрам останется</td></tr><tr><td>2</td><td><strong>Время.</strong> Пока готовишься — кто-то умирает</td></tr><tr><td>3</td><td><strong>Правду.</strong> Придётся сказать то, что ты скрывал</td></tr><tr><td>4</td><td><strong>Человека.</strong> Свидетеля, союзника, того, кого можно было спасти</td></tr><tr><td>5</td><td><strong>Часть себя.</strong> 1 Убеждённости навсегда</td></tr><tr><td>6</td><td><strong>Выбор.</strong> Двух нельзя спасти обоих</td></tr></tbody></table>
+<h2 id="125-проверка-существа-перед-игрой">12.5. Проверка существа перед игрой</h2>
+<p>Перед серией прогоните своё существо по чек-листу:</p>
+<ul><li>[ ] Есть <strong>слабость</strong>, и она не «просто урон»</li><li>[ ] Есть <strong>минимум три способности</strong>, которыми слабость узнаётся</li><li>[ ] Есть <strong>одна особенность</strong>, а не пять</li><li>[ ] Здоровье <strong>не больше 20</strong>, если это не босс арки</li><li>[ ] Понятно, <strong>что оно делает с людьми</strong> и почему город ещё не вымер</li><li>[ ] Есть <strong>ложный след</strong> — правдоподобная неверная версия</li><li>[ ] Есть <strong>цена</strong>, которую заплатят охотники</li></ul>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="глава-13-кампания"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">13</div><h1>Кампания</h1></div></div>
+<h2 id="131-три-формата">13.1. Три формата</h2>
+<table class="md"><thead><tr><th>Формат</th><th>Длина</th><th>Что нужно</th></tr></thead><tbody><tr><td><strong>Дело</strong></td><td>1–2 сессии</td><td>Одна тварь, один город, одна слабость</td></tr><tr><td><strong>Сезон</strong></td><td>8–12 сессий</td><td>Дела + сквозная линия + возвращающийся враг</td></tr><tr><td><strong>Кампания</strong></td><td>20+ сессий</td><td>Сезоны + Большое Зло + личные арки каждого охотника</td></tr></tbody></table>
+<h2 id="132-сезонная-арка">13.2. Сезонная арка</h2>
+<p>Сквозная линия строится из <strong>трёх слоёв</strong>, и они не должны мешать друг другу.</p>
+<p><strong>Слой 1. Дело недели.</strong> Тварь, город, расследование, развязка. Закрывается за сессию.</p>
+<p><strong>Слой 2. Тень.</strong> Что-то, что появляется в каждой третьей серии на две минуты. Символ, человек, фраза. К середине сезона игроки должны начать узнавать это сами.</p>
+<p><strong>Слой 3. Большое Зло.</strong> То, что стоит за делами. Появляется вживую только в финале.</p>
+<table class="md"><thead><tr><th>Пример Тени</th><th>К чему ведёт</th></tr></thead><tbody><tr><td>На каждом месте преступления — одна и та же монета</td><td>Кто-то платит тварям</td></tr><tr><td>Все свидетели называют одно имя, но не помнят, откуда знают</td><td>Кто-то стирает память</td></tr><tr><td>В каждом городе кто-то уже был и «навёл порядок»</td><td>Конкурирующая организация</td></tr><tr><td>Твари не нападают на одного конкретного человека</td><td>У них договор. С кем?</td></tr></tbody></table>
+<h2 id="133-личные-арки">13.3. Личные арки</h2>
+<p>У каждого охотника должна быть <strong>своя линия</strong>, которая раз в 3–4 сессии напоминает о себе.</p>
+<table class="md"><thead><tr><th>Драйв</th><th>Личная арка</th></tr></thead><tbody><tr><td><strong>Месть</strong></td><td>Тварь, которую он ищет, оказывается не той. Или уже мёртвой</td></tr><tr><td><strong>Искупление</strong></td><td>Прошлое приходит и просит помощи. Он отказывает?</td></tr><tr><td><strong>Долг</strong></td><td>Тот, кого он бросил, вырос. И стал охотником. Или монстром</td></tr><tr><td><strong>Знание</strong></td><td>Он узнаёт вещь, которую лучше было не знать</td></tr><tr><td><strong>Защита</strong></td><td>Тот, кого он защищал, гибнет из-за его работы</td></tr><tr><td><strong>Азарт</strong></td><td>Он пересекает черту и понимает, что ему понравилось</td></tr></tbody></table>
+<h2 id="134-фракции">13.4. Фракции</h2>
+<table class="md"><thead><tr><th>Фракция</th><th>Чего хочет</th><th>Как мешает</th></tr></thead><tbody><tr><td><strong>Охотники</strong></td><td>Убивать тварей</td><td>Не доверяют чужакам, пьют, умирают молодыми</td></tr><tr><td><strong>Люди Письма</strong></td><td>Хранить знания</td><td>Считают охотников дилетантами. Скрывают информацию</td></tr><tr><td><strong>Британские Люди Письма</strong></td><td>Навести порядок</td><td>Убивают всех, включая людей. «Санитария»</td></tr><tr><td><strong>Ад</strong></td><td>Держать контракты</td><td>Демоны честнее многих людей. И это проблема</td></tr><tr><td><strong>Рай</strong></td><td>Неизвестно</td><td>Ангелы убивают детей «по приказу». И не считают это злом</td></tr><tr><td><strong>Ковены</strong></td><td>Выжить</td><td>Ведьмы торгуют, предают, помогают — по настроению</td></tr></tbody></table>
+<p><strong>Правило фракций.</strong> Ни одна не должна быть «плохой» или «хорошей» целиком. Как только игроки решат, что ангелы — злодеи, покажите ангела, который спас ребёнка. Как только решат, что демоны — зло, покажите демона, который держит слово.</p>
+<h2 id="135-как-выглядит-рост-ставок">13.5. Как выглядит рост ставок</h2>
+<table class="md"><thead><tr><th>Сезон</th><th>Угроза</th><th>Что понимают охотники</th></tr></thead><tbody><tr><td>1</td><td>Монстры недели</td><td>Мир больше, чем они думали</td></tr><tr><td>2</td><td>Организация</td><td>Кто-то управляет тварями</td></tr><tr><td>3</td><td>Война наверху</td><td>Ангелы и демоны воюют, люди — пешки</td></tr><tr><td>4</td><td>Космология</td><td>Бог и Тьма. Люди вообще ничего не решают</td></tr><tr><td>5</td><td>Возвращение</td><td>Спасать людей всё равно стоит. Даже если это бессмысленно</td></tr></tbody></table>
+<h2 id="136-финал-кампании">13.6. Финал кампании</h2>
+<p>Хороший финал этой игры — не победа над Большим Злом. Хороший финал — <strong>вопрос</strong>:</p>
+<ul><li>Охотники спасли мир. Кто-то из них при этом стал тем, на кого охотился.</li><li>Охотники не спасли мир. Они спасли одного человека, и это оказалось важнее.</li><li>Охотники уехали. Машина, шоссе, радио. Один из них молчит всю дорогу.</li><li>Охотники закрыли дело и разошлись. Через год двое из них встретятся на другом деле.</li></ul>
+<div class="orn"></div>
+</section></div>
+<section class="partpage"><div class="trap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"> <circle cx="50" cy="50" r="47.2" stroke-width="2.2"/> <circle cx="50" cy="50" r="42.4" stroke-width="0.9" opacity=".75"/> <path d="M50,14 L28.84,79.12 L84.24,38.88 L15.76,38.88 L71.16,79.12 Z" stroke-width="2"/> <path d="M50,6.8 L50,4 M38.82,8.27 L38.09,5.57 M28.4,12.59 L27,10.16 M19.45,19.45 L17.47,17.47 M12.59,28.4 L10.16,27 M8.27,38.82 L5.57,38.09 M6.8,50 L4,50 M8.27,61.18 L5.57,61.91 M12.59,71.6 L10.16,73 M19.45,80.55 L17.47,82.53 M28.4,87.41 L27,89.84 M38.82,91.73 L38.09,94.43 M50,93.2 L50,96 M61.18,91.73 L61.91,94.43 M71.6,87.41 L73,89.84 M80.55,80.55 L82.53,82.53 M87.41,71.6 L89.84,73 M91.73,61.18 L94.43,61.91 M93.2,50 L96,50 M91.73,38.82 L94.43,38.09 M87.41,28.4 L89.84,27 M80.55,19.45 L82.53,17.47 M71.6,12.59 L73,10.16 M61.18,8.27 L61.91,5.57" stroke-width="0.9" opacity=".55"/> <g fill="currentColor" stroke="none"><circle cx="50" cy="14" r="1.7"/><circle cx="15.76" cy="38.88" r="1.7"/><circle cx="28.84" cy="79.12" r="1.7"/><circle cx="71.16" cy="79.12" r="1.7"/><circle cx="84.24" cy="38.88" r="1.7"/></g> </svg></div><div class="kicker">Приложения</div><h1>Справочник хранителя</h1><div class="rule"></div><div class="eno"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.0 10.0 H18.4 M12.2 2 V20.0 M18.4 2 V20.0"/><path d="M24.3 2 V20.0 H32.9 V2"/><path d="M44.8 2 L49.5 20.0 L54.2 2 M44.8 11 H54.2"/><path d="M63.3 2 L71.2 20.0 M71.2 2 L63.3 20.0"/><path d="M78.5 2 V20.0 M78.5 11 H87.6"/><path d="M98.0 2 V20.0 M98.0 11 H112.2"/><path d="M121.2 2 V20.0 M121.2 11 H129.8"/><path d="M141.2 2 L149.2 20.0 M149.2 2 L141.2 20.0"/><path d="M156.9 2 V20.0 M156.9 11 H169.7"/><path d="M177.6 2 V20.0 M177.6 10.0 L185.4 20.0"/><path d="M193.4 2 L207.2 20.0 M207.2 2 L193.4 20.0"/><path d="M216.8 10.0 H226.2 M221.5 2 V20.0 M226.2 2 V20.0"/><path d="M237.1 2 L250.4 20.0 M250.4 2 L237.1 20.0"/><path d="M257.0 2 V20.0 M257.0 10.0 L268.4 20.0"/><path d="M274.1 2 L278.5 20.0 L282.8 2 M274.1 11 H282.8"/><path d="M288.8 2 V20.0 M288.8 11 H300.8"/><path d="M309.6 2 L320.3 20.0 M320.3 2 L309.6 20.0"/><path d="M331.6 10.0 H343.4 M337.5 2 V20.0 M343.4 2 V20.0"/><path d="M351.7 2 V20.0 H362.7 V2"/></svg></div></section>
+<div class="flow"><section class="chapter" id="приложение-а-лист-персонажа"><div class="ch-open"><div class="kick">Приложение</div><div class="row"><div class="num">А</div><h1>Лист персонажа</h1></div></div>
+<h2 id="охотник">Охотник</h2>
+<table class="md"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Имя</strong></td><td></td></tr><tr><td><strong>Возраст, откуда</strong></td><td></td></tr><tr><td><strong>Легенда</strong></td><td>Кем представляешься</td></tr><tr><td><strong>Драйв</strong></td><td>Долг · Месть · Искупление · Знание · Защита · Азарт</td></tr><tr><td><strong>Источники стабильности</strong></td><td>1. ___ 2. ___ 3. ___</td></tr></tbody></table>
+<h3 id="ресурсы">Ресурсы</h3>
+<table class="md"><thead><tr><th></th><th>Максимум</th><th>Текущий</th></tr></thead><tbody><tr><td><strong>Здоровье</strong></td><td></td><td></td></tr><tr><td><strong>Стабильность</strong></td><td></td><td></td></tr><tr><td><strong>Убеждённость</strong></td><td><strong>10</strong></td><td></td></tr></tbody></table>
+<h3 id="расследовательские-способности">Расследовательские способности</h3>
+<table class="md"><thead><tr><th>Способность</th><th>Рейтинг</th><th>Осталось</th><th></th><th>Способность</th><th>Рейтинг</th><th>Осталось</th></tr></thead><tbody><tr><td>Антропология</td><td></td><td></td><td></td><td>Лесть</td><td></td><td></td></tr><tr><td>Археология</td><td></td><td></td><td></td><td>Ложь</td><td></td><td></td></tr><tr><td>Архивы</td><td></td><td></td><td></td><td>Наружное наблюдение</td><td></td><td></td></tr><tr><td>Баллистика</td><td></td><td></td><td></td><td>Оккультизм</td><td></td><td></td></tr><tr><td>Взлом</td><td></td><td></td><td></td><td>Осмотр места</td><td></td><td></td></tr><tr><td>Демонология</td><td></td><td></td><td></td><td>Проницательность</td><td></td><td></td></tr><tr><td>Допрос</td><td></td><td></td><td></td><td>Репутация</td><td></td><td></td></tr><tr><td>Запугивание</td><td></td><td></td><td></td><td>Слежка</td><td></td><td></td></tr><tr><td>История</td><td></td><td></td><td></td><td>Теология</td><td></td><td></td></tr><tr><td>Криптозоология</td><td></td><td></td><td></td><td>Уличное чутьё</td><td></td><td></td></tr><tr><td>Медицина</td><td></td><td></td><td></td><td>Фотосъёмка</td><td></td><td></td></tr><tr><td>Языки</td><td></td><td></td><td></td><td>Химия</td><td></td><td></td></tr><tr><td>Эксплуатация</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="общие-способности">Общие способности</h3>
+<table class="md"><thead><tr><th>Способность</th><th>Рейтинг</th><th>Осталось</th><th></th><th>Способность</th><th>Рейтинг</th><th>Осталось</th></tr></thead><tbody><tr><td>Атлетика</td><td></td><td></td><td></td><td>Подготовка</td><td></td><td></td></tr><tr><td>Бдительность</td><td></td><td></td><td></td><td>Связи</td><td></td><td></td></tr><tr><td>Бой</td><td></td><td></td><td></td><td>Скрытность</td><td></td><td></td></tr><tr><td>Вера</td><td></td><td></td><td></td><td>Стабильность</td><td></td><td></td></tr><tr><td>Вождение</td><td></td><td></td><td></td><td>Стрельба</td><td></td><td></td></tr><tr><td>Здоровье</td><td></td><td></td><td></td><td>Воля</td><td></td><td></td></tr><tr><td>Первая помощь</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<h3 id="шрамы">Шрамы</h3>
+<table class="md"><thead><tr><th>№</th><th>Шрам</th></tr></thead><tbody><tr><td>1</td><td></td></tr><tr><td>2</td><td></td></tr><tr><td>3</td><td><em>(третий шрам — уход из дела)</em></td></tr></tbody></table>
+<h3 id="снаряжение">Снаряжение</h3>
+<p>_________________________________________________________________</p>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="приложение-б-таблицы-для-хранителя"><div class="ch-open"><div class="kick">Приложение</div><div class="row"><div class="num">Б</div><h1>Таблицы для хранителя</h1></div></div>
+<h2 id="б1-городок-1d6-3">Б1. Городок (1d6 × 3)</h2>
+<p><strong>Чем живёт:</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>Город</th></tr></thead><tbody><tr><td>1</td><td>Лесопилка. Работа есть, денег нет</td></tr><tr><td>2</td><td>Заброшенная шахта. Половина домов пустая</td></tr><tr><td>3</td><td>Колледж. Молодёжь, вечеринки, пропажи</td></tr><tr><td>4</td><td>Военная база рядом. Патрули, закрытые зоны</td></tr><tr><td>5</td><td>Туристический сезон. Приезжие, мотели, деньги</td></tr><tr><td>6</td><td>Фермерский район. Все друг друга знают</td></tr></tbody></table>
+<p><strong>Что здесь не так:</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>Странность</th></tr></thead><tbody><tr><td>1</td><td>Церковь закрыта, а службы идут</td></tr><tr><td>2</td><td>Никто не работает по ночам. Вообще никто</td></tr><tr><td>3</td><td>Кладбище в порядке. Слишком в порядке</td></tr><tr><td>4</td><td>Все дети рисуют одно и то же</td></tr><tr><td>5</td><td>Дорога в одну сторону перекрыта «на ремонт» уже год</td></tr><tr><td>6</td><td>Гостиницу держит человек, который здесь не жил никогда</td></tr></tbody></table>
+<h2 id="б2-жертва-1d6-3">Б2. Жертва (1d6 × 3)</h2>
+<p><strong>Кто:</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>Жертва</th></tr></thead><tbody><tr><td>1</td><td>Подросток, который лазил, где не надо</td></tr><tr><td>2</td><td>Дальнобойщик, ночевавший не там</td></tr><tr><td>3</td><td>Женщина, которая год назад потеряла мужа</td></tr><tr><td>4</td><td>Ветеран, вернувшийся из горячей точки</td></tr><tr><td>5</td><td>Медсестра ночной смены</td></tr><tr><td>6</td><td>Человек, который вёл расследование сам</td></tr></tbody></table>
+<p><strong>Что осталось:</strong></p>
+<table class="md"><thead><tr><th>1d6</th><th>След</th></tr></thead><tbody><tr><td>1</td><td>Две точки под ключицей, аккуратные</td></tr><tr><td>2</td><td>Всё в комнате на месте, кроме одной вещи</td></tr><tr><td>3</td><td>Соль. Много соли. Не там, где надо</td></tr><tr><td>4</td><td>Свеча, догоревшая до половины, и чужие отпечатки</td></tr><tr><td>5</td><td>Телефон с последним вызовом на номер, которого нет</td></tr><tr><td>6</td><td>Записка, написанная <strong>её</strong> почерком, но не её словами</td></tr></tbody></table>
+<h2 id="б3-зацепка-на-старте-1d6">Б3. Зацепка на старте (1d6)</h2>
+<table class="md"><thead><tr><th>1d6</th><th>Как начинается дело</th></tr></thead><tbody><tr><td>1</td><td>Звонок от того, кого охотник не слышал пять лет</td></tr><tr><td>2</td><td>Заметка в газете, которую прислал аноним</td></tr><tr><td>3</td><td>Тело нашли в трёх штатах от места, где человек пропал</td></tr><tr><td>4</td><td>Кто-то оставил на пороге мотеля предмет из прошлого дела</td></tr><tr><td>5</td><td>Охотники приехали по одному делу, а нашли другое</td></tr><tr><td>6</td><td>Полиция ищет <strong>их</strong> — по описанию, которого они не давали</td></tr></tbody></table>
+<h2 id="б4-ложный-след-1d6">Б4. Ложный след (1d6)</h2>
+<table class="md"><thead><tr><th>1d6</th><th>За что хватаются игроки</th></tr></thead><tbody><tr><td>1</td><td>Легенда, которая оказывается правдой — но про другую тварь</td></tr><tr><td>2</td><td>Ведьма, которая просто ведьма и никого не убивала</td></tr><tr><td>3</td><td>Психически больной человек, который говорит правду</td></tr><tr><td>4</td><td>Старое дело, которое уже закрыто и не имеет отношения</td></tr><tr><td>5</td><td>Тварь, которую <strong>уже</strong> кто-то убил до них</td></tr><tr><td>6</td><td>Сами охотники — кто-то делает всё, чтобы их обвинили</td></tr></tbody></table>
+<h2 id="б5-осложнение-в-логове-1d6">Б5. Осложнение в логове (1d6)</h2>
+<table class="md"><thead><tr><th>1d6</th><th>Что идёт не так</th></tr></thead><tbody><tr><td>1</td><td>Свет. Кто-то включил, и охотники на виду</td></tr><tr><td>2</td><td>Спящие. Шесть человек, которых нельзя бросить</td></tr><tr><td>3</td><td>Вода. Поднимается, и очень быстро</td></tr><tr><td>4</td><td>Свидетель. Тот, кого нельзя убивать и нельзя оставить</td></tr><tr><td>5</td><td>Ловушка. Не для твари — для охотников</td></tr><tr><td>6</td><td>Второй выход. Тварь уходит, забрав то, что успела</td></tr></tbody></table>
+<h2 id="б6-цена-победы-1d6">Б6. Цена победы (1d6)</h2>
+<table class="md"><thead><tr><th>1d6</th><th>Что потеряют охотники</th></tr></thead><tbody><tr><td>1</td><td>Человека, которого можно было спасти</td></tr><tr><td>2</td><td>Источник стабильности. Навсегда</td></tr><tr><td>3</td><td>1 Убеждённости каждому. Мир оказался хуже</td></tr><tr><td>4</td><td>Репутацию. Теперь их ищут</td></tr><tr><td>5</td><td>Доверие между собой. Кто-то соврал</td></tr><tr><td>6</td><td>Ничего. <strong>Но</strong> тварь ушла, и вернётся</td></tr></tbody></table>
+<h2 id="б7-название-серии-1d6-2">Б7. Название серии (1d6 × 2)</h2>
+<p>Соберите название из двух столбцов — как в сериале.</p>
+<table class="md"><thead><tr><th>1d6</th><th>Первое слово</th><th></th><th>1d6</th><th>Второе слово</th></tr></thead><tbody><tr><td>1</td><td>Соляной</td><td></td><td>1</td><td>круг</td></tr><tr><td>2</td><td>Тихий</td><td></td><td>2</td><td>час</td></tr><tr><td>3</td><td>Мёртвый</td><td></td><td>3</td><td>сезон</td></tr><tr><td>4</td><td>Голодный</td><td></td><td>4</td><td>дом</td></tr><tr><td>5</td><td>Чёрный</td><td></td><td>5</td><td>звон</td></tr><tr><td>6</td><td>Последний</td><td></td><td>6</td><td>свидетель</td></tr></tbody></table>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="приложение-в-глоссарий"><div class="ch-open"><div class="kick">Приложение</div><div class="row"><div class="num">В</div><h1>Глоссарий</h1></div></div>
+<table class="md"><thead><tr><th>Термин</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Сл</strong></td><td>Сложность. Число, которое надо достичь при броске общей способности</td></tr><tr><td><strong>Порог попадания</strong></td><td>Сложность попасть по цели. Обычно 4</td></tr><tr><td><strong>Пул</strong></td><td>Запас очков способности. Тратится, восстанавливается между делами</td></tr><tr><td><strong>Трата</strong></td><td>Очко, ушедшее из пула за дополнительную правду или бонус к броску</td></tr><tr><td><strong>Спина расследования</strong></td><td>Схема ключевых улик дела</td></tr><tr><td><strong>Ключевая улика</strong></td><td>Без неё дело не движется. Не может быть пропущена</td></tr><tr><td><strong>Ядро</strong></td><td>То же, что ключевая улика</td></tr><tr><td><strong>Правило твари</strong></td><td>Слабость существа. Пока не установлена — тварь неубиваема</td></tr><tr><td><strong>Установить правило</strong></td><td>Узнать слабость через расследовательские способности</td></tr><tr><td><strong>Стабильность</strong></td><td>Краткосрочные нервы. Восстанавливается через Источники</td></tr><tr><td><strong>Убеждённость</strong></td><td>Долгосрочная вера в мир. Не восстанавливается обычными способами, не растёт никогда</td></tr><tr><td><strong>Источник стабильности</strong></td><td>Человек, разговор с которым возвращает Стабильность</td></tr><tr><td><strong>Шрам</strong></td><td>Постоянная черта после срыва. Три шрама — уход из дела</td></tr><tr><td><strong>Срыв</strong></td><td>Сцена, которую играют при нуле Стабильности</td></tr><tr><td><strong>Драйв</strong></td><td>Зачем охотник в деле</td></tr><tr><td><strong>Легенда</strong></td><td>Кем охотник представляется</td></tr><tr><td><strong>Обряд</strong></td><td>Ритуал: экзорцизм, ловушка, освящение</td></tr><tr><td><strong>Антагонист</strong></td><td>Любое существо, с которым сталкиваются охотники</td></tr></tbody></table>
+<div class="orn"></div>
+</section>
+<section class="chapter" id="приложение-г-что-делать-в-первую-сессию"><div class="ch-open"><div class="kick">Приложение</div><div class="row"><div class="num">Г</div><h1>Что делать в первую сессию</h1></div></div>
+<p>Если вы ведёте впервые — вот порядок действий.</p>
+<p><strong>Подготовка (30 минут).</strong></p>
+<ol><li>Прочитайте главы 1, 4, 5, 6 и 11. Остальное можно по ходу.</li><li>Возьмите из бестиария <strong>одно существо</strong> средней угрозы. Например, джинна.</li><li>Нарисуйте спину: три-четыре узла, к каждому три пути.</li><li>Придумайте холодное открытие на пять минут.</li><li>Приготовьте трёх NPC: тот, кто врёт, тот, кто боится, тот, кому больно.</li></ol>
+<p><strong>За столом.</strong></p>
+<ol><li><strong>20 минут</strong> — создание персонажей. Возьмите готовые архетипы, если не хочется считать.</li><li><strong>10 минут</strong> — холодное открытие. Играйте от лица жертвы, без кубиков.</li><li><strong>Час</strong> — прибытие и расследование. Отдавайте улики щедро.</li><li><strong>20 минут</strong> — ложный след. Дайте потратить время.</li><li><strong>20 минут</strong> — логово. Провал, цена, находка.</li><li><strong>20 минут</strong> — развязка. Обязательно с выбором.</li><li><strong>10 минут</strong> — отъезд. Спросите каждого: <strong>кому ты звонишь?</strong></li></ol>
+<p><strong>После сессии.</strong></p>
+<ul><li>Раздайте 3–5 ОО.</li><li>Спросите каждого игрока, что его персонаж <strong>понял</strong> про себя.</li><li>Запишите, кто из NPC выжил. Они вернутся.</li></ul>
+<div class="orn"></div>
+<p><em>«Охотники» — неофициальная фанатская ролевая игра по сериалу «Сверхъестественное» (Warner Bros. Television) на системе GUMSHOE (Pelgrane Press, автор системы Робин Д. Лоуз). Материал для домашних игр.</em></p>
+<p><em>Бестиарий на 354 существа, готовые архетипы и приключение «Спящие» — на этом же сайте.</em></p></section></div>
+</body></html>
