@@ -120,48 +120,9 @@ p { margin: 0 0 4.4pt; text-align: justify; hyphens: auto; }
 /* ── обложка ───────────────────────────────────────────────────────────── */
 .cover {
   page: cover; position: relative; width: 210mm; height: 297mm;
-  margin: 0; overflow: hidden;
-  background: #0a0a0c; color: #f2ece2; break-after: page;
+  margin: 0; overflow: hidden; break-after: page;
+  background: #0a0a0c url("../assets/brand/cover.jpg") center / 100% 100% no-repeat;
 }
-.cover::before {
-  content: ""; position: absolute; inset: 0;
-  background:
-    radial-gradient(closest-side, rgba(183,34,43,.30), rgba(183,34,43,0) 100%)
-      no-repeat 50% 88% / 200mm 150mm,
-    radial-gradient(closest-side, rgba(160,26,36,.20), rgba(183,34,43,0) 100%)
-      no-repeat 50% 6% / 150mm 120mm;
-}
-.cover::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 110mm;
-  background: url("data:image/svg+xml;utf8,ROADURI") center bottom / 100% auto no-repeat;
-  opacity: .9;
-}
-.cover .inner { position: relative; z-index: 3; height: 100%; padding: 24mm 18mm 18mm;
-                display: flex; flex-direction: column; align-items: center; text-align: center;
-                justify-content: space-between; }
-.cover .grp { display: flex; flex-direction: column; align-items: center; width: 100%; }
-.cover .trap { width: 82mm; height: 82mm; color: #b7222b; opacity: .9; margin-bottom: 4mm; }
-.cover .eno { width: 62mm; height: 5mm; color: #d8b26a; opacity: .7; margin-bottom: 8mm; }
-.cover h1 {
-  font-family: "Helvetica Neue", "Arial Narrow", Arial, sans-serif;
-  font-weight: 700; font-size: 52pt; letter-spacing: .09em; line-height: 1;
-  margin: 0; color: #fff;
-}
-.cover .sub {
-  font-size: 13.5pt; font-style: italic; margin-top: 7mm; color: #e8e0d2; max-width: 120mm;
-}
-.cover .sys {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9pt; letter-spacing: .34em;
-  text-transform: uppercase; color: #d8b26a; margin-top: 9mm;
-}
-.cover .salt { width: 100mm; height: 5mm; color: #d8b26a; opacity: .6; margin: 12mm 0 0; }
-.cover .bottom { width: 100%; }
-.cover .impala { width: 96mm; height: 26mm; color: #cfc7ba; opacity: .75; margin: 0 auto 6mm; }
-.cover .strap {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.6pt; letter-spacing: .26em;
-  text-transform: uppercase; color: #f2ece2; opacity: .85;
-}
-.cover .tag { font-size: 10pt; font-style: italic; color: #b9b0a2; margin-top: 3mm; }
 
 /* ── титул ─────────────────────────────────────────────────────────────── */
 .titlepage { break-after: page; padding-top: 34mm; text-align: center; }
@@ -331,25 +292,7 @@ def build_front(toc_entries, toc_pages_known):
 <title>Охотники — полные правила (GUMSHOE)</title>
 <style>%(css)s</style></head><body>
 
-<section class="cover">
-  <div class="inner">
-    <div class="grp">
-      <div class="trap">%(trap)s</div>
-      <div class="eno">%(eno)s</div>
-    </div>
-    <div class="grp">
-      <h1>ОХОТНИКИ</h1>
-      <div class="sub">Ролевая игра по «Сверхъестественному»</div>
-      <div class="sys">на системе GUMSHOE</div>
-      <div class="salt">%(salt)s</div>
-    </div>
-    <div class="grp bottom">
-      <div class="impala">%(impala)s</div>
-      <div class="strap">Полные правила · для игрока и хранителя</div>
-      <div class="tag">Спасать людей. Охотиться на нечисть. Семейный бизнес.</div>
-    </div>
-  </div>
-</section>
+<section class="cover"></section>
 
 <section class="titlepage">
   <div class="trap">%(trap)s</div>
