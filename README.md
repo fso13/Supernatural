@@ -272,7 +272,8 @@ assets/
 
 | Файл | Что это |
 |---|---|
-| [rules-gumshoe.pdf](rules-gumshoe.pdf) | **«Охотники» — свёрстанная книга правил, 26 страниц:** обложка, титул, оглавление с номерами, закладки |
+| [rules-gumshoe.pdf](rules-gumshoe.pdf) | **«Охотники» — свёрстанная книга правил, 27 страниц:** обложка, титул, оглавление с номерами, 21 закладка |
+| [bestiary-gumshoe.pdf](bestiary-gumshoe.pdf) | **Бестиарий охотника, 386 страниц** (13,6 МБ): все 354 карточки GUMSHOE, 222 иллюстрации, 362 закладки |
 | [rules-edge.pdf](rules-edge.pdf) | Правила: Охотники (The Edge!) — 11 страниц |
 | [quickstart-gumshoe.pdf](quickstart-gumshoe.pdf) | Быстрый старт GUMSHOE — 8 страниц |
 | [dossier-gumshoe.pdf](dossier-gumshoe.pdf) | Досье охотника — бланк на одну страницу A4 |
@@ -431,7 +432,9 @@ scripts/
   make_dossier.py         бланк «Досье охотника»
   bookkit.py              общие кирпичи сборки книг в PDF
   make_gumshoe_book.py    вёрстка книги «Охотники»
-  make_bestiary_book.py   вёрстка печатного бестиария
+  make_bestiary_book.py   вёрстка печатного бестиария D&D
+  make_hunters_book.py    вёрстка бестиария «Охотников»
+  build_hunters_pdf.py    PDF бестиария «Охотников»
   build_bestiary_pdf.py   PDF бестиария
   build_gumshoe_pdf.py    PDF книги: обложка, колонтитулы, оглавление, закладки
   make_pdfs.sh            пересборка всех PDF

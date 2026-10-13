@@ -15,7 +15,7 @@ FILES = ["index.html", "README.md"]
 PDFS = [
     "bestiary-dnd5e.pdf", "statblocks-dnd5e.pdf", "adventure-dnd5e.pdf",
     "quickstart-gumshoe.pdf", "rules-gumshoe.pdf", "sheet-gumshoe.pdf",
-    "dossier-gumshoe.pdf",
+    "dossier-gumshoe.pdf", "bestiary-gumshoe.pdf",
     "adventure-gumshoe.pdf",
     "rules-edge.pdf", "adventure-edge.pdf",
 ]

@@ -19,6 +19,7 @@ public/
 scripts/_vendor/
 site-gumshoe/book-overlay.html
 site/bestiary-overlay.html
+site-gumshoe/bestiary-overlay.html
 
 # промежуточные файлы конвертации (пересобираются скриптами)
 data/creatures/groups/

@@ -42,6 +42,7 @@ build "site-edge/adventure.html"     "adventure-edge.pdf"
 echo
 echo "Книга правил («Охотники») — отдельным скриптом, с обложкой и оглавлением:"
 echo "  python3 scripts/build_gumshoe_pdf.py"
+echo "  python3 scripts/build_hunters_pdf.py   (бестиарий охотника)"
 echo
 echo "Книга на 677 страниц собирается отдельно (долго):"
 echo "  Chrome --print-to-pdf=bestiary-dnd5e.pdf $BASE/site/book.html"
