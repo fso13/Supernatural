@@ -117,28 +117,62 @@ def locate(pdf_path, items):
 
 
 def build_overlay(page_count, heads, path):
+    """Слой колонтитулов: тёмная полоса с номером, названием и волной."""
     rows = []
     for i in range(page_count):
-        head = (heads[i] if i < len(heads) else "").replace("&", "&amp;").replace("<", "&lt;")
-        rows.append('<div class="ov%s"><div class="f"><span>%s</span>'
-                    '<span class="n">%d</span></div></div>'
-                    % (" last" if i == page_count - 1 else "", head, i + 1))
+        head = (heads[i] if i < len(heads) else "")
+        head = head.replace("&", "&amp;").replace("<", "&lt;")
+        rows.append(
+            '<div class="ov%s">'
+            '<div class="rh"><span class="pn">%d</span>'
+            '<span class="ttl">Охотники</span><span class="wv"></span></div>'
+            '<div class="rf"><span class="ch">%s</span>'
+            '<span class="gu">GUMSHOE</span></div>'
+            '</div>' % (" last" if i == page_count - 1 else "", i + 1, head))
+
     doc = """<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><style>
-@page { size: A4; margin: 0; }
+@font-face { font-family: "Ruslan"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/RuslanDisplay-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Yeseva"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/YesevaOne-Regular.ttf") format("truetype"); }
+@page { size: 163mm 215mm; margin: 0; }
 html, body { margin: 0; padding: 0; }
-.ov { width: 210mm; height: 297mm; position: relative; break-after: page; }
+.ov { width: 163mm; height: 215mm; position: relative; break-after: page; }
 .ov.last { break-after: auto; }
-.ov .f {
-  position: absolute; left: 14mm; right: 14mm; bottom: 8mm;
-  border-top: .5pt solid #cfcfcf; padding-top: 1.8mm;
-  display: flex; justify-content: space-between; align-items: baseline;
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7pt; color: #7a7a7a;
+
+.rh, .rf {
+  position: absolute; left: 11mm; right: 11mm;
+  display: flex; align-items: center; justify-content: space-between;
 }
-.ov .f .n { font-variant-numeric: tabular-nums; color: #333; font-weight: 600; }
+.rh { top: 4mm; height: 8.4mm; padding: 0 2.4mm; }
+.rf { bottom: 5mm; height: 6.6mm; padding: 0 2.4mm; }
+.rh::before, .rf::before {
+  content: ""; position: absolute; inset: 0;
+  background: url("../assets/brand/grunge.svg") center / 100% 100% no-repeat;
+}
+.rh > *, .rf > * { position: relative; z-index: 1; }
+
+.rh .pn {
+  font-family: "Ruslan", serif; font-size: 8.6pt; line-height: 1; color: #fff;
+  background: #1a1a1a; padding: .9mm 1.8mm .5mm; min-width: 7mm; text-align: center;
+}
+.rh .ttl {
+  font-family: "Ruslan", serif; font-size: 8.8pt; line-height: 1; color: #fff; letter-spacing: .3em;
+  padding-left: .3em; white-space: nowrap;
+}
+.rh .wv {
+  width: 30mm; height: 5.4mm; background-color: #fff; opacity: .8;
+  -webkit-mask: url("../assets/brand/wave.svg") center / contain no-repeat;
+  mask: url("../assets/brand/wave.svg") center / contain no-repeat;
+}
+.rf { font-family: "Yeseva", serif; font-size: 6.2pt; letter-spacing: .14em;
+      text-transform: uppercase; color: #fff; }
+.rf .ch { max-width: 110mm; overflow: hidden; white-space: nowrap; }
+.rf .gu { letter-spacing: .22em; opacity: .85; }
 </style></head><body>
-%s
-</body></html>""" % "\n".join(rows)
-    open(path, "w", encoding="utf-8").write(doc)
+@@ROWS@@
+</body></html>"""
+    open(path, "w", encoding="utf-8").write(doc.replace("@@ROWS@@", "\n".join(rows)))
     return path
 
 

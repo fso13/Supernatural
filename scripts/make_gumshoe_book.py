@@ -94,6 +94,11 @@ def clean_body(html_text):
     html_text = re.sub(r"<hr\s*/?>", '<div class="orn"></div>', html_text)
     html_text = html_text.replace("<blockquote>", '<aside class="sidebar">')
     html_text = html_text.replace("</blockquote>", "</aside>")
+    # врезка, начинающаяся с «**Что-то.**» — с заголовком по центру
+    html_text = re.sub(
+        r'<aside class="sidebar"><p><strong>([^<]{2,70}?)\.</strong>',
+        lambda m: '<aside class="sidebar headed"><p><strong>%s.</strong>' % m.group(1),
+        html_text)
     return html_text
 
 
@@ -102,176 +107,175 @@ def clean_body(html_text):
 # ─────────────────────────────────────────────────────────────────────────────
 
 CSS = """
-:root { --red: #8c1420; --red-2: #b7222b; --ink: #131313; --grey: #6a6a6a;
-        --rule: #c9c9c9; --tint: #f2f2f2; }
+@font-face { font-family: "Ruslan"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/RuslanDisplay-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Yeseva"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/YesevaOne-Regular.ttf") format("truetype"); }
 
-@page { size: A4; margin: 15mm 14mm 16mm; }
-@page cover { size: A4; margin: 0; }
+:root { --red: #8c1420; --red-2: #b7222b; --ink: #111; --grey: #6a6a6a;
+        --rule: #bdbdbd; --tint: #eceae5; --band: #1a1a1a; }
+
+@page { size: 163mm 215mm; margin: 13mm 13mm 15mm; }
+@page cover { size: 163mm 215mm; margin: 0; }
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
-  font-size: 9.6pt; line-height: 1.46; color: var(--ink);
+  font-size: 8.6pt; line-height: 1.37; color: var(--ink);
   -webkit-font-smoothing: antialiased;
 }
-p { margin: 0 0 4.4pt; text-align: justify; hyphens: auto; }
+p { margin: 0 0 3.6pt; text-align: justify; hyphens: auto; }
 
 /* ── обложка ───────────────────────────────────────────────────────────── */
 .cover {
-  page: cover; position: relative; width: 210mm; height: 297mm;
+  page: cover; position: relative; width: 163mm; height: 215mm;
   margin: 0; overflow: hidden; break-after: page;
   background: #0a0a0c url("../assets/brand/cover.jpg") center / 100% 100% no-repeat;
 }
 
 /* ── титул ─────────────────────────────────────────────────────────────── */
-.titlepage { break-after: page; padding-top: 34mm; text-align: center; }
-.titlepage .trap { width: 26mm; height: 26mm; color: var(--red-2); margin: 0 auto 8mm; }
+.titlepage { break-after: page; padding-top: 22mm; text-align: center; }
+.titlepage .trap { width: 20mm; height: 20mm; color: var(--red-2); margin: 0 auto 6mm; }
 .titlepage h1 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 30pt; letter-spacing: .08em; margin: 0 0 4mm; color: var(--ink);
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 30pt;
+  letter-spacing: .04em; margin: 0 0 3mm; color: var(--ink); line-height: 1;
 }
-.titlepage .sub { font-size: 13pt; font-style: italic; color: #333; margin-bottom: 3mm; }
+.titlepage .sub { font-size: 11.5pt; font-style: italic; color: #333; margin-bottom: 2.4mm; }
 .titlepage .sys {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; letter-spacing: .3em;
-  text-transform: uppercase; color: var(--red); margin-bottom: 22mm;
+  font-family: "Yeseva", serif; font-size: 8pt; letter-spacing: .3em;
+  text-transform: uppercase; color: var(--red); margin-bottom: 16mm;
 }
-.titlepage .rule { width: 40mm; height: 1px; background: var(--rule); margin: 0 auto 22mm; }
-.colophon { font-size: 9pt; color: #444; line-height: 1.6; max-width: 120mm; margin: 0 auto; }
+.titlepage .rule { width: 34mm; height: 1px; background: var(--rule); margin: 0 auto 16mm; }
+.colophon { font-size: 8.4pt; color: #444; line-height: 1.55; max-width: 112mm; margin: 0 auto; }
 .colophon b { color: var(--ink); }
-.colophon .credits { margin-top: 12mm; font-size: 8.4pt; color: var(--grey); }
+.colophon .credits { margin-top: 9mm; font-size: 7.8pt; color: var(--grey); }
 
 /* ── оглавление ────────────────────────────────────────────────────────── */
 .toc { break-after: page; }
 .toc h2 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 15pt; letter-spacing: .16em;
-  text-transform: uppercase; margin: 0 0 2mm; color: var(--ink);
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 19pt; letter-spacing: .05em;
+  margin: 0 0 1.6mm; color: var(--ink); text-align: center;
 }
-.toc .rule { height: 2px; background: var(--red); width: 28mm; margin-bottom: 8mm; }
-.toc .cols { column-count: 2; column-gap: 11mm; }
-.tocline { display: flex; align-items: baseline; font-size: 9.4pt; margin-bottom: 1.7mm; }
+.toc .rule { height: 2.4px; background: var(--ink); width: 26mm; margin: 0 auto 7mm; }
+.toc .cols { column-count: 2; column-gap: 9mm; }
+.tocline { display: flex; align-items: baseline; font-size: 9pt; margin-bottom: 2.3mm; }
 .tocline .t { flex: 0 1 auto; }
-.tocline .d { flex: 1 1 auto; border-bottom: 1px dotted #b6b6b6; margin: 0 2mm 0.9mm; min-width: 4mm; }
-.tocline .p { flex: 0 0 auto; font-variant-numeric: tabular-nums; color: #444; }
-.tocline.part { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-                font-size: 9.6pt; text-transform: uppercase; letter-spacing: .1em;
-                margin: 4.5mm 0 2.2mm; color: var(--red); break-after: avoid; }
-.tocline.part .d { border-bottom-style: solid; border-bottom-color: var(--red); }
+.tocline .d { flex: 1 1 auto; border-bottom: 1px dotted #a8a8a8; margin: 0 1.6mm 0.8mm; min-width: 3mm; }
+.tocline .p { flex: 0 0 auto; font-variant-numeric: tabular-nums; color: #333; }
+.tocline.part {
+  font-family: "Yeseva", serif; font-size: 8.8pt; letter-spacing: .04em;
+  margin: 6mm 0 3mm; color: var(--ink); break-after: avoid;
+}
+.tocline.part .d { border-bottom: 1px solid #444; }
 .tocline.part:first-child { margin-top: 0; }
 
 /* ── раздел части ──────────────────────────────────────────────────────── */
 .partpage {
-  break-before: page; break-after: page; height: 250mm;
+  break-before: page; break-after: page; height: 187mm;
   display: flex; flex-direction: column; justify-content: center; align-items: center;
   text-align: center;
 }
-.partpage .trap { width: 30mm; height: 30mm; color: var(--red-2); opacity: .85; margin-bottom: 10mm; }
+.partpage .trap { width: 24mm; height: 24mm; color: var(--red-2); opacity: .9; margin-bottom: 8mm; }
 .partpage .kicker {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; letter-spacing: .34em;
-  text-transform: uppercase; color: var(--grey); margin-bottom: 5mm;
+  font-family: "Yeseva", serif; font-size: 8pt; letter-spacing: .32em;
+  text-transform: uppercase; color: var(--grey); margin-bottom: 4mm;
 }
 .partpage h1 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 24pt;
-  letter-spacing: .06em; margin: 0; color: var(--ink); max-width: 150mm;
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 27pt;
+  letter-spacing: .03em; margin: 0; color: var(--ink); max-width: 120mm; line-height: 1.06;
 }
-.partpage .rule { width: 46mm; height: 2px; background: var(--red); margin: 9mm 0; }
-.partpage .eno { width: 50mm; height: 4.4mm; color: var(--red-2); opacity: .4; }
+.partpage .rule { width: 40mm; height: 2.4px; background: var(--ink); margin: 7mm 0; }
+.partpage .eno { width: 42mm; height: 3.6mm; color: var(--red-2); opacity: .45; }
 
 /* ── открывалка главы ──────────────────────────────────────────────────── */
 .chapter { break-inside: auto; }
-.partpage + .flow, .flow + .flow, .flow + .partpage { break-before: page; }
 .ch-open {
   break-inside: avoid; break-after: avoid;
-  margin: 0 0 4.6mm; padding-top: 1mm; border-bottom: 2px solid var(--red); padding-bottom: 3.4mm;
+  margin: 0 0 4mm; padding-bottom: 2.6mm; border-bottom: 2.4px solid var(--ink);
 }
-.chapter + .chapter .ch-open { margin-top: 7mm; }
+.chapter + .chapter .ch-open { margin-top: 6mm; }
 .ch-open .kick {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8pt; letter-spacing: .32em;
-  text-transform: uppercase; color: var(--grey); margin-bottom: 1.5mm;
+  font-family: "Yeseva", serif; font-size: 7.2pt; letter-spacing: .3em;
+  text-transform: uppercase; color: var(--red); margin-bottom: 1.2mm;
 }
-.ch-open .row { display: flex; align-items: baseline; gap: 5mm; }
+.ch-open .row { display: flex; align-items: baseline; gap: 3.6mm; }
 .ch-open .num {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 38pt;
-  line-height: .84; color: var(--red); flex: 0 0 auto; letter-spacing: .01em;
-  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Ruslan", serif; font-size: 30pt; line-height: .82;
+  color: var(--red); flex: 0 0 auto; letter-spacing: .01em;
 }
 .ch-open h1 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 19pt;
-  line-height: 1.1; margin: 0; color: var(--ink); letter-spacing: .01em;
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 15.5pt;
+  line-height: 1.1; margin: 0; color: var(--ink); letter-spacing: .03em;
 }
 
 /* ── текст в две колонки ───────────────────────────────────────────────── */
-.flow { column-count: 2; column-gap: 8mm; column-fill: auto; }
+.flow {
+  column-count: 2; column-gap: 7mm; column-fill: auto;
+  column-rule: .4pt solid var(--rule);
+}
+.partpage + .flow, .flow + .flow, .flow + .partpage { break-before: page; }
 .flow:first-of-type { break-before: avoid; }
-.flow > .chapter:first-child .ch-open { margin-top: 0; }
 .flow h2 {
-  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 11.4pt; margin: 6mm 0 2mm; padding-top: 1.6mm; border-top: 1px solid var(--rule);
-  color: var(--ink);
+  break-after: avoid; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 10.4pt; margin: 5mm 0 1.8mm; padding-top: 1.4mm;
+  border-top: 1.4px solid var(--ink); color: var(--ink); line-height: 1.16;
 }
 .flow h2:first-child { margin-top: 0; }
 .flow h3 {
-  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 9.7pt; margin: 4.4mm 0 1.6mm; color: var(--red);
+  break-after: avoid; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 9.2pt; margin: 3.8mm 0 1.4mm; color: var(--red); line-height: 1.2;
 }
 .flow h4 {
-  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 9.1pt; margin: 3.6mm 0 1.2mm; color: #333; letter-spacing: .02em;
+  break-after: avoid; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 8.6pt; margin: 3mm 0 1mm; color: #2a2a2a;
 }
-.flow h5, .flow h6 { break-after: avoid; font-size: 9.1pt; margin: 3mm 0 1mm; }
+.flow h5, .flow h6 { break-after: avoid; font-size: 8.6pt; margin: 2.6mm 0 1mm; }
 
-ul, ol { margin: 0 0 4pt; padding-left: 5.4mm; }
-li { margin-bottom: 1.1mm; text-align: left; }
+ul, ol { margin: 0 0 3.4pt; padding-left: 4.6mm; }
+li { margin-bottom: .9mm; text-align: left; }
 strong { color: #000; }
 code {
-  font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 8.4pt;
-  background: var(--tint); padding: 0 .7mm; border-radius: 1mm;
+  font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 7.6pt;
+  background: var(--tint); padding: 0 .6mm;
 }
 a { color: var(--red); text-decoration: none; }
 
 /* ── врезки ────────────────────────────────────────────────────────────── */
 .sidebar {
-  break-inside: avoid; margin: 3.6mm 0; padding: 2.6mm 3.4mm 2.2mm;
-  background: var(--tint); border-left: 2.6px solid var(--red);
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.5pt; line-height: 1.42;
+  break-inside: avoid; margin: 3mm 0; padding: 2.4mm 2.8mm 2mm;
+  background: var(--tint); border: .8pt solid #2a2a2a;
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.9pt; line-height: 1.38;
 }
-.sidebar p { text-align: left; margin: 0 0 2.2mm; }
+.sidebar p { text-align: left; margin: 0 0 1.8mm; }
 .sidebar p:last-child { margin-bottom: 0; }
-.sidebar strong { color: var(--red); }
-.sidebar em { font-style: italic; }
+.sidebar strong { color: #000; }
+.sidebar.headed > p:first-child > strong:first-child {
+  display: block; text-align: center; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 9pt; color: var(--ink); margin: 0 0 1.6mm; letter-spacing: .01em;
+}
 
 /* ── таблицы ───────────────────────────────────────────────────────────── */
 table.md {
-  width: 100%; border-collapse: collapse; margin: 3mm 0 4mm;
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.1pt; line-height: 1.3;
-  break-inside: auto;
+  width: 100%; border-collapse: collapse; margin: 2.6mm 0 3.4mm;
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.5pt; line-height: 1.28;
 }
 table.md thead { display: table-header-group; }
 table.md th {
-  background: #232323; color: #fff; text-align: left; font-weight: 700;
-  padding: 1.5mm 1.7mm; border: none; letter-spacing: .02em;
+  background: #e2dfd8; color: #111; text-align: left; font-weight: 700;
+  padding: 1.3mm 1.5mm; border-top: .8pt solid #333; border-bottom: .8pt solid #333;
 }
-table.md td {
-  padding: 1.3mm 1.7mm; border-bottom: .5px solid var(--rule); vertical-align: top;
-}
-table.md tbody tr:nth-child(even) td { background: #f7f7f7; }
+table.md td { padding: 1.1mm 1.5mm; border-bottom: .4pt solid #cfcfcf; vertical-align: top; }
+table.md tbody tr:nth-child(even) td { background: #f6f5f2; }
 table.md tr { break-inside: avoid; }
 table.md strong { color: var(--red); }
 
 pre {
-  break-inside: avoid; background: var(--tint); border-left: 2px solid var(--rule);
-  padding: 2.4mm 3mm; font-size: 8pt; margin: 3mm 0; overflow-wrap: anywhere;
+  break-inside: avoid; background: var(--tint); border-left: 1.6px solid var(--rule);
+  padding: 2mm 2.4mm; font-size: 7.4pt; margin: 2.6mm 0; overflow-wrap: anywhere;
 }
-pre code { background: none; padding: 0; font-size: 8pt; }
-
-.orn {
-  width: 14mm; height: 1.6px; background: var(--rule);
-  margin: 4.5mm auto; break-after: avoid;
-}
-
-/* ── подвал врезки-финала ──────────────────────────────────────────────── */
-.endnote { margin-top: 6mm; font-size: 8.4pt; color: var(--grey); font-style: italic; }
-.endnote p { text-align: left; }
+pre code { background: none; padding: 0; font-size: 7.4pt; }
+.orn { width: 12mm; height: 1.4px; background: var(--rule); margin: 3.6mm auto; break-after: avoid; }
 """
 
 

@@ -2,186 +2,185 @@
 <html lang="ru"><head><meta charset="utf-8">
 <title>Охотники — правила</title>
 <style>
-:root { --red: #8c1420; --red-2: #b7222b; --ink: #131313; --grey: #6a6a6a;
-        --rule: #c9c9c9; --tint: #f2f2f2; }
+@font-face { font-family: "Ruslan"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/RuslanDisplay-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Yeseva"; font-weight: 400; font-style: normal;
+             src: url("../assets/fonts/YesevaOne-Regular.ttf") format("truetype"); }
 
-@page { size: A4; margin: 15mm 14mm 16mm; }
-@page cover { size: A4; margin: 0; }
+:root { --red: #8c1420; --red-2: #b7222b; --ink: #111; --grey: #6a6a6a;
+        --rule: #bdbdbd; --tint: #eceae5; --band: #1a1a1a; }
+
+@page { size: 163mm 215mm; margin: 13mm 13mm 15mm; }
+@page cover { size: 163mm 215mm; margin: 0; }
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
-  font-size: 9.6pt; line-height: 1.46; color: var(--ink);
+  font-size: 8.6pt; line-height: 1.37; color: var(--ink);
   -webkit-font-smoothing: antialiased;
 }
-p { margin: 0 0 4.4pt; text-align: justify; hyphens: auto; }
+p { margin: 0 0 3.6pt; text-align: justify; hyphens: auto; }
 
 /* ── обложка ───────────────────────────────────────────────────────────── */
 .cover {
-  page: cover; position: relative; width: 210mm; height: 297mm;
+  page: cover; position: relative; width: 163mm; height: 215mm;
   margin: 0; overflow: hidden; break-after: page;
   background: #0a0a0c url("../assets/brand/cover.jpg") center / 100% 100% no-repeat;
 }
 
 /* ── титул ─────────────────────────────────────────────────────────────── */
-.titlepage { break-after: page; padding-top: 34mm; text-align: center; }
-.titlepage .trap { width: 26mm; height: 26mm; color: var(--red-2); margin: 0 auto 8mm; }
+.titlepage { break-after: page; padding-top: 22mm; text-align: center; }
+.titlepage .trap { width: 20mm; height: 20mm; color: var(--red-2); margin: 0 auto 6mm; }
 .titlepage h1 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 30pt; letter-spacing: .08em; margin: 0 0 4mm; color: var(--ink);
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 30pt;
+  letter-spacing: .04em; margin: 0 0 3mm; color: var(--ink); line-height: 1;
 }
-.titlepage .sub { font-size: 13pt; font-style: italic; color: #333; margin-bottom: 3mm; }
+.titlepage .sub { font-size: 11.5pt; font-style: italic; color: #333; margin-bottom: 2.4mm; }
 .titlepage .sys {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; letter-spacing: .3em;
-  text-transform: uppercase; color: var(--red); margin-bottom: 22mm;
+  font-family: "Yeseva", serif; font-size: 8pt; letter-spacing: .3em;
+  text-transform: uppercase; color: var(--red); margin-bottom: 16mm;
 }
-.titlepage .rule { width: 40mm; height: 1px; background: var(--rule); margin: 0 auto 22mm; }
-.colophon { font-size: 9pt; color: #444; line-height: 1.6; max-width: 120mm; margin: 0 auto; }
+.titlepage .rule { width: 34mm; height: 1px; background: var(--rule); margin: 0 auto 16mm; }
+.colophon { font-size: 8.4pt; color: #444; line-height: 1.55; max-width: 112mm; margin: 0 auto; }
 .colophon b { color: var(--ink); }
-.colophon .credits { margin-top: 12mm; font-size: 8.4pt; color: var(--grey); }
+.colophon .credits { margin-top: 9mm; font-size: 7.8pt; color: var(--grey); }
 
 /* ── оглавление ────────────────────────────────────────────────────────── */
 .toc { break-after: page; }
 .toc h2 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 15pt; letter-spacing: .16em;
-  text-transform: uppercase; margin: 0 0 2mm; color: var(--ink);
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 19pt; letter-spacing: .05em;
+  margin: 0 0 1.6mm; color: var(--ink); text-align: center;
 }
-.toc .rule { height: 2px; background: var(--red); width: 28mm; margin-bottom: 8mm; }
-.toc .cols { column-count: 2; column-gap: 11mm; }
-.tocline { display: flex; align-items: baseline; font-size: 9.4pt; margin-bottom: 1.7mm; }
+.toc .rule { height: 2.4px; background: var(--ink); width: 26mm; margin: 0 auto 7mm; }
+.toc .cols { column-count: 2; column-gap: 9mm; }
+.tocline { display: flex; align-items: baseline; font-size: 9pt; margin-bottom: 2.3mm; }
 .tocline .t { flex: 0 1 auto; }
-.tocline .d { flex: 1 1 auto; border-bottom: 1px dotted #b6b6b6; margin: 0 2mm 0.9mm; min-width: 4mm; }
-.tocline .p { flex: 0 0 auto; font-variant-numeric: tabular-nums; color: #444; }
-.tocline.part { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-                font-size: 9.6pt; text-transform: uppercase; letter-spacing: .1em;
-                margin: 4.5mm 0 2.2mm; color: var(--red); break-after: avoid; }
-.tocline.part .d { border-bottom-style: solid; border-bottom-color: var(--red); }
+.tocline .d { flex: 1 1 auto; border-bottom: 1px dotted #a8a8a8; margin: 0 1.6mm 0.8mm; min-width: 3mm; }
+.tocline .p { flex: 0 0 auto; font-variant-numeric: tabular-nums; color: #333; }
+.tocline.part {
+  font-family: "Yeseva", serif; font-size: 8.8pt; letter-spacing: .04em;
+  margin: 6mm 0 3mm; color: var(--ink); break-after: avoid;
+}
+.tocline.part .d { border-bottom: 1px solid #444; }
 .tocline.part:first-child { margin-top: 0; }
 
 /* ── раздел части ──────────────────────────────────────────────────────── */
 .partpage {
-  break-before: page; break-after: page; height: 250mm;
+  break-before: page; break-after: page; height: 187mm;
   display: flex; flex-direction: column; justify-content: center; align-items: center;
   text-align: center;
 }
-.partpage .trap { width: 30mm; height: 30mm; color: var(--red-2); opacity: .85; margin-bottom: 10mm; }
+.partpage .trap { width: 24mm; height: 24mm; color: var(--red-2); opacity: .9; margin-bottom: 8mm; }
 .partpage .kicker {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.4pt; letter-spacing: .34em;
-  text-transform: uppercase; color: var(--grey); margin-bottom: 5mm;
+  font-family: "Yeseva", serif; font-size: 8pt; letter-spacing: .32em;
+  text-transform: uppercase; color: var(--grey); margin-bottom: 4mm;
 }
 .partpage h1 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 24pt;
-  letter-spacing: .06em; margin: 0; color: var(--ink); max-width: 150mm;
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 27pt;
+  letter-spacing: .03em; margin: 0; color: var(--ink); max-width: 120mm; line-height: 1.06;
 }
-.partpage .rule { width: 46mm; height: 2px; background: var(--red); margin: 9mm 0; }
-.partpage .eno { width: 50mm; height: 4.4mm; color: var(--red-2); opacity: .4; }
+.partpage .rule { width: 40mm; height: 2.4px; background: var(--ink); margin: 7mm 0; }
+.partpage .eno { width: 42mm; height: 3.6mm; color: var(--red-2); opacity: .45; }
 
 /* ── открывалка главы ──────────────────────────────────────────────────── */
 .chapter { break-inside: auto; }
-.partpage + .flow, .flow + .flow, .flow + .partpage { break-before: page; }
 .ch-open {
   break-inside: avoid; break-after: avoid;
-  margin: 0 0 4.6mm; padding-top: 1mm; border-bottom: 2px solid var(--red); padding-bottom: 3.4mm;
+  margin: 0 0 4mm; padding-bottom: 2.6mm; border-bottom: 2.4px solid var(--ink);
 }
-.chapter + .chapter .ch-open { margin-top: 7mm; }
+.chapter + .chapter .ch-open { margin-top: 6mm; }
 .ch-open .kick {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8pt; letter-spacing: .32em;
-  text-transform: uppercase; color: var(--grey); margin-bottom: 1.5mm;
+  font-family: "Yeseva", serif; font-size: 7.2pt; letter-spacing: .3em;
+  text-transform: uppercase; color: var(--red); margin-bottom: 1.2mm;
 }
-.ch-open .row { display: flex; align-items: baseline; gap: 5mm; }
+.ch-open .row { display: flex; align-items: baseline; gap: 3.6mm; }
 .ch-open .num {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 38pt;
-  line-height: .84; color: var(--red); flex: 0 0 auto; letter-spacing: .01em;
-  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Ruslan", serif; font-size: 30pt; line-height: .82;
+  color: var(--red); flex: 0 0 auto; letter-spacing: .01em;
 }
 .ch-open h1 {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 19pt;
-  line-height: 1.1; margin: 0; color: var(--ink); letter-spacing: .01em;
+  font-family: "Ruslan", serif; font-weight: 400; font-size: 15.5pt;
+  line-height: 1.1; margin: 0; color: var(--ink); letter-spacing: .03em;
 }
 
 /* ── текст в две колонки ───────────────────────────────────────────────── */
-.flow { column-count: 2; column-gap: 8mm; column-fill: auto; }
+.flow {
+  column-count: 2; column-gap: 7mm; column-fill: auto;
+  column-rule: .4pt solid var(--rule);
+}
+.partpage + .flow, .flow + .flow, .flow + .partpage { break-before: page; }
 .flow:first-of-type { break-before: avoid; }
-.flow > .chapter:first-child .ch-open { margin-top: 0; }
 .flow h2 {
-  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 11.4pt; margin: 6mm 0 2mm; padding-top: 1.6mm; border-top: 1px solid var(--rule);
-  color: var(--ink);
+  break-after: avoid; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 10.4pt; margin: 5mm 0 1.8mm; padding-top: 1.4mm;
+  border-top: 1.4px solid var(--ink); color: var(--ink); line-height: 1.16;
 }
 .flow h2:first-child { margin-top: 0; }
 .flow h3 {
-  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 9.7pt; margin: 4.4mm 0 1.6mm; color: var(--red);
+  break-after: avoid; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 9.2pt; margin: 3.8mm 0 1.4mm; color: var(--red); line-height: 1.2;
 }
 .flow h4 {
-  break-after: avoid; font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700;
-  font-size: 9.1pt; margin: 3.6mm 0 1.2mm; color: #333; letter-spacing: .02em;
+  break-after: avoid; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 8.6pt; margin: 3mm 0 1mm; color: #2a2a2a;
 }
-.flow h5, .flow h6 { break-after: avoid; font-size: 9.1pt; margin: 3mm 0 1mm; }
+.flow h5, .flow h6 { break-after: avoid; font-size: 8.6pt; margin: 2.6mm 0 1mm; }
 
-ul, ol { margin: 0 0 4pt; padding-left: 5.4mm; }
-li { margin-bottom: 1.1mm; text-align: left; }
+ul, ol { margin: 0 0 3.4pt; padding-left: 4.6mm; }
+li { margin-bottom: .9mm; text-align: left; }
 strong { color: #000; }
 code {
-  font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 8.4pt;
-  background: var(--tint); padding: 0 .7mm; border-radius: 1mm;
+  font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 7.6pt;
+  background: var(--tint); padding: 0 .6mm;
 }
 a { color: var(--red); text-decoration: none; }
 
 /* ── врезки ────────────────────────────────────────────────────────────── */
 .sidebar {
-  break-inside: avoid; margin: 3.6mm 0; padding: 2.6mm 3.4mm 2.2mm;
-  background: var(--tint); border-left: 2.6px solid var(--red);
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.5pt; line-height: 1.42;
+  break-inside: avoid; margin: 3mm 0; padding: 2.4mm 2.8mm 2mm;
+  background: var(--tint); border: .8pt solid #2a2a2a;
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.9pt; line-height: 1.38;
 }
-.sidebar p { text-align: left; margin: 0 0 2.2mm; }
+.sidebar p { text-align: left; margin: 0 0 1.8mm; }
 .sidebar p:last-child { margin-bottom: 0; }
-.sidebar strong { color: var(--red); }
-.sidebar em { font-style: italic; }
+.sidebar strong { color: #000; }
+.sidebar.headed > p:first-child > strong:first-child {
+  display: block; text-align: center; font-family: "Yeseva", serif; font-weight: 400;
+  font-size: 9pt; color: var(--ink); margin: 0 0 1.6mm; letter-spacing: .01em;
+}
 
 /* ── таблицы ───────────────────────────────────────────────────────────── */
 table.md {
-  width: 100%; border-collapse: collapse; margin: 3mm 0 4mm;
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.1pt; line-height: 1.3;
-  break-inside: auto;
+  width: 100%; border-collapse: collapse; margin: 2.6mm 0 3.4mm;
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.5pt; line-height: 1.28;
 }
 table.md thead { display: table-header-group; }
 table.md th {
-  background: #232323; color: #fff; text-align: left; font-weight: 700;
-  padding: 1.5mm 1.7mm; border: none; letter-spacing: .02em;
+  background: #e2dfd8; color: #111; text-align: left; font-weight: 700;
+  padding: 1.3mm 1.5mm; border-top: .8pt solid #333; border-bottom: .8pt solid #333;
 }
-table.md td {
-  padding: 1.3mm 1.7mm; border-bottom: .5px solid var(--rule); vertical-align: top;
-}
-table.md tbody tr:nth-child(even) td { background: #f7f7f7; }
+table.md td { padding: 1.1mm 1.5mm; border-bottom: .4pt solid #cfcfcf; vertical-align: top; }
+table.md tbody tr:nth-child(even) td { background: #f6f5f2; }
 table.md tr { break-inside: avoid; }
 table.md strong { color: var(--red); }
 
 pre {
-  break-inside: avoid; background: var(--tint); border-left: 2px solid var(--rule);
-  padding: 2.4mm 3mm; font-size: 8pt; margin: 3mm 0; overflow-wrap: anywhere;
+  break-inside: avoid; background: var(--tint); border-left: 1.6px solid var(--rule);
+  padding: 2mm 2.4mm; font-size: 7.4pt; margin: 2.6mm 0; overflow-wrap: anywhere;
 }
-pre code { background: none; padding: 0; font-size: 8pt; }
-
-.orn {
-  width: 14mm; height: 1.6px; background: var(--rule);
-  margin: 4.5mm auto; break-after: avoid;
-}
-
-/* ── подвал врезки-финала ──────────────────────────────────────────────── */
-.endnote { margin-top: 6mm; font-size: 8.4pt; color: var(--grey); font-style: italic; }
-.endnote p { text-align: left; }
+pre code { background: none; padding: 0; font-size: 7.4pt; }
+.orn { width: 12mm; height: 1.4px; background: var(--rule); margin: 3.6mm auto; break-after: avoid; }
 </style></head><body>
 <div class="flow"><section class="chapter"><div class="ch-open"><div class="kick">Введение</div><div class="row"><h1>Что это за игра</h1></div></div>
 <h3 id="ролевая-игра-по-сверхъестественному-на-системе-gumshoe">Ролевая игра по «Сверхъестественному» на системе GUMSHOE</h3>
 <p><em>Полные правила. Для игрока и хранителя.</em></p>
-<aside class="sidebar"><p><strong>Спасать людей. Охотиться на нечисть. Семейный бизнес.</strong></p></aside>
+<aside class="sidebar headed"><p><strong>Спасать людей. Охотиться на нечисть. Семейный бизнес.</strong></p></aside>
 <div class="orn"></div>
 <h2 id="что-это-за-игра">Что это за игра</h2>
 <p>«Охотники» — самостоятельная ролевая игра. Вы играете не героев фэнтези и не космических десантников, а обычных людей с дробовиком, блокнотом и очень плохим сном. Вы ездите по стране, находите то, что убивает людей, выясняете, <strong>что это вообще такое</strong>, и только потом убиваете.</p>
 <p>Игра построена на системе <strong>GUMSHOE</strong>, придуманной Робином Д. Лоузом. Она отличается от большинства ролевых игр одной идеей:</p>
-<aside class="sidebar"><p><strong>Расследование не бросают кубик.</strong></p></aside>
+<aside class="sidebar headed"><p><strong>Расследование не бросают кубик.</strong></p></aside>
 <p>Если у вашего охотника есть нужная способность и он в сцене, где она применима, — он <strong>получает улику</strong>. Без броска. Забуксовать из-за неудачного кубика невозможно.</p>
 <p>Это не упрощение, а точное попадание в жанр. В сериале братья девяносто процентов времени ищут: читают старые газеты в библиотеке, уговаривают патологоанатома, спорят с шерифом, звонят знакомому, который «знает одного парня». Драка занимает тридцать секунд в конце — и заканчивается одним точным ударом в нужное место.</p>
 <h3 id="что-нужно-на-столе">Что нужно на столе</h3>
@@ -200,7 +199,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <h2 id="12-как-работает-расследование">1.2. Как работает расследование</h2>
 <p>Игрок объявляет, что делает охотник. Если у него есть подходящая способность, хранитель <strong>отдаёт базовую улику</strong> — просто рассказывает, что персонаж видит, находит или понимает.</p>
 <p>Если игрок хочет <strong>больше</strong>, он тратит очко: получает подробность, имя, направление, второй смысл. Очко уходит из пула до конца дела.</p>
-<aside class="sidebar"><p><strong>Правило одного ядра.</strong> Если улика обязательна для сюжета, её получает любой, у кого есть подходящая способность. Никогда не прячьте обязательную улику за тратой.</p>
+<aside class="sidebar headed"><p><strong>Правило одного ядра.</strong> Если улика обязательна для сюжета, её получает любой, у кого есть подходящая способность. Никогда не прячьте обязательную улику за тратой.</p>
 <p><strong>Правило нескольких путей.</strong> У каждой ключевой улики должно быть минимум <strong>три</strong> способности, которыми до неё можно добраться. Если группа застряла — это вина хранителя, а не игроков.</p></aside>
 <p><strong>Пример.</strong> Охотники в морге. У Роуз есть <code>Медицина</code>.</p>
 <aside class="sidebar"><p><strong>Хранитель:</strong> Тело обескровлено, но ран нет. Две аккуратные точки — под ключицей и на внутренней стороне бедра.</p>
@@ -211,7 +210,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <p><strong>Результат = 1к6 + потраченные очки.</strong> Если он равен или больше <strong>Сл</strong>, действие удалось.</p>
 <table class="md"><thead><tr><th>Сл</th><th>Когда ставить</th></tr></thead><tbody><tr><td><strong>4</strong></td><td>Обычное дело под давлением: перелезть забор, заметить хвост, выбить дверь</td></tr><tr><td><strong>5</strong></td><td>Трудно: заметить засаду в темноте, выбить дверь, когда по тебе стреляют</td></tr><tr><td><strong>6</strong></td><td>Почти невозможно: прыгнуть с третьего этажа без травм, угнать машину за сорок секунд</td></tr></tbody></table>
 <p><strong>Потраченные очки уходят, даже если бросок провален.</strong> Это и есть цена риска: чем сильнее напрягся, тем меньше осталось.</p>
-<aside class="sidebar"><p><strong>Зачем тратить до броска.</strong> Бросок 1к6 даёт от 1 до 6. Без трат вы проваливаете всё, что сложнее Сл 4, в половине случаев. Трата очка поднимает нижнюю границу: 1к6 + 1 — это уже 2–7. Именно поэтому пулы тают, и именно поэтому они конечны.</p></aside>
+<aside class="sidebar headed"><p><strong>Зачем тратить до броска.</strong> Бросок 1к6 даёт от 1 до 6. Без трат вы проваливаете всё, что сложнее Сл 4, в половине случаев. Трата очка поднимает нижнюю границу: 1к6 + 1 — это уже 2–7. Именно поэтому пулы тают, и именно поэтому они конечны.</p></aside>
 <h2 id="14-противостояния">1.4. Противостояния</h2>
 <p>Когда двое действуют друг против друга, оба бросают свою способность. <strong>Побеждает больший результат.</strong> При равенстве побеждает <strong>защищающийся</strong> (или тот, кто действует пассивно).</p>
 <p>Обычные противостояния:</p>
@@ -240,7 +239,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <h2 id="шаг-4-расследовательские-способности-18-очков">Шаг 4. Расследовательские способности: 18 очков</h2>
 <p>Распредели <strong>18 очков</strong> между расследовательскими способностями.</p>
 <ul><li>от <strong>1</strong> до <strong>4</strong> в одну способность на старте;</li><li><strong>не меньше восьми</strong> разных способностей;</li><li>остальные остаются на нуле — это нормально и правильно.</li></ul>
-<aside class="sidebar"><p><strong>Совет.</strong> Возьми хотя бы по одному очку в <code>Оккультизм</code> и <code>Проницательность</code>. Без первого группа не узнает слабость твари, без второго — не поймёт, кто врёт. В этой игре незнание убивает быстрее когтей.</p></aside>
+<aside class="sidebar headed"><p><strong>Совет.</strong> Возьми хотя бы по одному очку в <code>Оккультизм</code> и <code>Проницательность</code>. Без первого группа не узнает слабость твари, без второго — не поймёт, кто врёт. В этой игре незнание убивает быстрее когтей.</p></aside>
 <h2 id="шаг-5-общие-способности-50-очков">Шаг 5. Общие способности: 50 очков</h2>
 <p>Распредели <strong>50 очков</strong> между общими способностями.</p>
 <ul><li>от <strong>1</strong> до <strong>12</strong> в одну способность на старте;</li><li><strong>обязательный минимум:</strong> <code>Здоровье</code> <strong>4</strong>, <code>Стабильность</code> <strong>4</strong>, <code>Бдительность</code> <strong>2</strong>;</li><li>оставшиеся очки можно копить на потом — неиспользованные очки <strong>не сгорают</strong>, их можно</li></ul>
@@ -349,7 +348,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <h2 id="45-что-игрок-может-объявить-в-сцене">4.5. Что игрок может объявить в сцене</h2>
 <p>Игроку не нужно ждать подсказки. Он может объявить:</p>
 <ul><li><strong>«У меня есть способность X. Что я вижу?»</strong> — и получить улику.</li><li><strong>«Я трачу очко X»</strong> — и получить больше.</li><li><strong>«Я хочу сделать Y»</strong> — и хранитель скажет, какая способность подходит и какая Сл.</li><li><strong>«Я звоню своему контакту»</strong> — если у него есть <code>Связи</code>.</li><li><strong>«Я осматриваюсь»</strong> — если у него есть <code>Бдительность</code> или <code>Осмотр места</code>.</li></ul>
-<aside class="sidebar"><p><strong>Правило честности.</strong> Если игрок предлагает разумный путь, который вы не предусмотрели, — <strong>дайте улику</strong>. Импровизация игроков не должна наказываться.</p></aside>
+<aside class="sidebar headed"><p><strong>Правило честности.</strong> Если игрок предлагает разумный путь, который вы не предусмотрели, — <strong>дайте улику</strong>. Импровизация игроков не должна наказываться.</p></aside>
 <div class="orn"></div>
 </section>
 <section class="chapter" id="глава-5-бой"><div class="ch-open"><div class="kick">Глава</div><div class="row"><div class="num">5</div><h1>Бой</h1></div></div>
@@ -398,7 +397,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <table class="md"><thead><tr><th>Ситуация</th><th>Сл</th><th>Потеря при провале</th></tr></thead><tbody><tr><td>Призрак, гуль, монстр недели</td><td><strong>4</strong></td><td>столько, сколько в карточке существа</td></tr><tr><td>Демон в истинном облике, одержимый, труп в ритуале</td><td><strong>5</strong></td><td>по карточке</td></tr><tr><td>Ангел, архангел, левиафан</td><td><strong>5–6</strong></td><td>по карточке</td></tr><tr><td>Первичная сущность, Смерть, Тьма</td><td><strong>6</strong></td><td>по карточке</td></tr><tr><td>Гибель Источника стабильности на твоих глазах</td><td><strong>6</strong></td><td><strong>3</strong> и потеря самого Источника</td></tr></tbody></table>
 <p><strong>Успех</strong> — потеря <strong>вдвое меньше</strong> (округляя вниз, но не меньше 1, если потеря была больше 0). <strong>Провал</strong> — полная потеря.</p>
 <p><strong>Траты на проверку Стабильности</strong> разрешены и очень важны: это буквально «взять себя в руки».</p>
-<aside class="sidebar"><p><strong>Только один раз.</strong> Повторно на ту же тварь проверка не делается. Иммунитет — вещь реальная: второй демон уже не так страшен, как первый.</p></aside>
+<aside class="sidebar headed"><p><strong>Только один раз.</strong> Повторно на ту же тварь проверка не делается. Иммунитет — вещь реальная: второй демон уже не так страшен, как первый.</p></aside>
 <h2 id="62-как-вернуть-стабильность">6.2. Как вернуть Стабильность</h2>
 <p><strong>Сном и выпивкой — нельзя.</strong> Скажите игрокам это прямо в первой сессии.</p>
 <table class="md"><thead><tr><th>Способ</th><th>Сколько вернёт</th><th>Условие</th></tr></thead><tbody><tr><td><strong>Разговор с Источником стабильности</strong></td><td><strong>1d6</strong></td><td>Целая сцена. Хранитель играет этого человека</td></tr><tr><td><strong>Признание вслух другому охотнику</strong></td><td><strong>1d3</strong></td><td>Правда о том, что ты сделал. <strong>Один раз за дело</strong></td></tr><tr><td><strong>Ночь не в деле</strong></td><td><strong>1</strong></td><td>Не в дороге, не в мотеле на трассе. Просто ночь</td></tr><tr><td><strong>Долгий отдых между делами</strong></td><td>до полного</td><td>Неделя без охоты. Редкость</td></tr></tbody></table>
@@ -438,7 +437,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <p><strong>Неиспользованные очки не сгорают.</strong> Их можно копить на узел или на подъём потолка.</p>
 <h2 id="73-потолки">7.3. Потолки</h2>
 <table class="md"><thead><tr><th></th><th>Старт</th><th>Потолок</th></tr></thead><tbody><tr><td>Расследовательская способность</td><td>4</td><td>6 (с узлом)</td></tr><tr><td>Общая способность</td><td>12</td><td>18</td></tr><tr><td>Здоровье</td><td>12</td><td>18</td></tr><tr><td>Стабильность</td><td>12</td><td>18</td></tr><tr><td>Убеждённость</td><td>10</td><td>10 (<strong>не растёт</strong>)</td></tr></tbody></table>
-<aside class="sidebar"><p><strong>Убеждённость не увеличивается никогда.</strong> Это важнейшее правило игры. Охотник может стать сильнее, быстрее, умнее — но не может стать <strong>целее</strong>. Он только тратит.</p></aside>
+<aside class="sidebar headed"><p><strong>Убеждённость не увеличивается никогда.</strong> Это важнейшее правило игры. Охотник может стать сильнее, быстрее, умнее — но не может стать <strong>целее</strong>. Он только тратит.</p></aside>
 <h2 id="74-узлы-архетипа">7.4. Узлы архетипа</h2>
 <p>Узлы — небольшие постоянные бонусы, привязанные к тому, <strong>как</strong> охотник работает. Каждый узел стоит <strong>3 ОО</strong>.</p>
 <h3 id="ветеран">Ветеран</h3>
@@ -463,7 +462,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <h2 id="83-наркотики-боль-и-сон">8.3. Наркотики, боль и сон</h2>
 <p>Охотники плохо спят. Это механика, а не фон.</p>
 <table class="md"><thead><tr><th>Средство</th><th>Эффект</th></tr></thead><tbody><tr><td><strong>Обезболивающее</strong></td><td>Снимает <strong>−1</strong> от ранения на одну сцену. Потом эффект проходит</td></tr><tr><td><strong>Стимуляторы</strong></td><td><strong>+2</strong> к <code>Бдительности</code> на сцену. Потом <strong>−2</strong> и <strong>1 Стабильности</strong></td></tr><tr><td><strong>Алкоголь</strong></td><td><strong>+1</strong> к <code>Воле</code> против страха. <strong>−1</strong> к <code>Стрельбе</code>, <code>Вождению</code>, <code>Бдительности</code>. Не лечит Стабильность</td></tr><tr><td><strong>Снотворное</strong></td><td>Спишь. <strong>Не</strong> восстанавливает Стабильность. Сны всё равно приходят</td></tr><tr><td><strong>Долгий сон</strong></td><td><strong>+1</strong> Здоровья, <strong>+0</strong> Стабильности</td></tr></tbody></table>
-<aside class="sidebar"><p><strong>Правило трезвости.</strong> Хранитель никогда не наказывает за выпивку напрямую. Он просто показывает, чем это заканчивается. Раз за кампанию — сценой, а не штрафом.</p></aside>
+<aside class="sidebar headed"><p><strong>Правило трезвости.</strong> Хранитель никогда не наказывает за выпивку напрямую. Он просто показывает, чем это заканчивается. Раз за кампанию — сценой, а не штрафом.</p></aside>
 <h2 id="84-деньги">8.4. Деньги</h2>
 <p>Охотники живут на <strong>фальшивые кредитки</strong>, гонорары от тех, кого спасли, и продажу конфискованного у тварей.</p>
 <table class="md"><thead><tr><th>Уровень</th><th>Что доступно</th></tr></thead><tbody><tr><td><strong>Пусто</strong></td><td>Мотель на ночь, еда, бензин. Ничего больше</td></tr><tr><td><strong>Есть</strong> (1d6×100 долларов)</td><td>Оружие, аптека, мотель на неделю, взятка шерифу</td></tr><tr><td><strong>Густо</strong> (редко)</td><td>Серебро, специальное снаряжение, информация у нужного человека</td></tr></tbody></table>
@@ -485,7 +484,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <ul><li>Демон <strong>выходит</strong> из тела чёрным дымом и уходит.</li><li>Тело остаётся: <strong>1d6</strong> Здоровья, обычно без сознания.</li><li>Демон <strong>помнит</strong> экзорциста. Он вернётся. Это не угроза хранителя, это жанр.</li></ul>
 <p><strong>Что происходит при провале:</strong></p>
 <ul><li>Демон <strong>остаётся</strong> и получает ход.</li><li>Экзорцист теряет <strong>1 Стабильности</strong>: он слышал, как демон смеётся его голосом.</li><li>Можно попробовать снова, но Сл растёт на <strong>1</strong> за каждую попытку в одной сцене.</li></ul>
-<aside class="sidebar"><p><strong>Правило трёх попыток.</strong> Больше трёх экзорцизмов над одним человеком за сцену не получится: сорванное горло, сломанные рёбра, потеря крови. Дальше — только нож.</p></aside>
+<aside class="sidebar headed"><p><strong>Правило трёх попыток.</strong> Больше трёх экзорцизмов над одним человеком за сцену не получится: сорванное горло, сломанные рёбра, потеря крови. Дальше — только нож.</p></aside>
 <h2 id="93-ловушка-дьявола">9.3. Ловушка дьявола</h2>
 <p><strong>Символ, который держит демона внутри.</strong></p>
 <table class="md"><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Способность</strong></td><td><code>Оккультизм</code></td></tr><tr><td><strong>Время</strong></td><td><strong>10 минут</strong> нарисовать (краской, мелом, кровью — без разницы)</td></tr><tr><td><strong>Сл</strong></td><td>Успех автоматический, если есть время и образец. <code>Оккультизм</code> Сл 4 — по памяти</td></tr><tr><td><strong>Компоненты</strong></td><td>Образец или память. Большая ровная поверхность</td></tr><tr><td><strong>Цена</strong></td><td>Время. Это и есть цена</td></tr></tbody></table>
@@ -517,7 +516,7 @@ pre code { background: none; padding: 0; font-size: 8pt; }
 <ol><li><strong>Скажи, что произойдёт, если сработает, — и что, если нет.</strong> Провал обряда должен</li></ol>
 <p>   быть <strong>страшнее</strong>, чем отсутствие обряда.</p>
 <ol><li><strong>Дай это сделать.</strong> Не отговаривай. Игроки сами найдут цену.</li></ol>
-<aside class="sidebar"><p><strong>Пример.</strong> Игрок хочет «запечатать» дом от ангела, используя сигил, соль и своё имя, написанное кровью. Хранитель: <code>Оккультизм</code> Сл 5, час работы, 1d6 Здоровья, 2 Стабильности. При успехе ангел не входит в дом трое суток — но <strong>знает теперь имя</strong> того, кто это сделал.</p></aside>
+<aside class="sidebar headed"><p><strong>Пример.</strong> Игрок хочет «запечатать» дом от ангела, используя сигил, соль и своё имя, написанное кровью. Хранитель: <code>Оккультизм</code> Сл 5, час работы, 1d6 Здоровья, 2 Стабильности. При успехе ангел не входит в дом трое суток — но <strong>знает теперь имя</strong> того, кто это сделал.</p></aside>
 <div class="orn"></div>
 </section></div>
 <section class="partpage"><div class="trap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"> <circle cx="50" cy="50" r="47.2" stroke-width="2.2"/> <circle cx="50" cy="50" r="42.4" stroke-width="0.9" opacity=".75"/> <path d="M50,14 L28.84,79.12 L84.24,38.88 L15.76,38.88 L71.16,79.12 Z" stroke-width="2"/> <path d="M50,6.8 L50,4 M38.82,8.27 L38.09,5.57 M28.4,12.59 L27,10.16 M19.45,19.45 L17.47,17.47 M12.59,28.4 L10.16,27 M8.27,38.82 L5.57,38.09 M6.8,50 L4,50 M8.27,61.18 L5.57,61.91 M12.59,71.6 L10.16,73 M19.45,80.55 L17.47,82.53 M28.4,87.41 L27,89.84 M38.82,91.73 L38.09,94.43 M50,93.2 L50,96 M61.18,91.73 L61.91,94.43 M71.6,87.41 L73,89.84 M80.55,80.55 L82.53,82.53 M87.41,71.6 L89.84,73 M91.73,61.18 L94.43,61.91 M93.2,50 L96,50 M91.73,38.82 L94.43,38.09 M87.41,28.4 L89.84,27 M80.55,19.45 L82.53,17.47 M71.6,12.59 L73,10.16 M61.18,8.27 L61.91,5.57" stroke-width="0.9" opacity=".55"/> <g fill="currentColor" stroke="none"><circle cx="50" cy="14" r="1.7"/><circle cx="15.76" cy="38.88" r="1.7"/><circle cx="28.84" cy="79.12" r="1.7"/><circle cx="71.16" cy="79.12" r="1.7"/><circle cx="84.24" cy="38.88" r="1.7"/></g> </svg></div><div class="kicker">Часть</div><h1>ХРАНИТЕЛЬ</h1><div class="rule"></div><div class="eno"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.0 10.0 H18.4 M12.2 2 V20.0 M18.4 2 V20.0"/><path d="M24.3 2 V20.0 H32.9 V2"/><path d="M44.8 2 L49.5 20.0 L54.2 2 M44.8 11 H54.2"/><path d="M63.3 2 L71.2 20.0 M71.2 2 L63.3 20.0"/><path d="M78.5 2 V20.0 M78.5 11 H87.6"/><path d="M98.0 2 V20.0 M98.0 11 H112.2"/><path d="M121.2 2 V20.0 M121.2 11 H129.8"/><path d="M141.2 2 L149.2 20.0 M149.2 2 L141.2 20.0"/><path d="M156.9 2 V20.0 M156.9 11 H169.7"/><path d="M177.6 2 V20.0 M177.6 10.0 L185.4 20.0"/><path d="M193.4 2 L207.2 20.0 M207.2 2 L193.4 20.0"/><path d="M216.8 10.0 H226.2 M221.5 2 V20.0 M226.2 2 V20.0"/><path d="M237.1 2 L250.4 20.0 M250.4 2 L237.1 20.0"/><path d="M257.0 2 V20.0 M257.0 10.0 L268.4 20.0"/><path d="M274.1 2 L278.5 20.0 L282.8 2 M274.1 11 H282.8"/><path d="M288.8 2 V20.0 M288.8 11 H300.8"/><path d="M309.6 2 L320.3 20.0 M320.3 2 L309.6 20.0"/><path d="M331.6 10.0 H343.4 M337.5 2 V20.0 M343.4 2 V20.0"/><path d="M351.7 2 V20.0 H362.7 V2"/></svg></div></section>
