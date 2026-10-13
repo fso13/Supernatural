@@ -23,7 +23,7 @@ import bookkit as bk  # noqa: E402
 ROOT = bk.ROOT
 SITE = os.path.join(ROOT, "site-gumshoe")
 TMP = bk.setup_tmp("gumshoe-book")
-OUTPUT = os.path.join(ROOT, "rules-gumshoe.pdf")
+OUTPUT = os.path.join(ROOT, "downloads", "rules-gumshoe.pdf")
 
 
 def book_structure():

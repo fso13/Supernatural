@@ -63,8 +63,8 @@ bash scripts/serve.sh               # или сервер на http://127.0.0.1:
 
 | Файл | Что это |
 |---|---|
-| [bestiary-dnd5e.pdf](bestiary-dnd5e.pdf) | **728 страниц** (19 МБ) в оформлении «Охотников»: обложка, оглавление с номерами страниц, разделители категорий, 362 закладки. У каждой записи шапка, кадр, лор и статблок |
-| [statblocks-dnd5e.pdf](statblocks-dnd5e.pdf) | **Шпаргалка мастера, 304 страницы** (7 МБ): только механика, два статблока в ряд |
+| [bestiary-dnd5e.pdf](downloads/bestiary-dnd5e.pdf) | **728 страниц** (19 МБ) в оформлении «Охотников»: обложка, оглавление с номерами страниц, разделители категорий, 362 закладки. У каждой записи шапка, кадр, лор и статблок |
+| [statblocks-dnd5e.pdf](downloads/statblocks-dnd5e.pdf) | **Шпаргалка мастера, 304 страницы** (7 МБ): только механика, два статблока в ряд |
 | [Бестиарий Supernatural — D&D 5e.md](<Бестиарий Supernatural — D&D 5e.md>) | Компендиум в Markdown (≈5 МБ, 34 000 строк) — удобно кидать в Obsidian/Notion |
 | [Статблоки D&D 5e.md](<Статблоки D&D 5e.md>) | Те же статблоки текстом |
 | [site/data.js](site/data.js) | Вся база одним JSON-массивом (`window.BESTIARY`) — для Foundry/Roll20-макросов |
@@ -140,7 +140,7 @@ GUMSHOE устроен наоборот по отношению к обычны�
 Два варианта — под разные случаи.
 
 **Досье охотника** — [site-gumshoe/dossier.html](site-gumshoe/dossier.html) ·
-[dossier-gumshoe.pdf](dossier-gumshoe.pdf). Бланк на одну страницу A4 для печати
+[dossier-gumshoe.pdf](downloads/dossier-gumshoe.pdf). Бланк на одну страницу A4 для печати
 и заполнения от руки, оформлен как «Досье агента» из «Эзотеррористов»: мазок кистью
 с названием игры, две колонки, способности строками «название — рейтинг | запас»,
 дорожки Здоровья и Стабильности от 12 до −12, десять клеток Убеждённости, три строки
@@ -203,9 +203,9 @@ GUMSHOE устроен наоборот по отношению к обычны�
 
 | Версия | Файлы |
 |---|---|
-| **D&D 5e** | [adventure-dnd5e.pdf](adventure-dnd5e.pdf) · [site/adventure.html](site/adventure.html) · [текст](<Приключение — Спящие.md>) |
-| **GUMSHOE** | [adventure-gumshoe.pdf](adventure-gumshoe.pdf) · [site-gumshoe/adventure.html](site-gumshoe/adventure.html) · [текст](<Приключение — Спящие (GUMSHOE).md>) |
-| **The Edge!** | [adventure-edge.pdf](adventure-edge.pdf) · [site-edge/adventure.html](site-edge/adventure.html) · [текст](<Приключение — Спящие (The Edge!).md>) |
+| **D&D 5e** | [adventure-dnd5e.pdf](downloads/adventure-dnd5e.pdf) · [site/adventure.html](site/adventure.html) · [текст](<Приключение — Спящие.md>) |
+| **GUMSHOE** | [adventure-gumshoe.pdf](downloads/adventure-gumshoe.pdf) · [site-gumshoe/adventure.html](site-gumshoe/adventure.html) · [текст](<Приключение — Спящие (GUMSHOE).md>) |
+| **The Edge!** | [adventure-edge.pdf](downloads/adventure-edge.pdf) · [site-edge/adventure.html](site-edge/adventure.html) · [текст](<Приключение — Спящие (The Edge!).md>) |
 
 Во всех трёх: холодное открытие, ложный след, обрыв на середине первой серии и цена
 во второй.
@@ -233,9 +233,10 @@ GUMSHOE устроен наоборот по отношению к обычны�
 ```
 assets/
   brand.css               фирменные стили
-  fonts/                  Ruslan Display и Yeseva One + лицензии OFL
+  fonts/                  Ruslan Display, Yeseva One, Cinzel + лицензии OFL
   brand/
     devils-trap.svg       ловушка дьявола
+    flaming-ring.svg      огненное кольцо для логотипа
     grunge.svg            рваная полоса для колонтитулов
     brush.svg             мазок кистью для шапки досье
     wave.svg              «звуковая волна» в колонтитуле
@@ -272,17 +273,17 @@ assets/
 
 | Файл | Что это |
 |---|---|
-| [rules-gumshoe.pdf](rules-gumshoe.pdf) | **«Охотники» — свёрстанная книга правил, 27 страниц:** обложка, титул, оглавление с номерами, 21 закладка |
-| [bestiary-gumshoe.pdf](bestiary-gumshoe.pdf) | **Бестиарий охотника, 386 страниц** (13,6 МБ): все 354 карточки GUMSHOE, 222 иллюстрации, 362 закладки |
-| [rules-edge.pdf](rules-edge.pdf) | Правила: Охотники (The Edge!) — 11 страниц |
-| [quickstart-gumshoe.pdf](quickstart-gumshoe.pdf) | Быстрый старт GUMSHOE — 8 страниц |
-| [dossier-gumshoe.pdf](dossier-gumshoe.pdf) | Досье охотника — бланк на одну страницу A4 |
-| [sheet-gumshoe.pdf](sheet-gumshoe.pdf) | Заполняемый лист для печати — 3 страницы |
-| [adventure-dnd5e.pdf](adventure-dnd5e.pdf) | Приключение «Спящие» (D&D) — 23 страницы |
-| [adventure-gumshoe.pdf](adventure-gumshoe.pdf) | Приключение «Спящие» (GUMSHOE) — 26 страниц |
-| [adventure-edge.pdf](adventure-edge.pdf) | Приключение «Спящие» (The Edge!) — 25 страниц |
-| [bestiary-dnd5e.pdf](bestiary-dnd5e.pdf) | Иллюстрированная книга D&D 5e — 728 страниц |
-| [statblocks-dnd5e.pdf](statblocks-dnd5e.pdf) | Шпаргалка мастера D&D 5e — 304 страницы |
+| [rules-gumshoe.pdf](downloads/rules-gumshoe.pdf) | **«Охотники» — свёрстанная книга правил, 27 страниц:** обложка, титул, оглавление с номерами, 21 закладка |
+| [bestiary-gumshoe.pdf](downloads/bestiary-gumshoe.pdf) | **Бестиарий охотника, 386 страниц** (13,6 МБ): все 354 карточки GUMSHOE, 222 иллюстрации, 362 закладки |
+| [rules-edge.pdf](downloads/rules-edge.pdf) | Правила: Охотники (The Edge!) — 11 страниц |
+| [quickstart-gumshoe.pdf](downloads/quickstart-gumshoe.pdf) | Быстрый старт GUMSHOE — 8 страниц |
+| [dossier-gumshoe.pdf](downloads/dossier-gumshoe.pdf) | Досье охотника — бланк на одну страницу A4 |
+| [sheet-gumshoe.pdf](downloads/sheet-gumshoe.pdf) | Заполняемый лист для печати — 3 страницы |
+| [adventure-dnd5e.pdf](downloads/adventure-dnd5e.pdf) | Приключение «Спящие» (D&D) — 23 страницы |
+| [adventure-gumshoe.pdf](downloads/adventure-gumshoe.pdf) | Приключение «Спящие» (GUMSHOE) — 26 страниц |
+| [adventure-edge.pdf](downloads/adventure-edge.pdf) | Приключение «Спящие» (The Edge!) — 25 страниц |
+| [bestiary-dnd5e.pdf](downloads/bestiary-dnd5e.pdf) | Иллюстрированная книга D&D 5e — 728 страниц |
+| [statblocks-dnd5e.pdf](downloads/statblocks-dnd5e.pdf) | Шпаргалка мастера D&D 5e — 304 страницы |
 
 ## Исходники
 

@@ -10,15 +10,10 @@ import os, shutil, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "public")
 
-DIRS = ["assets", "site", "site-gumshoe", "site-edge"]
+DIRS = ["assets", "downloads", "site", "site-gumshoe", "site-edge"]
 FILES = ["index.html", "README.md"]
-PDFS = [
-    "bestiary-dnd5e.pdf", "statblocks-dnd5e.pdf", "adventure-dnd5e.pdf",
-    "quickstart-gumshoe.pdf", "rules-gumshoe.pdf", "sheet-gumshoe.pdf",
-    "dossier-gumshoe.pdf", "bestiary-gumshoe.pdf",
-    "adventure-gumshoe.pdf",
-    "rules-edge.pdf", "adventure-edge.pdf",
-]
+# PDF лежат в downloads/ в корне репозитория — копируются в артефакт как есть,
+# поэтому ссылки вида downloads/x.pdf работают и локально, и на Pages
 # site/book.html и site/statblocks.html — тяжёлые печатные страницы D&D (5,4 МБ);
 # в книге D&D они не нужны, там те же материалы лежат в downloads/
 SKIP = shutil.ignore_patterns("__pycache__", ".DS_Store", "*.pyc", "book-overlay.html")
@@ -63,26 +58,15 @@ def main():
         if os.path.exists(src):
             shutil.copy2(src, os.path.join(OUT, f))
 
-    dl = os.path.join(OUT, "downloads")
-    os.makedirs(dl, exist_ok=True)
-    missing = []
-    for p in PDFS:
-        src = os.path.join(ROOT, p)
-        if os.path.exists(src):
-            shutil.copy2(src, os.path.join(dl, p))
-        else:
-            missing.append(p)
-
     # GitHub Pages не должен прогонять Jekyll
     open(os.path.join(OUT, ".nojekyll"), "w").close()
 
     size = tree_size(OUT)
     print("public/ собран: %s" % human(size))
     print("  index.html + %s" % ", ".join(DIRS))
-    print("  downloads/: %d PDF" % (len(PDFS) - len(missing)))
-    if missing:
-        print("  !! не найдены:", ", ".join(missing), file=sys.stderr)
-        return 1
+    pdfs = sorted(f for f in os.listdir(os.path.join(OUT, "downloads")) if f.endswith(".pdf")) \
+        if os.path.isdir(os.path.join(OUT, "downloads")) else []
+    print("  downloads/: %d PDF" % len(pdfs))
     return 0
 
 

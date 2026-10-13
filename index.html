@@ -30,14 +30,7 @@
   }
   .hero-inner { position: relative; z-index: 2; max-width: 1080px; margin: 0 auto; text-align: center; }
 
-  .hero .trap {
-    width: 96px; height: 96px; margin: 0 auto 20px; display: block;
-    color: var(--brand-red);
-    filter: drop-shadow(0 0 26px rgba(224,69,79,.5));
-    animation: trapSpin 90s linear infinite;
-  }
-  @keyframes trapSpin { to { transform: rotate(360deg); } }
-  @media (prefers-reduced-motion: reduce) { .hero .trap { animation: none; } }
+  .hero .lockup { margin-bottom: 6px; }
 
   .hero h1 {
     font-family: var(--serif); font-weight: 600; margin: 0;
@@ -111,7 +104,7 @@
 
 <section class="hero">
   <div class="hero-inner">
-    <span class="sig sig-trap trap" role="img" aria-label="Ловушка дьявола"></span>
+    <div class="lockup" style="font-size:46px"><img class="ring" src="assets/brand/flaming-ring.svg" alt=""><span class="ghost">SUPERNATURAL</span><span class="wm">SUPERNATURAL</span></div>
     <h1 class="wordmark">Бестиарий <span class="thin">Сверхъестественного</span></h1>
     <p class="tagline-quote">
       Все существа сериала <em>Supernatural</em> — 354 записи: от вендиго и штриги до архангелов,

@@ -118,8 +118,9 @@ TPL = """<!DOCTYPE html>
 <body>
 <header class="topbar">
   <div class="brand">
-    <span class="sig sig-trap brandmark" role="img" aria-label="Ловушка дьявола"></span>
+    <span class="brandmark ringmark" role="img" aria-label="Огненное кольцо"><img src="../assets/brand/flaming-ring.svg" alt=""></span>
     <div>
+      <span class="latin">Supernatural</span>
       <h1 class="wordmark">%(title_short)s <span class="thin">%(title_thin)s</span></h1>
       <p class="tagline">%(subtitle)s</p>
     </div>
@@ -137,6 +138,7 @@ TPL = """<!DOCTYPE html>
     </article>
   </div>
 </main>
+%(dl)s
 <div class="salt-divider" aria-hidden="true"></div>
 <footer class="adv-foot">
   <div class="brandline"><span class="sig sig-trap"></span><span>Saving people, hunting things</span><span class="sig sig-trap"></span></div>
@@ -148,6 +150,23 @@ TPL = """<!DOCTYPE html>
 """
 
 
+def downloads(spec):
+    """Строка «скачать» из строки вида «Название|путь;Название|путь»."""
+    if not spec:
+        return ""
+    rows = []
+    for item in spec.split(";"):
+        item = item.strip()
+        if "|" not in item:
+            continue
+        label, url = item.split("|", 1)
+        rows.append('<a href="%s" download>%s</a>' % (url.strip(), label.strip()))
+    if not rows:
+        return ""
+    return ('<section class="dl"><h3>Скачать</h3><div class="row">%s</div></section>'
+            % "".join(rows))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("src"); ap.add_argument("out")
@@ -156,6 +175,7 @@ def main():
     ap.add_argument("--title-thin", default="")
     ap.add_argument("--subtitle", default="")
     ap.add_argument("--nav", default="")
+    ap.add_argument("--dl", default="", help='Скачиваемые файлы: "Название|путь;Название|путь"')
     ap.add_argument("--active", default="")
     ap.add_argument("--css", default="adventure.css")
     args = ap.parse_args()
@@ -179,6 +199,7 @@ def main():
         "title": args.title, "title_short": args.title_short,
         "title_thin": args.title_thin, "subtitle": args.subtitle,
         "nav": "\n    ".join(nav_html), "toc": toc_html, "body": body, "css": args.css,
+        "dl": downloads(args.dl),
     }
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     open(args.out, "w", encoding="utf-8").write(htmlout)

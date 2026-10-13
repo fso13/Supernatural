@@ -31,14 +31,14 @@ build () {
 }
 
 echo "Печатаю PDF из $BASE"
-build "site/adventure.html"          "adventure-dnd5e.pdf"
-build "site/statblocks.html"         "statblocks-dnd5e.pdf" 60000
-build "site-gumshoe/quickstart.html" "quickstart-gumshoe.pdf"
-build "site-gumshoe/sheet.html"      "sheet-gumshoe.pdf"
-build "site-gumshoe/dossier.html"    "dossier-gumshoe.pdf"
-build "site-gumshoe/adventure.html"  "adventure-gumshoe.pdf"
-build "site-edge/rules.html"         "rules-edge.pdf"
-build "site-edge/adventure.html"     "adventure-edge.pdf"
+build "site/adventure.html"          "downloads/adventure-dnd5e.pdf"
+build "site/statblocks.html"         "downloads/statblocks-dnd5e.pdf" 60000
+build "site-gumshoe/quickstart.html" "downloads/quickstart-gumshoe.pdf"
+build "site-gumshoe/sheet.html"      "downloads/sheet-gumshoe.pdf"
+build "site-gumshoe/dossier.html"    "downloads/dossier-gumshoe.pdf"
+build "site-gumshoe/adventure.html"  "downloads/adventure-gumshoe.pdf"
+build "site-edge/rules.html"         "downloads/rules-edge.pdf"
+build "site-edge/adventure.html"     "downloads/adventure-edge.pdf"
 echo
 echo "Книга правил («Охотники») — отдельным скриптом, с обложкой и оглавлением:"
 echo "  python3 scripts/build_gumshoe_pdf.py"

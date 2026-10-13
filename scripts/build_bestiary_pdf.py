@@ -15,7 +15,7 @@ import bookkit as bk  # noqa: E402
 ROOT = bk.ROOT
 SITE = os.path.join(ROOT, "site")
 TMP = bk.setup_tmp("bestiary-book")
-OUTPUT = os.path.join(ROOT, "bestiary-dnd5e.pdf")
+OUTPUT = os.path.join(ROOT, "downloads", "bestiary-dnd5e.pdf")
 
 PAGE = "a4"
 

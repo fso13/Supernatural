@@ -15,7 +15,7 @@ import bookkit as bk  # noqa: E402
 ROOT = bk.ROOT
 SITE = os.path.join(ROOT, "site-gumshoe")
 TMP = bk.setup_tmp("hunters-bestiary")
-OUTPUT = os.path.join(ROOT, "bestiary-gumshoe.pdf")
+OUTPUT = os.path.join(ROOT, "downloads", "bestiary-gumshoe.pdf")
 PAGE = "a4"
 
 
