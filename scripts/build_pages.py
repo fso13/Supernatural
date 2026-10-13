@@ -18,7 +18,11 @@ PDFS = [
     "adventure-gumshoe.pdf",
     "rules-edge.pdf", "adventure-edge.pdf",
 ]
-SKIP = shutil.ignore_patterns("__pycache__", ".DS_Store", "*.pyc", "book.html", "statblocks.html")
+# site/book.html и site/statblocks.html — тяжёлые печатные страницы D&D (5,4 МБ);
+# в книге D&D они не нужны, там те же материалы лежат в downloads/
+SKIP = shutil.ignore_patterns("__pycache__", ".DS_Store", "*.pyc", "book-overlay.html")
+SKIP_SITE = shutil.ignore_patterns("__pycache__", ".DS_Store", "*.pyc",
+                                   "book.html", "statblocks.html", "book-overlay.html")
 
 
 def human(n):
@@ -50,7 +54,8 @@ def main():
         if not os.path.isdir(src):
             print("  !! нет каталога:", d, file=sys.stderr)
             continue
-        shutil.copytree(src, os.path.join(OUT, d), ignore=SKIP)
+        shutil.copytree(src, os.path.join(OUT, d),
+                        ignore=SKIP_SITE if d == "site" else SKIP)
 
     for f in FILES:
         src = os.path.join(ROOT, f)
