@@ -25,6 +25,10 @@ data/gumshoe/groups/
 data/edge/groups/
 data/groups/
 
+# черновые обложки от генератора: лежат на диске, но в репозиторий не идут
+Gemini_Generated_Image_*.jpeg
+Gemini_Generated_Image_*.png
+
 # рабочие черновики
 data/raw/image_retry.json
 data/raw/no_image.json
