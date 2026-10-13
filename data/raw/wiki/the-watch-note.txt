@@ -1,0 +1,16 @@
+### WIKI: The Watch | RU: Дозор | КАТЕГОРИЯ: Левиафаны
+
+[ИНФОБОКС]
+name: The Watch
+season: 15
+powers: Chronokinesis
+
+[ОПИСАНИЕ]
+The Watch or God's Watch is a time watch that God used to manipulate Sam.
+
+[СИЛЫ И СПОСОБНОСТИ]
+The Watch can show its user their future. By setting it to a particular date, the user can see what will happen to them on that date. However, it can't show what happens after the user's future death.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+The Trap

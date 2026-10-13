@@ -1,0 +1,25 @@
+### WIKI: Dracula | RU: Дракула | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Dracula
+category: Vampire
+status: Unconfirmed existence
+season: 4, 6, 15 |actor=Todd Stashwick |image=Dracula.jpg
+title/alias: Count
+
+[ОПИСАНИЕ]
+Dracula is often considered the archetypal of vampires. Although his status within the Supernatural universe is unconfirmed, he is often mentioned and referenced within the franchise.
+
+[ИСТОРИЯ]
+Though it was only a shapeshifter in the form of Dracula, the latter was one of various classic monsters chosen during Oktoberfest 2008.
+
+[ПОЯВЛЕНИЯ]
+Season 4
+Monster Movie 
+It's A Terrible Life 
+Season 6
+Live Free or Twihard 
+The French Mistake 
+The Man Who Would Be King 
+Season 15
+Last Holiday

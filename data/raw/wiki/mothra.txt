@@ -1,0 +1,21 @@
+### WIKI: Mothra | RU: Мотра | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Mothra
+status: Unknown
+
+[ОПИСАНИЕ]
+Mothra is a mythological creature, and may be connected to Leviathans and Purgatory in some way.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Super Strength - Mothra is understood to possess mega strength.
+Gigantic Size - Mothra is understood to be colossal in size.
+Flight - Mothra is understood to have wings, that's why the word 'moth' is in its name.
+
+[ПОЯВЛЕНИЯ]
+Season 1
+The Benders 
+Season 4
+Heaven and Hell 
+Season 7
+Hello, Cruel World

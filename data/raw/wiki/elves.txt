@@ -1,0 +1,31 @@
+### WIKI: Elves | RU: Эльфы | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Elves
+category: Fairies
+status: Extant
+season: 6
+actor: Various
+occupation: General Workers
+affiliation: OberonWayne Whittaker
+
+[ОПИСАНИЕ]
+Elves are a humanoid magical type of fairy from the realm of Avalon. They were encountered in Season 6 of Supernatural in the episode Clap Your Hands If You Believe.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Diminutive Size - Due to their size they are able to execute tasks more precisely and in bigger numbers since they take up less space than a regular-sized being. And besides their size, Dean preferred to intoxicate them with cream rather than engage in a physical combat with them.
+thumb|A look at the Elves' size in comparation to the rest of the objects in the room
+
+[СЛАБОСТИ]
+Cream - They love cream, which, like alcohol, intoxicates them.
+Items That Have Multiple Grains - If someone pours any substance that has a lot of grains in front of them, they have to stop to count each grain one by one.
+Rock Salt - As seen with Wayne Whittaker, even high-tier fairies are vulnerable to be distracted by salt.
+Higher Fairies - The dark Leprechaun Whittaker forced the elves to do the bidding of Mr. Brennan. 
+Fairy Banishing Spell - They could be sent back to Avalon with the spell.
+
+[ИСТОРИЯ]
+Not much is known about elves, except that they might have been innocent fairies from Avalon. During the events of Clap Your Hands If You Believe, Mr. Brennan made a deal with a leprechaun Wayne Whittaker to help him work in his shop. At the end of the episode, Sam distracted Wayne by pouring salt on the ground to distract him as he banished him and the other elves.
+
+[ПОЯВЛЕНИЯ]
+Season 6
+Clap Your Hands If You Believe

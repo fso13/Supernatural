@@ -1,0 +1,31 @@
+### WIKI: Loup-Garou | RU: Лу-гару | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Loup-Garou
+category: Creatures
+status: Extant
+season: The Winchesters
+title/alias: |actor = |series=
+
+[ОПИСАНИЕ]
+Loup-Garou are a species of creatures that are bipedal reptilian/canines.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Loup-Garou appear to be a fairly strong type of monster.
+Claws - The Loup-Garou have deadly claws.
+Super Strength - Loup-Garou are stronger than humans.
+Immortality - Loup-Garou can live forever and not die to age or disease.
+
+[СЛАБОСТИ]
+thumb|250px|A Loup-Garou decapitated.
+Silver - Loup-Garou can be harmed by silver, although it can't kill them.
+Decapitation - Loup-Garou can only be killed by decapitation.
+
+[ИСТОРИЯ]
+At some point, the Men of Letters posted a Loup-Garou as a watchdog over the Monster Box.
+
+[ПОЯВЛЕНИЯ]
+The Winchesters
+Season 1
+Pilot
+Art of Dying

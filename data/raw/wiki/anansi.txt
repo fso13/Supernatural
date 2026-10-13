@@ -1,0 +1,25 @@
+### WIKI: Anansi | RU: Ананси | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Anansi
+category: Deity
+status: Alive
+season: Bobby Singer's Guide to Hunting
+family: God
+title/alias: God of Knowledge
+actor: None
+occupation: Akan God
+affiliation: Akan Pantheon
+
+[ОПИСАНИЕ]
+Anansi is a trickster mentioned in the book Bobby Singer's Guide to Hunting.
+
+[ИСТОРИЯ]
+According to legend, Anansi came to America from Africa on a slave ship in the 1700s. Apparently, Bobby Singer stumbled onto Anansi killing off a group of women who participated in the murder and cover-up of a woman named Georgiana Prious. He stumbled upon this information at an old folks home where he was living in what he called "retirement". After discovering Georgiana had been murdered, and how her death had damaged her children's lives he sought to avenge her. He killed all four women by burning them alive via spontaneous combustion. He managed to kill all responsible and described what he did to them as "just desserts".
+
+Oddly he didn't display any sort of anger to Bobby after being found out. He even went and brought Bobby to the basement during the fire. However Bobby attacked him and managed to escape. Anansi then followed him and terrorized Bobby by making all the cars come to life. After barely surviving, Bobby was spared by Anansi who commented that they (tricksters and hunters) were not that different, however, he wanted Bobby to learn from the experience that no one and nothing was ever really invincible.
+
+[ПОЯВЛЕНИЯ]
+Season 2
+Tall Tales 
+Bobby Singer's Guide to Hunting

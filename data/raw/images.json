@@ -1,0 +1,2423 @@
+{
+ "vampires": {
+  "file": "Super06.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e1/Super06.jpg/revision/latest/scale-to-width-down/700?cb=20110319014547",
+  "local": "img/vampires.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 13088
+ },
+ "werewolf": {
+  "file": "Werewolf Violet.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/fb/Werewolf_Violet.gif/revision/latest?cb=20201207065345",
+  "local": "img/werewolf.jpg",
+  "w": 600,
+  "h": 334,
+  "mime": "image/jpeg",
+  "bytes": 11228
+ },
+ "ghouls": {
+  "file": "Ghoul.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/60/Ghoul.jpg/revision/latest/scale-to-width-down/700?cb=20120611191133",
+  "local": "img/ghouls.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 25812
+ },
+ "shapeshifters": {
+  "file": "Shapeshifter.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/03/Shapeshifter.jpg/revision/latest/scale-to-width-down/700?cb=20140508065009",
+  "local": "img/shapeshifters.jpg",
+  "w": 700,
+  "h": 1079,
+  "mime": "image/webp",
+  "bytes": 83520
+ },
+ "skinwalkers": {
+  "file": "800px-Lucky.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/42/800px-Lucky.jpg/revision/latest/scale-to-width-down/700?cb=20120319105857",
+  "local": "img/skinwalkers.jpg",
+  "w": 700,
+  "h": 396,
+  "mime": "image/webp",
+  "bytes": 30965
+ },
+ "wendigo": {
+  "file": "SPN 0972.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/49/SPN_0972.jpg/revision/latest/scale-to-width-down/700?cb=20120319123349",
+  "local": "img/wendigo.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 10552
+ },
+ "rugaru": {
+  "file": "Rugaru404.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9b/Rugaru404.png/revision/latest/scale-to-width-down/700?cb=20240305154823",
+  "local": "img/rugaru.jpg",
+  "w": 700,
+  "h": 390,
+  "mime": "image/webp",
+  "bytes": 27065
+ },
+ "djinn": {
+  "file": "Draft lens5491502module41902352photo 1245825994djinn.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/86/Draft_lens5491502module41902352photo_1245825994djinn.jpg/revision/latest/scale-to-width-down/700?cb=20120518222201",
+  "local": "img/djinn.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 26424
+ },
+ "kitsune": {
+  "file": "KitsuneEyes.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/74/KitsuneEyes.jpg/revision/latest/scale-to-width-down/700?cb=20130421223823",
+  "local": "img/kitsune.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 23208
+ },
+ "phoenix": {
+  "file": "SPN 0074.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/7c/SPN_0074.jpg/revision/latest/scale-to-width-down/700?cb=20120319114819",
+  "local": "img/phoenix.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 52612
+ },
+ "dragons": {
+  "file": "Wannabe-dragon.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9b/Wannabe-dragon.jpg/revision/latest/scale-to-width-down/700?cb=20110423192204",
+  "local": "img/dragons.jpg",
+  "w": 700,
+  "h": 667,
+  "mime": "image/jpeg",
+  "bytes": 21928
+ },
+ "siren": {
+  "file": "Siren.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/6b/Siren.jpg/revision/latest/scale-to-width-down/700?cb=20141224031041",
+  "local": "img/siren.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 13329
+ },
+ "shtriga": {
+  "file": "Wicked Shtriga.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/45/Wicked_Shtriga.png/revision/latest/scale-to-width-down/700?cb=20240216231935",
+  "local": "img/shtriga.jpg",
+  "w": 700,
+  "h": 353,
+  "mime": "image/jpeg",
+  "bytes": 23590
+ },
+ "rawhead": {
+  "file": "Rawhead.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9c/Rawhead.jpg/revision/latest/scale-to-width-down/700?cb=20161110212250",
+  "local": "img/rawhead.jpg",
+  "w": 700,
+  "h": 461,
+  "mime": "image/jpeg",
+  "bytes": 32641
+ },
+ "revenant": {
+  "file": "Molly McNamra.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/fc/Molly_McNamra.jpg/revision/latest?cb=20180717184305",
+  "local": "img/revenant.jpg",
+  "w": 391,
+  "h": 221,
+  "mime": "image/jpeg",
+  "bytes": 10688
+ },
+ "ghoul-alpha-note": {
+  "file": "Alpha Vampire S12.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d2/Alpha_Vampire_S12.png/revision/latest/scale-to-width-down/700?cb=20170303114422",
+  "local": "img/ghoul-alpha-note.jpg",
+  "w": 700,
+  "h": 375,
+  "mime": "image/jpeg",
+  "bytes": 18614
+ },
+ "changelings": {
+  "file": "Changelings-from-supernatural.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b5/Changelings-from-supernatural.jpg/revision/latest/scale-to-width-down/700?cb=20130418060403",
+  "local": "img/changelings.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 18538
+ },
+ "tricksters": {
+  "file": "800px-TricksterLoki.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/51/800px-TricksterLoki.jpg/revision/latest/scale-to-width-down/700?cb=20180429104935",
+  "local": "img/tricksters.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 26235
+ },
+ "fairies": {
+  "file": "DeanVsFairy.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/73/DeanVsFairy.gif/revision/latest?cb=20140327195332",
+  "local": "img/fairies.jpg",
+  "w": 250,
+  "h": 142,
+  "mime": "image/jpeg",
+  "bytes": 3322
+ },
+ "leprechauns": {
+  "file": "FairiesLeprechaun.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f7/FairiesLeprechaun.jpg/revision/latest/scale-to-width-down/700?cb=20121113071319",
+  "local": "img/leprechauns.jpg",
+  "w": 700,
+  "h": 615,
+  "mime": "image/jpeg",
+  "bytes": 32671
+ },
+ "redcaps": {
+  "file": "Redcap.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/cd/Redcap.jpg/revision/latest/scale-to-width-down/700?cb=20150224070017",
+  "local": "img/redcaps.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 22192
+ },
+ "tinks": {
+  "file": "A Tink.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/57/A_Tink.png/revision/latest/scale-to-width-down/700?cb=20151004013921",
+  "local": "img/tinks.jpg",
+  "w": 700,
+  "h": 396,
+  "mime": "image/webp",
+  "bytes": 18034
+ },
+ "elves": {
+  "file": "FairiesElves.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/48/FairiesElves.jpg/revision/latest/scale-to-width-down/700?cb=20150325053605",
+  "local": "img/elves.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 33774
+ },
+ "selkies": {
+  "file": "Selkie.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/5b/Selkie.jpg/revision/latest/scale-to-width-down/700?cb=20131203130347",
+  "local": "img/selkies.jpg",
+  "w": 700,
+  "h": 525,
+  "mime": "image/webp",
+  "bytes": 84886
+ },
+ "ondines": {
+  "file": "Ondine.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/89/Ondine.png/revision/latest?cb=20241122083241",
+  "local": "img/ondines.jpg",
+  "w": 422,
+  "h": 451,
+  "mime": "image/webp",
+  "bytes": 42533
+ },
+ "wood-nymphs": {
+  "file": "Woodnymph.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/54/Woodnymph.gif/revision/latest/scale-to-width-down/700?cb=20201018192502",
+  "local": "img/wood-nymphs.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 8912
+ },
+ "zanna": {
+  "file": "350px-Sparkle the manicorn.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d9/350px-Sparkle_the_manicorn.png/revision/latest/scale-to-width-down/700?cb=20151205072845",
+  "local": "img/zanna.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 39107
+ },
+ "tooth-fairies": {
+  "file": "TFairy2.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/6d/TFairy2.jpg/revision/latest?cb=20161014062155",
+  "local": "img/tooth-fairies.jpg",
+  "w": 400,
+  "h": 256,
+  "mime": "image/webp",
+  "bytes": 10519
+ },
+ "gorgons": {
+  "file": "Ouroboros 09.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/ca/Ouroboros_09.jpg/revision/latest/scale-to-width-down/700?cb=20190222221904",
+  "local": "img/gorgons.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/webp",
+  "bytes": 37119
+ },
+ "medusa": {
+  "file": "Medusa's Head.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/ca/Medusa%27s_Head.jpg/revision/latest/scale-to-width-down/700?cb=20190325202414",
+  "local": "img/medusa.jpg",
+  "w": 700,
+  "h": 525,
+  "mime": "image/webp",
+  "bytes": 27856
+ },
+ "unicorns": {
+  "file": "Unicorn.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c4/Unicorn.jpg/revision/latest/scale-to-width-down/700?cb=20131002101939",
+  "local": "img/unicorns.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 15206
+ },
+ "black-dogs": {
+  "file": "Beast of Bray Road.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c2/Beast_of_Bray_Road.jpg/revision/latest?cb=20120601012449",
+  "local": "img/black-dogs.jpg",
+  "w": 614,
+  "h": 718,
+  "mime": "image/webp",
+  "bytes": 91966
+ },
+ "crocotta": {
+  "file": "Crocotta SN.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9e/Crocotta_SN.jpg/revision/latest/scale-to-width-down/700?cb=20141219070257",
+  "local": "img/crocotta.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 19345
+ },
+ "bisaan": {
+  "file": "Bisaan.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/7c/Bisaan.jpg/revision/latest/scale-to-width-down/700?cb=20160429015108",
+  "local": "img/bisaan.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 32947
+ },
+ "buruburu": {
+  "file": "Buruburu.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/53/Buruburu.jpg/revision/latest/scale-to-width-down/700?cb=20130427063958",
+  "local": "img/buruburu.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 53236
+ },
+ "kappa": {
+  "file": "Kappa.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/81/Kappa.png/revision/latest?cb=20170704040050",
+  "local": "img/kappa.jpg",
+  "w": 566,
+  "h": 486,
+  "mime": "image/webp",
+  "bytes": 20700
+ },
+ "okami": {
+  "file": "Okamiteeth.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8b/Okamiteeth.jpg/revision/latest/scale-to-width-down/700?cb=20130420063330",
+  "local": "img/okami.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 27800
+ },
+ "shojo": {
+  "file": "Shojo.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f2/Shojo.jpg/revision/latest/scale-to-width-down/700?cb=20120523083421",
+  "local": "img/shojo.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 14653
+ },
+ "kohonta": {
+  "file": "Kohonta.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/60/Kohonta.jpg/revision/latest/scale-to-width-down/700?cb=20190325155412",
+  "local": "img/kohonta.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 28055
+ },
+ "nachzehrer": {
+  "file": "Nachzehrer.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/eb/Nachzehrer.jpg/revision/latest/scale-to-width-down/700?cb=20151031045238",
+  "local": "img/nachzehrer.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 36412
+ },
+ "vetala": {
+  "file": "Vetala.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/eb/Vetala.jpg/revision/latest/scale-to-width-down/700?cb=20130408052151",
+  "local": "img/vetala.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 22672
+ },
+ "rakshasa": {
+  "file": "Rakshasa.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/6b/Rakshasa.jpg/revision/latest/scale-to-width-down/700?cb=20130127222344",
+  "local": "img/rakshasa.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 29957
+ },
+ "soucouyant": {
+  "file": "Soucouyant.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f9/Soucouyant.jpg/revision/latest/scale-to-width-down/700?cb=20241116000408",
+  "local": "img/soucouyant.jpg",
+  "w": 700,
+  "h": 318,
+  "mime": "image/webp",
+  "bytes": 31051
+ },
+ "la-tunda": {
+  "file": "La Tunda.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/ff/La_Tunda.png/revision/latest?cb=20221106140448",
+  "local": "img/la-tunda.jpg",
+  "w": 666,
+  "h": 556,
+  "mime": "image/webp",
+  "bytes": 26454
+ },
+ "pishtaco": {
+  "file": "Pishtaco.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/53/Pishtaco.jpg/revision/latest/scale-to-width-down/700?cb=20140205223958",
+  "local": "img/pishtaco.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 28480
+ },
+ "khan-worm": {
+  "file": "KhanWormEar.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8c/KhanWormEar.png/revision/latest/scale-to-width-down/700?cb=20150329221256",
+  "local": "img/khan-worm.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 18668
+ },
+ "acherei": {
+  "file": "300px-Acheri-deanlove35.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/05/300px-Acheri-deanlove35.jpg/revision/latest/scale-to-width-down/700?cb=20130416050803",
+  "local": "img/acherei.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 31152
+ },
+ "qareen": {
+  "file": "Qareen.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/a7/Qareen.jpg/revision/latest/scale-to-width-down/700?cb=20160216194109",
+  "local": "img/qareen.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 40909
+ },
+ "marid": {
+  "file": "Marid.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/74/Marid.png/revision/latest/scale-to-width-down/700?cb=20191207215713",
+  "local": "img/marid.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 13768
+ },
+ "brownies": {
+  "file": "Familiarcat.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/95/Familiarcat.jpg/revision/latest/scale-to-width-down/700?cb=20260515002854",
+  "local": "img/brownies.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 26313
+ },
+ "gorilla-wolves": {
+  "file": "Gorillawolves.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/cd/Gorillawolves.png/revision/latest/scale-to-width-down/700?cb=20121205045719",
+  "local": "img/gorilla-wolves.jpg",
+  "w": 700,
+  "h": 410,
+  "mime": "image/webp",
+  "bytes": 20417
+ },
+ "golem": {
+  "file": "GolemClay.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e9/GolemClay.jpg/revision/latest/scale-to-width-down/700?cb=20141228071450",
+  "local": "img/golem.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 23074
+ },
+ "soul-eater": {
+  "file": "Screenshot 2016-03-24 01.24.33.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e2/Screenshot_2016-03-24_01.24.33.png/revision/latest/scale-to-width-down/700?cb=20180126162249",
+  "local": "img/soul-eater.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 28810
+ },
+ "disaster-demon": {
+  "file": "Disasterdeminpossesoin.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/0b/Disasterdeminpossesoin.png/revision/latest/scale-to-width-down/700?cb=20180805013743",
+  "local": "img/disaster-demon.jpg",
+  "w": 700,
+  "h": 399,
+  "mime": "image/webp",
+  "bytes": 36145
+ },
+ "heelers": {
+  "file": "Heeler.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/0b/Heeler.png/revision/latest/scale-to-width-down/700?cb=20250202163941",
+  "local": "img/heelers.jpg",
+  "w": 700,
+  "h": 372,
+  "mime": "image/webp",
+  "bytes": 52766
+ },
+ "muscas": {
+  "file": "Musca.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/6c/Musca.png/revision/latest/scale-to-width-down/700?cb=20181118011825",
+  "local": "img/muscas.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 17138
+ },
+ "rabid": {
+  "file": "350px-Rabid-Mike.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e1/350px-Rabid-Mike.png/revision/latest/scale-to-width-down/700?cb=20151022054426",
+  "local": "img/rabid.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 22340
+ },
+ "cloaked-figures": {
+  "file": "Canid Masked.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/da/Canid_Masked.png/revision/latest/scale-to-width-down/700?cb=20180120031320",
+  "local": "img/cloaked-figures.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 13135
+ },
+ "scaly-thing": {
+  "file": "Scaly Thing.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/94/Scaly_Thing.png/revision/latest/scale-to-width-down/700?cb=20240418073848",
+  "local": "img/scaly-thing.jpg",
+  "w": 700,
+  "h": 387,
+  "mime": "image/webp",
+  "bytes": 42333
+ },
+ "giant-bad-place": {
+  "file": "Bad Place Giant2.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/bf/Bad_Place_Giant2.png/revision/latest/scale-to-width-down/700?cb=20240605090001",
+  "local": "img/giant-bad-place.jpg",
+  "w": 700,
+  "h": 382,
+  "mime": "image/webp",
+  "bytes": 36333
+ },
+ "giant-alligator": {
+  "file": "Giant Alligator.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f4/Giant_Alligator.png/revision/latest/scale-to-width-down/700?cb=20240222142714",
+  "local": "img/giant-alligator.jpg",
+  "w": 700,
+  "h": 340,
+  "mime": "image/webp",
+  "bytes": 30955
+ },
+ "flying-monkeys": {
+  "file": "Flying Monkey.PNG",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/73/Flying_Monkey.PNG/revision/latest/scale-to-width-down/700?cb=20150329222453",
+  "local": "img/flying-monkeys.jpg",
+  "w": 700,
+  "h": 395,
+  "mime": "image/webp",
+  "bytes": 23215
+ },
+ "khan-worm-note": {
+  "file": "800px-Croatoan504.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/fc/800px-Croatoan504.jpg/revision/latest/scale-to-width-down/700?cb=20120321105107",
+  "local": "img/khan-worm-note.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 65223
+ },
+ "ghost-sickness": {
+  "file": "SPN 1123.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/db/SPN_1123.jpg/revision/latest/scale-to-width-down/700?cb=20120530013645",
+  "local": "img/ghost-sickness.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 26597
+ },
+ "vampirates": {
+  "file": "SPN 0060.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/03/SPN_0060.jpg/revision/latest/scale-to-width-down/700?cb=20130526063650",
+  "local": "img/vampirates.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 19319
+ },
+ "men-of-letters-watchdog": {
+  "file": "1x1 Loup-Garou.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8a/1x1_Loup-Garou.png/revision/latest/scale-to-width-down/700?cb=20221013124010",
+  "local": "img/men-of-letters-watchdog.jpg",
+  "w": 700,
+  "h": 469,
+  "mime": "image/webp",
+  "bytes": 20018
+ },
+ "rit-zien": {
+  "file": "Ephraim.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/33/Ephraim.png/revision/latest/scale-to-width-down/700?cb=20131113032222",
+  "local": "img/rit-zien.jpg",
+  "w": 700,
+  "h": 507,
+  "mime": "image/webp",
+  "bytes": 20056
+ },
+ "amazons": {
+  "file": "MarkOfAmazons.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/5a/MarkOfAmazons.jpg/revision/latest/scale-to-width-down/700?cb=20130423052418",
+  "local": "img/amazons.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 16808
+ },
+ "edward-trenton-species": {
+  "file": "Congrats.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e4/Congrats.png/revision/latest?cb=20130712035846",
+  "local": "img/edward-trenton-species.jpg",
+  "w": 643,
+  "h": 400,
+  "mime": "image/webp",
+  "bytes": 27082
+ },
+ "eleanor-visyak-species": {
+  "file": "Visyak.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8b/Visyak.jpg/revision/latest/scale-to-width-down/700?cb=20130408011309",
+  "local": "img/eleanor-visyak-species.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 26181
+ },
+ "gog-and-magog": {
+  "file": "File:Gog and Magog.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/16/Gog_and_Magog.jpg/revision/latest/scale-to-width-down/700?cb=20180305052110",
+  "local": "img/gog-and-magog.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 45064
+ },
+ "dracula": {
+  "file": "Dracula.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/ba/Dracula.jpg/revision/latest?cb=20110718153841",
+  "local": "img/dracula.jpg",
+  "w": 285,
+  "h": 385,
+  "mime": "image/webp",
+  "bytes": 16322
+ },
+ "leshi": {
+  "file": "Leshi1.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/89/Leshi1.jpg/revision/latest/scale-to-width-down/700?cb=20140202050211",
+  "local": "img/leshi.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 64962
+ },
+ "hookman": {
+  "file": "Hook-Man.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/81/Hook-Man.jpg/revision/latest/scale-to-width-down/700?cb=20110603005304",
+  "local": "img/hookman.jpg",
+  "w": 700,
+  "h": 1054,
+  "mime": "image/webp",
+  "bytes": 81579
+ },
+ "demons": {
+  "file": "DemonsPainting.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/a2/DemonsPainting.jpg/revision/latest/scale-to-width-down/700?cb=20120619195807",
+  "local": "img/demons.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 46510
+ },
+ "crossroad-demon": {
+  "file": "Pobrane.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/0d/Pobrane.jpg/revision/latest?cb=20180908111929",
+  "local": "img/crossroad-demon.jpg",
+  "w": 300,
+  "h": 168,
+  "mime": "image/webp",
+  "bytes": 4121
+ },
+ "ruler-of-the-crossroads": {
+  "file": "Barthamus.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/ea/Barthamus.jpg/revision/latest?cb=20171202214315",
+  "local": "img/ruler-of-the-crossroads.jpg",
+  "w": 600,
+  "h": 400,
+  "mime": "image/webp",
+  "bytes": 24958
+ },
+ "princes-of-hell": {
+  "file": "AzazelSPN.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/63/AzazelSPN.png/revision/latest/scale-to-width-down/700?cb=20141111023822",
+  "local": "img/princes-of-hell.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 20911
+ },
+ "azazel": {
+  "file": "AzazelSPN.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/63/AzazelSPN.png/revision/latest/scale-to-width-down/700?cb=20141111023822",
+  "local": "img/azazel.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 20911
+ },
+ "ramiel": {
+  "file": "Ramiel.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/fb/Ramiel.png/revision/latest/scale-to-width-down/700?cb=20170217161736",
+  "local": "img/ramiel.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 20461
+ },
+ "dagon": {
+  "file": "The British Invasion 14.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/df/The_British_Invasion_14.jpg/revision/latest/scale-to-width-down/700?cb=20170404015323",
+  "local": "img/dagon.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/webp",
+  "bytes": 38950
+ },
+ "asmodeus": {
+  "file": "Asmodeuseyes.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/ec/Asmodeuseyes.png/revision/latest/scale-to-width-down/700?cb=20171020114539",
+  "local": "img/asmodeus.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 28288
+ },
+ "knights-of-hell": {
+  "file": "KnightofHellCrest.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/87/KnightofHellCrest.jpg/revision/latest/scale-to-width-down/700?cb=20140601055105",
+  "local": "img/knights-of-hell.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 13031
+ },
+ "abaddon": {
+  "file": "Abaddon.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b7/Abaddon.jpg/revision/latest?cb=20131123194758",
+  "local": "img/abaddon.jpg",
+  "w": 309,
+  "h": 281,
+  "mime": "image/webp",
+  "bytes": 12186
+ },
+ "cain": {
+  "file": "Cainimage.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b7/Cainimage.jpg/revision/latest?cb=20150501233804",
+  "local": "img/cain.jpg",
+  "w": 414,
+  "h": 338,
+  "mime": "image/webp",
+  "bytes": 24657
+ },
+ "lilith": {
+  "file": "Lilith3.PNG",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b2/Lilith3.PNG/revision/latest/scale-to-width-down/700?cb=20151011011223",
+  "local": "img/lilith.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 17909
+ },
+ "meg": {
+  "file": "MeganMasters.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/a2/MeganMasters.png/revision/latest/scale-to-width-down/700?cb=20141130205330",
+  "local": "img/meg.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 33072
+ },
+ "ruby": {
+  "file": "Ruby409.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/00/Ruby409.png/revision/latest/scale-to-width-down/700?cb=20240722143236",
+  "local": "img/ruby.jpg",
+  "w": 700,
+  "h": 387,
+  "mime": "image/webp",
+  "bytes": 17878
+ },
+ "alastair": {
+  "file": "Alastair.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/4e/Alastair.jpg/revision/latest?cb=20090322032149",
+  "local": "img/alastair.jpg",
+  "w": 470,
+  "h": 314,
+  "mime": "image/webp",
+  "bytes": 24110
+ },
+ "belphegor": {
+  "file": "Belphegor1503.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/4b/Belphegor1503.png/revision/latest/scale-to-width-down/700?cb=20240423200249",
+  "local": "img/belphegor.jpg",
+  "w": 700,
+  "h": 391,
+  "mime": "image/webp",
+  "bytes": 20335
+ },
+ "moloch": {
+  "file": "Moloch.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/87/Moloch.jpg/revision/latest/scale-to-width-down/700?cb=20170416215302",
+  "local": "img/moloch.jpg",
+  "w": 700,
+  "h": 392,
+  "mime": "image/webp",
+  "bytes": 20253
+ },
+ "samhain": {
+  "file": "Mr.Samhain.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9b/Mr.Samhain.png/revision/latest/scale-to-width-down/700?cb=20180523022728",
+  "local": "img/samhain.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 27649
+ },
+ "white-eyed-demons": {
+  "file": "Whitelightlilith.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/10/Whitelightlilith.jpg/revision/latest/scale-to-width-down/700?cb=20131123205611",
+  "local": "img/white-eyed-demons.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 32743
+ },
+ "tempter-demons": {
+  "file": "Tempter Demon.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b1/Tempter_Demon.png/revision/latest?cb=20170519084055",
+  "local": "img/tempter-demons.jpg",
+  "w": 695,
+  "h": 777,
+  "mime": "image/webp",
+  "bytes": 28634
+ },
+ "seven-deadly-sins": {
+  "file": "Envy.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/08/Envy.jpg/revision/latest/scale-to-width-down/700?cb=20161026021932",
+  "local": "img/seven-deadly-sins.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 16331
+ },
+ "shedim": {
+  "file": "Shedim 1302.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/31/Shedim_1302.jpg/revision/latest/scale-to-width-down/700?cb=20171023012105",
+  "local": "img/shedim.jpg",
+  "w": 700,
+  "h": 391,
+  "mime": "image/webp",
+  "bytes": 44464
+ },
+ "hells-torturers": {
+  "file": "Alastair2nd.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/20/Alastair2nd.jpg/revision/latest/scale-to-width-down/700?cb=20250720044349",
+  "local": "img/hells-torturers.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 18301
+ },
+ "whore-of-babylon": {
+  "file": "TheWhoreofBabylon.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/07/TheWhoreofBabylon.jpg/revision/latest/scale-to-width-down/700?cb=20130420180615",
+  "local": "img/whore-of-babylon.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 45874
+ },
+ "daeva": {
+  "file": "Daeva 2.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/20/Daeva_2.jpg/revision/latest/scale-to-width-down/700?cb=20130423045339",
+  "local": "img/daeva.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 22905
+ },
+ "hellhounds": {
+  "file": "HellHound.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/22/HellHound.gif/revision/latest?cb=20130214214355",
+  "local": "img/hellhounds.jpg",
+  "w": 245,
+  "h": 200,
+  "mime": "image/jpeg",
+  "bytes": 11762
+ },
+ "jesse-turner": {
+  "file": "Cambionboy.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/17/Cambionboy.png/revision/latest/scale-to-width-down/700?cb=20180811233004",
+  "local": "img/jesse-turner.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 27045
+ },
+ "hybrid": {
+  "file": "Oliver.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e6/Oliver.jpg/revision/latest/scale-to-width-down/700?cb=20130718103757",
+  "local": "img/hybrid.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 19481
+ },
+ "angels": {
+  "file": "Angels.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/81/Angels.gif/revision/latest?cb=20140214062846",
+  "local": "img/angels.jpg",
+  "w": 300,
+  "h": 169,
+  "mime": "image/jpeg",
+  "bytes": 8787
+ },
+ "archangels": {
+  "file": "Archangel Raphael.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/2e/Archangel_Raphael.jpg/revision/latest/scale-to-width-down/700?cb=20170522022749",
+  "local": "img/archangels.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 28532
+ },
+ "seraphim": {
+  "file": "Castiel full power.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b8/Castiel_full_power.jpg/revision/latest/scale-to-width-down/700?cb=20131114075459",
+  "local": "img/seraphim.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 43140
+ },
+ "cherubim": {
+  "file": "Loveyduvey.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/08/Loveyduvey.jpg/revision/latest/scale-to-width-down/700?cb=20111012013820",
+  "local": "img/cherubim.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 16523
+ },
+ "grigori": {
+  "file": "Grigori.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/5a/Grigori.jpg/revision/latest/scale-to-width-down/700?cb=20151011014504",
+  "local": "img/grigori.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 17711
+ },
+ "nephilim": {
+  "file": "Nephilim2.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/00/Nephilim2.jpg/revision/latest/scale-to-width-down/700?cb=20130509235019",
+  "local": "img/nephilim.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 16702
+ },
+ "jack-kline": {
+  "file": "Gimme Shelter 02.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/50/Gimme_Shelter_02.jpg/revision/latest/scale-to-width-down/700?cb=20201005213912",
+  "local": "img/jack-kline.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/webp",
+  "bytes": 29387
+ },
+ "castiel": {
+  "file": "Castiel 807.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/7e/Castiel_807.jpg/revision/latest?cb=20121027012227",
+  "local": "img/castiel.jpg",
+  "w": 533,
+  "h": 800,
+  "mime": "image/webp",
+  "bytes": 50420
+ },
+ "michael": {
+  "file": "Michael S12.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/de/Michael_S12.png/revision/latest/scale-to-width-down/700?cb=20170214153206",
+  "local": "img/michael.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 24532
+ },
+ "lucifer": {
+  "file": "Sam-Lucifer.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/4f/Sam-Lucifer.jpg/revision/latest/scale-to-width-down/700?cb=20200315231717",
+  "local": "img/lucifer.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 36079
+ },
+ "gabriel": {
+  "file": "Gabriel S13.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/dd/Gabriel_S13.png/revision/latest/scale-to-width-down/700?cb=20180209034408",
+  "local": "img/gabriel.jpg",
+  "w": 700,
+  "h": 334,
+  "mime": "image/webp",
+  "bytes": 16759
+ },
+ "raphael": {
+  "file": "Raphael S63.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/31/Raphael_S63.jpg/revision/latest/scale-to-width-down/700?cb=20131120074126",
+  "local": "img/raphael.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 32889
+ },
+ "metatron": {
+  "file": "GodMetatron.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/de/GodMetatron.jpg/revision/latest/scale-to-width-down/700?cb=20161015212843",
+  "local": "img/metatron.jpg",
+  "w": 700,
+  "h": 392,
+  "mime": "image/webp",
+  "bytes": 39986
+ },
+ "uriel": {
+  "file": "Uriel.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/a8/Uriel.jpg/revision/latest/scale-to-width-down/700?cb=20120222011831",
+  "local": "img/uriel.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 19741
+ },
+ "balthazar": {
+  "file": "Balthazar.PNG",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/20/Balthazar.PNG/revision/latest?cb=20120806224641",
+  "local": "img/balthazar.jpg",
+  "w": 431,
+  "h": 736,
+  "mime": "image/webp",
+  "bytes": 26157
+ },
+ "anna-milton": {
+  "file": "AnnaMiltonAngel.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/2c/AnnaMiltonAngel.png/revision/latest/scale-to-width-down/700?cb=20190318192750",
+  "local": "img/anna-milton.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 18622
+ },
+ "naomi": {
+  "file": "NaomiS8.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/ca/NaomiS8.png/revision/latest/scale-to-width-down/700?cb=20240409145545",
+  "local": "img/naomi.jpg",
+  "w": 700,
+  "h": 390,
+  "mime": "image/webp",
+  "bytes": 14575
+ },
+ "bartholomew": {
+  "file": "Bartholomew.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/38/Bartholomew.jpg/revision/latest/scale-to-width-down/700?cb=20131023120710",
+  "local": "img/bartholomew.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 21454
+ },
+ "malachi": {
+  "file": "Malachi.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/29/Malachi.png/revision/latest/scale-to-width-down/700?cb=20131204092924",
+  "local": "img/malachi.jpg",
+  "w": 700,
+  "h": 395,
+  "mime": "image/webp",
+  "bytes": 30124
+ },
+ "gadreel": {
+  "file": "Gadreel-3.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c0/Gadreel-3.png/revision/latest/scale-to-width-down/700?cb=20140124151452",
+  "local": "img/gadreel.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 22250
+ },
+ "ishim": {
+  "file": "Ishim.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/54/Ishim.png/revision/latest/scale-to-width-down/700?cb=20170203182059",
+  "local": "img/ishim.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 22311
+ },
+ "akobel": {
+  "file": "Akobel.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/50/Akobel.png/revision/latest/scale-to-width-down/700?cb=20170203142037",
+  "local": "img/akobel.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 24351
+ },
+ "samandriel": {
+  "file": "Samandriel 1.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/aa/Samandriel_1.png/revision/latest?cb=20170619160306",
+  "local": "img/samandriel.jpg",
+  "w": 505,
+  "h": 411,
+  "mime": "image/jpeg",
+  "bytes": 24668
+ },
+ "hannah": {
+  "file": "HannahV1.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/be/HannahV1.png/revision/latest/scale-to-width-down/700?cb=20191203165734",
+  "local": "img/hannah.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 24451
+ },
+ "ambriel": {
+  "file": "Ambriel.PNG",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/bb/Ambriel.PNG/revision/latest?cb=20160724192356",
+  "local": "img/ambriel.jpg",
+  "w": 675,
+  "h": 452,
+  "mime": "image/jpeg",
+  "bytes": 12955
+ },
+ "dumah": {
+  "file": "Duma 1408.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c9/Duma_1408.png/revision/latest/scale-to-width-down/700?cb=20181207135313",
+  "local": "img/dumah.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 24767
+ },
+ "intelligence-angels": {
+  "file": "SPN 1493.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e6/SPN_1493.jpg/revision/latest/scale-to-width-down/700?cb=20130407234239",
+  "local": "img/intelligence-angels.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 22271
+ },
+ "transformed-angels": {
+  "file": "14x19 Jack transformed humans into angels.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d1/14x19_Jack_transformed_humans_into_angels.gif/revision/latest?cb=20201127175558",
+  "local": "img/transformed-angels.jpg",
+  "w": 500,
+  "h": 282,
+  "mime": "image/jpeg",
+  "bytes": 20829
+ },
+ "reapers": {
+  "file": "Reaps.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/cb/Reaps.jpg/revision/latest/scale-to-width-down/700?cb=20111016163449",
+  "local": "img/reapers.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 48656
+ },
+ "billie": {
+  "file": "Billie reading.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/22/Billie_reading.jpg/revision/latest/scale-to-width-down/700?cb=20181118224614",
+  "local": "img/billie.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 34845
+ },
+ "death": {
+  "file": "Death.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c3/Death.png/revision/latest/scale-to-width-down/700?cb=20130423050033",
+  "local": "img/death.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 53931
+ },
+ "the-shadow": {
+  "file": "The Shadow.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/34/The_Shadow.jpg/revision/latest/scale-to-width-down/700?cb=20191216185432",
+  "local": "img/the-shadow.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 15905
+ },
+ "host-of-heaven": {
+  "file": "File:H.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d4/H.jpg/revision/latest/scale-to-width-down/700?cb=20120601233026",
+  "local": "img/host-of-heaven.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 59205
+ },
+ "angel-blades": {
+  "file": "Angel blade.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/74/Angel_blade.jpg/revision/latest/scale-to-width-down/700?cb=20181113043447",
+  "local": "img/angel-blades.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 34306
+ },
+ "grace": {
+  "file": "Tumblr inline n6eihhI5Ae1r7blwi.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/2b/Tumblr_inline_n6eihhI5Ae1r7blwi.gif/revision/latest?cb=20150624000416",
+  "local": "img/grace.jpg",
+  "w": 400,
+  "h": 224,
+  "mime": "image/jpeg",
+  "bytes": 10834
+ },
+ "deities": {
+  "file": "830px-Gods.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/eb/830px-Gods.png/revision/latest/scale-to-width-down/700?cb=20130420181651",
+  "local": "img/deities.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 37150
+ },
+ "god": {
+  "file": "830px-Gods.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/eb/830px-Gods.png/revision/latest/scale-to-width-down/700?cb=20130420181651",
+  "local": "img/god.jpg",
+  "w": 700,
+  "h": 390,
+  "mime": "image/jpeg",
+  "bytes": 43529
+ },
+ "the-darkness": {
+  "file": "The Darkness 1515322.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b7/The_Darkness_1515322.png/revision/latest/scale-to-width-down/700?cb=20240321154432",
+  "local": "img/the-darkness.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 33225
+ },
+ "primordial-entities": {
+  "file": "Primordial beings by FTWinchester.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/23/Primordial_beings_by_FTWinchester.png/revision/latest/scale-to-width-down/700?cb=20220614144522",
+  "local": "img/primordial-entities.jpg",
+  "w": 700,
+  "h": 350,
+  "mime": "image/webp",
+  "bytes": 40759
+ },
+ "war": {
+  "file": "File:War.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/51/War.jpg/revision/latest/scale-to-width-down/700?cb=20130423051420",
+  "local": "img/war.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 24898
+ },
+ "famine": {
+  "file": "Famine 2.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/67/Famine_2.jpg/revision/latest/scale-to-width-down/700?cb=20130423050833",
+  "local": "img/famine.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 26172
+ },
+ "pestilence": {
+  "file": "Pestilence5x19.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/2c/Pestilence5x19.jpg/revision/latest/scale-to-width-down/700?cb=20200711072840",
+  "local": "img/pestilence.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 40067
+ },
+ "demigods": {
+  "file": "Narfi.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e5/Narfi.png/revision/latest/scale-to-width-down/700?cb=20180429125757",
+  "local": "img/demigods.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 21917
+ },
+ "zeus": {
+  "file": "Zeus.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/4c/Zeus.jpg/revision/latest/scale-to-width-down/700?cb=20130216053308",
+  "local": "img/zeus.jpg",
+  "w": 700,
+  "h": 466,
+  "mime": "image/webp",
+  "bytes": 24954
+ },
+ "artemis": {
+  "file": "Artemis.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/96/Artemis.jpg/revision/latest/scale-to-width-down/700?cb=20130216053243",
+  "local": "img/artemis.jpg",
+  "w": 700,
+  "h": 466,
+  "mime": "image/webp",
+  "bytes": 30969
+ },
+ "apollo-note": {
+  "file": "Prometheus.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/63/Prometheus.png/revision/latest/scale-to-width-down/700?cb=20130420185954",
+  "local": "img/apollo-note.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 31927
+ },
+ "mercury": {
+  "file": "Mercury Hammer of the gods.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c0/Mercury_Hammer_of_the_gods.jpg/revision/latest/scale-to-width-down/700?cb=20130420184628",
+  "local": "img/mercury.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 28242
+ },
+ "calliope": {
+  "file": "Calliope.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b9/Calliope.png/revision/latest/scale-to-width-down/700?cb=20141112204653",
+  "local": "img/calliope.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 24109
+ },
+ "plutus": {
+  "file": "Plutus.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/ff/Plutus.jpg/revision/latest/scale-to-width-down/700?cb=20121012002237",
+  "local": "img/plutus.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 17065
+ },
+ "chronos": {
+  "file": "Chronos.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/ba/Chronos.jpg/revision/latest/scale-to-width-down/700?cb=20120115002706",
+  "local": "img/chronos.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 22261
+ },
+ "atropos": {
+  "file": "Fate and her journal.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/12/Fate_and_her_journal.png/revision/latest?cb=20110428034610",
+  "local": "img/atropos.jpg",
+  "w": 659,
+  "h": 861,
+  "mime": "image/jpeg",
+  "bytes": 58660
+ },
+ "fates": {
+  "file": "Thesises.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/59/Thesises.jpg/revision/latest/scale-to-width-down/700?cb=20120413230957",
+  "local": "img/fates.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 25262
+ },
+ "odinn": {
+  "file": "Odin.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/85/Odin.jpg/revision/latest?cb=20110502173937",
+  "local": "img/odinn.jpg",
+  "w": 600,
+  "h": 339,
+  "mime": "image/jpeg",
+  "bytes": 18730
+ },
+ "baldur": {
+  "file": "Baldur2.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c7/Baldur2.jpg/revision/latest/scale-to-width-down/700?cb=20130420184353",
+  "local": "img/baldur.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 20314
+ },
+ "loki": {
+  "file": "800px-TricksterLoki.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/51/800px-TricksterLoki.jpg/revision/latest/scale-to-width-down/700?cb=20180429104935",
+  "local": "img/loki.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 26235
+ },
+ "fenrir": {
+  "file": "FenrirWolf.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/41/FenrirWolf.png/revision/latest/scale-to-width-down/700?cb=20180429125736",
+  "local": "img/fenrir.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 26842
+ },
+ "sleipnir": {
+  "file": "800px-Sleipnir.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/22/800px-Sleipnir.png/revision/latest/scale-to-width-down/700?cb=20180429104621",
+  "local": "img/sleipnir.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 19267
+ },
+ "narfi": {
+  "file": "800px-Narfi.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f9/800px-Narfi.png/revision/latest/scale-to-width-down/700?cb=20180429104752",
+  "local": "img/narfi.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 20303
+ },
+ "ymir": {
+  "file": "Ymir's Finger Bone (1).jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/7e/Ymir%27s_Finger_Bone_%281%29.jpg/revision/latest?cb=20190101235937",
+  "local": "img/ymir.jpg",
+  "w": 370,
+  "h": 289,
+  "mime": "image/jpeg",
+  "bytes": 8906
+ },
+ "vanir": {
+  "file": "Vanir.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/4f/Vanir.jpg/revision/latest?cb=20110312203339",
+  "local": "img/vanir.jpg",
+  "w": 364,
+  "h": 346,
+  "mime": "image/jpeg",
+  "bytes": 16380
+ },
+ "kali": {
+  "file": "Kali.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f6/Kali.jpg/revision/latest/scale-to-width-down/700?cb=20130422064128",
+  "local": "img/kali.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 17741
+ },
+ "ganesh": {
+  "file": "Ganesh.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/40/Ganesh.jpg/revision/latest/scale-to-width-down/700?cb=20120604111452",
+  "local": "img/ganesh.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 12738
+ },
+ "anubis": {
+  "file": "Anubis 1408.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/ee/Anubis_1408.png/revision/latest/scale-to-width-down/700?cb=20181207135313",
+  "local": "img/anubis.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 23068
+ },
+ "osiris": {
+  "file": "Orisis.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/16/Orisis.jpg/revision/latest?cb=20111007225023",
+  "local": "img/osiris.jpg",
+  "w": 500,
+  "h": 333,
+  "mime": "image/jpeg",
+  "bytes": 17321
+ },
+ "isis": {
+  "file": "Isis3.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/5f/Isis3.jpg/revision/latest?cb=20130719004332",
+  "local": "img/isis.jpg",
+  "w": 413,
+  "h": 720,
+  "mime": "image/jpeg",
+  "bytes": 25047
+ },
+ "tiamat": {
+  "file": "Tiamat coin.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/91/Tiamat_coin.jpg/revision/latest/scale-to-width-down/700?cb=20130427061855",
+  "local": "img/tiamat.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 29879
+ },
+ "baron-samedi": {
+  "file": "002qxxpb.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/3c/002qxxpb.jpg/revision/latest/scale-to-width-down/700?cb=20120607124035",
+  "local": "img/baron-samedi.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 14225
+ },
+ "anansi": {
+  "file": "Anansi.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f1/Anansi.jpg/revision/latest?cb=20181119221720",
+  "local": "img/anansi.jpg",
+  "w": 689,
+  "h": 560,
+  "mime": "image/jpeg",
+  "bytes": 107213
+ },
+ "vesta": {
+  "file": "Vesta2.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b6/Vesta2.png/revision/latest/scale-to-width-down/700?cb=20131127070308",
+  "local": "img/vesta.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 11062
+ },
+ "veritas": {
+  "file": "VeritasSPN 1117.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d6/VeritasSPN_1117.jpg/revision/latest/scale-to-width-down/700?cb=20120524135247",
+  "local": "img/veritas.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 16237
+ },
+ "fortuna": {
+  "file": "Supernatural-Fortuna-Lynda-Boyd-Gamblers.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9c/Supernatural-Fortuna-Lynda-Boyd-Gamblers.jpg/revision/latest/scale-to-width-down/700?cb=20200204142145",
+  "local": "img/fortuna.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 18428
+ },
+ "pax": {
+  "file": "Pax-Stephen-Huszar.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/5c/Pax-Stephen-Huszar.jpg/revision/latest/scale-to-width-down/700?cb=20200205140902",
+  "local": "img/pax.jpg",
+  "w": 700,
+  "h": 391,
+  "mime": "image/jpeg",
+  "bytes": 15673
+ },
+ "yokoth": {
+  "file": "IMG 0216.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/06/IMG_0216.jpg/revision/latest/scale-to-width-down/700?cb=20180415144407",
+  "local": "img/yokoth.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 23579
+ },
+ "glythur": {
+  "file": "Glythur.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/68/Glythur.jpg/revision/latest/scale-to-width-down/700?cb=20180415144237",
+  "local": "img/glythur.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 28036
+ },
+ "greek-pantheon": {
+  "file": "Zeus.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/4c/Zeus.jpg/revision/latest/scale-to-width-down/700?cb=20130216053308",
+  "local": "img/greek-pantheon.jpg",
+  "w": 700,
+  "h": 466,
+  "mime": "image/jpeg",
+  "bytes": 23218
+ },
+ "norse-pantheon": {
+  "file": "Odin.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/85/Odin.jpg/revision/latest?cb=20110502173937",
+  "local": "img/norse-pantheon.jpg",
+  "w": 600,
+  "h": 339,
+  "mime": "image/jpeg",
+  "bytes": 18730
+ },
+ "egyptian-pantheon": {
+  "file": "Anubis 1408.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/ee/Anubis_1408.png/revision/latest/scale-to-width-down/700?cb=20181207135313",
+  "local": "img/egyptian-pantheon.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 23068
+ },
+ "roman-pantheon": {
+  "file": "Vesta2.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b6/Vesta2.png/revision/latest/scale-to-width-down/700?cb=20131127070308",
+  "local": "img/roman-pantheon.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 11062
+ },
+ "ghosts": {
+  "file": "Ghost.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/ab/Ghost.gif/revision/latest?cb=20160129160007",
+  "local": "img/ghosts.jpg",
+  "w": 474,
+  "h": 267,
+  "mime": "image/jpeg",
+  "bytes": 3765
+ },
+ "vengeful-spirit": {
+  "file": "File:FionaGhost.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/fd/FionaGhost.png/revision/latest/scale-to-width-down/700?cb=20170224083927",
+  "local": "img/vengeful-spirit.jpg",
+  "w": 700,
+  "h": 641,
+  "mime": "image/jpeg",
+  "bytes": 29100
+ },
+ "poltergeists": {
+  "file": "Poltergeists.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/a2/Poltergeists.png/revision/latest/scale-to-width-down/700?cb=20160603144207",
+  "local": "img/poltergeists.jpg",
+  "w": 700,
+  "h": 396,
+  "mime": "image/jpeg",
+  "bytes": 27610
+ },
+ "specter": {
+  "file": "Southern Comfort 01.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/00/Southern_Comfort_01.jpg/revision/latest/scale-to-width-down/700?cb=20191106085444",
+  "local": "img/specter.jpg",
+  "w": 700,
+  "h": 466,
+  "mime": "image/webp",
+  "bytes": 40252
+ },
+ "woman-in-white": {
+  "file": "Typical woman in white.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/ee/Typical_woman_in_white.png/revision/latest?cb=20110602132850",
+  "local": "img/woman-in-white.jpg",
+  "w": 575,
+  "h": 568,
+  "mime": "image/webp",
+  "bytes": 22540
+ },
+ "banshee": {
+  "file": "Banshee.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d3/Banshee.png/revision/latest/scale-to-width-down/700?cb=20160129015411",
+  "local": "img/banshee.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/webp",
+  "bytes": 18041
+ },
+ "death-omen": {
+  "file": "SPN 0907.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b8/SPN_0907.jpg/revision/latest/scale-to-width-down/700?cb=20120528142123",
+  "local": "img/death-omen.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 20810
+ },
+ "death-echo": {
+  "file": "DeathEcho.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/38/DeathEcho.jpg/revision/latest/scale-to-width-down/700?cb=20120528135354",
+  "local": "img/death-echo.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 13257
+ },
+ "violent-spirits": {
+  "file": "Hookmanfindslori.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/93/Hookmanfindslori.jpg/revision/latest?cb=20110527184024",
+  "local": "img/violent-spirits.jpg",
+  "w": 460,
+  "h": 305,
+  "mime": "image/webp",
+  "bytes": 26315
+ },
+ "shadow-spirit": {
+  "file": "Shadow Spirit 1.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/e7/Shadow_Spirit_1.jpg/revision/latest?cb=20230224200410",
+  "local": "img/shadow-spirit.jpg",
+  "w": 577,
+  "h": 386,
+  "mime": "image/webp",
+  "bytes": 22975
+ },
+ "maggies-shadow-spirit": {
+  "file": "Maggie Campbell Shadow Spirit.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/88/Maggie_Campbell_Shadow_Spirit.jpg/revision/latest?cb=20230224193433",
+  "local": "img/maggies-shadow-spirit.jpg",
+  "w": 600,
+  "h": 554,
+  "mime": "image/webp",
+  "bytes": 16533
+ },
+ "hell-ghosts": {
+  "file": "Raising Hell 03.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/12/Raising_Hell_03.jpg/revision/latest/scale-to-width-down/700?cb=20191002233934",
+  "local": "img/hell-ghosts.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/webp",
+  "bytes": 40773
+ },
+ "heaven-ghost": {
+  "file": "Dean and Bobby in the Monster Club Universe.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/5d/Dean_and_Bobby_in_the_Monster_Club_Universe.jpg/revision/latest/scale-to-width-down/700?cb=20241112012023",
+  "local": "img/heaven-ghost.jpg",
+  "w": 700,
+  "h": 318,
+  "mime": "image/webp",
+  "bytes": 22681
+ },
+ "tulpa": {
+  "file": "Image.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/78/Image.jpg/revision/latest/scale-to-width-down/700?cb=20180524230447",
+  "local": "img/tulpa.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/webp",
+  "bytes": 43751
+ },
+ "alpha-dragon": {
+  "file": "A glimpse of flying dragon in its true form Supernatural S6E12.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/16/A_glimpse_of_flying_dragon_in_its_true_form_Supernatural_S6E12.jpg/revision/latest/scale-to-width-down/700?cb=20251114221434",
+  "local": "img/alpha-dragon.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/webp",
+  "bytes": 12572
+ },
+ "wraith": {
+  "file": "Wraith.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/a4/Wraith.jpg/revision/latest/scale-to-width-down/700?cb=20120603023937",
+  "local": "img/wraith.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 16740
+ },
+ "zombies": {
+  "file": "HellZombies.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/7b/HellZombies.jpg/revision/latest/scale-to-width-down/700?cb=20191019010129",
+  "local": "img/zombies.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 19579
+ },
+ "ghost-ships": {
+  "file": "GhostShip.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/88/GhostShip.jpg/revision/latest/scale-to-width-down/700?cb=20120603145124",
+  "local": "img/ghost-ships.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 24178
+ },
+ "soul": {
+  "file": "SamHumanSoul.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d5/SamHumanSoul.gif/revision/latest?cb=20140327041204",
+  "local": "img/soul.jpg",
+  "w": 245,
+  "h": 140,
+  "mime": "image/jpeg",
+  "bytes": 8004
+ },
+ "lost-soul": {
+  "file": "Dean appears in a soul eater's nest.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/55/Dean_appears_in_a_soul_eater%27s_nest.jpg/revision/latest/scale-to-width-down/700?cb=20250617124735",
+  "local": "img/lost-soul.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 30073
+ },
+ "witch": {
+  "file": "Rowena's Witch-killing Spell.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/1f/Rowena%27s_Witch-killing_Spell.gif/revision/latest?cb=20180218174716",
+  "local": "img/witch.jpg",
+  "w": 360,
+  "h": 202,
+  "mime": "image/jpeg",
+  "bytes": 4687
+ },
+ "witches-category": {
+  "file": "Rowena's Witch-killing Spell.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/1f/Rowena%27s_Witch-killing_Spell.gif/revision/latest?cb=20180218174716",
+  "local": "img/witches-category.jpg",
+  "w": 360,
+  "h": 202,
+  "mime": "image/jpeg",
+  "bytes": 4687
+ },
+ "rowena": {
+  "file": "Rowena MacLeod.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/ac/Rowena_MacLeod.png/revision/latest?cb=20250202163228",
+  "local": "img/rowena.jpg",
+  "w": 451,
+  "h": 403,
+  "mime": "image/jpeg",
+  "bytes": 17524
+ },
+ "mega-coven": {
+  "file": "AmaraVsMagic.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/bf/AmaraVsMagic.gif/revision/latest?cb=20160519172024",
+  "local": "img/mega-coven.jpg",
+  "w": 359,
+  "h": 202,
+  "mime": "image/jpeg",
+  "bytes": 9770
+ },
+ "grand-coven-note": {
+  "file": "Il Soarta.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/be/Il_Soarta.png/revision/latest/scale-to-width-down/700?cb=20250722132001",
+  "local": "img/grand-coven-note.jpg",
+  "w": 700,
+  "h": 316,
+  "mime": "image/jpeg",
+  "bytes": 21049
+ },
+ "shamans": {
+  "file": "SPN 1231.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8b/SPN_1231.jpg/revision/latest/scale-to-width-down/700?cb=20181204075108",
+  "local": "img/shamans.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 20141
+ },
+ "psychics-note": {
+  "file": "Spn221 1063.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/de/Spn221_1063.jpg/revision/latest/scale-to-width-down/700?cb=20111011113925",
+  "local": "img/psychics-note.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 22982
+ },
+ "prophets": {
+  "file": "KevinProphet.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/77/KevinProphet.gif/revision/latest?cb=20120505165822",
+  "local": "img/prophets.jpg",
+  "w": 300,
+  "h": 168,
+  "mime": "image/jpeg",
+  "bytes": 6512
+ },
+ "kevin-tran": {
+  "file": "DamnedKevin.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9b/DamnedKevin.png/revision/latest/scale-to-width-down/700?cb=20191022151214",
+  "local": "img/kevin-tran.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 31528
+ },
+ "donatello": {
+  "file": "Game Night 04.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/cb/Game_Night_04.jpg/revision/latest/scale-to-width-down/700?cb=20190327223050",
+  "local": "img/donatello.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/jpeg",
+  "bytes": 50996
+ },
+ "dreamwalkers": {
+  "file": "The Bad Place 09.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8e/The_Bad_Place_09.jpg/revision/latest/scale-to-width-down/700?cb=20171202040502",
+  "local": "img/dreamwalkers.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/jpeg",
+  "bytes": 45121
+ },
+ "magic": {
+  "file": "AmaraVsMagic.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/bf/AmaraVsMagic.gif/revision/latest?cb=20160519172024",
+  "local": "img/magic.jpg",
+  "w": 359,
+  "h": 202,
+  "mime": "image/jpeg",
+  "bytes": 9770
+ },
+ "demon-blood": {
+  "file": "DsdsDS.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/79/DsdsDS.jpg/revision/latest/scale-to-width-down/700?cb=20120214035457",
+  "local": "img/demon-blood.jpg",
+  "w": 700,
+  "h": 391,
+  "mime": "image/jpeg",
+  "bytes": 17382
+ },
+ "leviathans": {
+  "file": "Leviathan.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/22/Leviathan.jpg/revision/latest/scale-to-width-down/700?cb=20120828073937",
+  "local": "img/leviathans.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 26635
+ },
+ "dick-roman": {
+  "file": "250xDickRoman.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/84/250xDickRoman.jpg/revision/latest?cb=20150123015352",
+  "local": "img/dick-roman.jpg",
+  "w": 250,
+  "h": 330,
+  "mime": "image/jpeg",
+  "bytes": 11781
+ },
+ "edgar": {
+  "file": "EdgarS7.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/66/EdgarS7.png/revision/latest?cb=20141226204129",
+  "local": "img/edgar.jpg",
+  "w": 669,
+  "h": 563,
+  "mime": "image/jpeg",
+  "bytes": 30869
+ },
+ "leviathan-blossom": {
+  "file": "LeviathanBlossom.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/37/LeviathanBlossom.png/revision/latest/scale-to-width-down/700?cb=20200117090846",
+  "local": "img/leviathan-blossom.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 40580
+ },
+ "eve": {
+  "file": "SN619-Eve.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/cd/SN619-Eve.jpg/revision/latest?cb=20110416031504",
+  "local": "img/eve.jpg",
+  "w": 333,
+  "h": 500,
+  "mime": "image/jpeg",
+  "bytes": 20064
+ },
+ "purgatory": {
+  "file": "Vlcsnap-2012-05-19-23h23m03s74.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/73/Vlcsnap-2012-05-19-23h23m03s74.png/revision/latest/scale-to-width-down/700?cb=20130408051021",
+  "local": "img/purgatory.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 22454
+ },
+ "alidjinn-note": {
+  "file": "Curtis dancing with the alien 1.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8e/Curtis_dancing_with_the_alien_1.png/revision/latest?cb=20170516074651",
+  "local": "img/alidjinn-note.jpg",
+  "w": 503,
+  "h": 405,
+  "mime": "image/jpeg",
+  "bytes": 13260
+ },
+ "akrida": {
+  "file": "AkridaInk.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c7/AkridaInk.jpg/revision/latest/scale-to-width-down/700?cb=20241117091707",
+  "local": "img/akrida.jpg",
+  "w": 700,
+  "h": 318,
+  "mime": "image/jpeg",
+  "bytes": 21443
+ },
+ "the-watch-note": {
+  "file": "Watch.PNG",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/1e/Watch.PNG/revision/latest/scale-to-width-down/700?cb=20200123092602",
+  "local": "img/the-watch-note.jpg",
+  "w": 700,
+  "h": 533,
+  "mime": "image/jpeg",
+  "bytes": 30295
+ },
+ "mark-of-cain": {
+  "file": "ImageMOC.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b0/ImageMOC.jpg/revision/latest/scale-to-width-down/700?cb=20151229222923",
+  "local": "img/mark-of-cain.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 21698
+ },
+ "first-blade": {
+  "file": "Dean gives the First Blade away.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/cc/Dean_gives_the_First_Blade_away.jpg/revision/latest/scale-to-width-down/700?cb=20241117103413",
+  "local": "img/first-blade.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 32021
+ },
+ "the-equalizer": {
+  "file": "The Equalizer.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/ab/The_Equalizer.jpg/revision/latest/scale-to-width-down/700?cb=20210608130050",
+  "local": "img/the-equalizer.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 37088
+ },
+ "the-occultum": {
+  "file": "Occultum.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/7b/Occultum.png/revision/latest/scale-to-width-down/700?cb=20200325133424",
+  "local": "img/the-occultum.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 12602
+ },
+ "leviathan-tablet": {
+  "file": "WordOfGod.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/38/WordOfGod.jpg/revision/latest/scale-to-width-down/700?cb=20120603220448",
+  "local": "img/leviathan-tablet.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 40076
+ },
+ "angel-tablet": {
+  "file": "Angeltablet.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/5/58/Angeltablet.jpg/revision/latest/scale-to-width-down/700?cb=20140526050527",
+  "local": "img/angel-tablet.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 31879
+ },
+ "demon-tablet": {
+  "file": "DemonTablet.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/bc/DemonTablet.jpg/revision/latest/scale-to-width-down/700?cb=20141124074411",
+  "local": "img/demon-tablet.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 23959
+ },
+ "book-of-the-damned": {
+  "file": "Book of the Damned 03.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/d/d5/Book_of_the_Damned_03.jpg/revision/latest/scale-to-width-down/700?cb=20180219035503",
+  "local": "img/book-of-the-damned.jpg",
+  "w": 700,
+  "h": 466,
+  "mime": "image/jpeg",
+  "bytes": 44356
+ },
+ "the-bad-place": {
+  "file": "Alternate Universe (The Bad Place).gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/e/ee/Alternate_Universe_%28The_Bad_Place%29.gif/revision/latest?cb=20171208035057",
+  "local": "img/the-bad-place.jpg",
+  "w": 540,
+  "h": 216,
+  "mime": "image/jpeg",
+  "bytes": 41372
+ },
+ "apocalypse-world": {
+  "file": "Alternate Universe (All Along the Watchtower).gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/2e/Alternate_Universe_%28All_Along_the_Watchtower%29.gif/revision/latest?cb=20170601095304",
+  "local": "img/apocalypse-world.jpg",
+  "w": 540,
+  "h": 280,
+  "mime": "image/jpeg",
+  "bytes": 21263
+ },
+ "the-multiverse": {
+  "file": "AlternateUniverse.JPG",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/27/AlternateUniverse.JPG/revision/latest/scale-to-width-down/700?cb=20171212013814",
+  "local": "img/the-multiverse.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 20738
+ },
+ "axis-mundi": {
+  "file": "AxisofHeaven.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/6a/AxisofHeaven.jpg/revision/latest/scale-to-width-down/700?cb=20130408045708",
+  "local": "img/axis-mundi.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 16455
+ },
+ "world-between-worlds": {
+  "file": "World Between Worlds Portal.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/fc/World_Between_Worlds_Portal.jpg/revision/latest/scale-to-width-down/700?cb=20241116003705",
+  "local": "img/world-between-worlds.jpg",
+  "w": 700,
+  "h": 318,
+  "mime": "image/jpeg",
+  "bytes": 23731
+ },
+ "heaven": {
+  "file": "Heaven.gif",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/0a/Heaven.gif/revision/latest?cb=20160125105007",
+  "local": "img/heaven.jpg",
+  "w": 640,
+  "h": 356,
+  "mime": "image/jpeg",
+  "bytes": 16495
+ },
+ "hell": {
+  "file": "Hell8x19.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/71/Hell8x19.png/revision/latest/scale-to-width-down/700?cb=20130408002731",
+  "local": "img/hell.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 14348
+ },
+ "limbo": {
+  "file": "Limbo.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/92/Limbo.jpg/revision/latest/scale-to-width-down/700?cb=20151215073304",
+  "local": "img/limbo.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 35219
+ },
+ "earth-2": {
+  "file": "Earth2.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/73/Earth2.png/revision/latest/scale-to-width-down/700?cb=20200317195157",
+  "local": "img/earth-2.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 36820
+ },
+ "humans": {
+  "file": "SN202 001.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/65/SN202_001.jpg/revision/latest/scale-to-width-down/700?cb=20120319183659",
+  "local": "img/humans.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 64491
+ },
+ "monster-general": {
+  "file": "Werewolf Brad.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/68/Werewolf_Brad.jpg/revision/latest/scale-to-width-down/700?cb=20200207045329",
+  "local": "img/monster-general.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 31935
+ },
+ "garden-of-eden": {
+  "file": "Garden of Eden.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/67/Garden_of_Eden.png/revision/latest/scale-to-width-down/700?cb=20200324135626",
+  "local": "img/garden-of-eden.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 77030
+ },
+ "garden-snake": {
+  "file": "15x13 The Snake.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/fb/15x13_The_Snake.png/revision/latest/scale-to-width-down/700?cb=20201228062647",
+  "local": "img/garden-snake.jpg",
+  "w": 700,
+  "h": 478,
+  "mime": "image/jpeg",
+  "bytes": 41702
+ },
+ "hand-of-god": {
+  "file": "Hand of God.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/a/a6/Hand_of_God.jpg/revision/latest/scale-to-width-down/700?cb=20160221053354",
+  "local": "img/hand-of-god.jpg",
+  "w": 700,
+  "h": 389,
+  "mime": "image/jpeg",
+  "bytes": 19874
+ },
+ "angel-wings": {
+  "file": "Dead biker angel's burned wings.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/77/Dead_biker_angel%27s_burned_wings.jpg/revision/latest/scale-to-width-down/700?cb=20210202122531",
+  "local": "img/angel-wings.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 36481
+ },
+ "lucifers-cage": {
+  "file": "Lucifer's Prison.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f4/Lucifer%27s_Prison.png/revision/latest/scale-to-width-down/700?cb=20141126062736",
+  "local": "img/lucifers-cage.jpg",
+  "w": 700,
+  "h": 396,
+  "mime": "image/jpeg",
+  "bytes": 18482
+ },
+ "the-universe": {
+  "file": "The universe.JPG",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f5/The_universe.JPG/revision/latest/scale-to-width-down/700?cb=20151013205607",
+  "local": "img/the-universe.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 24550
+ },
+ "bobby-guide": {
+  "file": "Bobbysguide.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/2e/Bobbysguide.jpg/revision/latest?cb=20130908233209",
+  "local": "img/bobby-guide.jpg",
+  "w": 310,
+  "h": 310,
+  "mime": "image/jpeg",
+  "bytes": 20364
+ },
+ "men-of-letters": {
+  "file": "MenofLetters.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/6f/MenofLetters.jpg/revision/latest/scale-to-width-down/700?cb=20151004220344",
+  "local": "img/men-of-letters.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 46103
+ },
+ "hunters": {
+  "file": "709.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/6c/709.jpg/revision/latest/scale-to-width-down/700?cb=20111105041201",
+  "local": "img/hunters.jpg",
+  "w": 700,
+  "h": 466,
+  "mime": "image/jpeg",
+  "bytes": 49201
+ },
+ "alpha-vampire": {
+  "file": "Alpha Vampire.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/f/f7/Alpha_Vampire.jpg/revision/latest/scale-to-width-down/700?cb=20170524014047",
+  "local": "img/alpha-vampire.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 18480
+ },
+ "alpha-shapeshifter": {
+  "file": "Alpha Shapeshifter.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8d/Alpha_Shapeshifter.jpg/revision/latest/scale-to-width-down/700?cb=20140515060803",
+  "local": "img/alpha-shapeshifter.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 22259
+ },
+ "lenore": {
+  "file": "Lenore S6.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/c0/Lenore_S6.png/revision/latest?cb=20150107022835",
+  "local": "img/lenore.jpg",
+  "w": 649,
+  "h": 684,
+  "mime": "image/jpeg",
+  "bytes": 31404
+ },
+ "benny-lafitte": {
+  "file": "The Werther Project 04.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/14/The_Werther_Project_04.jpg/revision/latest/scale-to-width-down/700?cb=20180219035806",
+  "local": "img/benny-lafitte.jpg",
+  "w": 700,
+  "h": 466,
+  "mime": "image/jpeg",
+  "bytes": 48237
+ },
+ "boris": {
+  "file": "Boris2.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/1/1c/Boris2.jpg/revision/latest/scale-to-width-down/700?cb=20120524121447",
+  "local": "img/boris.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 37132
+ },
+ "kate-werewolf": {
+  "file": "Kate S10.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/6/62/Kate_S10.png/revision/latest?cb=20150217043707",
+  "local": "img/kate-werewolf.jpg",
+  "w": 295,
+  "h": 497,
+  "mime": "image/jpeg",
+  "bytes": 23709
+ },
+ "garth-fitzgerald": {
+  "file": "The Heroes' Journey 01.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/88/The_Heroes%27_Journey_01.jpg/revision/latest/scale-to-width-down/700?cb=20200118065759",
+  "local": "img/garth-fitzgerald.jpg",
+  "w": 700,
+  "h": 500,
+  "mime": "image/jpeg",
+  "bytes": 48335
+ },
+ "tasha-werewolf": {
+  "file": "Tasha2.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/8/8a/Tasha2.png/revision/latest?cb=20150215055823",
+  "local": "img/tasha-werewolf.jpg",
+  "w": 564,
+  "h": 707,
+  "mime": "image/jpeg",
+  "bytes": 28758
+ },
+ "lydia-crawford": {
+  "file": "Alternative Michael smites Lydia without looking at her.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/94/Alternative_Michael_smites_Lydia_without_looking_at_her.jpg/revision/latest/scale-to-width-down/700?cb=20240207155657",
+  "local": "img/lydia-crawford.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 23172
+ },
+ "zachariah": {
+  "file": "Zachariah 422 .png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/4/46/Zachariah_422_.png/revision/latest/scale-to-width-down/700?cb=20240318002838",
+  "local": "img/zachariah.jpg",
+  "w": 700,
+  "h": 527,
+  "mime": "image/jpeg",
+  "bytes": 37214
+ },
+ "hael": {
+  "file": "Hael.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/2/2d/Hael.jpg/revision/latest/scale-to-width-down/700?cb=20131009093835",
+  "local": "img/hael.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 23962
+ },
+ "muriel": {
+  "file": "Muriel.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/95/Muriel.png/revision/latest/scale-to-width-down/700?cb=20131204092924",
+  "local": "img/muriel.jpg",
+  "w": 700,
+  "h": 395,
+  "mime": "image/jpeg",
+  "bytes": 19892
+ },
+ "ephraim": {
+  "file": "Ephraim.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/3/33/Ephraim.png/revision/latest/scale-to-width-down/700?cb=20131113032222",
+  "local": "img/ephraim.jpg",
+  "w": 700,
+  "h": 507,
+  "mime": "image/jpeg",
+  "bytes": 18686
+ },
+ "benjamin": {
+  "file": "Benjamin.png",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/9/9f/Benjamin.png/revision/latest/scale-to-width-down/700?cb=20170203183313",
+  "local": "img/benjamin.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 17311
+ },
+ "barthamus": {
+  "file": "The Scorpion and The Frog 02.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/0/08/The_Scorpion_and_The_Frog_02.jpg/revision/latest/scale-to-width-down/700?cb=20171127224515",
+  "local": "img/barthamus.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/jpeg",
+  "bytes": 54647
+ },
+ "abraxas": {
+  "file": "Abraxas.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/c/ce/Abraxas.jpg/revision/latest/scale-to-width-down/700?cb=20190127130245",
+  "local": "img/abraxas.jpg",
+  "w": 700,
+  "h": 393,
+  "mime": "image/jpeg",
+  "bytes": 20563
+ },
+ "drexel": {
+  "file": "IMG 1107.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/ba/IMG_1107.jpg/revision/latest/scale-to-width-down/700?cb=20170410153002",
+  "local": "img/drexel.jpg",
+  "w": 700,
+  "h": 467,
+  "mime": "image/jpeg",
+  "bytes": 11967
+ },
+ "gavin-macleod": {
+  "file": "GavinMacLeod.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/b/b0/GavinMacLeod.jpg/revision/latest/scale-to-width-down/700?cb=20140508053519",
+  "local": "img/gavin-macleod.jpg",
+  "w": 700,
+  "h": 394,
+  "mime": "image/jpeg",
+  "bytes": 19792
+ },
+ "crowley": {
+  "file": "Crowley-Goodbye Stranger.jpg",
+  "url": "https://static.wikia.nocookie.net/supernatural/images/7/7a/Crowley-Goodbye_Stranger.jpg/revision/latest?cb=20130321130641",
+  "local": "img/crowley.jpg",
+  "w": 533,
+  "h": 800,
+  "mime": "image/jpeg",
+  "bytes": 32591
+ }
+}

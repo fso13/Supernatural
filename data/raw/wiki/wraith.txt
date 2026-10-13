@@ -1,0 +1,57 @@
+### WIKI: Wraith | RU: Рэйты (призрачные убийцы) | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Wraith
+category: Monsters
+status: Extant
+season: 5, 9, 13-15
+family: Eve †Leviathans Monsters Alpha Wraith (progenitor)
+title/alias: |occupation =
+actor: Various
+affiliation: Eve
+
+[ОПИСАНИЕ]
+Wraiths are a type of monster that feed on human brain fluids and can infect them with high doses of dopamine.
+
+One appeared as monster of the week in the episode Sam, Interrupted, in which a wraith was feeding on psychiatric asylum patients. In Mommy Dearest, Eve incorporated some wraith traits into her Jefferson Starship hybrid monsters. A third known wraith preferred attacking psychics.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Perception Altering - Like many monsters, wraiths can appear as humans. Their true form, however, can be revealed in a mirror, as you'll see that their faces are rotten.
+Insanity Inducement - It has been shown that wraiths possess an ability to infect people through physical contact, and make them psychologically unstable. The wraith that appeared in Sam, Interrupted revealed that they infect them by elevating a human's dopamine level and that they actually do not make them crazy—they just let their inner problems and emotions take over with a little help. The victims slowly become more and more emotionally unstable, and depending on the victim, their inner problems will begin to surface as realistic hallucinations (E.g. Dean and Sam Winchester's problems …
+
+[СЛАБОСТИ]
+Silver - Wraiths have a great weakness to silver; silver burns their skin, being stabbed in the heart by a silver blade will kill them. With one wraith, just getting stabbed in the side with silver killed him as the blow didn't even touch his heart. In another case, a Wraith died from having his throat and chest sliced open with silver claws.
+Mirrors - Mirrors reveal a wraith's true form.
+Spike Breaking - The breaking of their spikes causes great pain to a wraith.
+Severe Trauma/Extreme Brain Damage - Dean was able to kill a wraith by beating it to death with a baseball bat wrapped in barbed wire. Apocalypse World Alternate Universe Bobby Singer was able to kill a wraith by throwing a hatchet into his head.
+Psychics - Psychics can see through a wraith's …
+
+[ХАРАКТЕРИСТИКИ]
+Wraiths feed on brain fluids, which can be extracted through a spike located in its wrists. They introduce it in a weak spot behind the ear to easily get to the victim's brain. Wraiths can use it as a weapon, but it seems to be easy to break. Victims with their brain fluids sucked out are left with completely dried brains.
+thumb|225px|A Wraith's retractable wrist spike.
+
+It is shown that the best survival site for a wraith would be a psychiatric asylum, as it is the perfect place to feast on a regular basis—not only the patients' brains, soaked in dopamine, are delicious, but no one in the staff would believe them if they claim that there is a monster killing them, as the patients were diagnosed as unstable (psychologically speaking) and most of them …
+
+[ИСТОРИЯ]
+===Season 5===
+A wraith is at an mental hospital, where she feeds on the patients.
+
+[ПОЯВЛЕНИЯ]
+Season 1
+Dead In The Water 
+Season 5
+Sam, Interrupted
+Season 6
+Mommy Dearest 
+Season 9
+Bloodlines 
+Season 12
+Somewhere Between Heaven and Hell 
+Season 13
+Patience
+Season 14
+Don't Go In The Woods 
+Jack in the Box
+Season 15
+The Heroes' Journey
+Bobby Singer's Guide to Hunting

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бестиарий «Сверхъестественного» — The Edge!</title>
+<meta name="description" content="Бестиарий существ из сериала «Сверхъестественное» под авторскую систему «The Edge!»: только d6, светлый и тёмный кубик, раны, стресс и правило твари.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../assets/brand.css">
+<link rel="icon" type="image/svg+xml" href="../assets/brand/favicon.svg">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="sig sig-trap brandmark" role="img" aria-label="Ловушка дьявола"></span>
+    <div>
+      <h1 class="wordmark">Бестиарий <span class="thin">Сверхъестественного</span></h1>
+      <p class="tagline">The Edge! &middot; только d6 &middot; светлый и тёмный &middot; <span id="sysver">записей: —</span></p>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab is-active" data-view="bestiary">Бестиарий</button>
+    <button class="tab" data-view="appendix">Мир и артефакты</button>
+    <button class="tab" data-view="tables">Таблицы</button>
+    <button class="tab" data-view="about">О системе</button>
+    <a class="tab" href="rules.html">Правила</a>
+    <a class="tab" href="adventure.html">Приключение</a>
+    <a class="tab" href="../index.html" title="Все редакции">Все редакции</a>
+  </nav>
+</header>
+
+<main>
+  <section id="view-bestiary" class="view is-active">
+    <div class="controls">
+      <div class="search-wrap">
+        <input id="q" type="search" placeholder="Поиск: вендиго, джинн, левиафан, Магические знания…" autocomplete="off">
+        <span class="hint" id="qhint"></span>
+      </div>
+      <div class="filters">
+        <label>Категория <select id="f-cat"><option value="">все</option></select></label>
+        <label>Угроза <select id="f-ugr"><option value="">любая</option></select></label>
+        <label>Раны от <select id="f-wnd"><option value="">—</option></select></label>
+        <label>Роль <select id="f-kind">
+          <option value="">все</option>
+          <option value="creature">существа</option>
+          <option value="being">высшие сущности</option>
+        </select></label>
+        <label>Сезон <select id="f-season"><option value="">любой</option></select></label>
+        <label>Сортировка
+          <select id="f-sort">
+            <option value="name">по названию</option>
+            <option value="threat">по угрозе</option>
+            <option value="wounds">по ранам</option>
+            <option value="def">по ЧЦ защиты</option>
+          </select>
+        </label>
+        <button id="reset" class="ghostbtn">Сбросить</button>
+      </div>
+      <div class="countbar"><span id="count"></span>
+        <span class="tools">
+          <button class="ghostbtn" id="exp-json" title="Скачать базу в JSON">⤓ JSON</button>
+          <button class="ghostbtn" id="exp-md" title="Скачать в Markdown">⤓ Markdown</button>
+          <button class="ghostbtn" id="prn" title="Печать">🖨 Печать</button>
+        </span>
+      </div>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" hidden>Ничего не найдено. Попробуйте другой запрос или сбросьте фильтры.</div>
+  </section>
+
+  <section id="view-appendix" class="view">
+    <p class="lead">Локации, артефакты, организации и понятия — как сцены, ловушки и предметы охоты. У каждой записи есть угроза, ЧЦ и «правило».</p>
+    <div class="search-wrap"><input id="q2" type="search" placeholder="Поиск по приложению: Чистилище, Ад, скрижаль…" autocomplete="off"></div>
+    <div id="grid2" class="grid"></div>
+    <div id="empty2" class="empty" hidden>Ничего не найдено.</div>
+  </section>
+
+  <section id="view-tables" class="view">
+    <p class="lead">Сводные таблицы для подготовки серии.</p>
+    <div id="tables"></div>
+  </section>
+
+  <section id="view-about" class="view">
+    <div class="prose">
+      <h2>О системе</h2>
+      <p>Это третья редакция бестиария — под авторскую модульную систему <strong>«The Edge!»</strong>
+      (только d6, светлый и тёмный кубик, четыре атрибута, раны и стресс). Первые две редакции —
+      <a href="../site/index.html">под Dungeons &amp; Dragons 5e</a> и
+      <a href="../site-gumshoe/index.html">под GUMSHOE («Сыщик»)</a>.</p>
+
+      <h3>Почему «The Edge!» подходит сериалу</h3>
+      <p>Ключевая механика системы — <strong>светлый и тёмный кубик</strong>. При успехе светлый
+      говорит, насколько хорошо вышло; при провале тёмный говорит <strong>цену</strong> и
+      <strong>обязательный шаг вперёд</strong>. Провал без прогресса запрещён правилами.</p>
+      <p>Это ровно то, как устроена серия «Сверхъестественного»: братья почти никогда не «просто
+      проваливают» проверку. Они теряют время, шумят, злят шерифа — но всегда узнают что-то,
+      что двигает дело. Система требует того же от хранителя.</p>
+
+      <h3>Что в карточке</h3>
+      <ul>
+        <li><strong>Угроза</strong> — нарративная сложность сцены.</li>
+        <li><strong>Четыре атрибута</strong> — Тело, Ловкость, Разум, Воля.</li>
+        <li><strong>Раны и стресс</strong> — телесный и нематериальный запас.</li>
+        <li><strong>ЧЦ защиты</strong> = 8 + Ловкость + доспех — то, что нужно перебить атакой.</li>
+        <li><strong>Оружие</strong> — бонус <em>+N</em> в формуле <em>(итог атаки − ЧЦ) + N</em>.</li>
+        <li><strong>Особое</strong> — одна-две особенности, не больше. Это правило системы,
+            а не экономия места.</li>
+        <li><strong>Слабость</strong> — правило: что нужно <em>узнать</em> и что потом
+            <em>сделать</em>.</li>
+        <li><strong>Как узнать</strong> — 2–3 проверки (навык, атрибут, ЧЦ), которыми
+            охотники выясняют слабость, повадку или место логова.</li>
+        <li><strong>Заметки хранителю</strong>.</li>
+      </ul>
+
+      <h3>Откуда числа</h3>
+      <p>Показатели выведены из статблоков D&amp;D 5e по открытым формулам — они полностью
+      приведены на <a href="rules.html">странице правил</a>. Например,
+      Раны = 6 + Тело + round(CR / 2), ЧЦ защиты = 8 + Ловкость + доспех,
+      атрибут = round(модификатор / 1,5) + 2. Любую карточку можно проверить.</p>
+
+      <h3>Дисклеймер</h3>
+      <p>«Сверхъестественное» — торговая марка Warner Bros. Television.
+      «The Edge!» — авторская система, материалы в папке <code>me-rpg</code>.
+      Это неофициальный фанатский материал для домашних игр.</p>
+      <p class="meta" id="build"></p>
+    </div>
+  </section>
+</main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-bg" data-close></div>
+  <article class="sheet" id="sheet" role="dialog" aria-modal="true"></article>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

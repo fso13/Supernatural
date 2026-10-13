@@ -1,0 +1,13 @@
+### WIKI: Creation | RU: Творение | КАТЕГОРИЯ: Левиафаны
+
+[ИНФОБОКС]
+name: Creation
+category: AngelsLeviathansHellhoundsHumans|family = God
+status: Extant
+season: All Seasons
+
+[ОПИСАНИЕ]
+Creation refers to all the things God created.
+
+[ОБЗОР]
+The Multiverse, The Universe, Heaven, Hell, Purgatory, The Empty, The Nest, Avalon, God's Bar, and The Darkness' prison represent all of existence in the Supernatural world. However, not all of these were created by God.

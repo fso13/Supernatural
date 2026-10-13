@@ -1,0 +1,23 @@
+### WIKI: Anu | RU: Ану | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Anu
+category: Deity
+status: Unknown
+season: 15
+family: God
+title/alias: God of the Sky
+actor: None
+occupation: Babylonian God
+affiliation: Babylonian Pantheon
+
+[ОПИСАНИЕ]
+Anu is the Babylonian sky god. He is believed to be the supreme god and ancestor of all deities in the Babylonian pantheon.
+
+[ИСТОРИЯ]
+=== Background ===
+Shortly after the "apes" (humans) climbed down the trees and started to pray for the sun and other natural phenomena, God created Anu and the rest of the deities to be scapegoats when something went wrong. God also created them because they made for good stories.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+ The Gamblers

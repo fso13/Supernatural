@@ -1,0 +1,43 @@
+### WIKI: Specter | RU: Спектр | КАТЕГОРИЯ: Духи
+
+[ИНФОБОКС]
+name: Specters
+category: Ghosts
+status: Extant
+season: 8
+actor: Nathan Dashwood
+
+[ОПИСАНИЕ]
+A Specter is a type of ghost that possesses the living and causes them to act on any grudges they may hold, no matter how small or old they may be.
+
+They are created when a person's death involves a betrayal, such as being killed by a brother.
+
+[СИЛЫ И СПОСОБНОСТИ]
+thumb|right|225px|A specter, is identified by the presence of green ectoplasm.
+Ghost Possession - A specter can possess anyone in contact with the object it is bound to.
+Super strength - A specter imbues its host with increased strength.
+Super Durability - A specter greatly enhances the durability of its host. One described being punched in the face as "tickling."
+Emotion Detection - A specter can identify humans with suppressed anger and feelings of betrayal and appears to prefer possessing such hosts.
+Anger Fueling - The specter increases the host's volatility and prevents suppression of their rage.
+Empathy - Even if they are already possessing someone else, Specters can sense if a person is holding feelings of betrayal and resentment as well as the …
+
+[СЛАБОСТИ]
+Salting and Burning of Remains - As ghosts, salting and burning their remains is a part of destroying a specter.
+Destruction of Haunted Objects - If a specter is tied to an object, it must be destroyed as well in order to lay them to rest.
+Lack of rage - A person with no grudges is immune to a specter's power as there is nothing for the spirit to latch onto. As a result, they are able to safely handle and destroy an object haunted by a specter.
+
+[ХАРАКТЕРИСТИКИ]
+A specter awakens when there is a case of grave desecration. Like any other type of ghost, sprinkling salt on its corpse and burning the remains will stop the chain of possession. However, if an object closely related to the specter is left out of the pyre, the haunting will continue as long as there is a living person holding the object.
+
+Specters are able to possess anyone with feelings of suppressed anger, betrayal, or similar emotion. Unlike other cases of possession, the victim is still themselves, but the specter is influencing their actions, forcing them to act on their grudges. Once the specter leaves its host, the victim's rage immediately subsides, and they can often only vaguely recall events that occurred during their possession.
+
+While …
+
+[ПОЯВЛЕНИЯ]
+Season 8
+Southern Comfort 
+Supernatural: The Animation 
+What Lives in the Lake
+
+[ИСТОРИЯ]
+A specter's true form, much like that of other creatures, can be revealed by a mirror, and it resembles the rotting corpse of the specter. When possessed, humans' physical appearances do not change, although they do become noticeably angry. The easiest way to identify a specter is the presence of green ectoplasm and the smell of ozone in the air.

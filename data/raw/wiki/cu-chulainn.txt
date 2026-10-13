@@ -1,0 +1,20 @@
+### WIKI: Cú Chulainn | RU: Кухулин | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Cú Chulainn
+category: Demigod
+status: Unknown
+title/alias: True Hero
+occupation: Irish Mythological Hero
+affiliation: Irish Pantheon Fortuna
+
+[ОПИСАНИЕ]
+Cú Chulainn was a demigod hero from the Irish Mythology.
+
+[ИСТОРИЯ]
+===Background===
+Several millennia after God created the lesser deities, the roman goddess of luck, Fortuna, who favored those she deemed "true heroes", encountered Cú Chulainn and gave him luck in his journey/adventures.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+The Gamblers

@@ -1,0 +1,26 @@
+### WIKI: Satyrs | RU: Сатиры | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Satyrs
+category: Greek Creatures
+status: Extant
+family: |actor = None
+title/alias: Goat Dudes
+occupation: |affiliation =
+
+[ОПИСАНИЕ]
+Satyrs are humanoid/goat-like creatures from greek mythology.
+
+[СЛАБОСТИ]
+Uncontrollable Lust - Satyrs are nymphomaniacs by nature, often even leading their victims to the woods and sexually assaulting them with massive orgies before feeding of their flesh.
+
+[ИСТОРИЯ]
+===Season 12===
+While on a investigation of a hunt, with the description of a humanoid/goat-like creature, Sam and Dean Winchester stumble upon the lore on Pan, a satyr-god from the greek mythology. Dean at first doubts Pan's involvement with the case due to the representative image of Pan that Dean sees online, arguing that Pan is "adorable" and plays a flute. Sam goes on telling Dean about some lore on the characteristics of a satyr saying that they lead people to the woods and make orgies with them before "feasting upon the flesh of their victims until their bellies are full to bursting with their moist, slippery meat", Dean remarks how graphic the description is and the conversation drives off topic.
+
+[ЛОР]
+In Greek mythology, a satyr (Greek: σάτυρος sátyros, pronounced [sátyros]), also known as a silenos (Greek: σειληνός seilēnós), is a male nature spirit with ears and a tail resembling those of a horse, as well as a permanent, exaggerated erection. Early artistic representations sometimes include horse-like legs, but, by the sixth century BC, they were more often represented with human legs. Comically hideous, they have mane-like hair, bestial faces, and snub noses and are always shown naked. Satyrs were characterized by their ribaldry and were known as lovers of wine, music, dancing, and women. They were companions of the god Dionysus and were believed to inhabit remote locales, such as woodlands, mountains, and pastures. They often attempted to seduce or rape nymphs and mortal women alike, usually with little success. They are sometimes shown masturbating or engaging in bestiality. There is, however, no …
+
+[ПОЯВЛЕНИЯ]
+Season 12
+The Memory Remains

@@ -1,0 +1,23 @@
+### WIKI: Harmonia | RU: Гармония | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Harmonia
+category: Deity
+status: Unknown
+family: God Ares Amazons
+title/alias: Goddess of Harmony and Concord
+actor: None
+occupation: Greek Goddess
+affiliation: Greek Pantheon Ares
+
+[ОПИСАНИЕ]
+Harmonia is the immortal goddess of harmony and concord. She had sex with Ares, and from this were originated the first Amazons. After a war, and their numbers were vastly depleted, the Amazons made a deal with Harmonia to save them from extinction, and she made them more than human.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Immortality - As a goddess, she is naturally an immortal being.
+Supernatural Procreation - When she was impregnated by Ares, their children, the Amazons, end up being a new species/type of creature.
+Conversion - By making a deal with the Amazons, she transformed them into an even more powerful supernatural creature.
+
+[ПОЯВЛЕНИЯ]
+Season 7
+The Slice Girls

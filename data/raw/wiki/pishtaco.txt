@@ -1,0 +1,33 @@
+### WIKI: Pishtaco | RU: Пиштако | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Pishtaco
+category: Monsters
+status: Extant
+season: 9
+family: Eve †Leviathans Monsters Alpha Pishtaco
+actor: Various
+
+[ОПИСАНИЕ]
+A Pishtaco is a parasitic monster that is indigenous to Peru.
+
+[СИЛЫ И СПОСОБНОСТИ]
+250px|thumb|A Pishtaco feeding.
+Super Strength - It also was revealed that by eating human fat, Pishtacos gain superhuman strength. However they are still very weak in monster terms, to the point where a strong man like Sam Winchester is able to physically take one on.
+Invulnerability - Pishtaco can only be killed by silver.
+Lamprey Mouth - Pishtaco possess a lamprey-like sucking appendage which they use to feed. However they can also use it to kill by sucking out too much fat or by ripping a hole in a person.
+
+[СЛАБОСТИ]
+Silver - Pishtaco are vulnerable to weapons made of silver. Dean kills a Pishtaco with a silver knife.
+Severing Their Proboscis - Cutting off their sucking appendage with a silver blade will kill a Pishtaco.
+
+[ХАРАКТЕРИСТИКИ]
+Pishtacos are fat-sucking creatures rarely seen in the United States. They are similar to vampires, but feed only on human fat. They survive entirely upon it, and seem to possess a great hunger for it. Unlike vampires, which are regarded by the Pishtacos as killers, Pishtacos are more like parasites and do not hunt down their prey to feed. However, some Pishtacos do hunt humans for their fat. Just like most other monsters they look completely human, but their eyes roll back and reveal an elongated sucking appendage that they release from their mouth when they feed.
+
+[ПОЯВЛЕНИЯ]
+Season 9
+The Purge
+Season 10
+Hibbing 911 
+Season 11
+Plush

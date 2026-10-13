@@ -1,0 +1,32 @@
+### WIKI: Bigfoot | RU: Бигфут (снежный человек) | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Bigfoot
+status: Unconfirmed Existence
+season: 2, 4-5, 9, 12, 15
+actor: None
+species: Unknown
+
+[ОПИСАНИЕ]
+The Bigfoot, also known as Sasquatch is mythological being that is rumored (albeit doubted) to exist in the Supernatural universe.
+
+[ИСТОРИЯ]
+===Season 2===
+In Playthings, Dean playfully calls Sam a Sasquatch (due to his height) while calling him to sleep.
+
+[ПОЯВЛЕНИЯ]
+Supernatural
+Season 2
+Playthings 
+Season 3
+Jus In Bello 
+Season 4
+Wishful Thinking 
+Season 5
+Swap Meat 
+Season 9
+Thinman 
+Season 12
+Ladies Drink Free 
+Season 15
+Last Call

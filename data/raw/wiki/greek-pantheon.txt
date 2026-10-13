@@ -1,0 +1,13 @@
+### WIKI: Greek Pantheon | RU: Греческий пантеон | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Greek Pantheon
+status: Extant
+season: 4, 6-10, 13-14, Novels
+
+[ОПИСАНИЕ]
+The Greek Pantheon, also known as the Olympic Pantheon, is a group of gods and other creatures from Greek mythology.
+
+[ИСТОРИЯ]
+===Amazons===
+Amazons were created by a meeting of the pagan deities Ares and Harmonia, creating a tribe of warrior women who had no need for males, except for reproduction. At some point, they had a war, and their numbers were vastly depleted, as such they made a deal with Harmonia to save them from extinction, and she made them more than human, effectively turning them into monsters.

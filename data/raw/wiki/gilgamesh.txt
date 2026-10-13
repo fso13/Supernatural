@@ -1,0 +1,20 @@
+### WIKI: Gilgamesh | RU: Гильгамеш | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Gilgamesh
+category: Demigod
+status: Unknown
+title/alias: True Hero
+occupation: King of Uruk Mesopotamian Mythological Hero
+affiliation: Fortuna
+
+[ОПИСАНИЕ]
+Gilgamesh was a ancient Mesopotamian mythological hero, and most likely a historical king of the Sumerian city-state of Uruk.
+
+[ИСТОРИЯ]
+===Background===
+Several millennia after God created the lesser deities, the roman goddess of luck, Fortuna, who favored those she deemed "true heroes", encountered Gilgamesh and gave him luck in his reign/adventures.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+The Gamblers

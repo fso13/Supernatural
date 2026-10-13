@@ -1,0 +1,18 @@
+### WIKI: Gnomes | RU: Гномы | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Gnomes
+category: Fairies
+status: Extant
+family: |actor =
+affiliation: AvalonOberon
+
+[ОПИСАНИЕ]
+Gnomes are a type of fairy. There is a garden gnome variant.
+
+[ПОЯВЛЕНИЯ]
+Season 2
+What Is And What Should Never Be 
+
+Season 6
+Clap Your Hands If You Believe

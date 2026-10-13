@@ -1,0 +1,24 @@
+### WIKI: Baku | RU: Баку | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Baku
+status: Extant
+season: None
+
+[ОПИСАНИЕ]
+A Baku is a type of creature.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Dream Manipulation - Baku, according to Bobby and Rufus, are capable of inducing a terrible nightmare in their victims.
+
+[ОБЗОР]
+Not much is known about this creature. To date, Sam and Dean have never encountered an actual Baku. However, there are some clues that this creature exists. Both Bobby and Rufus once encountered one in Alaska, and during a case between 2008 and 2009, they mistakenly deduced they were encountering another Baku, only for it to turn out to be a Soul Eater instead.
+
+[ЛОР]
+Descriptions and beliefs in the Baku have changed throughout the years. In ancient Chinese legends, the Baku was an animal that was hunted for its pelt. Whoever killed a Baku would use a blanket made from the pelt as a talisman, or an object with magical powers, which would protect them from evil spirits. This practice evolved into one where a pelt was not necessary, and the display of a Baku image over the bed would repel evil spirits. It wasn't until the Baku legends made their way to Japan that the figure was viewed as a dream-eater. With this transition, the stories of Baku became consistent, and he has continued to be viewed as a dream-eater to this day.
+
+Legend has it, that a person who wakes up from a bad dream can call out to Baku. A child having a nightmare in Japan will wake up and repeat three times "Baku-san, come eat my dream. Baku-san, come eat my dream. Baku-san, come eat my dream." Legends …
+
+[ПОЯВЛЕНИЯ]
+Season 11
+Safe House

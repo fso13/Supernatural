@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бестиарий «Сверхъестественного» — D&D 5e</title>
+<meta name="description" content="Полный бестиарий существ из сериала «Сверхъестественное» (Supernatural) с адаптацией под правила Dungeons &amp; Dragons 5e.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../assets/brand.css">
+<link rel="icon" type="image/svg+xml" href="../assets/brand/favicon.svg">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="sig sig-trap brandmark" role="img" aria-label="Ловушка дьявола"></span>
+    <div>
+      <h1 class="wordmark">Бестиарий <span class="thin">Сверхъестественного</span></h1>
+      <p class="tagline">Все существа сериала Supernatural &middot; адаптация под Dungeons &amp; Dragons 5e</p>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab is-active" data-view="bestiary">Бестиарий</button>
+    <button class="tab" data-view="appendix">Мир и артефакты</button>
+    <button class="tab" data-view="tables">Таблицы</button>
+    <button class="tab" data-view="about">О проекте</button>
+    <a class="tab" href="adventure.html">Приключение</a>
+    <a class="tab" href="../site-gumshoe/index.html" title="Версия под GUMSHOE («Сыщик»)">GUMSHOE →</a>
+  </nav>
+</header>
+
+<main>
+  <section id="view-bestiary" class="view is-active">
+    <div class="controls">
+      <div class="search-wrap">
+        <input id="q" type="search" placeholder="Поиск: вендиго, djinn, левиафан, архангел…" autocomplete="off">
+        <span class="hint" id="qhint"></span>
+      </div>
+      <div class="filters">
+        <label>Категория <select id="f-cat"><option value="">все</option></select></label>
+        <label>Опасность <select id="f-threat"><option value="">любая</option></select></label>
+        <label>CR от <select id="f-crmin"><option value="">—</option></select></label>
+        <label>CR до <select id="f-crmax"><option value="">—</option></select></label>
+        <label>Сезон <select id="f-season"><option value="">любой</option></select></label>
+        <label>Сортировка
+          <select id="f-sort">
+            <option value="name">по названию</option>
+            <option value="threat">по опасности</option>
+            <option value="cr">по CR</option>
+            <option value="seasons">по первому сезону</option>
+          </select>
+        </label>
+        <button id="reset" class="ghostbtn">Сбросить</button>
+      </div>
+      <div class="countbar"><span id="count"></span>
+        <span class="tools">
+          <button class="ghostbtn" id="exp-json" title="Скачать всю базу в JSON">⤓ JSON</button>
+          <button class="ghostbtn" id="exp-md" title="Скачать книги в Markdown">⤓ Markdown</button>
+          <button class="ghostbtn" id="prn" title="Печать текущего вида">🖨 Печать</button>
+        </span>
+      </div>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" hidden>Ничего не найдено. Попробуйте другой запрос или сбросьте фильтры.</div>
+  </section>
+
+  <section id="view-appendix" class="view">
+    <p class="lead">Локации, артефакты, организации и понятия вселенной сериала — с игровыми зацепками для D&amp;D 5e.</p>
+    <div class="search-wrap"><input id="q2" type="search" placeholder="Поиск по приложению: Чистилище, Ад, скрижаль…" autocomplete="off"></div>
+    <div id="grid2" class="grid"></div>
+    <div id="empty2" class="empty" hidden>Ничего не найдено.</div>
+  </section>
+
+  <section id="view-tables" class="view">
+    <p class="lead">Сводные таблицы для быстрого подбора энкаунтеров.</p>
+    <div id="tables"></div>
+  </section>
+
+  <section id="view-about" class="view">
+    <div class="prose">
+      <h2>О проекте</h2>
+      <p>Этот бестиарий собран по материалам <strong>Supernatural Wiki</strong> (supernatural.fandom.com) и охватывает
+      существ всех 15 сезонов сериала «Сверхъестественное», а также спин-оффов. Для каждого существа приведены
+      лор, силы, слабости, способ охоты и полноценный статблок по правилам <strong>Dungeons &amp; Dragons 5-й редакции</strong>.</p>
+      <h3>Как пользоваться</h3>
+      <ul>
+        <li><strong>Бестиарий</strong> — карточки существ. Клик по карточке открывает полное описание и статблок.</li>
+        <li><strong>Мир и артефакты</strong> — локации, предметы и понятия; у каждого тоже есть игровые свойства.</li>
+        <li><strong>Таблицы</strong> — сводка по CR, категориям и сезонам для планирования кампании.</li>
+      </ul>
+      <h3>Как читать статблок</h3>
+      <p>Обозначения стандартные для 5e: <em>КД</em> — класс доспеха, <em>ХП</em> — хиты, <em>CR</em> — уровень опасности,
+      <em>БМ</em> — бонус мастерства. Характеристики: Сил, Лов, Тел, Инт, Мдр, Хар.
+      Спасброски записаны как «Лов +6 (Сл 14)» — модификатор и, где нужно, сложность.</p>
+      <h3>Дисклеймер</h3>
+      <p>«Сверхъестественное» (Supernatural) — торговая марка Warner Bros. Television. D&amp;D 5e — Wizards of the Coast.
+      Это неофициальный фанатский материал для домашних игр. Тексты написаны заново по мотивам вики и не являются
+      переводом оригинальных статей.</p>
+      <p class="meta" id="build"></p>
+    </div>
+  </section>
+</main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-bg" data-close></div>
+  <article class="sheet" id="sheet" role="dialog" aria-modal="true"></article>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

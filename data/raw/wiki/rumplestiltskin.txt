@@ -1,0 +1,27 @@
+### WIKI: Rumplestiltskin | RU: Румпельштильцхен | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Rumpelstiltskin
+category: Fairy
+status: Alive
+family: |actor = None
+title/alias: |occupation = Deal maker
+affiliation: OberonAvalon
+
+[ОПИСАНИЕ]
+Rumpelstiltskin is a dark fairy in folklore, and may be a Leprechaun seeing as he was mentioned in the same sentence by Marion.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Invisibility - As a fairy, he is naturally invisible, but humans who visited Avalon can perceive him.
+Reality Warping - In the form of deals, similar to crossroad demons, he can warp reality to some extent.
+Teleportation - Rumpelstiltskin could transport himself and firstborn sons to Avalon.
+
+[ОБЗОР]
+In medieval times, Rumpelstiltskin was summoned to lend a hand and made his master's dreams come true, but he wanted something in return. All he asked for, was for the firstborn sons.
+
+[ЛОР]
+Rumpelstiltskin is the villain in the Grimm's fairy tale named Rumpelstiltskin. He is a imp who helped the daughter of a miller spin straw into gold because her father had promised a King she could do that. The first night he agrees to help her in exchange for her necklace, the second in exchange for her ring, abd the third night he makes her promise that she will give him her firstborn child. One year later she is married to the King and has a child, when he comes to collect her child. She cries and he feels so bad that he offers that she can keep her child if she can guess his name within three days. The first to days she fails but the third day she discovers his name due to one of her subjects has heard him sing his name. When she guessed his name he got so mad that he stamped his feet. This made a hole so big that he fell into it.
+
+[ПОЯВЛЕНИЯ]
+Season 6
+Clap Your Hands If You Believe

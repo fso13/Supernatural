@@ -1,0 +1,24 @@
+### WIKI: Myling | RU: Мюлинг | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Myling
+category: Ghosts
+status: Extant
+season: 12
+family: |actor=None
+
+[ОПИСАНИЕ]
+A Myling is a type of ghost from Scandinavian lore.
+
+[ХАРАКТЕРИСТИКИ]
+Mylings are ghosts from Scandinavian lore. They are the vengeful spirits of children who lure adults to their deaths with cries for help.
+
+[ЛОР]
+In Scandinavian folklore, mylings are the ghostly incarnations of the souls of unbaptized children that had been forced to roam the earth until they could persuade someone (or otherwise cause enough of a ruckus to make their wishes known) to bury them properly. They are also said to be very dangerous as they are often able to kill people. The belief that mylings are enraged and seeking revenge is what gave them the reputation as one of the most menacing types of ghosts in Scandinavian folklore.
+
+The myling (also known as "utburd" or "ihtiriekko" in Finnish) is said to chase lone wanderers at night and jump on their backs, demanding to be carried to the graveyard, so they can rest in hallowed ground. Mylings are thought to be enormous and apparently grow heavier as they near the graveyard, to the point where any person carrying one (or more) could sink into the soil. If one should prove unable to make it into the cemetery, the myling kills its victim in rage.
+
+The word "utburd" means "that which is taken outside" and refers to the practice of abandoning unwanted children in the woods or in other remote places, where death is almost …
+
+[ИСТОРИЯ]
+In The Foundry, after encountering the spirit of Lucas Kellinger, Sam suspects that Lucas and the other murdered children are mylings as it seems to fit the lore. As a result, Sam and Dean salt and burn the children's bones, but their mother is able to determine that the children are not mylings but rather lost souls and that there is another culprit.

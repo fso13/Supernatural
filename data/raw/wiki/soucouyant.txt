@@ -1,0 +1,31 @@
+### WIKI: Soucouyant | RU: Сукуйянт | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Soucouyant
+category: Creature
+status: Extinct
+season: The Winchesters
+actor: Taryn Terrell
+occupation: |affiliation =
+
+[ОПИСАНИЕ]
+Soucouyant is a rare type of vampiric witch in Caribbean folklore, characterized by a pale appearance and a mouth brimming with sharp fangs.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Pyrokinesis – A soucouyant is capable of emitting fire from its arms to assault its victims.
+Sharp Claws - Soucouyants appear to possess sharp claws, as a soucouyant left behind a claw in the ceiling rafters after it killed its target.
+
+[СЛАБОСТИ]
+thumb|250px|Soucouyant in lore
+Celtic Blood Trapping Spell – The soucoyant, possessed by Mac, utilized pyrokinesis to destroy the sigil in Tracy Gellar's home. It remains unclear whether the warding prevented the soucoyant or the spirit from entering the house.
+Decapitation – Removal of the head is a one of the methods to kill a soucoyant.
+Stake – A stake to the heart is also effective against a soucoyant, though it is not specified if a specific type of stake is needed.
+Crushing - A cave-in caused by C4 was able to kill a soucoyant.
+
+[ИСТОРИЯ]
+In Barbados, a small town was terrorized by four soucouyants until a team of hunters tracked down and eliminated three. The last soucouyant escaped to its cave, pursued by a hunter. The remaining hunters detonated C4, causing a cave-in that killed the final soucouyant.
+
+[ПОЯВЛЕНИЯ]
+The Winchesters
+Season 1
+Art of Dying

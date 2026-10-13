@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# редакторы
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# сборка для GitHub Pages — генерируется в CI
+public/
+
+# промежуточные файлы конвертации (пересобираются скриптами)
+data/creatures/groups/
+data/gumshoe/groups/
+data/edge/groups/
+data/groups/
+
+# рабочие черновики
+data/raw/image_retry.json
+data/raw/no_image.json

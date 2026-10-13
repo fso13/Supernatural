@@ -1,0 +1,22 @@
+### WIKI: Hera | RU: Гера | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Hera
+category: Deity
+status: Unknown
+family: God Zeus †Ares Harmonia Amazons
+title/alias: Goddess of Women and Marriage
+actor: None
+occupation: Greek Goddess
+affiliation: Greek Pantheon
+
+[ОПИСАНИЕ]
+Hera is the Greek goddess of the women, marriage, family, and childbirth from the Greek Pantheon.
+
+[ИСТОРИЯ]
+===Background===
+Shortly after the "apes" climbed down the trees and started to pray for the sun and other natural phenomena, God created Hera and the rest of the deities to be his scapegoats when something went wrong. God also created them because they made for good stories.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+The Gamblers

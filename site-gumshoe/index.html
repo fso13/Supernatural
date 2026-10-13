@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бестиарий «Сверхъестественного» — GUMSHOE</title>
+<meta name="description" content="Бестиарий существ из сериала «Сверхъестественное», адаптированный под ролевую систему GUMSHOE («Сыщик»): пулы способностей, потеря Стабильности, улики и правило твари.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../assets/brand.css">
+<link rel="icon" type="image/svg+xml" href="../assets/brand/favicon.svg">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="sig sig-trap brandmark" role="img" aria-label="Ловушка дьявола"></span>
+    <div>
+      <h1 class="wordmark">Бестиарий <span class="thin">Сверхъестественного</span></h1>
+      <p class="tagline">GUMSHOE &middot; «Сыщик» &middot; охотничий вариант &middot; <span id="sysver">v1</span></p>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab is-active" data-view="bestiary">Бестиарий</button>
+    <button class="tab" data-view="appendix">Мир и артефакты</button>
+    <button class="tab" data-view="tables">Таблицы</button>
+    <button class="tab" data-view="about">О системе</button>
+    <a class="tab" href="quickstart.html" title="Начать играть сегодня">Быстрый старт</a>
+    <a class="tab" href="rules.html">Правила</a>
+    <a class="tab" href="adventure.html">Приключение</a>
+    <a class="tab" href="../index.html" title="Все три редакции">Все редакции</a>
+  </nav>
+</header>
+
+<main>
+  <section id="view-bestiary" class="view is-active">
+    <div class="controls">
+      <div class="search-wrap">
+        <input id="q" type="search" placeholder="Поиск: вендиго, джинн, левиафан, Оккультизм…" autocomplete="off">
+        <span class="hint" id="qhint"></span>
+      </div>
+      <div class="filters">
+        <label>Категория <select id="f-cat"><option value="">все</option></select></label>
+        <label>Опасность <select id="f-threat"><option value="">любая</option></select></label>
+        <label>Стабильность от <select id="f-stab"><option value="">—</option></select></label>
+        <label>Роль <select id="f-kind">
+          <option value="">все</option>
+          <option value="creature">существа</option>
+          <option value="being">высшие сущности</option>
+        </select></label>
+        <label>Сезон <select id="f-season"><option value="">любой</option></select></label>
+        <label>Сортировка
+          <select id="f-sort">
+            <option value="name">по названию</option>
+            <option value="threat">по опасности</option>
+            <option value="stab">по потере Стабильности</option>
+            <option value="health">по Здоровью</option>
+          </select>
+        </label>
+        <button id="reset" class="ghostbtn">Сбросить</button>
+      </div>
+      <div class="countbar"><span id="count"></span>
+        <span class="tools">
+          <button class="ghostbtn" id="exp-json" title="Скачать базу в JSON">⤓ JSON</button>
+          <button class="ghostbtn" id="exp-md" title="Скачать в Markdown">⤓ Markdown</button>
+          <button class="ghostbtn" id="prn" title="Печать">🖨 Печать</button>
+        </span>
+      </div>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" hidden>Ничего не найдено. Попробуйте другой запрос или сбросьте фильтры.</div>
+  </section>
+
+  <section id="view-appendix" class="view">
+    <p class="lead">Локации, артефакты, организации и понятия — как антагонисты, места преступления и ловушки. У каждой записи есть пулы, потеря Стабильности и «правило».</p>
+    <div class="search-wrap"><input id="q2" type="search" placeholder="Поиск по приложению: Чистилище, Ад, скрижаль…" autocomplete="off"></div>
+    <div id="grid2" class="grid"></div>
+    <div id="empty2" class="empty" hidden>Ничего не найдено.</div>
+  </section>
+
+  <section id="view-tables" class="view">
+    <p class="lead">Сводные таблицы для подготовки дела.</p>
+    <div id="tables"></div>
+  </section>
+
+  <section id="view-about" class="view">
+    <div class="prose">
+      <h2>О системе</h2>
+      <p>Это вторая редакция бестиария — под <strong>GUMSHOE</strong> (в русском переводе «Сыщик»),
+      систему Робина Д. Лоуза, известную по <em>Trail of Cthulhu</em>, <em>Night's Black Agents</em>
+      и <em>The Esoterrorists</em>. Первая редакция, под Dungeons &amp; Dragons 5e, лежит
+      <a href="../site/index.html">здесь</a>.</p>
+
+      <p class="cta"><a href="quickstart.html">→ Быстрый старт: одна страница, чтобы начать играть сегодня</a></p>
+
+      <h3>Почему GUMSHOE подходит сериалу</h3>
+      <p>В «Сверхъестественном» герои девяносто процентов времени ищут, а не дерутся. GUMSHOE
+      устроен так же: по расследовательским способностям <strong>не бросают кубик</strong> — есть
+      способность, значит есть улика. Забуксовать из-за плохого броска невозможно.</p>
+
+      <h3>Что в карточке</h3>
+      <ul>
+        <li><strong>Ужас</strong> — что видно при первой встрече, без эпитетов.</li>
+        <li><strong>Пулы</strong> — Атлетика, Бой, Здоровье, Бдительность и прочее.</li>
+        <li><strong>Порог попадания</strong> — сложность попасть по твари (обычно 3–5).</li>
+        <li><strong>Урон</strong> — модификатор и особые эффекты.</li>
+        <li><strong>Потеря Стабильности</strong> — цена того, что ты это увидел.</li>
+        <li><strong>Особые способности</strong> — механика в терминах GUMSHOE.</li>
+        <li><strong>Улики</strong> — через какие расследовательские способности что узнаётся,
+            и что даёт трата очка.</li>
+        <li><strong>Правило</strong> — как тварь убивается. Пока правило не установлено,
+            любая атака наносит ей ровно 1 очко урона.</li>
+        <li><strong>Заметки ведущему</strong> — как вести сцену и чего тварь боится.</li>
+      </ul>
+
+      <h3>Откуда числа</h3>
+      <p>Показатели выведены из статблоков D&amp;D 5e по открытым формулам (они полностью
+      приведены на <a href="rules.html">странице правил</a>). Например, Здоровье =
+      round(хиты / 7) + 2, Порог попадания = 3 + round((КД − 12) / 4). Формулы не «на глаз»:
+      ведущий может проверить любую карточку.</p>
+
+      <h3>Дисклеймер</h3>
+      <p>«Сверхъестественное» — торговая марка Warner Bros. Television. GUMSHOE — Pelgrane Press,
+      автор системы Робин Д. Лоуз. Dungeons &amp; Dragons — Wizards of the Coast.
+      Это неофициальный фанатский материал для домашних игр.</p>
+      <p class="meta" id="build"></p>
+    </div>
+  </section>
+</main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-bg" data-close></div>
+  <article class="sheet" id="sheet" role="dialog" aria-modal="true"></article>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none"
+     preserveAspectRatio="xMidYMax slice" role="img" aria-label="Ночное шоссе">
+  <title>Ночное шоссе</title>
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="currentColor" stop-opacity="0"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity=".9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="88%" r="60%">
+      <stop offset="0" stop-color="currentColor" stop-opacity=".22"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="600" cy="352" rx="520" ry="150" fill="url(#glow)"/>
+  <path d="M600 150 L120 400" stroke="url(#fade)" stroke-width="2"/>
+  <path d="M600 150 L1080 400" stroke="url(#fade)" stroke-width="2"/>
+  <path d="M600 150 L600 400" stroke="currentColor" stroke-width="2"
+        stroke-dasharray="16 26" opacity=".5"/>
+  <path d="M0 330 H1200" stroke="currentColor" stroke-width="1" opacity=".18"/>
+</svg>

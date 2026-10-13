@@ -1,0 +1,19 @@
+### WIKI: Mandragora | RU: Мандрагора | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Mandragora
+category: Monster
+status: Extinct
+season: 15
+
+[ОПИСАНИЕ]
+The Mandragora is a type of monster that is now extinct.
+
+[ИСТОРИЯ]
+Not much is known about the Mandragora except that their liver is a key ingredient for a spell called The World Bender. Most were hunted down and killed over time. Eventually, hunter John Winchester chased The Last Mandragora down in Fargo and killed it, rendering the species extinct.
+
+In 2020, Nephilim Jack Kline found The World Bender spell and suggested it as a way to open a rift to the Bad Place. However, after he told Sam and Dean Winchester that they needed the liver of a Mandragora, they informed him that it was impossible as their father mentioned in his journal that he hunted down and killed the last of the monsters.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+Galaxy Brain

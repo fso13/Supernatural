@@ -1,0 +1,28 @@
+### WIKI: Flying Monkeys | RU: Летающие обезьяны | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Flying Monkeys
+category: Monkey-Fairies
+status: Extant
+season: 9
+actor: N/A
+occupation: Servants of the Wicked Witch
+affiliation: The Wicked Witch
+
+[ОПИСАНИЕ]
+Flying Monkeys are creatures native to Oz. They were under the control of the Wicked Witch.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Flight - Flying Monkeys each possess a pair of wings, allowing them to fly in the air.
+
+[ХАРАКТЕРИСТИКИ]
+As suggested by their name, Flying Monkeys appear like monkeys with wings, talons and glowing red/yellow eyes. They work together to form swarms large enough to be mistaken as a bank of dark clouds. Their capabilities and power, if any, other than flying, is largely unknown. Additionally, their weaknesses are unknown. As they are from Oz, they may be identified as a form of fairy.
+
+[ИСТОРИЯ]
+The Flying Monkeys served the Wicked Witch in Oz and seemed to reside in her castle there. They served as members of the Witch's army to rule Oz.
+
+In 2013, the Wicked Witch used the Key to Oz to open a door in the Men of Letters bunker to Oz and summoned her army of Flying Monkeys to her in order to conquer Earth. Before the army could reach the door, Charlie Bradbury killed the Wicked Witch with the Ruby Slippers and closed the door moments before the first of the Flying Monkeys could reach it, sealing them inside Oz.
+
+[ПОЯВЛЕНИЯ]
+Season 9
+Slumber Party

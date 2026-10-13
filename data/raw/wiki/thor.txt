@@ -1,0 +1,24 @@
+### WIKI: Thor | RU: Тор | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Thor
+category: Deity
+status: Unknown
+season: None
+occupation: Norse God
+affiliation: Norse Pantheon|Title/Alias=Thunder God|family=Odin †Loki †Baldur †Jörmungandr Fenrir †Hel Narfi †Sleipnir †
+
+[ОПИСАНИЕ]
+Thor is the Norse God of thunder, lightning, storms, hallowing, strength, fertility, oak trees and protection of mankind.
+
+[ПРЕДЫСТОРИЯ]
+Thor's hammer, Mjölnir, somehow ends up at Plutus' auction. The hammer is bought by fellow Norse deity Mr. Vili. However, Sam Winchester takes the hammer and kills two deities with it, the latter being Mr. Vili.
+
+The current whereabouts of Thor currently unknown.
+
+[ПОЯВЛЕНИЯ]
+Season 8
+What's Up, Tiger Mommy? 
+Heartache 
+Season 9
+Sharp Teeth

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none"
+     stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+     stroke-linejoin="round" role="img" aria-label="Чёрная машина">
+  <title>Чёрная машина</title>
+  <path d="M12 54 L20 38 L52 34 L74 20 L150 20 L172 34 L214 38 L228 54 Z"/>
+  <path d="M20 38 H214"/>
+  <path d="M74 20 L66 34 M150 20 L158 34 M112 20 V34"/>
+  <circle cx="58" cy="58" r="14"/>
+  <circle cx="182" cy="58" r="14"/>
+  <circle cx="58" cy="58" r="5" opacity=".5"/>
+  <circle cx="182" cy="58" r="5" opacity=".5"/>
+  <path d="M228 46 L238 44 M12 46 L2 44"/>
+</svg>

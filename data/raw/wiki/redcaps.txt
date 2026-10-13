@@ -1,0 +1,22 @@
+### WIKI: Redcaps | RU: Редкапы | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Redcaps
+category: Fairies
+status: Extant
+season: 6
+family: |actor =
+occupation: |affiliation = AvalonOberon
+
+[ОПИСАНИЕ]
+Redcaps are a type of fairy.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Super strength - Redcaps are extremely strong, being able to overpower humans with extreme ease. One Redcap easily threw around Dean in a cell and Dean wasn't strong enough to fight back and only survived because Sam used the fairy banishing spell to send the Redcap away.
+Teleportation - Redcaps can teleport from one place to another in the blink of an eye, and therefore are very hard to catch.
+Invisibility - All fairies are invisible and can only be seen if they want to or by those who have been to Avalon.
+Shapeshifting - Redcaps can shapeshift into humans to hide their true forms and blend in with other humans.
+
+[ПОЯВЛЕНИЯ]
+Season 6
+Clap Your Hands If You Believe

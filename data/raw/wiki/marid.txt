@@ -1,0 +1,31 @@
+### WIKI: Marid | RU: Марид | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Marid
+category: Creature
+status: Extant
+season: 15
+
+[ОПИСАНИЕ]
+A Marid is a type of creature that can grant riches and health in exchange for the blood of innocents.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Reality Warping - In exchange for being fed, they can give out riches, health and anything that a person can dream of.
+Super Strength - When angered, and fortified by human blood, a Marid was able to break through a sturdy metal door.
+
+[СЛАБОСТИ]
+thumb|250px|A Marid decapitated.
+Decapitation - Dean was able to kill one through decapitation.
+
+[ХАРАКТЕРИСТИКИ]
+Marids take the form of a green scaly humanoid, with spikes around its head, and they feed on blood. In exchange for being fed, they can grant wishes to the persons providing the food.
+
+[ИСТОРИЯ]
+On his final hunt before retiring, hunter Lee Webb found a Marid. Capturing the Marid, Lee spent over a decade feeding the Marid blood in exchange for riches and health. However, Lee's murder of Angela Sullivan was detected by his old friend Dean Winchester who investigated the case. Lee attempted to feed Dean to the Marid, but Dean was able to break free and kill the Marid and Lee.
+
+[ЛОР]
+The Marid is a type of Shaitan (or demon) in Islamic traditions. The Arabic word meaning rebellious is applied to such supernatural beings. They share traits in common with Djinn and genies.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+Last Call

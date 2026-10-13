@@ -1,0 +1,29 @@
+### WIKI: Loch Ness Monster | RU: Лох-несское чудовище | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Loch Ness Monsters
+category: Unknown
+status: Extant
+title/alias: |season=None
+
+[ОПИСАНИЕ]
+The Loch Ness Monsters are aquatic supernatural creatures.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Unknown
+
+[ХАРАКТЕРИСТИКИ]
+The Loch Ness Monster was first mentioned in a case involving a vengeful spirit in Lake Manitoc, Wisconsin. It was initially suspected as the culprit by Sam and Dean, but the former dismissed it due to a lack of eyewitnesses and sightings of a monster, unlike that of in Loch Ness and Lake Champlain.
+
+Bobby reaffirmed their existence years after when he was asked about dragons by Sam and Dean. Little else is known about these creatures.
+
+[ЛОР]
+The Loch Ness Monster is a cryptid in cryptozoology and Scottish folklore that is said to inhabit Loch Ness in the Scottish Highlands. It is often described as large, long-necked, and with one or more humps protruding from the water. The scientific community regards the Loch Ness Monster as a phenomenon without biological basis, explaining sightings as hoaxes, wishful thinking, and the misidentification of mundane objects.
+
+[ПОЯВЛЕНИЯ]
+Season 1
+Dead In The Water 
+Season 6
+Like A Virgin 
+Season 15
+Last Call

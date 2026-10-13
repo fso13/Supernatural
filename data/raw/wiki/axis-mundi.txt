@@ -1,0 +1,14 @@
+### WIKI: Axis Mundi | RU: Ось мира | КАТЕГОРИЯ: Левиафаны
+
+[ИНФОБОКС]
+name: Axis Mundi
+season: 5
+
+[ОПИСАНИЕ]
+The Axis Mundi is a path that runs through Heaven. Different souls in Heaven see it as different things. For Dean it is "two-lane asphalt".
+
+According to Castiel, some view this axis as a river. The road will lead the traveler to The Garden.
+
+[ПОЯВЛЕНИЯ]
+Season 5
+ Dark Side of the Moon

@@ -1,0 +1,23 @@
+### WIKI: Leviathan Blossom | RU: Цветок левиафана | КАТЕГОРИЯ: Левиафаны
+
+[ИНФОБОКС]
+name: Leviathan Blossom
+season: 15
+powers: |location = In Purgatory
+
+[ОПИСАНИЕ]
+The Leviathan Blossom is a blossom that only grows in Purgatory. It sprouts in the soil around the remains of a dead Leviathan.
+
+[ИСТОРИЯ]
+God used the nectar from the Leviathan Blossom as part of the spell he used to trap the Darkness.
+
+In 2019, the archangel Michael provides the same spell to Dean Winchester and Castiel to lock up God himself. Michael warns the two, however, that they will need the nectar from a Leviathan Blossom which only grows in Purgatory. With a snap of his fingers, Michael opens a twelve-hour rift to Purgatory so that they can seek out the Leviathan Blossom for the spell. However, Michael refuses to join them in seeking out the flower or to aid them any further.
+
+After being captured by Dean and Castiel, a Leviathan explains that the Leviathan Blossom is something that grows in the soil around the corpse of a Leviathan as they rot. However, it can take months to grow. The Leviathan leads the two to a field of Leviathan corpses where several of the blossoms are growing. However, they are ambushed by Leviathans working for a vengeful Eve who takes Castiel and all of the blossoms. Castiel later manages to steal one and escape.
+
+After returning to Earth, Dean and Castiel use the blossom to prepare the spell. However, Sam chooses not to finish the spell after learning of the chaos that will befall the world if God is trapped.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+Our Father, Who Aren't in Heaven 
+The Trap

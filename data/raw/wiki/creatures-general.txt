@@ -1,0 +1,95 @@
+### WIKI: Creatures | RU: Существа (классификация) | КАТЕГОРИЯ: Левиафаны
+
+[ИНФОБОКС]
+name: Creatures
+category: Various/Unknown
+status: Extant
+season: 1-3, 5, 7-8, 11, 13-15, The Winchesters
+actor: Various
+occupation: Various
+affiliation: Various
+
+[ОПИСАНИЕ]
+Creatures are non-human beings characterized as monstrous or similar to monsters, possessing unknown origins and not descending from Eve. They come from various realms, each with distinct powers and appearances.
+
+[ПОЯВЛЕНИЯ]
+Season 1
+Dead In The Water 
+Season 2
+Everybody Loves a Clown 
+Bloodlust 
+Crossroad Blues 
+Season 3
+The Kids Are Alright 
+Long-Distance Call 
+Season 4
+Yellow Fever 
+Season 5
+99 Problems 
+Season 6
+Like A Virgin 
+Season 7
+The Slice Girls 
+Season 8
+Man's Best Friend With Benefits 
+Remember the Titans 
+Goodbye Stranger 
+Season 9
+First Born 
+Meta Fiction 
+Season 11
+Baby 
+Just My Imagination 
+The Devil in the Details 
+Into the Mystic 
+Safe House 
+Love Hurts 
+The Chitters 
+Season 12
+The British Invasion 
+The Memory Remains 
+Season 13
+The Rising Son 
+The Scorpion and The Frog 
+Wayward Sisters 
+Good Intentions 
+Season 14
+Optimism 
+Ouroboros 
+Don't Go In The Woods 
+Season 15
+Last Call 
+
+The Winchesters
+Pilot 
+You're Lost Little Girl 
+Teach Your Children Well 
+Art of Dying 
+You've Got a Friend
+
+[ИСТОРИЯ]
+These are creatures that have not been seen on Earth.
+Fairies
+Banshee Fairies
+Boggarts  
+Brownies  
+Changelings 
+Elves
+Fairy Devil
+Fairy King
+Flying Monkeys 
+Gnomes  
+Goblins  
+Good Fairies 
+Good Witches
+Leprechauns 
+Redcaps 
+Selkies  
+Sprites 
+Spriggans
+Tin Man
+Tinks
+Tooth Fairies
+Trolls 
+Wicked Witches
+Wood Nymphs

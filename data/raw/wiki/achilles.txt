@@ -1,0 +1,24 @@
+### WIKI: Achilles | RU: Ахиллес | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Achilles
+category: Demigod
+status: Unconfirmed existence
+title/alias: |season=None
+occupation: Greek Hero|affiliation=Greek Pantheon |actor=None
+
+[ОПИСАНИЕ]
+Achilles is a potential demigod hero from the Greek Pantheon that has been referenced a couple of times.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Invincibility - Achilles is thought to be impervious to damage on his whole body except for his heel.
+
+[СЛАБОСТИ]
+Achilles Heel - The saying goes that the achilles heel is his one and only weakness.
+
+[ПОЯВЛЕНИЯ]
+Season 5
+The End 
+Season 6
+You Can't Handle The Truth 
+Family Matters

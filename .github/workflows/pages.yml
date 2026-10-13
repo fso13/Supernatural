@@ -1,0 +1,69 @@
+name: Публикация на GitHub Pages
+
+on:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# не запускать два деплоя одновременно
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Сборка сайта
+    runs-on: ubuntu-latest
+    steps:
+      - name: Забрать репозиторий
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Проверить данные бестиария
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          bad = []
+          for pat in ("data/creatures/*.json", "data/gumshoe/*.json", "data/edge/*.json"):
+              files = [f for f in glob.glob(pat) if "skeleton" not in f and "/groups/" not in f]
+              for f in files:
+                  try:
+                      json.load(open(f, encoding="utf-8"))
+                  except Exception as e:
+                      bad.append("%s: %s" % (f, e))
+          print("проверено карточек:", len(glob.glob("data/creatures/*.json")))
+          if bad:
+              print("\n".join(bad)); sys.exit(1)
+          PY
+
+      - name: Собрать public/
+        run: python3 scripts/build_pages.py
+
+      - name: Настроить Pages
+        uses: actions/configure-pages@v5
+
+      - name: Загрузить артефакт
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    name: Деплой
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Опубликовать
+        id: deployment
+        uses: actions/deploy-pages@v4

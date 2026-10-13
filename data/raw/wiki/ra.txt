@@ -1,0 +1,22 @@
+### WIKI: Ra | RU: Ра | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Ra
+category: Deity
+status: Unknown
+family: God (creator)
+title/alias: God of the Sun
+actor: None
+occupation: Egyptian God
+affiliation: Egyptian Pantheon
+
+[ОПИСАНИЕ]
+Ra is th egyptian god of the sun and ruler of the Egyptian Pantheon
+
+[ИСТОРИЯ]
+===Background===
+Shortly after the "apes" (humans) climbed down the trees and started to pray for the sun and other natural phenomena, God created Ra and the rest of the deities to be his scapegoats when something went wrong. God also created them because they made for good stories.
+
+[ПОЯВЛЕНИЯ]
+Season 15
+The Gamblers

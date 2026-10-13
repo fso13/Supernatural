@@ -1,0 +1,19 @@
+### WIKI: Giant Alligator | RU: Гигантский аллигатор | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Giant Alligators
+category: Enhanced alligator
+status: Unknown
+
+[ОПИСАНИЕ]
+Giant Alligators are enhanced reptilian creatures thought to only be an urban legend.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Gigantic Size - The Giant Alligator are unnaturally large by scientific standards.
+Super Strength - The Giant Alligators can exert more pressure and force on objects than regular alligators, as a byproduct of their unnatural size.
+
+[ПОЯВЛЕНИЯ]
+Season 2
+Tall Tales 
+Season 15
+The Trap

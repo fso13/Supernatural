@@ -1,0 +1,40 @@
+### WIKI: Rabid | RU: Бешеные | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Rabid
+status: Extinct
+season: 11
+
+[ОПИСАНИЕ]
+Rabids, named by Sam Winchester, were a new kind of creature created by the Darkness by corrupting humans. The corruption caused a mutation and made their behavior become aggressive, while still having a certain degree of intelligence. They can be cured by exposure to Holy Fire.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Aggression - They are very aggressive and were agitated if there were humans nearby.
+Infection - They can infect normal humans through contact with their blood. Just being splashed in the face with a Rabid's blood is enough to infect a person.
+Super Senses - Rabids are able to smell each other and other regular humans who have been just infected.
+Telepathy - The kind of Rabid appearing in Don't Call Me Shurley share a telepathic link with the Darkness.
+
+[СЛАБОСТИ]
+thumb|220px|Sam uses Holy Oil to cures|cure himself.
+Heart - A shot to the heart killed a rabid.
+Throat - A slit throat killed a rabid.
+Shelf life - Within a matter of hours after turning rabid, a rabid will die. The amount of time varies from person to person.
+Holy Fire - Proximity to holy fire will cure a rabid.
+Electrocution - A rabid is vulnerable to electrocution with a minor shock from a makeshift cattle prod rendering one unconscious.
+God - God is capable of effortlessly curing an entire town of Rabids as well as easily suppressing the infectious fog that created them.
+
+[ХАРАКТЕРИСТИКИ]
+Rabids had black veins running across their neck and head, similar to when the Leviathan took control of Castiel's vessel. While they had increased aggression, they do not appear to be mindless, as they have been shown to have enough capacity to drive vehicles. One still retained enough humanity to name his daughter and let her go despite being moments from death.
+
+When capturing a Rabid, Sam asked if the Rabid could talk or if he was "too far gone", indicating that they can retain their minds to a degree at least under the infection before losing it completely. They also appear to have a pack mentality, as when Sam was cornered by three of them, rather than go for the kill, two of them held him while a third detected that he had been infected. Another …
+
+[ИСТОРИЯ]
+thumb|220px|A group of rabids.
+When the Darkness was released, she swept over the town of Superior, Nebraska where a road crew was infected and turned into Rabids. Some of the road crew attacked and killed a family that was on their way into town before being killed by Deputy Jenna Nickerson. More of the road crew made their way into town where they slaughtered everyone at a nearby hospital and started infecting the town. A few hours after the infection began, Sam and Dean Winchester came to the scene of the family's slaughter and encountered an infected member of the road crew who was still alive. They learned of the situation and went to the hospital where they found the slaughter there and learned that Rabids only have a limited …
+
+[ПОЯВЛЕНИЯ]
+Season 11
+Out of the Darkness, Into the Fire
+Form and Void
+Don't Call Me Shurley
+All in the Family

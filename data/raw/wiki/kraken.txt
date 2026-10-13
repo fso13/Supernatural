@@ -1,0 +1,28 @@
+### WIKI: Kraken | RU: Кракен | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Krakens
+category: Unknown
+status: Extant
+title/alias: |occupation =
+actor: None
+affiliation: |family =
+
+[ОПИСАНИЕ]
+A Kraken was a kind of creature that lives in the sea. It resembles a giant squid in Tara's notes. thumb|250px|Kraken (see right side, below an unknown herb) as detailed in Tara's notes They may be considered as one kind from many kinds of creatures which were very rare in nature, due to Tara being unable to obtain any essence of this monster after many years searching.
+
+Not much known about this creature. To date, Sam and Dean Winchester have never encountered an actual kraken. However, Crowley stated he has a warehouse full of this in Belize.
+
+Its essence is one of many ingredients (and also the last ingredient which was acquired) to perform the First Blade locating spell.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Unknown
+
+[ПРЕДЫСТОРИЯ]
+After gathering information from demons about the Knights of Hell and the First Blade, Tara attempted to seek the weapon. After years of fruitless searching, she was only able to find a tracking spell and gathered all but one of the ingredients, essence of Kraken. When Dean and Crowley arrived, Crowley was able to get the final ingredient from his own warehouse in Belize so they could perform the spell to locate the blade. However, the spell actually tracked the source of the Blade's power, which was the Mark of Cain, as the Blade itself was thrown into the ocean (later, it's known that the blade was thrown into the Mariana Trench).
+
+[ПОЯВЛЕНИЯ]
+Season 5
+My Bloody Valentine 
+Season 9
+First Born

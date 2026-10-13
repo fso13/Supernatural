@@ -1,0 +1,25 @@
+### WIKI: Whispers | RU: Шёпоты | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Whispers
+
+[ОПИСАНИЕ]
+Whispers are creatures mentioned by Castiel. Having similarities to both werewolves and vampires, they were given the nickname were-pires by Dean Winchester.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Stealth - Hence their nickname, Whispers have the ability to attack silently.
+Invulnerability - Whispers are apparently invulnerable to most harm, as the lore noted that one must use either silver or decapitation to kill them, and that the formar may still won't kill them.
+
+[СЛАБОСТИ]
+Silver - Fatal wounds caused by silver can kill Whispers, although sometimes they may still survive.
+Decapitation - Beheading a Whisper will kill it for sure, unlike silver that they may still survive.
+
+[ХАРАКТЕРИСТИКИ]
+Whispers fed on hearts and blood during a solar eclipse. Because of this, they were thought to be in the bloodline of werewolves, but shared more qualities with demons. They were known for living in the fringes for centuries.
+
+[ИСТОРИЯ]
+Their name derived from their stealth. Many whispers were hunted and killed during the Salem witch trials.
+
+[ПОЯВЛЕНИЯ]
+Season 11
+Baby

@@ -1,0 +1,29 @@
+### WIKI: Shadow Spirit | RU: Теневой дух | КАТЕГОРИЯ: Духи
+
+[ИНФОБОКС]
+name: |image = Shadow Spirit 1.jpg
+status: Alive
+season: Season 1
+family: |actor = Bella DeLong
+species: Spirit
+affiliation: Erebus
+
+[ОПИСАНИЕ]
+A Shadow Spirit is an entity embedded in a magical artifact created by the deity Erebus in The Winchesters.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Incorporeal form - Although it could interact with the environment and humans, it did not appear to have a material body
+Super speed - It was shown to "crawl" really fast
+Electric interference - The spirits prevented electric devices from working properly. They could also block radio and other forms of communication to keep their target trapped.
+Teleportation - The spirits had the ability to either transport their targets into another location, or create an environment tied to their target's secret
+Shapeshifting - The spirits either had the ability to change their form into a person related to the target's secret, or use reality warping to project a copy of a dead person
+
+[СЛАБОСТИ]
+There have been no weaknesses identified except for the bearer to reveal their secret. As they were embedded to the bracelet by Erebus, the god may have some control over them.
+
+[ИСТОРИЯ]
+At some point in the past, Erebus created a bracelet that allowed a bearer with pure heart to see monsters. However, if someone who harbored a dark secret wore it, the shadow spirits forced the bearer to reveal the secret lest the shadows consume the bearer.
+
+[ПОЯВЛЕНИЯ]
+The Winchesters
+You've Got a Friend

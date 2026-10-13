@@ -1,0 +1,20 @@
+### WIKI: Ghost Sickness | RU: Призрачная болезнь | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Ghost Sickness
+powers: Hallucination Inducement Heart Attack Inducement
+
+[ОПИСАНИЕ]
+Ghost sickness is a supernatural disease spread by a specific class of spirit known as the Buruburu. In order to be infected, one must encounter a Buruburu or come into physical contact with a victim of ghost sickness.
+
+[ИСТОРИЯ]
+===Season 4===
+Sam and Dean are investigating a series of deaths, when Dean starts to act strangely. They call Bobby, who diagnoses the problem as ghost sickness. As Sam and Bobby race to find a means to save Dean, Dean suffers from the symptoms, which include itchiness on his arms, fear about everything, and hallucinations of Azazel and Lilith.
+
+[ПОЯВЛЕНИЯ]
+Season 4
+Yellow Fever
+Jump the Shark 
+Season 15
+Last Call 
+A Very Supernatural Special

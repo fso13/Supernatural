@@ -1,0 +1,6475 @@
+[
+ {
+  "slug": "vampires",
+  "wiki": "Vampires",
+  "cat": "Монстры",
+  "ru": "Вампиры",
+  "chars": 4356,
+  "raw_chars": 62675,
+  "path": "data/raw/wiki/vampires.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Vampire",
+   "image": "Super06.jpg",
+   "category": "Monsters",
+   "status": "Extant",
+   "season": "1-3, 5-15, Supernatural: The Animation",
+   "family": "Eve †Alpha Vampire †Leviathans Monsters",
+   "title/alias": "|actor = Various"
+  }
+ },
+ {
+  "slug": "werewolf",
+  "wiki": "Werewolf",
+  "cat": "Монстры",
+  "ru": "Оборотни (вервольфы)",
+  "chars": 4782,
+  "raw_chars": 46870,
+  "path": "data/raw/wiki/werewolf.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Werewolves",
+   "image": "Werewolf Violet.gif",
+   "season": "2, 8-15 Supernatural: The Animation",
+   "category": "Monsters",
+   "status": "Extant",
+   "title/alias": "Lycanthropes Wolves Weres",
+   "affiliation": "Eve Fenrir",
+   "family": "Eve † Alpha Werewolf Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "alpha-werewolf",
+  "wiki": "Alpha Werewolf",
+  "cat": "Монстры",
+  "ru": "Альфа-оборотень",
+  "chars": 2139,
+  "raw_chars": 3115,
+  "path": "data/raw/wiki/alpha-werewolf.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Alpha Werewolf",
+   "season": "6",
+   "category": "Alpha Werewolf",
+   "status": "Unknown",
+   "occupation": "Original Werewolf, and progenitor of werewolves",
+   "affiliation": "WerewolvesEve",
+   "family": "Eve † Werewolves Monster Leviathans",
+   "title/alias": "The First Werewolf|species=Alpha Werewolf Human (Formerly)"
+  }
+ },
+ {
+  "slug": "ghouls",
+  "wiki": "Ghouls",
+  "cat": "Монстры",
+  "ru": "Гули",
+  "chars": 3495,
+  "raw_chars": 7482,
+  "path": "data/raw/wiki/ghouls.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Ghouls",
+   "image": "Ghoul.jpg",
+   "season": "4, 6, 13",
+   "category": "Monsters",
+   "status": "Extant",
+   "title/alias": "Disgusting little things that eat corpses Shapeshifters Necrophages",
+   "family": "Eve † Alpha Ghoul Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "alpha-ghoul",
+  "wiki": "Alpha Ghoul",
+  "cat": "Монстры",
+  "ru": "Альфа-гуль",
+  "chars": 343,
+  "raw_chars": 895,
+  "path": "data/raw/wiki/alpha-ghoul.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Alpha Ghoul",
+   "season": "None",
+   "category": "Alpha Ghoul Human (Formerly)",
+   "status": "Unknown",
+   "family": "Eve Leviathans Ghouls Monster |affiliation=Eve Ghouls (His Children)"
+  }
+ },
+ {
+  "slug": "shapeshifters",
+  "wiki": "Shapeshifters",
+  "cat": "Монстры",
+  "ru": "Перевёртыши",
+  "chars": 3480,
+  "raw_chars": 24223,
+  "path": "data/raw/wiki/shapeshifters.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Shapeshifters",
+   "image": "zach.jpg",
+   "season": "1-2, 4, 6, 9-10, 12-15",
+   "category": "Monsters",
+   "status": "Extant",
+   "title/alias": "Shifters",
+   "occupation": "|family = Eve † Alpha Shapeshifter † Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "first-shapeshifter",
+  "wiki": "First Shapeshifter",
+  "cat": "Монстры",
+  "ru": "Первый перевёртыш",
+  "chars": 613,
+  "raw_chars": 1060,
+  "path": "data/raw/wiki/first-shapeshifter.txt",
+  "info": {
+   "_template": "MinorCharacters"
+  }
+ },
+ {
+  "slug": "skinwalkers",
+  "wiki": "Skinwalkers",
+  "cat": "Монстры",
+  "ru": "Скинвокеры",
+  "chars": 3533,
+  "raw_chars": 8914,
+  "path": "data/raw/wiki/skinwalkers.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Skinwalker",
+   "image": "800px-Lucky.jpg",
+   "season": "6",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve †Alpha Skinwalker Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "alpha-skinwalker",
+  "wiki": "Alpha Skinwalker",
+  "cat": "Монстры",
+  "ru": "Альфа-скинвокер",
+  "chars": 1689,
+  "raw_chars": 2314,
+  "path": "data/raw/wiki/alpha-skinwalker.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Alpha Skinwalker",
+   "title/alias": "The First Skinwalker",
+   "season": "None",
+   "category": "Alpha Skinwalker",
+   "status": "Unknown",
+   "occupation": "Original Skinwalker and progenitor of skinwalkers",
+   "affiliation": "Skinwalkers Eve †",
+   "family": "Eve †Skinwalkers Monster Leviathans |species=Alpha Skinwalker Human (formerly)"
+  }
+ },
+ {
+  "slug": "wendigo",
+  "wiki": "Wendigo (creature)",
+  "cat": "Монстры",
+  "ru": "Вендиго",
+  "chars": 4007,
+  "raw_chars": 16766,
+  "path": "data/raw/wiki/wendigo.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Wendigo",
+   "image": "SPN 0972.jpg",
+   "season": "1, 7",
+   "status": "Extant",
+   "creator": "The Act of Human Cannibalism",
+   "alpha-first": "Alpha Wendigo",
+   "affiliation": "ThemselvesShamans",
+   "powers and abilities": "Super Strength Super Speed Voice Mimicry",
+   "vulnerabilities": "Fire Silver Anasazi Symbols",
+   "appearance": "Humanoid; tall and pale with elongated limbs."
+  }
+ },
+ {
+  "slug": "alpha-wendigo",
+  "wiki": "Alpha Wendigo",
+  "cat": "Монстры",
+  "ru": "Альфа-вендиго",
+  "chars": 778,
+  "raw_chars": 1700,
+  "path": "data/raw/wiki/alpha-wendigo.txt",
+  "info": {
+   "_template": "RecurringCharactersUpdated"
+  }
+ },
+ {
+  "slug": "rugaru",
+  "wiki": "Rugaru",
+  "cat": "Монстры",
+  "ru": "Ругару",
+  "chars": 3621,
+  "raw_chars": 15252,
+  "path": "data/raw/wiki/rugaru.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Rugaru",
+   "image": "250px",
+   "season": "4, 6, 8, 12-14",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve † Alpha Rugaru Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "alpha-rugaru",
+  "wiki": "Alpha Rugaru",
+  "cat": "Монстры",
+  "ru": "Альфа-ругару",
+  "chars": 418,
+  "raw_chars": 945,
+  "path": "data/raw/wiki/alpha-rugaru.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Alpha Rugaru",
+   "category": "Alpha Rugaru Human (Formerly)",
+   "family": "Eve † Rugarus Monster (siblings)",
+   "status": "Unknown",
+   "title/alias": "The First Rugaru"
+  }
+ },
+ {
+  "slug": "djinn",
+  "wiki": "Djinn",
+  "cat": "Монстры",
+  "ru": "Джинны",
+  "chars": 4207,
+  "raw_chars": 21986,
+  "path": "data/raw/wiki/djinn.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Djinn",
+   "image": "Draft lens5491502module41902352photo 1245825994djinn.jpg",
+   "season": "2, 6, 8-9, 14-15, The Winchesters",
+   "category": "Monsters",
+   "status": "Extant",
+   "title/alias": "GeniesJinnsJinni",
+   "occupation": "|affiliation =",
+   "family": "Eve †Alpha Djinn Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "alpha-djinn",
+  "wiki": "Alpha Djinn",
+  "cat": "Монстры",
+  "ru": "Альфа-джинн",
+  "chars": 971,
+  "raw_chars": 1570,
+  "path": "data/raw/wiki/alpha-djinn.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Alpha Djinn",
+   "image": "|season = None",
+   "category": "Alphas Djinn Human (Formerly)",
+   "status": "Unknown",
+   "actor": "N/A",
+   "occupation": "Original Djinn, and progenitor of djinns",
+   "affiliation": "Djinns Eve †|family = Eve †Djinns Monsters Leviathans |Title/Alias = The First Djinn"
+  }
+ },
+ {
+  "slug": "kitsune",
+  "wiki": "Kitsune",
+  "cat": "Монстры",
+  "ru": "Кицунэ",
+  "chars": 2248,
+  "raw_chars": 5709,
+  "path": "data/raw/wiki/kitsune.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Kitsune",
+   "image": "KitsuneEyes.jpg",
+   "season": "7",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve †Leviathans Monsters Alpha Kitsune (progenitor)",
+   "actor": "Leslie Hopps (Amy Pond's Mother) Emma Grabinsky (Young Amy Pond) Jewel Staite (Amy Pond) Lyova Beckwitt (Jacob Pond)"
+  }
+ },
+ {
+  "slug": "alpha-kitsune",
+  "wiki": "Alpha Kitsune",
+  "cat": "Монстры",
+  "ru": "Альфа-кицунэ",
+  "chars": 82,
+  "raw_chars": 153,
+  "path": "data/raw/wiki/alpha-kitsune.txt",
+  "info": {}
+ },
+ {
+  "slug": "phoenix",
+  "wiki": "Phoenix",
+  "cat": "Монстры",
+  "ru": "Феникс",
+  "chars": 2360,
+  "raw_chars": 7389,
+  "path": "data/raw/wiki/phoenix.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Phoenix",
+   "season": "6",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve † Alpha Phoenix Leviathans Monsters",
+   "image": "SPN 0074.jpg",
+   "actor": "Matthew John Armstrong"
+  }
+ },
+ {
+  "slug": "alpha-phoenix",
+  "wiki": "Alpha Phoenix",
+  "cat": "Монстры",
+  "ru": "Альфа-феникс",
+  "chars": 1014,
+  "raw_chars": 1333,
+  "path": "data/raw/wiki/alpha-phoenix.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Alpha Phoenix",
+   "category": "Alpha Phoenix",
+   "family": "Eve † Phoenixes Monster (siblings)",
+   "status": "Uknown",
+   "title/alias": "The First Phoenix"
+  }
+ },
+ {
+  "slug": "dragons",
+  "wiki": "Dragons",
+  "cat": "Монстры",
+  "ru": "Драконы",
+  "chars": 4442,
+  "raw_chars": 10593,
+  "path": "data/raw/wiki/dragons.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Dragons",
+   "image": "Wannabe-dragon.jpg",
+   "season": "6",
+   "category": "Monsters",
+   "status": "Extant",
+   "title/alias": "|occupation =",
+   "affiliation": "Eve",
+   "family": "Eve † Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "alpha-dragon",
+  "wiki": "Alpha Dragon",
+  "cat": "Монстры",
+  "ru": "Альфа-дракон",
+  "chars": 562,
+  "raw_chars": 1310,
+  "path": "data/raw/wiki/alpha-dragon.txt",
+  "info": {
+   "_template": "MinorCharacters"
+  }
+ },
+ {
+  "slug": "wraith",
+  "wiki": "Wraith",
+  "cat": "Монстры",
+  "ru": "Рэйты (призрачные убийцы)",
+  "chars": 3329,
+  "raw_chars": 9288,
+  "path": "data/raw/wiki/wraith.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Wraith",
+   "image": "Wraith.jpg",
+   "season": "5, 9, 13-15",
+   "category": "Monsters",
+   "status": "Extant",
+   "title/alias": "|occupation =",
+   "affiliation": "Eve",
+   "family": "Eve †Leviathans Monsters Alpha Wraith (progenitor)",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "siren",
+  "wiki": "Siren",
+  "cat": "Монстры",
+  "ru": "Сирены",
+  "chars": 3569,
+  "raw_chars": 7713,
+  "path": "data/raw/wiki/siren.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Siren",
+   "image": "250px",
+   "season": "4",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve † Alpha Siren Leviathans Monsters",
+   "actor": "Jim Parrack",
+   "title/alias": "Nick Munroe|species="
+  }
+ },
+ {
+  "slug": "shtriga",
+  "wiki": "Shtriga",
+  "cat": "Монстры",
+  "ru": "Штрига",
+  "chars": 2529,
+  "raw_chars": 9144,
+  "path": "data/raw/wiki/shtriga.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Shtriga",
+   "image": "Wicked Shtriga.png",
+   "powers and abilities": "Longevity Life Force Draining Invulnerability Super Strength Super Speed",
+   "vulnerabilities": "Iron while feeding, Cannot feed on a Soulless Person",
+   "appearance": "Human-looking during the day; Hag-like at night",
+   "actor": "Jeannie EpperAdrian Hough",
+   "season": "1",
+   "status": "Extant"
+  }
+ },
+ {
+  "slug": "rawhead",
+  "wiki": "Rawhead",
+  "cat": "Монстры",
+  "ru": "Роухед",
+  "chars": 1259,
+  "raw_chars": 2718,
+  "path": "data/raw/wiki/rawhead.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Rawhead",
+   "image": "250px",
+   "powers and abilities": "Super Strength, Super Speed, Invulnerability",
+   "vulnerabilities": "High voltage electrocution",
+   "appearance": "Humanoid with wrinkled and/or decaying skin",
+   "season": "1, 14"
+  }
+ },
+ {
+  "slug": "revenant",
+  "wiki": "Revenant",
+  "cat": "Монстры",
+  "ru": "Ревенант",
+  "chars": 2138,
+  "raw_chars": 4694,
+  "path": "data/raw/wiki/revenant.txt",
+  "info": {
+   "_template": "MinorCharacters"
+  }
+ },
+ {
+  "slug": "ghoul-alpha-note",
+  "wiki": "Alphas",
+  "cat": "Монстры",
+  "ru": "Альфы (первейшие монстры)",
+  "chars": 3310,
+  "raw_chars": 17091,
+  "path": "data/raw/wiki/ghoul-alpha-note.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Alphas",
+   "season": "6-7, 12",
+   "category": "Original Monsters",
+   "status": "Unknown",
+   "occupation": "Monsters Progenitors",
+   "affiliation": "Their respective species",
+   "actor": "Various",
+   "title/alias": "The Father of Fallen Beasts",
+   "family": "Eve †Leviathans Monsters"
+  }
+ },
+ {
+  "slug": "changelings",
+  "wiki": "Changelings",
+  "cat": "Монстры",
+  "ru": "Подменыши",
+  "chars": 3351,
+  "raw_chars": 6946,
+  "path": "data/raw/wiki/changelings.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Changeling",
+   "image": "Changelings-from-supernatural.jpg",
+   "season": "3",
+   "status": "Extant",
+   "affiliation": "Themselves, The Mother Changeling",
+   "vulnerabilities": "Fire; when the mother changeling is killed, her children die instantly.",
+   "appearance": "Humanoid with discolored, slimy skin, hollow eyes, and a round mouth with many teeth. Can appear human."
+  }
+ },
+ {
+  "slug": "tricksters",
+  "wiki": "Tricksters",
+  "cat": "Монстры",
+  "ru": "Трикстеры",
+  "chars": 2733,
+  "raw_chars": 7917,
+  "path": "data/raw/wiki/tricksters.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Tricksters",
+   "image": "800px-TricksterLoki.jpg",
+   "season": "13",
+   "status": "Unknown",
+   "creator": "God",
+   "powers and abilities": "Reality Warping Conjuration Shapeshifting Immortality",
+   "vulnerabilities": "Wood Stake dipped in the blood of a trickster victim Gabriel's swords",
+   "appearance": "Any form they want"
+  }
+ },
+ {
+  "slug": "fairies",
+  "wiki": "Fairies",
+  "cat": "Монстры",
+  "ru": "Фейри",
+  "chars": 4605,
+  "raw_chars": 20278,
+  "path": "data/raw/wiki/fairies.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Fairies",
+   "image": "DeanVsFairy.gif",
+   "season": "3, 6, 8-9, 15",
+   "category": "Magical Creatures",
+   "status": "Extant",
+   "title/alias": "|occupation = VariousServants of Oberon",
+   "affiliation": "OberonTheir enslaver",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "leprechauns",
+  "wiki": "Leprechauns",
+  "cat": "Монстры",
+  "ru": "Лепреконы",
+  "chars": 2754,
+  "raw_chars": 4644,
+  "path": "data/raw/wiki/leprechauns.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Leprechauns",
+   "image": "250px",
+   "season": "6",
+   "category": "Fairies",
+   "status": "Extant",
+   "occupation": "|affiliation = AvalonOberon",
+   "actor": "Robert Picardo"
+  }
+ },
+ {
+  "slug": "redcaps",
+  "wiki": "Redcaps",
+  "cat": "Монстры",
+  "ru": "Редкапы",
+  "chars": 861,
+  "raw_chars": 1510,
+  "path": "data/raw/wiki/redcaps.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Redcaps",
+   "image": "250px",
+   "season": "6",
+   "category": "Fairies",
+   "status": "Extant",
+   "occupation": "|affiliation = AvalonOberon",
+   "family": "|actor ="
+  }
+ },
+ {
+  "slug": "tinks",
+  "wiki": "Tinks",
+  "cat": "Монстры",
+  "ru": "Тинксы",
+  "chars": 1909,
+  "raw_chars": 2539,
+  "path": "data/raw/wiki/tinks.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Tinks",
+   "image": "A Tink.png",
+   "season": "6",
+   "category": "Fairies",
+   "status": "Extant",
+   "affiliation": "AvalonOberon",
+   "family": "|actor ="
+  }
+ },
+ {
+  "slug": "elves",
+  "wiki": "Elves",
+  "cat": "Монстры",
+  "ru": "Эльфы",
+  "chars": 1657,
+  "raw_chars": 2265,
+  "path": "data/raw/wiki/elves.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Elves",
+   "image": "FairiesElves.jpg",
+   "season": "6",
+   "category": "Fairies",
+   "status": "Extant",
+   "occupation": "General Workers",
+   "affiliation": "OberonWayne Whittaker",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "gnomes",
+  "wiki": "Gnomes",
+  "cat": "Монстры",
+  "ru": "Гномы",
+  "chars": 269,
+  "raw_chars": 502,
+  "path": "data/raw/wiki/gnomes.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Gnomes",
+   "image": "|season = 6",
+   "category": "Fairies",
+   "status": "Extant",
+   "affiliation": "AvalonOberon",
+   "family": "|actor ="
+  }
+ },
+ {
+  "slug": "selkies",
+  "wiki": "Selkies",
+  "cat": "Монстры",
+  "ru": "Селки",
+  "chars": 1336,
+  "raw_chars": 2099,
+  "path": "data/raw/wiki/selkies.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "ondines",
+  "wiki": "Ondines",
+  "cat": "Монстры",
+  "ru": "Ундины",
+  "chars": 1346,
+  "raw_chars": 2802,
+  "path": "data/raw/wiki/ondines.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "wood-nymphs",
+  "wiki": "Wood Nymphs",
+  "cat": "Монстры",
+  "ru": "Лесные нимфы",
+  "chars": 2227,
+  "raw_chars": 4352,
+  "path": "data/raw/wiki/wood-nymphs.txt",
+  "info": {
+   "_template": "Improvement"
+  }
+ },
+ {
+  "slug": "satyrs",
+  "wiki": "Satyrs",
+  "cat": "Монстры",
+  "ru": "Сатиры",
+  "chars": 2101,
+  "raw_chars": 3487,
+  "path": "data/raw/wiki/satyrs.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Satyrs",
+   "image": "|season = 12",
+   "category": "Greek Creatures",
+   "status": "Extant",
+   "title/alias": "Goat Dudes",
+   "occupation": "|affiliation =",
+   "family": "|actor = None"
+  }
+ },
+ {
+  "slug": "zanna",
+  "wiki": "Zanna",
+  "cat": "Монстры",
+  "ru": "Занна",
+  "chars": 2889,
+  "raw_chars": 5257,
+  "path": "data/raw/wiki/zanna.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Zanna",
+   "image": "350px-Sparkle the manicorn.png",
+   "powers and abilities": "Invisibility Semi immortality Shapeshifting",
+   "vulnerabilities": "Zanna-killing Knife",
+   "appearance": "Mostly Humanoid",
+   "season": "11",
+   "status": "Extant",
+   "creator": "Unknown",
+   "affiliation": "Human Children Each Other"
+  }
+ },
+ {
+  "slug": "tooth-fairies",
+  "wiki": "Tooth Fairies",
+  "cat": "Монстры",
+  "ru": "Зубные феи",
+  "chars": 916,
+  "raw_chars": 4569,
+  "path": "data/raw/wiki/tooth-fairies.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Tooth Fairies",
+   "season": "3, 5, 8, 15",
+   "category": "Fairies",
+   "status": "Extant",
+   "title/alias": "|occupation = Collecting teeth",
+   "affiliation": "Oberon",
+   "actor": "Mark Acheson"
+  }
+ },
+ {
+  "slug": "gorgons",
+  "wiki": "Gorgons",
+  "cat": "Монстры",
+  "ru": "Горгоны",
+  "chars": 3168,
+  "raw_chars": 5830,
+  "path": "data/raw/wiki/gorgons.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Gorgons",
+   "image": "Ouroboros 09.jpg",
+   "season": "14",
+   "category": "Demigods",
+   "status": "Extant",
+   "actor": "Philippe Bowgen"
+  }
+ },
+ {
+  "slug": "medusa",
+  "wiki": "Medusa",
+  "cat": "Монстры",
+  "ru": "Медуза",
+  "chars": 1879,
+  "raw_chars": 3005,
+  "path": "data/raw/wiki/medusa.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Medusa",
+   "image": "Medusa's Head.jpg",
+   "season": "9, 14",
+   "category": "Gorgon",
+   "status": "Deceased",
+   "title/alias": "|occupation =",
+   "affiliation": "|family =",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "harpy",
+  "wiki": "Harpy",
+  "cat": "Монстры",
+  "ru": "Гарпия",
+  "chars": 2137,
+  "raw_chars": 4819,
+  "path": "data/raw/wiki/harpy.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "griffin",
+  "wiki": "Griffin",
+  "cat": "Монстры",
+  "ru": "Грифон",
+  "chars": 942,
+  "raw_chars": 1204,
+  "path": "data/raw/wiki/griffin.txt",
+  "info": {
+   "_template": "c"
+  }
+ },
+ {
+  "slug": "chimera",
+  "wiki": "Chimera",
+  "cat": "Монстры",
+  "ru": "Химера",
+  "chars": 2329,
+  "raw_chars": 3835,
+  "path": "data/raw/wiki/chimera.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "kraken",
+  "wiki": "Kraken",
+  "cat": "Монстры",
+  "ru": "Кракен",
+  "chars": 1564,
+  "raw_chars": 2190,
+  "path": "data/raw/wiki/kraken.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Krakens",
+   "image": "|season = None",
+   "category": "Unknown",
+   "status": "Extant",
+   "title/alias": "|occupation =",
+   "affiliation": "|family =",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "loch-ness-monster",
+  "wiki": "Loch Ness Monster",
+  "cat": "Монстры",
+  "ru": "Лох-несское чудовище",
+  "chars": 1172,
+  "raw_chars": 1691,
+  "path": "data/raw/wiki/loch-ness-monster.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Loch Ness Monsters",
+   "category": "Unknown",
+   "status": "Extant",
+   "title/alias": "|season=None"
+  }
+ },
+ {
+  "slug": "world-turtle",
+  "wiki": "World Turtle",
+  "cat": "Монстры",
+  "ru": "Мировая черепаха",
+  "chars": 2236,
+  "raw_chars": 4027,
+  "path": "data/raw/wiki/world-turtle.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "World Turtle",
+   "image": "|season = 5",
+   "category": "Unknown",
+   "status": "Unconfirmed existence",
+   "title/alias": "Giant Turtle",
+   "occupation": "Carrying the world on his back",
+   "affiliation": "Chinese Pantheon Zao Shen",
+   "family": "|actor = None"
+  }
+ },
+ {
+  "slug": "jormungandr",
+  "wiki": "Jörmungandr",
+  "cat": "Монстры",
+  "ru": "Ёрмунганд",
+  "chars": 1356,
+  "raw_chars": 3688,
+  "path": "data/raw/wiki/jormungandr.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Jörmungandr",
+   "season": "5",
+   "category": "Serpent Demigod",
+   "status": "Alive",
+   "title/alias": "The Great Serpent",
+   "occupation": "Norse Demigod",
+   "affiliation": "Norse Pantheon",
+   "family": "Odin †Loki †Fenrir †Hel Sleipnir †Narfi †Thor Baldur †"
+  }
+ },
+ {
+  "slug": "unicorns",
+  "wiki": "Unicorns",
+  "cat": "Монстры",
+  "ru": "Единороги",
+  "chars": 581,
+  "raw_chars": 3114,
+  "path": "data/raw/wiki/unicorns.txt",
+  "info": {
+   "_template": "Quote"
+  }
+ },
+ {
+  "slug": "bigfoot",
+  "wiki": "Bigfoot",
+  "cat": "Монстры",
+  "ru": "Бигфут (снежный человек)",
+  "chars": 562,
+  "raw_chars": 3942,
+  "path": "data/raw/wiki/bigfoot.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Bigfoot",
+   "image": "None",
+   "series": "Supernatural",
+   "season": "2, 4-5, 9, 12, 15",
+   "species": "Unknown",
+   "status": "Unconfirmed Existence",
+   "titles": "Sasquatch",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "black-dogs",
+  "wiki": "Black Dogs",
+  "cat": "Монстры",
+  "ru": "Чёрные псы",
+  "chars": 2122,
+  "raw_chars": 3683,
+  "path": "data/raw/wiki/black-dogs.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Black Dogs",
+   "image": "Beast of Bray Road.jpg",
+   "season": "Supernatural: Rising Son Issue 1",
+   "status": "Extant"
+  }
+ },
+ {
+  "slug": "chupacabra",
+  "wiki": "Chupacabra",
+  "cat": "Монстры",
+  "ru": "Чупакабра",
+  "chars": 1226,
+  "raw_chars": 2050,
+  "path": "data/raw/wiki/chupacabra.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Chupacabra",
+   "category": "Unknown Creatures",
+   "status": "Extant",
+   "season": "None"
+  }
+ },
+ {
+  "slug": "crocotta",
+  "wiki": "Crocotta",
+  "cat": "Монстры",
+  "ru": "Крокотта",
+  "chars": 3266,
+  "raw_chars": 7362,
+  "path": "data/raw/wiki/crocotta.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Crocotta",
+   "image": "Crocotta SN.jpg",
+   "powers and abilities": "Can mimic the voice of their victims' loved ones in order to lure them away and consume their souls.",
+   "vulnerabilities": "Impalement through the spine.",
+   "appearance": "Has large, sharp teeth and can unhinge its jaw. Can appear human.",
+   "season": "Season 3",
+   "status": "Extant|creator=|alpha-first=Unknown Alpha Crocotta (Implied)"
+  }
+ },
+ {
+  "slug": "aswang",
+  "wiki": "Aswang",
+  "cat": "Монстры",
+  "ru": "Асванг",
+  "chars": 2744,
+  "raw_chars": 5537,
+  "path": "data/raw/wiki/aswang.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "bisaan",
+  "wiki": "Bisaan",
+  "cat": "Монстры",
+  "ru": "Бисаан",
+  "chars": 3025,
+  "raw_chars": 8304,
+  "path": "data/raw/wiki/bisaan.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Bisaan",
+   "image": "250px",
+   "powers and abilities": "Enhanced Strength, Reproduction",
+   "vulnerabilities": "Decapitation, Fire, Sage",
+   "appearance": "Giant Worms",
+   "appeared": "The Chitters",
+   "season": "11",
+   "status": "Extant|creator = Unknown|affiliation = Themselves"
+  }
+ },
+ {
+  "slug": "buruburu",
+  "wiki": "Buruburu",
+  "cat": "Монстры",
+  "ru": "Бурубуру",
+  "chars": 2894,
+  "raw_chars": 4131,
+  "path": "data/raw/wiki/buruburu.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Buruburu",
+   "image": "Buruburu.jpg",
+   "appearance": "As a ghost, it appears in the form of the deceased.",
+   "season": "4",
+   "status": "Extant"
+  }
+ },
+ {
+  "slug": "baku",
+  "wiki": "Baku",
+  "cat": "Монстры",
+  "ru": "Баку",
+  "chars": 1568,
+  "raw_chars": 2370,
+  "path": "data/raw/wiki/baku.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Baku",
+   "season": "None",
+   "status": "Extant",
+   "powers and abilities": "Dream Walking",
+   "creator": "Unknown"
+  }
+ },
+ {
+  "slug": "kappa",
+  "wiki": "Kappa",
+  "cat": "Монстры",
+  "ru": "Каппа",
+  "chars": 1817,
+  "raw_chars": 3353,
+  "path": "data/raw/wiki/kappa.txt",
+  "info": {
+   "_template": "Animated"
+  }
+ },
+ {
+  "slug": "okami",
+  "wiki": "Ōkami",
+  "cat": "Монстры",
+  "ru": "Ооками",
+  "chars": 2533,
+  "raw_chars": 4309,
+  "path": "data/raw/wiki/okami.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "image": "SPN_0586.jpg",
+   "name": "Ōkami",
+   "season": "6",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve †Leviathans Monsters"
+  }
+ },
+ {
+  "slug": "shojo",
+  "wiki": "Shōjō",
+  "cat": "Монстры",
+  "ru": "Сёдзё",
+  "chars": 2768,
+  "raw_chars": 6922,
+  "path": "data/raw/wiki/shojo.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Shōjō",
+   "image": "250px",
+   "powers and abilities": "Have long clawsKills by disembowelingTelekinesis",
+   "vulnerabilities": "Killed by stabbing with a samurai sword consecrated by a Shinto blessing.",
+   "appearance": "Human form, with pale skin, long black hair, dark eyes and lips, and sharp claws",
+   "appeared": "1 episode",
+   "season": "7",
+   "status": "Extant"
+  }
+ },
+ {
+  "slug": "obake",
+  "wiki": "Obake",
+  "cat": "Монстры",
+  "ru": "Обакэ",
+  "chars": 1502,
+  "raw_chars": 3001,
+  "path": "data/raw/wiki/obake.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "oni",
+  "wiki": "Oni",
+  "cat": "Монстры",
+  "ru": "Они",
+  "chars": 3013,
+  "raw_chars": 12258,
+  "path": "data/raw/wiki/oni.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "kohonta",
+  "wiki": "Kohonta",
+  "cat": "Монстры",
+  "ru": "Кохонта",
+  "chars": 2606,
+  "raw_chars": 4695,
+  "path": "data/raw/wiki/kohonta.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Kohonta",
+   "image": "Kohonta.jpg",
+   "season": "14",
+   "category": "CreaturesHumans",
+   "status": "Extant",
+   "family": "|actor =Andrew Long (Henry Parker)"
+  }
+ },
+ {
+  "slug": "lamia",
+  "wiki": "Lamia",
+  "cat": "Монстры",
+  "ru": "Ламия",
+  "chars": 2822,
+  "raw_chars": 4213,
+  "path": "data/raw/wiki/lamia.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Lamia",
+   "season": "6",
+   "status": "Extant",
+   "creator": "Eve",
+   "appearance": "Humanoid, with claws and a black hooded cloak",
+   "image": "350px-Lamia.jpg",
+   "affiliation": "Eve"
+  }
+ },
+ {
+  "slug": "nachzehrer",
+  "wiki": "Nachzehrer",
+  "cat": "Монстры",
+  "ru": "Нахцерер",
+  "chars": 2518,
+  "raw_chars": 7352,
+  "path": "data/raw/wiki/nachzehrer.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Nachzehrer",
+   "image": "Nachzehrer.jpg",
+   "season": "11",
+   "category": "Monsters",
+   "status": "Extant",
+   "title/alias": "Ghoul-pires",
+   "family": "Eve †Leviathans Monsters",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "vetala",
+  "wiki": "Vetala",
+  "cat": "Монстры",
+  "ru": "Ветала",
+  "chars": 2810,
+  "raw_chars": 4250,
+  "path": "data/raw/wiki/vetala.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Vetala",
+   "image": "250px",
+   "season": "7, 9",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve †Leviathans Monsters Alpha Vetala (progenitor)",
+   "actor": "Various",
+   "affiliation": "Each Other"
+  }
+ },
+ {
+  "slug": "rakshasa",
+  "wiki": "Rakshasa",
+  "cat": "Монстры",
+  "ru": "Ракшасы",
+  "chars": 2838,
+  "raw_chars": 5978,
+  "path": "data/raw/wiki/rakshasa.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Rakshasa",
+   "image": "Rakshasa.jpg",
+   "season": "2",
+   "vulnerabilities": "A knife of pure brass. Cannot enter a home without an invitation.",
+   "powers and abilities": "Shapeshifters that can make themselves invisible.",
+   "appearance": "Humanoid; can appear in any form it wants.",
+   "status": "Extant"
+  }
+ },
+ {
+  "slug": "lore-rakshasas",
+  "wiki": "Lore Rakshasas",
+  "cat": "Монстры",
+  "ru": "Лорные ракшасы",
+  "chars": 543,
+  "raw_chars": 923,
+  "path": "data/raw/wiki/lore-rakshasas.txt",
+  "info": {
+   "_template": "MinorCharacters"
+  }
+ },
+ {
+  "slug": "myling",
+  "wiki": "Myling",
+  "cat": "Монстры",
+  "ru": "Мюлинг",
+  "chars": 1829,
+  "raw_chars": 2775,
+  "path": "data/raw/wiki/myling.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Myling",
+   "season": "12",
+   "category": "Ghosts",
+   "status": "Extant",
+   "family": "|actor=None"
+  }
+ },
+ {
+  "slug": "pontianak",
+  "wiki": "Pontianak",
+  "cat": "Монстры",
+  "ru": "Понтианак",
+  "chars": 3459,
+  "raw_chars": 8238,
+  "path": "data/raw/wiki/pontianak.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "soucouyant",
+  "wiki": "Soucouyant",
+  "cat": "Монстры",
+  "ru": "Сукуйянт",
+  "chars": 1429,
+  "raw_chars": 4519,
+  "path": "data/raw/wiki/soucouyant.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Soucouyant",
+   "alias": "|image = Soucouyant.jpg",
+   "season": "The Winchesters",
+   "category": "Creature",
+   "occupation": "|affiliation =",
+   "status": "Extinct",
+   "actor": "Taryn Terrell"
+  }
+ },
+ {
+  "slug": "la-tunda",
+  "wiki": "La Tunda",
+  "cat": "Монстры",
+  "ru": "Ла Тунда",
+  "chars": 2623,
+  "raw_chars": 4792,
+  "path": "data/raw/wiki/la-tunda.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "La Tunda",
+   "image": "La Tunda.png",
+   "season": "The Winchesters",
+   "category": "Human (formerly) Human/Plant Hybrid-like Creature",
+   "status": "Deceased",
+   "occupation": "Colombian hag-like creature|family=Unnamed children †|actor=Julienne Joyner Bianca Kajlich Mary Pauley Unknown actor"
+  }
+ },
+ {
+  "slug": "pishtaco",
+  "wiki": "Pishtaco",
+  "cat": "Монстры",
+  "ru": "Пиштако",
+  "chars": 1625,
+  "raw_chars": 2347,
+  "path": "data/raw/wiki/pishtaco.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Pishtaco",
+   "image": "250px",
+   "season": "9",
+   "category": "Monsters",
+   "status": "Extant",
+   "family": "Eve †Leviathans Monsters Alpha Pishtaco",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "khan-worm",
+  "wiki": "Khan worm",
+  "cat": "Монстры",
+  "ru": "Хан-червь",
+  "chars": 3470,
+  "raw_chars": 9163,
+  "path": "data/raw/wiki/khan-worm.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Khan Worms",
+   "season": "6, 10",
+   "category": "Monsters",
+   "status": "Extinct",
+   "family": "Eve †Alpha Khan Worm †Leviathans Monsters"
+  }
+ },
+ {
+  "slug": "acherei",
+  "wiki": "Acheri",
+  "cat": "Монстры",
+  "ru": "Ачери",
+  "chars": 1946,
+  "raw_chars": 2825,
+  "path": "data/raw/wiki/acherei.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Acheri",
+   "image": "300px-Acheri-deanlove35.jpg",
+   "season": "2",
+   "category": "Demon Mutation Humans",
+   "status": "Extant",
+   "affiliation": "Ava Wilson",
+   "family": "Lucifer †"
+  }
+ },
+ {
+  "slug": "qareen",
+  "wiki": "Qareen",
+  "cat": "Монстры",
+  "ru": "Карин",
+  "chars": 3129,
+  "raw_chars": 6182,
+  "path": "data/raw/wiki/qareen.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Qareen",
+   "image": "[Qareen.jpg",
+   "powers and abilities": "Shapeshifting Mind Reading, Enhanced Strength",
+   "vulnerabilities": "Stabbing the heart Magic",
+   "appearance": "Humanoid",
+   "appeared": "Love hurts",
+   "season": "11",
+   "status": "Extant"
+  }
+ },
+ {
+  "slug": "marid",
+  "wiki": "Marid",
+  "cat": "Монстры",
+  "ru": "Марид",
+  "chars": 1378,
+  "raw_chars": 2452,
+  "path": "data/raw/wiki/marid.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Marid",
+   "image": "Marid.png",
+   "category": "Creature",
+   "status": "Extant",
+   "season": "15"
+  }
+ },
+ {
+  "slug": "brownies",
+  "wiki": "Familiar",
+  "cat": "Монстры",
+  "ru": "Фамильяры",
+  "chars": 1557,
+  "raw_chars": 2807,
+  "path": "data/raw/wiki/brownies.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Familiars",
+   "image": "Familiarcat.jpg",
+   "season": "8",
+   "status": "Extant",
+   "location": "Earth",
+   "powers and abilities": "Shapeshifting, telepathy",
+   "vulnerabilities": "Anything that would kill a human",
+   "appeared": "Man's Best Friend with Benefits",
+   "appearance": "Humanoid or animal",
+   "actor": "Mishael Morgan (Portia)Sebastian Gacki (Phillippe LeChat)",
+   "affiliation": "Their owners"
+  }
+ },
+ {
+  "slug": "trogs",
+  "wiki": "Trogs",
+  "cat": "Монстры",
+  "ru": "Троги",
+  "chars": 2839,
+  "raw_chars": 6617,
+  "path": "data/raw/wiki/trogs.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "lizard-people",
+  "wiki": "Lizard People",
+  "cat": "Монстры",
+  "ru": "Люди-ящеры",
+  "chars": 1530,
+  "raw_chars": 3547,
+  "path": "data/raw/wiki/lizard-people.txt",
+  "info": {
+   "_template": "Alias"
+  }
+ },
+ {
+  "slug": "neanderthals",
+  "wiki": "Neanderthals",
+  "cat": "Монстры",
+  "ru": "Неандертальцы",
+  "chars": 612,
+  "raw_chars": 1589,
+  "path": "data/raw/wiki/neanderthals.txt",
+  "info": {
+   "_template": "MinorCharacters"
+  }
+ },
+ {
+  "slug": "gorilla-wolves",
+  "wiki": "Gorilla-wolves",
+  "cat": "Монстры",
+  "ru": "Горилло-волки",
+  "chars": 1682,
+  "raw_chars": 3603,
+  "path": "data/raw/wiki/gorilla-wolves.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Gorilla-wolves",
+   "image": "250px|A pair of gorilla-wolves lurking in the shadowy forests of Purgatory.",
+   "powers and abilities": "Super speed",
+   "vulnerabilities": "Unknown",
+   "appearance": "Large quadrupeds, with glowing red eyes.",
+   "appeared": "1 episode",
+   "season": "7",
+   "actor": "Mackenzie GrayLaura MennellLynda BoydJonathan Hers"
+  }
+ },
+ {
+  "slug": "loup-garou",
+  "wiki": "Loup-Garou",
+  "cat": "Монстры",
+  "ru": "Лу-гару",
+  "chars": 795,
+  "raw_chars": 3192,
+  "path": "data/raw/wiki/loup-garou.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Loup-Garou",
+   "image": "1x1 Loup-Garou.png",
+   "category": "Creatures",
+   "status": "Extant",
+   "season": "The Winchesters",
+   "title/alias": "|actor = |series="
+  }
+ },
+ {
+  "slug": "golem",
+  "wiki": "Golem",
+  "cat": "Монстры",
+  "ru": "Голем",
+  "chars": 3440,
+  "raw_chars": 9841,
+  "path": "data/raw/wiki/golem.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Golem",
+   "image": "250px",
+   "season": "8, The Winchesters",
+   "category": "Construct",
+   "status": "One Active",
+   "affiliation": "Jack Wilcox † Isaac Bass † Aaron Bass Winchester brothers",
+   "actor": "John DeSantisJeff Chase"
+  }
+ },
+ {
+  "slug": "mandragora",
+  "wiki": "Mandragora",
+  "cat": "Монстры",
+  "ru": "Мандрагора",
+  "chars": 822,
+  "raw_chars": 1461,
+  "path": "data/raw/wiki/mandragora.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Mandragora",
+   "category": "Monster",
+   "status": "Extinct",
+   "season": "15"
+  }
+ },
+ {
+  "slug": "soul-eater",
+  "wiki": "Soul Eater",
+  "cat": "Монстры",
+  "ru": "Пожиратель душ",
+  "chars": 3225,
+  "raw_chars": 11830,
+  "path": "data/raw/wiki/soul-eater.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Soul Eater",
+   "image": "Screenshot 2016-03-24 01.24.33.png",
+   "powers and abilities": "Soul Consumption Possession Electromagnetic Interference Thermokinesis",
+   "vulnerabilities": "Can be sealed with Celtic Monster Trapping Sigil Can be killed with Soul Eater Killing Sigil",
+   "appearance": "Humanoid beings with a long black cloak, distorted face, and strange eyes",
+   "season": "11",
+   "status": "Extant"
+  }
+ },
+ {
+  "slug": "night-hag",
+  "wiki": "Night Hag",
+  "cat": "Монстры",
+  "ru": "Ночная ведьма",
+  "chars": 2512,
+  "raw_chars": 7114,
+  "path": "data/raw/wiki/night-hag.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "disaster-demon",
+  "wiki": "Disaster Demon",
+  "cat": "Монстры",
+  "ru": "Демон катастроф",
+  "chars": 2204,
+  "raw_chars": 6607,
+  "path": "data/raw/wiki/disaster-demon.txt",
+  "info": {
+   "_template": "RecurringCharacters"
+  }
+ },
+ {
+  "slug": "heelers",
+  "wiki": "Heelers",
+  "cat": "Монстры",
+  "ru": "Хилеры",
+  "chars": 2056,
+  "raw_chars": 2866,
+  "path": "data/raw/wiki/heelers.txt",
+  "info": {
+   "_template": "Creatures"
+  }
+ },
+ {
+  "slug": "muscas",
+  "wiki": "Muscas",
+  "cat": "Монстры",
+  "ru": "Муски",
+  "chars": 2339,
+  "raw_chars": 3091,
+  "path": "data/raw/wiki/muscas.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Muscas",
+   "image": "Musca.png",
+   "season": "14",
+   "status": "Extant",
+   "creator": "|alpha-first = Alpha Musca",
+   "affiliation": "themselves",
+   "powers and abilities": "Viscous Goo ProductionSuper SpeedSuper StrengthSuper Agility",
+   "vulnerabilities": "Brass nails dipped in sugar water Bullets"
+  }
+ },
+ {
+  "slug": "collectors",
+  "wiki": "The Collectors",
+  "cat": "Монстры",
+  "ru": "Коллекционеры",
+  "chars": 1922,
+  "raw_chars": 2418,
+  "path": "data/raw/wiki/collectors.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "The Collectors",
+   "image": "|season = Supernatural: The Unholy Cause",
+   "category": "Demons",
+   "status": "Extant",
+   "title/alias": "|occupation =",
+   "affiliation": "Judas IscariotOther DemonsHell",
+   "family": "Lucifer",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "rabid",
+  "wiki": "Rabid",
+  "cat": "Монстры",
+  "ru": "Бешеные",
+  "chars": 3065,
+  "raw_chars": 10143,
+  "path": "data/raw/wiki/rabid.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Rabid",
+   "image": "350px-Rabid-Mike.png",
+   "powers and abilities": "Infectious blood",
+   "vulnerabilities": "HeartThroatLimited shelf lifeElectrocutionHoly Fire",
+   "appearance": "Human with black veins running across neck and head",
+   "season": "11",
+   "status": "Extinct"
+  }
+ },
+ {
+  "slug": "cloaked-figures",
+  "wiki": "Cloaked Figures",
+  "cat": "Монстры",
+  "ru": "Фигуры в плащах",
+  "chars": 1339,
+  "raw_chars": 4708,
+  "path": "data/raw/wiki/cloaked-figures.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Unknown",
+   "image": "Canid Masked.png",
+   "category": "Creature",
+   "status": "Extant",
+   "season": "13, 15",
+   "appearance": "Humanoid beings with a ragged long black cloak, distorted face and strange eyes",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "twigs-and-twine",
+  "wiki": "Twigs and Twine Clones",
+  "cat": "Монстры",
+  "ru": "Клоны из веток и бечёвки",
+  "chars": 1810,
+  "raw_chars": 2341,
+  "path": "data/raw/wiki/twigs-and-twine.txt",
+  "info": {
+   "_template": "Alias"
+  }
+ },
+ {
+  "slug": "scaly-thing",
+  "wiki": "Scaly Thing",
+  "cat": "Монстры",
+  "ru": "Чешуйчатая тварь",
+  "chars": 348,
+  "raw_chars": 1320,
+  "path": "data/raw/wiki/scaly-thing.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Scaly Things",
+   "image": "Scaly Thing.png",
+   "season": "6, 9",
+   "category": "Proto-lifeform",
+   "status": "Deceased",
+   "affiliation": "|family = God Adam Eve Humans (and vertebrates)"
+  }
+ },
+ {
+  "slug": "giant-bad-place",
+  "wiki": "The Giant (The Bad Place)",
+  "cat": "Монстры",
+  "ru": "Гигант из Плохого места",
+  "chars": 403,
+  "raw_chars": 850,
+  "path": "data/raw/wiki/giant-bad-place.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Unknown",
+   "image": "Bad Place Giant2.png",
+   "season": "13",
+   "category": "Unknown",
+   "status": "Deceased",
+   "title/alias": "|occupation =",
+   "affiliation": "|actor = None"
+  }
+ },
+ {
+  "slug": "giant-alligator",
+  "wiki": "Giant Alligator",
+  "cat": "Монстры",
+  "ru": "Гигантский аллигатор",
+  "chars": 482,
+  "raw_chars": 685,
+  "path": "data/raw/wiki/giant-alligator.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Giant Alligators",
+   "image": "Giant Alligator.png",
+   "category": "Enhanced alligator",
+   "status": "Unknown"
+  }
+ },
+ {
+  "slug": "flying-monkeys",
+  "wiki": "Flying Monkeys",
+  "cat": "Монстры",
+  "ru": "Летающие обезьяны",
+  "chars": 1350,
+  "raw_chars": 1979,
+  "path": "data/raw/wiki/flying-monkeys.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Flying Monkeys",
+   "image": "Flying Monkey.PNG",
+   "season": "9",
+   "category": "Monkey-Fairies",
+   "status": "Extant",
+   "occupation": "Servants of the Wicked Witch",
+   "affiliation": "The Wicked Witch",
+   "actor": "N/A"
+  }
+ },
+ {
+  "slug": "mothra",
+  "wiki": "Mothra",
+  "cat": "Монстры",
+  "ru": "Мотра",
+  "chars": 472,
+  "raw_chars": 751,
+  "path": "data/raw/wiki/mothra.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Mothra",
+   "image": "|category = Creatures",
+   "status": "Unknown"
+  }
+ },
+ {
+  "slug": "cthulhu",
+  "wiki": "Cthulhu",
+  "cat": "Монстры",
+  "ru": "Ктулху",
+  "chars": 493,
+  "raw_chars": 746,
+  "path": "data/raw/wiki/cthulhu.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Cthulhu",
+   "image": "|category = Creatures",
+   "status": "Unknown",
+   "title/alias": "|season=None|affiliation=H.P. Lovecraft Leviathans |actor=-"
+  }
+ },
+ {
+  "slug": "khan-worm-note",
+  "wiki": "Croatoan Virus",
+  "cat": "Монстры",
+  "ru": "Вирус Кроатоан",
+  "chars": 1827,
+  "raw_chars": 4215,
+  "path": "data/raw/wiki/khan-worm-note.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Croatoan Virus",
+   "image": "800px-Croatoan504.jpg",
+   "season": "2, 5",
+   "manufacturer": "Pestilence",
+   "use": "Killing Humans",
+   "powers": "Blood Infection"
+  }
+ },
+ {
+  "slug": "ghost-sickness",
+  "wiki": "Ghost Sickness",
+  "cat": "Монстры",
+  "ru": "Призрачная болезнь",
+  "chars": 778,
+  "raw_chars": 3991,
+  "path": "data/raw/wiki/ghost-sickness.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Ghost Sickness",
+   "image": "|season = 4",
+   "manufacturer": "Buruburu",
+   "use": "Infects target and induces death",
+   "powers": "Hallucination Inducement Heart Attack Inducement",
+   "location": "In victims"
+  }
+ },
+ {
+  "slug": "vampirates",
+  "wiki": "Vampirates",
+  "cat": "Монстры",
+  "ru": "Вампираты",
+  "chars": 1347,
+  "raw_chars": 3043,
+  "path": "data/raw/wiki/vampirates.txt",
+  "info": {
+   "_template": "Quote"
+  }
+ },
+ {
+  "slug": "men-of-letters-watchdog",
+  "wiki": "Men of Letters Watchdog",
+  "cat": "Монстры",
+  "ru": "Сторожевой пёс Людей Письма",
+  "chars": 1573,
+  "raw_chars": 3205,
+  "path": "data/raw/wiki/men-of-letters-watchdog.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Unknown",
+   "image": "1x1 Loup-Garou.png",
+   "season": "The Winchesters",
+   "category": "Loup-Garou",
+   "occupation": "Watchdog",
+   "affiliation": "Men of Letters",
+   "status": "Deceased"
+  }
+ },
+ {
+  "slug": "rit-zien",
+  "wiki": "Rit Zien",
+  "cat": "Монстры",
+  "ru": "Рит Зиен",
+  "chars": 2655,
+  "raw_chars": 5208,
+  "path": "data/raw/wiki/rit-zien.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Rit Zien",
+   "image": "Ephraim.png",
+   "season": "9",
+   "category": "Angels",
+   "status": "Unknown",
+   "occupation": "HealersMerciful Executioners",
+   "family": "God Angels Archangels The Darkness Nephilim",
+   "affiliation": "Host of Heaven |actor = Ashton Holmes"
+  }
+ },
+ {
+  "slug": "amazons",
+  "wiki": "Amazons",
+  "cat": "Монстры",
+  "ru": "Амазонки",
+  "chars": 1411,
+  "raw_chars": 3623,
+  "path": "data/raw/wiki/amazons.txt",
+  "info": {
+   "_template": "Creatures"
+  }
+ },
+ {
+  "slug": "jakkal",
+  "wiki": "Jakkal",
+  "cat": "Монстры",
+  "ru": "Джаккал",
+  "chars": 2311,
+  "raw_chars": 3918,
+  "path": "data/raw/wiki/jakkal.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "braydon-albright-species",
+  "wiki": "Braydon Albright",
+  "cat": "Монстры",
+  "ru": "Вид Брэйдона Олбрайта",
+  "chars": 2113,
+  "raw_chars": 6978,
+  "path": "data/raw/wiki/braydon-albright-species.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "edward-trenton-species",
+  "wiki": "Edward Trenton's Species",
+  "cat": "Монстры",
+  "ru": "Вид Эдварда Трентона",
+  "chars": 1162,
+  "raw_chars": 2190,
+  "path": "data/raw/wiki/edward-trenton-species.txt",
+  "info": {
+   "_template": "Unnamed"
+  }
+ },
+ {
+  "slug": "eleanor-visyak-species",
+  "wiki": "Eleanor Visyak's Species",
+  "cat": "Монстры",
+  "ru": "Вид Элеонор Висяк",
+  "chars": 2028,
+  "raw_chars": 3420,
+  "path": "data/raw/wiki/eleanor-visyak-species.txt",
+  "info": {
+   "_template": "Unnamed"
+  }
+ },
+ {
+  "slug": "gog-and-magog",
+  "wiki": "Gog and Magog",
+  "cat": "Монстры",
+  "ru": "Гог и Магог",
+  "chars": 2929,
+  "raw_chars": 7542,
+  "path": "data/raw/wiki/gog-and-magog.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Gog and Magog",
+   "image": "File:Gog and Magog.jpg",
+   "season": "13",
+   "category": "Unnamed Species",
+   "status": "Deceased",
+   "occupation": "Warriors",
+   "actor": "Michael Jonsson Andre Tricoteux"
+  }
+ },
+ {
+  "slug": "karrion",
+  "wiki": "Karrion",
+  "cat": "Монстры",
+  "ru": "Каррион",
+  "chars": 2537,
+  "raw_chars": 7872,
+  "path": "data/raw/wiki/karrion.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "dracula",
+  "wiki": "Dracula",
+  "cat": "Монстры",
+  "ru": "Дракула",
+  "chars": 653,
+  "raw_chars": 1404,
+  "path": "data/raw/wiki/dracula.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Dracula",
+   "category": "Vampire",
+   "status": "Unconfirmed existence",
+   "title/alias": "Count",
+   "season": "4, 6, 15 |actor=Todd Stashwick |image=Dracula.jpg"
+  }
+ },
+ {
+  "slug": "leshi",
+  "wiki": "Leshi",
+  "cat": "Монстры",
+  "ru": "Леший",
+  "chars": 2782,
+  "raw_chars": 5430,
+  "path": "data/raw/wiki/leshi.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Leshi",
+   "season": "5",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "Forest God",
+   "occupation": "Slavic God",
+   "affiliation": "Slavic Pantheon",
+   "family": "God",
+   "actor": "David Livingstone Paul Statman Paris Hilton"
+  }
+ },
+ {
+  "slug": "rumplestiltskin",
+  "wiki": "Rumplestiltskin",
+  "cat": "Монстры",
+  "ru": "Румпельштильцхен",
+  "chars": 1703,
+  "raw_chars": 2006,
+  "path": "data/raw/wiki/rumplestiltskin.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Rumpelstiltskin",
+   "image": "|season = 6",
+   "category": "Fairy",
+   "status": "Alive",
+   "title/alias": "|occupation = Deal maker",
+   "affiliation": "OberonAvalon",
+   "family": "|actor = None"
+  }
+ },
+ {
+  "slug": "fairy-godmother",
+  "wiki": "Fairy Godmother",
+  "cat": "Монстры",
+  "ru": "Фея-крёстная",
+  "chars": 246,
+  "raw_chars": 819,
+  "path": "data/raw/wiki/fairy-godmother.txt",
+  "info": {
+   "_template": "Quote"
+  }
+ },
+ {
+  "slug": "oberon",
+  "wiki": "Oberon",
+  "cat": "Монстры",
+  "ru": "Оберон",
+  "chars": 1771,
+  "raw_chars": 2625,
+  "path": "data/raw/wiki/oberon.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Oberon",
+   "season": "None",
+   "category": "Supreme Fairy",
+   "status": "Alive",
+   "occupation": "Ruler of Avalon",
+   "actor": "None",
+   "title/alias": "King of the Fairies",
+   "affiliation": "Avalon"
+  }
+ },
+ {
+  "slug": "hookman",
+  "wiki": "Hookman",
+  "cat": "Монстры",
+  "ru": "Человек с крюком",
+  "chars": 813,
+  "raw_chars": 1987,
+  "path": "data/raw/wiki/hookman.txt",
+  "info": {}
+ },
+ {
+  "slug": "cloaked-figures-note",
+  "wiki": "Whispers",
+  "cat": "Монстры",
+  "ru": "Шёпоты",
+  "chars": 1095,
+  "raw_chars": 2168,
+  "path": "data/raw/wiki/cloaked-figures-note.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Whispers",
+   "vulnerabilities": "Silver, Decapitation",
+   "powers and abilities": "Stealth"
+  }
+ },
+ {
+  "slug": "demons",
+  "wiki": "Demons",
+  "cat": "Демоны",
+  "ru": "Демоны",
+  "chars": 3449,
+  "raw_chars": 45915,
+  "path": "data/raw/wiki/demons.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "|tab5 ="
+  }
+ },
+ {
+  "slug": "crossroad-demon",
+  "wiki": "Crossroad Demon",
+  "cat": "Демоны",
+  "ru": "Демоны перекрёстков",
+  "chars": 4076,
+  "raw_chars": 30828,
+  "path": "data/raw/wiki/crossroad-demon.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Crossroad Demon",
+   "image": "Pobrane.jpg",
+   "season": "2-13, 15",
+   "category": "DemonsHumans",
+   "status": "Extant",
+   "actor": "Various",
+   "occupation": "Demonic Deal-MakersMaking deals with humans in exchange for their souls",
+   "affiliation": "HellKing of the CrossroadsTheir clients",
+   "title/alias": "Red-eyed Demons",
+   "family": "Lucifer"
+  }
+ },
+ {
+  "slug": "ruler-of-the-crossroads",
+  "wiki": "Ruler of the Crossroads",
+  "cat": "Демоны",
+  "ru": "Владыка перекрёстков",
+  "chars": 4473,
+  "raw_chars": 13769,
+  "path": "data/raw/wiki/ruler-of-the-crossroads.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Ruler of the Crossroads",
+   "season": "5, 12-13",
+   "category": "White-eyed Demon Crossroad Demons",
+   "status": "Extinct",
+   "title/alias": "King of Crossroads Queen of Crossroads",
+   "affiliation": "HellRuler of Hell",
+   "family": "Lucifer †",
+   "actor": "Mark Sheppard (Crowley) David Cubitt (Barthamus) Various (Lilith)"
+  }
+ },
+ {
+  "slug": "princes-of-hell",
+  "wiki": "Princes of Hell",
+  "cat": "Демоны",
+  "ru": "Принцы Ада",
+  "chars": 3836,
+  "raw_chars": 40515,
+  "path": "data/raw/wiki/princes-of-hell.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Princes of Hell",
+   "season": "1-2, 4-6, 12-13",
+   "status": "Extinct Extant",
+   "occupation": "Ruler of Hell Demonic Generals Protector of Lucifer's son Collectors",
+   "affiliation": "Lucifer Hell",
+   "actor": "Fredric Lehne (Azazel)Jerry Trimble (Ramiel)Ali Ahn (Dagon)Jeffrey Vincent Parise (Asmodeus)",
+   "category": "DemonsHumans",
+   "title/alias": "The Thing That Killed Mom and JessThe DemonYellow EyesYellow-eyed DemonThe Man with the Yellow Eyes Evil Colonel SandersLittle Asmodeus, Runt of the Litter, Dimmest Bulb on the String Yellow-eyed Demons",
+   "family": "Lucifer † Each other †Meg †Tom †"
+  }
+ },
+ {
+  "slug": "azazel",
+  "wiki": "Azazel",
+  "cat": "Демоны",
+  "ru": "Азазель",
+  "chars": 3602,
+  "raw_chars": 46546,
+  "path": "data/raw/wiki/azazel.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "ramiel",
+  "wiki": "Ramiel",
+  "cat": "Демоны",
+  "ru": "Рамиэль",
+  "chars": 2832,
+  "raw_chars": 17895,
+  "path": "data/raw/wiki/ramiel.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Ramiel",
+   "image": "Ramiel.png",
+   "season": "12",
+   "category": "Prince of HellHuman",
+   "status": "Deceased Soul resides in The Empty",
+   "occupation": "Collector of the Supernatural Demonic General",
+   "affiliation": "Hell Lucifer",
+   "family": "Lucifer † Azazel † Dagon † Asmodeus † Meg † Tom †",
+   "actor": "Jerry Trimble"
+  }
+ },
+ {
+  "slug": "dagon",
+  "wiki": "Dagon",
+  "cat": "Демоны",
+  "ru": "Дагон",
+  "chars": 3327,
+  "raw_chars": 24685,
+  "path": "data/raw/wiki/dagon.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Dagon",
+   "image": "The British Invasion 14.jpg",
+   "season": "12",
+   "category": "Prince of HellHuman",
+   "status": "Deceased Soul resides in The Empty",
+   "occupation": "Demonic General Protector of Jack",
+   "affiliation": "Hell Kelly Kline Lucifer",
+   "family": "Lucifer † Azazel † Ramiel † Asmodeus † Meg † Tom †",
+   "actor": "Ali Ahn"
+  }
+ },
+ {
+  "slug": "asmodeus",
+  "wiki": "Asmodeus",
+  "cat": "Демоны",
+  "ru": "Асмодей",
+  "chars": 4106,
+  "raw_chars": 39958,
+  "path": "data/raw/wiki/asmodeus.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "knights-of-hell",
+  "wiki": "Knights of Hell",
+  "cat": "Демоны",
+  "ru": "Рыцари Ада",
+  "chars": 4258,
+  "raw_chars": 27501,
+  "path": "data/raw/wiki/knights-of-hell.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Knight of Hell",
+   "season": "8-10, 15",
+   "status": "ExtinctExtant",
+   "occupation": "Various",
+   "affiliation": "Hell",
+   "actor": "Various",
+   "category": "Demons",
+   "title/alias": "The First Fallen",
+   "family": "Lucifer †"
+  }
+ },
+ {
+  "slug": "abaddon",
+  "wiki": "Abaddon",
+  "cat": "Демоны",
+  "ru": "Абаддон",
+  "chars": 3574,
+  "raw_chars": 45337,
+  "path": "data/raw/wiki/abaddon.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Abaddon",
+   "image": "Josie Sands=300px",
+   "season": "8-9, 12",
+   "category": "Demon (Knight of Hell) Human",
+   "status": "Deceased Soul resides in The Empty",
+   "title/alias": "The Queen Red, Carrot Top, The world's angriest ginger, Ignorant hag Aba-douche",
+   "occupation": "Knight of Hell Queen of Hell",
+   "affiliation": "Hell Lucifer Knights of Hell Cain",
+   "family": "Lucifer †",
+   "actor": "Alaina Huffman Sharon Bell Anna Galvin Marilyn Norry"
+  }
+ },
+ {
+  "slug": "cain",
+  "wiki": "Cain",
+  "cat": "Демоны",
+  "ru": "Каин",
+  "chars": 3635,
+  "raw_chars": 33223,
+  "path": "data/raw/wiki/cain.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Cain",
+   "image": "Cainimage.jpg",
+   "season": "9-10",
+   "category": "Knight of Hell Human",
+   "status": "Deceased Soul resides in The Empty",
+   "family": "Abel †Adam Eve Serafina (step-mother)Colette Mullen †Dean Winchester †Sam Winchester †John Winchester †Adam Milligan Emma †Dean Winchester II Leon Tolliver † Tommy Tolliver †Austin Reynolds Humans",
+   "title/alias": "Father of MurderFirst Son",
+   "occupation": "Bearer of the Mark of CainTrainer and Leader of the Knights of Hell",
+   "affiliation": "Lucifer Hell Knights of Hell",
+   "actor": "Timothy Omundson"
+  }
+ },
+ {
+  "slug": "lilith",
+  "wiki": "Lilith",
+  "cat": "Демоны",
+  "ru": "Лилит",
+  "chars": 4401,
+  "raw_chars": 58510,
+  "path": "data/raw/wiki/lilith.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Lilith",
+   "season": "3-4, 15",
+   "category": "White-eyed Demon Human",
+   "status": "Deceased Soul resides in The Empty",
+   "occupation": "Demonic Chief of StaffQueen of Hell Queen of the Crossroads Founder and leader of the SuccubisServant of Lucifer",
+   "affiliation": "HellLucifer Alastair Crowley Ruby God",
+   "actor": "Rachel Pattee Sierra McCormick Katie Cassidy Katherine Boecher Anna Grace Barlow",
+   "title/alias": "The First DemonThe Final SealThe Messiah Susan LyleMrs. Lyle",
+   "family": "Lucifer †"
+  }
+ },
+ {
+  "slug": "crowley",
+  "wiki": "Crowley",
+  "cat": "Демоны",
+  "ru": "Кроули",
+  "chars": 4627,
+  "raw_chars": 35170,
+  "path": "data/raw/wiki/crowley.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "Major Kills",
+   "tab5": "Relationships",
+   "tab6": "Quotes"
+  }
+ },
+ {
+  "slug": "meg",
+  "wiki": "Meg Masters",
+  "cat": "Демоны",
+  "ru": "Мег Мастерс",
+  "chars": 2255,
+  "raw_chars": 7598,
+  "path": "data/raw/wiki/meg.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Meg Masters",
+   "image": "MeganMasters.png",
+   "season": "1, 4",
+   "category": "Ghost Human",
+   "status": "Deceased",
+   "occupation": "College student",
+   "affiliation": "\"Meg\"",
+   "family": "Unnamed sister †",
+   "actor": "Nicki Aycox"
+  }
+ },
+ {
+  "slug": "ruby",
+  "wiki": "Ruby",
+  "cat": "Демоны",
+  "ru": "Руби",
+  "chars": 4084,
+  "raw_chars": 54516,
+  "path": "data/raw/wiki/ruby.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Ruby",
+   "season": "3-4, 15",
+   "category": "DemonHuman",
+   "status": "Deceased Soul resides in The Empty",
+   "occupation": "Double-agent for LilithWitch",
+   "affiliation": "LilithLuciferWinchester Family Astaroth Alastair HellAnael",
+   "actor": "Katie Cassidy Genevieve Padalecki Anna Williams Michelle Hewitt-Williams",
+   "title/alias": "Kristy Fallen Angel",
+   "family": "Lucifer †"
+  }
+ },
+ {
+  "slug": "alastair",
+  "wiki": "Alastair",
+  "cat": "Демоны",
+  "ru": "Аластер",
+  "chars": 3587,
+  "raw_chars": 27373,
+  "path": "data/raw/wiki/alastair.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Alastair",
+   "season": "4",
+   "category": "White-eyed DemonHuman",
+   "status": "Deceased Soul resides in The Empty",
+   "title/alias": "Picasso With A Razor The Grand Inquisitor",
+   "occupation": "Demonic Chief of StaffHell's Grand TorturerLilith's enforcer and servant",
+   "affiliation": "LuciferDeathLilithMegHellDean Winchester John Winchester Ruby Uriel",
+   "actor": "Mark Rolston Andrew Wheeler Christopher Heyerdahl |family = Lucifer †"
+  }
+ },
+ {
+  "slug": "belphegor",
+  "wiki": "Belphegor",
+  "cat": "Демоны",
+  "ru": "Бельфегор",
+  "chars": 3179,
+  "raw_chars": 31220,
+  "path": "data/raw/wiki/belphegor.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Belphegor",
+   "image": "Belphegor1503.png",
+   "season": "15",
+   "category": "Demon Human",
+   "status": "Deceased Soul resides in The Empty",
+   "title/alias": "Crowley Junior Bel",
+   "occupation": "Hell's Torturer",
+   "affiliation": "HellWinchester Family Castiel Malfayan",
+   "family": "Lucifer †",
+   "actor": "Alexander Calvert"
+  }
+ },
+ {
+  "slug": "belial",
+  "wiki": "Belial",
+  "cat": "Демоны",
+  "ru": "Белиал",
+  "chars": 833,
+  "raw_chars": 2677,
+  "path": "data/raw/wiki/belial.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "moloch",
+  "wiki": "Moloch",
+  "cat": "Демоны",
+  "ru": "Молох",
+  "chars": 2715,
+  "raw_chars": 5536,
+  "path": "data/raw/wiki/moloch.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Moloch",
+   "image": "Moloch.jpg",
+   "season": "12",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "God of Sacrifice",
+   "occupation": "Canaanite God",
+   "affiliation": "Canaanite Pantheon Bishop Family",
+   "family": "God",
+   "actor": "John DeSantis"
+  }
+ },
+ {
+  "slug": "samhain",
+  "wiki": "Samhain",
+  "cat": "Демоны",
+  "ru": "Самайн",
+  "chars": 2050,
+  "raw_chars": 13748,
+  "path": "data/raw/wiki/samhain.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Samhain",
+   "season": "4",
+   "category": "Demon MutationHuman",
+   "status": "Alive Soul resides in Hell",
+   "actor": "Don McManus",
+   "title/alias": "The Lord of the DeadThe Origin of Halloween The Pied Piper My love",
+   "affiliation": "HellTracy Davis Don Harding Ancient Celts",
+   "occupation": "The Lord of Dead PeopleDemon of Halloween",
+   "family": "Lucifer †"
+  }
+ },
+ {
+  "slug": "agrat-bat-mahlat",
+  "wiki": "Agrat Bat Mahlat",
+  "cat": "Демоны",
+  "ru": "Аграт бат Махлат",
+  "chars": 336,
+  "raw_chars": 690,
+  "path": "data/raw/wiki/agrat-bat-mahlat.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "morax",
+  "wiki": "Morax",
+  "cat": "Демоны",
+  "ru": "Моракс",
+  "chars": 456,
+  "raw_chars": 875,
+  "path": "data/raw/wiki/morax.txt",
+  "info": {
+   "_template": "MinorCharacters"
+  }
+ },
+ {
+  "slug": "white-eyed-demons",
+  "wiki": "White-eyed Demons",
+  "cat": "Демоны",
+  "ru": "Белоглазые демоны",
+  "chars": 4230,
+  "raw_chars": 25373,
+  "path": "data/raw/wiki/white-eyed-demons.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "White-eyed Demons",
+   "season": "3-4, 15",
+   "status": "Extinct",
+   "occupation": "Demonic Chiefs of StaffRuler of Hell, Queen of the Crossroads Hell's Torturer Servants of Lucifer",
+   "affiliation": "LuciferHell",
+   "actor": "Various",
+   "category": "DemonsHumans",
+   "title/alias": "|family = Lucifer †"
+  }
+ },
+ {
+  "slug": "orange-eyed-demons",
+  "wiki": "Orange-eyed Demons",
+  "cat": "Демоны",
+  "ru": "Оранжевоглазые демоны",
+  "chars": 340,
+  "raw_chars": 1862,
+  "path": "data/raw/wiki/orange-eyed-demons.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "green-eyed-demons",
+  "wiki": "Green-eyed Demons",
+  "cat": "Демоны",
+  "ru": "Зеленоглазые демоны",
+  "chars": 745,
+  "raw_chars": 1730,
+  "path": "data/raw/wiki/green-eyed-demons.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Green-eyed Demons",
+   "season": "None",
+   "category": "Special Demons Humans (formely)",
+   "status": "Theoretically extant",
+   "affiliation": "Hell",
+   "family": "Lucifer"
+  }
+ },
+ {
+  "slug": "tempter-demons",
+  "wiki": "Tempter Demons",
+  "cat": "Демоны",
+  "ru": "Демоны-искусители",
+  "chars": 1333,
+  "raw_chars": 4304,
+  "path": "data/raw/wiki/tempter-demons.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Tempter Demons",
+   "image": "Tempter Demon.png",
+   "season": "12-13",
+   "status": "Extinct (universe destroyed by God) Extant (Resurrected by Jack Kline)",
+   "category": "DemonsHumans (Formerly)",
+   "affiliation": "HellLuciferAzazel",
+   "title/alias": "|occupation = Foot soldiers",
+   "family": "Lucifer",
+   "actor": "Various|series=Supernatural|species=Demon"
+  }
+ },
+ {
+  "slug": "seven-deadly-sins",
+  "wiki": "Seven Deadly Sins",
+  "cat": "Демоны",
+  "ru": "Семь смертных грехов",
+  "chars": 3548,
+  "raw_chars": 15747,
+  "path": "data/raw/wiki/seven-deadly-sins.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Seven Deadly Sins",
+   "season": "3",
+   "category": "Demon MutationsHumans",
+   "powers": "Demonic",
+   "status": "Envy Sloth Gluttony Lust Pride Wrath Greed",
+   "actor": "Josh Daugherty C. Ernst Harth Michael Rogers Katya Virshilas Ben Cotton Gardiner Millar Tiara Sorensen",
+   "occupation": "Bearers of Sin",
+   "affiliation": "Hell",
+   "family": "Lucifer"
+  }
+ },
+ {
+  "slug": "shedim",
+  "wiki": "Shedim",
+  "cat": "Демоны",
+  "ru": "Шедим",
+  "chars": 2069,
+  "raw_chars": 5844,
+  "path": "data/raw/wiki/shedim.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Shedim",
+   "image": "Shedim 1302.jpg",
+   "season": "13",
+   "category": "Unknown Creature",
+   "status": "Extant",
+   "affiliation": "HellAsmodeus"
+  }
+ },
+ {
+  "slug": "hells-torturers",
+  "wiki": "Hell's Torturers",
+  "cat": "Демоны",
+  "ru": "Палачи Ада",
+  "chars": 1216,
+  "raw_chars": 4495,
+  "path": "data/raw/wiki/hells-torturers.txt",
+  "info": {
+   "_template": "Stub"
+  }
+ },
+ {
+  "slug": "succubi",
+  "wiki": "Succubi",
+  "cat": "Демоны",
+  "ru": "Суккубы",
+  "chars": 1034,
+  "raw_chars": 1764,
+  "path": "data/raw/wiki/succubi.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Succubis",
+   "season": "None",
+   "category": "Demons Human (formerly)",
+   "status": "Extant",
+   "family": "Lucifer",
+   "affiliation": "Hell"
+  }
+ },
+ {
+  "slug": "whore-of-babylon",
+  "wiki": "Whore of Babylon",
+  "cat": "Демоны",
+  "ru": "Вавилонская блудница",
+  "chars": 2775,
+  "raw_chars": 4610,
+  "path": "data/raw/wiki/whore-of-babylon.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Whore of Babylon",
+   "season": "5",
+   "category": "Babylonian Creature",
+   "status": "Deceased",
+   "occupation": "Tool of the ApocalypseFalse Prophet",
+   "affiliation": "LuciferHell Unnamed demons Sacrament Lutheran Militia",
+   "actor": "Kayla Mae Maloney|Title/Alias=Leah Gideon"
+  }
+ },
+ {
+  "slug": "daeva",
+  "wiki": "Daeva",
+  "cat": "Демоны",
+  "ru": "Даэва",
+  "chars": 1793,
+  "raw_chars": 3886,
+  "path": "data/raw/wiki/daeva.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Daeva",
+   "image": "Daeva 2.jpg",
+   "season": "1",
+   "category": "Special Demon Humans (formerly)",
+   "title/alias": "Demon of Darkness Zoroastrian demons Shadow Demon",
+   "affiliation": "Hell Meg",
+   "status": "Unknown",
+   "family": "Lucifer †"
+  }
+ },
+ {
+  "slug": "hellhounds",
+  "wiki": "Hellhounds",
+  "cat": "Демоны",
+  "ru": "Адские гончие",
+  "chars": 4313,
+  "raw_chars": 12840,
+  "path": "data/raw/wiki/hellhounds.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Hellhounds",
+   "image": "HellHound.gif",
+   "season": "2-6, 8-9, 11-12, 15",
+   "status": "Extant",
+   "creator": "God",
+   "alpha-first": "Ramsey",
+   "affiliation": "HellLuciferDemonsTheir Owners",
+   "powers and abilities": "Enhanced speed Invisibility Heightened sense of smell Super strength",
+   "vulnerabilities": "Salt Angel blades Goofer Dust Devil's Shoestring",
+   "appearance": "Invisible to undamned humans; dog-like"
+  }
+ },
+ {
+  "slug": "jesse-turner",
+  "wiki": "Jesse Turner",
+  "cat": "Демоны",
+  "ru": "Джесси Тёрнер (антихрист)",
+  "chars": 3542,
+  "raw_chars": 11995,
+  "path": "data/raw/wiki/jesse-turner.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Jesse Turner",
+   "image": "Cambionboy.png",
+   "season": "5",
+   "category": "Cambion",
+   "status": "Unknown",
+   "title/alias": "The AntichristKatako",
+   "family": "Turner Family Julia Wright Julia Wright's demon Lucifer",
+   "occupation": "Tool of the Apocalypse",
+   "affiliation": "Hell",
+   "actor": "Gattlin Griffith"
+  }
+ },
+ {
+  "slug": "hybrid",
+  "wiki": "Hybrid",
+  "cat": "Демоны",
+  "ru": "Гибриды (демон+человек)",
+  "chars": 2079,
+  "raw_chars": 8870,
+  "path": "data/raw/wiki/hybrid.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Hybrid",
+   "status": "Extant",
+   "family": "Their Progenators",
+   "actor": "Various",
+   "season": "5-6, 8, 12-15",
+   "category": "CambionDemigodJefferson StarshipsNephilims",
+   "occupation": "Various"
+  }
+ },
+ {
+  "slug": "angels",
+  "wiki": "Angels",
+  "cat": "Ангелы",
+  "ru": "Ангелы",
+  "chars": 3748,
+  "raw_chars": 41542,
+  "path": "data/raw/wiki/angels.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses"
+  }
+ },
+ {
+  "slug": "archangels",
+  "wiki": "Archangels",
+  "cat": "Ангелы",
+  "ru": "Архангелы",
+  "chars": 4654,
+  "raw_chars": 42517,
+  "path": "data/raw/wiki/archangels.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "|tab5 ="
+  }
+ },
+ {
+  "slug": "seraphim",
+  "wiki": "Seraphim",
+  "cat": "Ангелы",
+  "ru": "Серафимы",
+  "chars": 4162,
+  "raw_chars": 22939,
+  "path": "data/raw/wiki/seraphim.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Seraphim",
+   "image": "Castiel full power.jpg",
+   "season": "5-8, 10-15",
+   "category": "Angels",
+   "status": "Active",
+   "occupation": "Various",
+   "affiliation": "Host of Heaven",
+   "family": "God Angels Archangels The Darkness Nephilim",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "cherubim",
+  "wiki": "Cherubim",
+  "cat": "Ангелы",
+  "ru": "Херувимы",
+  "chars": 3277,
+  "raw_chars": 6946,
+  "path": "data/raw/wiki/cherubim.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Cherubim",
+   "image": "Loveyduvey.jpg",
+   "season": "5, 8, 10, 13",
+   "category": "Angels",
+   "status": "Unknown",
+   "occupation": "Matchmaking",
+   "affiliation": "Heaven",
+   "actor": "Various",
+   "family": "God Angels Archangels The Darkness Nephilim",
+   "title/alias": "Cupids"
+  }
+ },
+ {
+  "slug": "grigori",
+  "wiki": "Grigori",
+  "cat": "Ангелы",
+  "ru": "Григори (Стражи)",
+  "chars": 4032,
+  "raw_chars": 11079,
+  "path": "data/raw/wiki/grigori.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Grigori",
+   "image": "250px",
+   "season": "10, 15",
+   "category": "Angels",
+   "status": "Extinct",
+   "occupation": "Elite squad of angels Feeders on human soulsFaith Healer Doctor",
+   "affiliation": "Heaven",
+   "family": "God Angels Archangels The Darkness Nephilim",
+   "actor": "Various",
+   "title/alias": "AbominationWatcher AngelsMonster"
+  }
+ },
+ {
+  "slug": "nephilim",
+  "wiki": "Nephilim",
+  "cat": "Ангелы",
+  "ru": "Нефилимы",
+  "chars": 4742,
+  "raw_chars": 23467,
+  "path": "data/raw/wiki/nephilim.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Nephilim",
+   "category": "Angel-Human HybridArchangel-Human Hybrid",
+   "status": "Extant",
+   "season": "8, 12-15, The Winchesters",
+   "title/alias": "AbominationHalf-breed",
+   "affiliation": "|family = God The Darkness Angels Archangels",
+   "actor": "Linda Tomassone Alexander Calvert"
+  }
+ },
+ {
+  "slug": "jack-kline",
+  "wiki": "Jack Kline (Nephilim)",
+  "cat": "Ангелы",
+  "ru": "Джек Клайн",
+  "chars": 4252,
+  "raw_chars": 43562,
+  "path": "data/raw/wiki/jack-kline.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "Major Kills",
+   "tab5": "Relationships"
+  }
+ },
+ {
+  "slug": "castiel",
+  "wiki": "Castiel",
+  "cat": "Ангелы",
+  "ru": "Кастиэль",
+  "chars": 4634,
+  "raw_chars": 64076,
+  "path": "data/raw/wiki/castiel.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "Major Kills",
+   "tab5": "Relationships",
+   "tab6": "Quotes"
+  }
+ },
+ {
+  "slug": "michael",
+  "wiki": "Michael",
+  "cat": "Ангелы",
+  "ru": "Михаил",
+  "chars": 4080,
+  "raw_chars": 90297,
+  "path": "data/raw/wiki/michael.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "lucifer",
+  "wiki": "Lucifer",
+  "cat": "Ангелы",
+  "ru": "Люцифер",
+  "chars": 4613,
+  "raw_chars": 56606,
+  "path": "data/raw/wiki/lucifer.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "Major Kills",
+   "tab5": "Relationships",
+   "tab6": "Quotes"
+  }
+ },
+ {
+  "slug": "gabriel",
+  "wiki": "Gabriel",
+  "cat": "Ангелы",
+  "ru": "Гавриил",
+  "chars": 4179,
+  "raw_chars": 78896,
+  "path": "data/raw/wiki/gabriel.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Gabriel",
+   "image": "250px",
+   "season": "2-3, 5, 9, 13",
+   "category": "Archangel",
+   "status": "Deceased Essence resides in The Empty",
+   "title/alias": "LokiThe Trickster Little Brother Gabe Uma G Uncle Gabe Ed Coleman",
+   "occupation": "Messenger of God Janitor Pagan God",
+   "affiliation": "God His brothers Host of Heaven Pagan Deities Loki Winchester FamilyCastiel",
+   "actor": "Richard Speight Jr.Derek Green Steve Bacic Trevor Lerner",
+   "family": "God The Darkness Michael †Lucifer †Raphael †Angels Jack Jane †Queen of Sheba †Rowena MacLeod †"
+  }
+ },
+ {
+  "slug": "raphael",
+  "wiki": "Raphael",
+  "cat": "Ангелы",
+  "ru": "Рафаил",
+  "chars": 4174,
+  "raw_chars": 38066,
+  "path": "data/raw/wiki/raphael.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Raphael",
+   "image": "Donnie=250px",
+   "season": "4-6",
+   "category": "Archangel",
+   "status": "Deceased Essence resides in The Empty",
+   "occupation": "Ruler of Heaven Protector of Prophet Chuck Shurley Michael's Lieutenant/Second in Command",
+   "affiliation": "God Michael Lucifer Gabriel Crowley His followers",
+   "family": "God Michael †Lucifer †Gabriel † Angels Jack Jane †Queen of Sheba †The Darkness",
+   "actor": "Demore Barnes Lanette Ware"
+  }
+ },
+ {
+  "slug": "metatron",
+  "wiki": "Metatron",
+  "cat": "Ангелы",
+  "ru": "Метатрон",
+  "chars": 4759,
+  "raw_chars": 65894,
+  "path": "data/raw/wiki/metatron.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Metatron",
+   "image": "Image:The Scribe Of God8.png",
+   "season": "8-11",
+   "category": "HumanAngel",
+   "status": "Deceased Essence resides in The Empty",
+   "occupation": "Scribe of God Rogue Angel Ruler of Heaven Videographer",
+   "affiliation": "Heaven God Castiel Gadreel Winchester FamilyMarv",
+   "actor": "Curtis Armstrong",
+   "title/alias": "Scribe of GodMarvX, Pencil Pusher Douchebag, Mother Teresa with neck beard Nerd Secretary God The Great Spirit’s Messenger",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba † Djinn Queen Sister-in-law"
+  }
+ },
+ {
+  "slug": "uriel",
+  "wiki": "Uriel",
+  "cat": "Ангелы",
+  "ru": "Уриил",
+  "chars": 2462,
+  "raw_chars": 23462,
+  "path": "data/raw/wiki/uriel.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Uriel",
+   "season": "4-5",
+   "category": "Angel",
+   "status": "Deceased",
+   "occupation": "Angelic specialistDouble Agent for Lucifer Castiel's Superior (briefly)",
+   "affiliation": "Lucifer Host of Heaven Castiel AlastairAnna Milton Winchester Family (formerly)",
+   "actor": "Robert WisdomMatt Ward",
+   "title/alias": "|family = God Angels Archangels The Darkness Jane †Jack Queen of Sheba †"
+  }
+ },
+ {
+  "slug": "balthazar",
+  "wiki": "Balthazar",
+  "cat": "Ангелы",
+  "ru": "Валтасар",
+  "chars": 2864,
+  "raw_chars": 15813,
+  "path": "data/raw/wiki/balthazar.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Balthazar",
+   "image": "Balthazar.PNG",
+   "season": "6",
+   "category": "Angel",
+   "status": "Deceased Essence resides in The Empty",
+   "occupation": "Supernatural Item BrokerMember of Castiel's garrison",
+   "affiliation": "Host of Heaven CastielWinchester Family",
+   "actor": "Sebastian Roché",
+   "title/alias": "I.P. Freely",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba † Djinn Queen"
+  }
+ },
+ {
+  "slug": "anna-milton",
+  "wiki": "Anna Milton",
+  "cat": "Ангелы",
+  "ru": "Анна Милтон",
+  "chars": 3668,
+  "raw_chars": 35937,
+  "path": "data/raw/wiki/anna-milton.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "naomi",
+  "wiki": "Naomi",
+  "cat": "Ангелы",
+  "ru": "Наоми",
+  "chars": 3674,
+  "raw_chars": 28208,
+  "path": "data/raw/wiki/naomi.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Naomi",
+   "image": "NaomiS8.png",
+   "season": "8, 13-14",
+   "category": "Angel",
+   "status": "Alive",
+   "occupation": "Ruler of Heaven Intelligence Angel",
+   "affiliation": "Heaven Crowley Castiel",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba †",
+   "title/alias": "|actor = Amanda Tapping"
+  }
+ },
+ {
+  "slug": "bartholomew",
+  "wiki": "Bartholomew",
+  "cat": "Ангелы",
+  "ru": "Варфоломей",
+  "chars": 1735,
+  "raw_chars": 10440,
+  "path": "data/raw/wiki/bartholomew.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "malachi",
+  "wiki": "Malachi",
+  "cat": "Ангелы",
+  "ru": "Малахия",
+  "chars": 2039,
+  "raw_chars": 6010,
+  "path": "data/raw/wiki/malachi.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Malachi",
+   "season": "9",
+   "category": "Angel",
+   "status": "Deceased",
+   "occupation": "Fallen AngelSelf-Appointed Army General",
+   "title/alias": "The Angel Anarchist",
+   "family": "God Angels Archangels The Darkness Jane † Jack Kline Queen of Sheba † |affiliation = Host of Heaven",
+   "image": "Malachi.png",
+   "actor": "Stephen Monroe Taylor"
+  }
+ },
+ {
+  "slug": "gadreel",
+  "wiki": "Gadreel",
+  "cat": "Ангелы",
+  "ru": "Гадриил",
+  "chars": 3853,
+  "raw_chars": 40470,
+  "path": "data/raw/wiki/gadreel.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Gadreel",
+   "season": "9",
+   "category": "Angel",
+   "status": "Deceased Essence resides in The Empty",
+   "title/alias": "EzekielZeke, Douchebag Damn son of a bitch The Original Chump, Punk ass Holy Roller The Sap, The Traitor, Heaven’s longest running joke Psycho Angel",
+   "affiliation": "God Host of Heaven Winchester FamilyCastielMetatron Adam Eve Abner",
+   "occupation": "Guardian of Eden Fallen AngelAngelic \"Pacemaker\" of Sam Winchester Metatron's Lieutenant/second-in-command",
+   "family": "God The Darkness Archangels Angels Jane †Jack Kline Queen of Sheba †Djinn Queen",
+   "actor": "Tahmoh Penikett Jared Padalecki Jensen Ackles"
+  }
+ },
+ {
+  "slug": "ishim",
+  "wiki": "Ishim",
+  "cat": "Ангелы",
+  "ru": "Ишим",
+  "chars": 2987,
+  "raw_chars": 11475,
+  "path": "data/raw/wiki/ishim.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Ishim",
+   "image": "Ishim.png",
+   "season": "12",
+   "category": "Angel",
+   "status": "Deceased",
+   "occupation": "Flight Commander",
+   "affiliation": "Host of HeavenCastiel",
+   "family": "God Angels Archangels The Darkness Jane † Jack Queen of Sheba †",
+   "actor": "Ian Tracey"
+  }
+ },
+ {
+  "slug": "akobel",
+  "wiki": "Akobel",
+  "cat": "Ангелы",
+  "ru": "Акобель",
+  "chars": 2353,
+  "raw_chars": 5454,
+  "path": "data/raw/wiki/akobel.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Akobel",
+   "image": "250px",
+   "season": "12",
+   "category": "Seraph",
+   "status": "Deceased",
+   "actor": "Nils Hognestad",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba †Lily Sunder † May †",
+   "occupation": "Seraph of the Sixth ChoirObserver of Humanity",
+   "affiliation": "Host of Heaven (formely) Humans"
+  }
+ },
+ {
+  "slug": "samandriel",
+  "wiki": "Samandriel",
+  "cat": "Ангелы",
+  "ru": "Самандриил",
+  "chars": 2553,
+  "raw_chars": 8461,
+  "path": "data/raw/wiki/samandriel.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Samandriel",
+   "image": "Samandriel 1.png",
+   "season": "8",
+   "category": "Angel",
+   "status": "Deceased",
+   "affiliation": "Host of HeavenCastiel",
+   "title/alias": "AlfieHeaven's Most Adorable Angel",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba †",
+   "actor": "Tyler Johnston|occupation=Protector of the Word of God,Protector of Souls"
+  }
+ },
+ {
+  "slug": "hannah",
+  "wiki": "Hannah",
+  "cat": "Ангелы",
+  "ru": "Ханна",
+  "chars": 2922,
+  "raw_chars": 22959,
+  "path": "data/raw/wiki/hannah.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Hannah",
+   "season": "9-11",
+   "category": "Angel",
+   "status": "Deceased",
+   "actor": "Erica Carroll Lee Majdoub",
+   "affiliation": "Host of Heaven CastielCastiel's FactionMetatron",
+   "occupation": "Leader of Heaven",
+   "family": "The Darkness God Archangels Angels Jane †Jack Queen of Sheba †"
+  }
+ },
+ {
+  "slug": "ambriel",
+  "wiki": "Ambriel",
+  "cat": "Ангелы",
+  "ru": "Амвриил",
+  "chars": 1411,
+  "raw_chars": 2965,
+  "path": "data/raw/wiki/ambriel.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Ambriel",
+   "category": "Angel",
+   "image": "250px",
+   "season": "11",
+   "status": "Consumed",
+   "affiliation": "Heaven",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba †Unnamed Vessel †",
+   "actor": "Valerie Tian|occupation = Births and Deaths Statistician in Heaven"
+  }
+ },
+ {
+  "slug": "dumah",
+  "wiki": "Duma",
+  "cat": "Ангелы",
+  "ru": "Дума",
+  "chars": 3175,
+  "raw_chars": 14586,
+  "path": "data/raw/wiki/dumah.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Duma",
+   "season": "13-14",
+   "category": "Angel",
+   "status": "Deceased Essence resides in The Empty",
+   "affiliation": "HeavenLucifer Naomi Castiel Jack",
+   "actor": "Erica Cerra",
+   "occupation": "Ruler of Heaven",
+   "image": "Duma 1408.png",
+   "family": "God Angels Archangels The Darkness Jane †Jack Kline Queen of Sheba †"
+  }
+ },
+ {
+  "slug": "cupids",
+  "wiki": "Heaven's Cupid",
+  "cat": "Ангелы",
+  "ru": "Купидоны",
+  "chars": 1118,
+  "raw_chars": 2100,
+  "path": "data/raw/wiki/cupids.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Unknown",
+   "category": "Cherub",
+   "status": "Unknown",
+   "affiliation": "Host of Heaven",
+   "actor": "None",
+   "family": "God Angels Archangels The Darkness Jack Kline Jane †Queen of Sheba †|season=None|occupation=Match-making"
+  }
+ },
+ {
+  "slug": "intelligence-angels",
+  "wiki": "Intelligence Angels",
+  "cat": "Ангелы",
+  "ru": "Ангелы-интеллектуалы",
+  "chars": 1028,
+  "raw_chars": 2969,
+  "path": "data/raw/wiki/intelligence-angels.txt",
+  "info": {
+   "_template": "Organization",
+   "name": "Intelligence Angels",
+   "image": "SPN_1493.jpg",
+   "image2": "|season = 8-9, 13-14",
+   "type": "Heaven's Intelligence Division",
+   "status": "Unknown (presumably defunct)",
+   "founders": "Unclear",
+   "leaders": "Naomi",
+   "hq": "Heaven",
+   "formed from": "Angels",
+   "date formed": "Unknown"
+  }
+ },
+ {
+  "slug": "transformed-angels",
+  "wiki": "Transformed Angels",
+  "cat": "Ангелы",
+  "ru": "Изменённые ангелы",
+  "chars": 1608,
+  "raw_chars": 2694,
+  "path": "data/raw/wiki/transformed-angels.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Transformed Angels",
+   "season": "14",
+   "category": "AngelsHumans",
+   "status": "Extant",
+   "affiliation": "HeavenJack KlineDuma",
+   "family": "Jack Kline",
+   "actor": "John GillichGrace ChinC. Douglas QuanKareem MalcolmCarolyn Tinglin"
+  }
+ },
+ {
+  "slug": "reapers",
+  "wiki": "Reapers",
+  "cat": "Ангелы",
+  "ru": "Жнецы",
+  "chars": 4298,
+  "raw_chars": 28231,
+  "path": "data/raw/wiki/reapers.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Reapers",
+   "image": "Reaps.jpg",
+   "season": "1-2, 4-9, 11-15",
+   "category": "Reapers",
+   "status": "Extant",
+   "title/alias": "Angels of Death",
+   "occupation": "Delivering souls to their final destination",
+   "affiliation": "The Natural OrderDeathBillieBettyTheir enslavers",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "billie",
+  "wiki": "Billie",
+  "cat": "Ангелы",
+  "ru": "Билли (Смерть)",
+  "chars": 3979,
+  "raw_chars": 55376,
+  "path": "data/raw/wiki/billie.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "death",
+  "wiki": "Death",
+  "cat": "Ангелы",
+  "ru": "Смерть",
+  "chars": 3500,
+  "raw_chars": 43163,
+  "path": "data/raw/wiki/death.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "the-shadow",
+  "wiki": "The Shadow",
+  "cat": "Ангелы",
+  "ru": "Тень (Пустота)",
+  "chars": 3253,
+  "raw_chars": 35084,
+  "path": "data/raw/wiki/the-shadow.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "The Shadow",
+   "image": "The Shadow.jpg",
+   "season": "13-15",
+   "category": "Primordial Entity",
+   "status": "Alive",
+   "title/alias": "Friendly neighborhood Cosmic Entity The Empty Cosmic Being The thing that rules the Empty.",
+   "occupation": "Ruler of the Empty",
+   "affiliation": "The Empty The Natural Order Billie Jack",
+   "family": "|actor = Misha Collins Erica Cerra Rachel Miner"
+  }
+ },
+ {
+  "slug": "host-of-heaven",
+  "wiki": "Host of Heaven",
+  "cat": "Ангелы",
+  "ru": "Небесное Воинство",
+  "chars": 2567,
+  "raw_chars": 39315,
+  "path": "data/raw/wiki/host-of-heaven.txt",
+  "info": {
+   "_template": "Organization",
+   "image": "File:H.jpg",
+   "name": "Host of Heaven",
+   "type": "Army",
+   "season": "4-14",
+   "status": "Endangered Extant",
+   "founders": "God",
+   "hq": "Heaven",
+   "formed from": "AngelsDeities",
+   "leaders": "God Michael Raphael Jack Kline"
+  }
+ },
+ {
+  "slug": "angel-blades",
+  "wiki": "Angel Blades",
+  "cat": "Ангелы",
+  "ru": "Ангельские клинки",
+  "chars": 3777,
+  "raw_chars": 22462,
+  "path": "data/raw/wiki/angel-blades.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Angel Blades",
+   "season": "4-15",
+   "manufacturer": "God",
+   "use": "Close quarters combat Torturing",
+   "powers": "It can kill various supernatural beings",
+   "appeared": "|location = Carried by most angels, and some hunters and demons"
+  }
+ },
+ {
+  "slug": "grace",
+  "wiki": "Grace",
+  "cat": "Ангелы",
+  "ru": "Благодать",
+  "chars": 2859,
+  "raw_chars": 15318,
+  "path": "data/raw/wiki/grace.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Grace",
+   "image": "Tumblr inline n6eihhI5Ae1r7blwi.gif",
+   "manufacturer": "GodMetatronJack Kline",
+   "use": "The third component to the spell for Expelling Angels Can be used to track angels A component to a spell to open a rift between worlds (only archangel grace) Can be used to grant powers Keeps a Nephilim's body stable",
+   "powers": "Supports Angelic Powers and Abilities. Regenerates an Archangel's Power.",
+   "season": "4-15",
+   "location": "In angels In Nephilim Metatron's with Castiel"
+  }
+ },
+ {
+  "slug": "deities",
+  "wiki": "Deities",
+  "cat": "Боги",
+  "ru": "Божества",
+  "chars": 4698,
+  "raw_chars": 61243,
+  "path": "data/raw/wiki/deities.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Deities",
+   "image": "830px-Gods.png",
+   "season": "1, 3, 5-10, 12-15, The Winchesters",
+   "category": "Higher Beings",
+   "status": "Extant",
+   "title/alias": "Gods Goddesses Pagan Gods Pagans The Old Gods Monsters",
+   "occupation": "Ruling their affiliated religions/pantheons Gaining sacrifices Consuming their sacrificial victims and worshippers Maintaining The Natural Order",
+   "affiliation": "Their own religions/pantheons Their worshippers The Natural Order Heaven",
+   "family": "God Mythmakers Demigods The First Amazons Yokoth and Glythur's Faceless Hordes",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "god",
+  "wiki": "God",
+  "cat": "Боги",
+  "ru": "Бог (Чак Ширли)",
+  "chars": 3745,
+  "raw_chars": 49303,
+  "path": "data/raw/wiki/god.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "Relationships",
+   "tab6": "Quotes"
+  }
+ },
+ {
+  "slug": "the-darkness",
+  "wiki": "The Darkness",
+  "cat": "Боги",
+  "ru": "Тьма (Амара)",
+  "chars": 4391,
+  "raw_chars": 23595,
+  "path": "data/raw/wiki/the-darkness.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA6",
+   "altbackcolor": "000006",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "Major Kills"
+  }
+ },
+ {
+  "slug": "primordial-entities",
+  "wiki": "Primordial Entities",
+  "cat": "Боги",
+  "ru": "Первичные сущности",
+  "chars": 3654,
+  "raw_chars": 26106,
+  "path": "data/raw/wiki/primordial-entities.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Primordial Entities",
+   "season": "2-7, 9-15",
+   "image": "File:Primordial_beings_by_FTWinchester.png",
+   "actor": "Various",
+   "category": "Archangels Horseman Leviathans Being Nothingness Embodiment of the Empty",
+   "status": "Deceased Alive Powerless Active"
+  }
+ },
+ {
+  "slug": "death-horseman",
+  "wiki": "Four Horsemen of the Apocalypse",
+  "cat": "Боги",
+  "ru": "Четыре всадника Апокалипсиса",
+  "chars": 4071,
+  "raw_chars": 21018,
+  "path": "data/raw/wiki/death-horseman.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Four Horsemen of the Apocalypse",
+   "powers and abilities": "Teleportation Longevity Indestructibility Personification Death manipulation Famine manipulation War Manipulation Pestilence manipulation",
+   "vulnerabilities": "Ring removal, attribute dependency",
+   "appearance": "Human-like",
+   "actor": "|season = 5-7, 9, 10",
+   "status": "Neutralized (Famine, War, and Pestilence) Deceased (Death)"
+  }
+ },
+ {
+  "slug": "war",
+  "wiki": "War",
+  "cat": "Боги",
+  "ru": "Война",
+  "chars": 3426,
+  "raw_chars": 13512,
+  "path": "data/raw/wiki/war.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "War",
+   "image": "File:War.jpg",
+   "season": "5",
+   "category": "Horseman",
+   "status": "Incapacitated",
+   "occupation": "The Red Horseman",
+   "affiliation": "His brothers Lucifer",
+   "family": "Death † Famine Pestilence",
+   "actor": "Titus Welliver",
+   "title/alias": "Roger Wormwood"
+  }
+ },
+ {
+  "slug": "famine",
+  "wiki": "Famine",
+  "cat": "Боги",
+  "ru": "Голод",
+  "chars": 2989,
+  "raw_chars": 13034,
+  "path": "data/raw/wiki/famine.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Famine",
+   "image": "270px|link=Famine",
+   "season": "5",
+   "category": "Horseman",
+   "status": "Incapacitated",
+   "occupation": "The Black Horseman",
+   "affiliation": "His brothersLucifer",
+   "family": "Death † Pestilence War",
+   "actor": "James Otis"
+  }
+ },
+ {
+  "slug": "pestilence",
+  "wiki": "Pestilence",
+  "cat": "Боги",
+  "ru": "Мор",
+  "chars": 2960,
+  "raw_chars": 13661,
+  "path": "data/raw/wiki/pestilence.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Pestilence",
+   "image": "Pestilence5x19.jpg",
+   "title/alias": "Sneezy Dr. GreenDr. Evil",
+   "season": "5",
+   "category": "Horseman",
+   "status": "Incapacitated",
+   "occupation": "The Green Horseman",
+   "affiliation": "His brothersLuciferDemons",
+   "family": "Death †Famine War",
+   "actor": "Matt Frewer"
+  }
+ },
+ {
+  "slug": "demigods",
+  "wiki": "Demigods",
+  "cat": "Боги",
+  "ru": "Полубоги",
+  "chars": 695,
+  "raw_chars": 7170,
+  "path": "data/raw/wiki/demigods.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Demigods",
+   "season": "8, 13-15",
+   "category": "Hybrid Deities",
+   "status": "Extant",
+   "occupation": "Various",
+   "family": "Deities",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "zeus",
+  "wiki": "Zeus",
+  "cat": "Боги",
+  "ru": "Зевс",
+  "chars": 3110,
+  "raw_chars": 13230,
+  "path": "data/raw/wiki/zeus.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Zeus",
+   "image": "zeus.jpg",
+   "season": "8",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "God of the Sky and ThunderBig Daddy",
+   "occupation": "Ruler of the Greek Pantheon",
+   "affiliation": "Greek Pantheon",
+   "family": "God Hera Artemis Ares Amazons",
+   "actor": "John Novak"
+  }
+ },
+ {
+  "slug": "artemis",
+  "wiki": "Artemis",
+  "cat": "Боги",
+  "ru": "Артемида",
+  "chars": 2348,
+  "raw_chars": 7939,
+  "path": "data/raw/wiki/artemis.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "image": "artemis.jpg",
+   "name": "Artemis",
+   "season": "8",
+   "category": "Deity",
+   "status": "Alive",
+   "title/alias": "Goddess of the HuntXena-Wannabe",
+   "occupation": "Greek Goddess",
+   "affiliation": "Greek Pantheon Prometheus Oliver",
+   "family": "Zeus †Ares Harmonia Amazons",
+   "actor": "Anna Van Hooft"
+  }
+ },
+ {
+  "slug": "apollo-note",
+  "wiki": "Prometheus",
+  "cat": "Боги",
+  "ru": "Прометей",
+  "chars": 3403,
+  "raw_chars": 7516,
+  "path": "data/raw/wiki/apollo-note.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Prometheus",
+   "image": "Prometheus.png",
+   "season": "8",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "Shane",
+   "occupation": "Greek Titan",
+   "affiliation": "Greek Pantheon Artemis",
+   "family": "God Oliver Hayley",
+   "actor": "John Reardon"
+  }
+ },
+ {
+  "slug": "hera",
+  "wiki": "Hera",
+  "cat": "Боги",
+  "ru": "Гера",
+  "chars": 636,
+  "raw_chars": 1541,
+  "path": "data/raw/wiki/hera.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Hera",
+   "image": "|season = 15",
+   "category": "Deity",
+   "status": "Unknown",
+   "title/alias": "Goddess of Women and Marriage",
+   "occupation": "Greek Goddess",
+   "affiliation": "Greek Pantheon",
+   "family": "God Zeus †Ares Harmonia Amazons",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "ares",
+  "wiki": "Ares",
+  "cat": "Боги",
+  "ru": "Арес",
+  "chars": 1014,
+  "raw_chars": 1590,
+  "path": "data/raw/wiki/ares.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Ares",
+   "season": "7",
+   "category": "Deity",
+   "status": "Unknown",
+   "title/alias": "God of War",
+   "occupation": "Greek God",
+   "affiliation": "Greek Pantheon Harmonia",
+   "family": "Zeus †Hera Artemis Harmonia Amazons"
+  }
+ },
+ {
+  "slug": "hercules",
+  "wiki": "Hercules",
+  "cat": "Боги",
+  "ru": "Геракл",
+  "chars": 544,
+  "raw_chars": 2565,
+  "path": "data/raw/wiki/hercules.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Hercules",
+   "season": "None",
+   "category": "Demigod",
+   "status": "Unknown",
+   "title/alias": "True Hero",
+   "occupation": "Roman Hero",
+   "affiliation": "Roman Pantheon Fortuna",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "mercury",
+  "wiki": "Mercury",
+  "cat": "Боги",
+  "ru": "Меркурий",
+  "chars": 2825,
+  "raw_chars": 7289,
+  "path": "data/raw/wiki/mercury.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Mercury",
+   "image": "Mercury Hammer of the gods.jpg",
+   "season": "5",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "God of Commerce and TravelersChetNorman Bates",
+   "occupation": "Roman God Desk clerk",
+   "affiliation": "Roman Pantheon",
+   "family": "God",
+   "actor": "John Emmet Tracy"
+  }
+ },
+ {
+  "slug": "calliope",
+  "wiki": "Calliope",
+  "cat": "Боги",
+  "ru": "Каллиопа",
+  "chars": 2150,
+  "raw_chars": 5118,
+  "path": "data/raw/wiki/calliope.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Calliope",
+   "image": "Calliope.png",
+   "season": "10",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "Goddess of Epic Poetry",
+   "occupation": "Greek Goddess",
+   "affiliation": "Greek Pantheon",
+   "family": "Zeus † Ares Artemis",
+   "actor": "Hannah Levien"
+  }
+ },
+ {
+  "slug": "plutus",
+  "wiki": "Plutus",
+  "cat": "Боги",
+  "ru": "Плутос",
+  "chars": 2595,
+  "raw_chars": 4295,
+  "path": "data/raw/wiki/plutus.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Plutus",
+   "image": "Plutus.jpg",
+   "season": "8",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "God of GreedGod of the Candy Aisle",
+   "occupation": "Greek GodAuctioneer",
+   "affiliation": "Beau Greek Pantheon",
+   "family": "God",
+   "actor": "Gerard Plunkett"
+  }
+ },
+ {
+  "slug": "chronos",
+  "wiki": "Chronos",
+  "cat": "Боги",
+  "ru": "Хронос",
+  "chars": 2632,
+  "raw_chars": 6255,
+  "path": "data/raw/wiki/chronos.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Chronos",
+   "image": "Chronos.jpg",
+   "season": "7",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "Ethan SniderGod of Time",
+   "occupation": "Greek God",
+   "affiliation": "Greek Pantheon Lila Taylor",
+   "family": "God",
+   "actor": "Jason Dohring"
+  }
+ },
+ {
+  "slug": "atropos",
+  "wiki": "Atropos",
+  "cat": "Боги",
+  "ru": "Атропос",
+  "chars": 3146,
+  "raw_chars": 12363,
+  "path": "data/raw/wiki/atropos.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Atropos",
+   "image": "Fate and her journal.png",
+   "season": "6",
+   "category": "Deity",
+   "status": "Alive",
+   "title/alias": "FateGoddess of FateDestiny",
+   "occupation": "Greek Goddess",
+   "affiliation": "God HeavenHer sistersThe Natural OrderGreek Pantheon",
+   "family": "God Lachesis Clotho",
+   "actor": "Katie Walder"
+  }
+ },
+ {
+  "slug": "fates",
+  "wiki": "Fates",
+  "cat": "Боги",
+  "ru": "Мойры (Судьбы)",
+  "chars": 1434,
+  "raw_chars": 4328,
+  "path": "data/raw/wiki/fates.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "The Fates",
+   "image": "Thesises.jpg",
+   "season": "6",
+   "category": "Deities",
+   "status": "Extant",
+   "occupation": "Greek Goddesses",
+   "affiliation": "ThemselvesHeavenThe Natural OrderGreek Pantheon",
+   "family": "God AtroposClothoLachesis",
+   "actor": "Katie Walder"
+  }
+ },
+ {
+  "slug": "odinn",
+  "wiki": "Odin",
+  "cat": "Боги",
+  "ru": "Один",
+  "chars": 2381,
+  "raw_chars": 6568,
+  "path": "data/raw/wiki/odinn.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Odin",
+   "image": "Odin.jpg",
+   "season": "5",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "God of Royalty and Wisdom",
+   "occupation": "Chief Norse God",
+   "affiliation": "Norse Pantheon",
+   "family": "God Thor Baldur †Loki †Jörmungandr Fenrir †Hel Narfi †Sleipnir †",
+   "actor": "Duncan Fraser"
+  }
+ },
+ {
+  "slug": "thor",
+  "wiki": "Thor",
+  "cat": "Боги",
+  "ru": "Тор",
+  "chars": 701,
+  "raw_chars": 2442,
+  "path": "data/raw/wiki/thor.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Thor",
+   "season": "None",
+   "category": "Deity",
+   "status": "Unknown",
+   "occupation": "Norse God",
+   "affiliation": "Norse Pantheon|Title/Alias=Thunder God|family=Odin †Loki †Baldur †Jörmungandr Fenrir †Hel Narfi †Sleipnir †"
+  }
+ },
+ {
+  "slug": "baldur",
+  "wiki": "Baldur",
+  "cat": "Боги",
+  "ru": "Бальдр",
+  "chars": 2673,
+  "raw_chars": 8905,
+  "path": "data/raw/wiki/baldur.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Baldur",
+   "image": "Baldur2.jpg",
+   "season": "5",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "God of Light and Purity",
+   "occupation": "Norse God",
+   "affiliation": "Norse PantheonKali",
+   "family": "Odin †Thor Loki †Jörmungandr Fenrir †Hel Narfi †Sleipnir †",
+   "actor": "Adam Croasdell"
+  }
+ },
+ {
+  "slug": "loki",
+  "wiki": "Loki",
+  "cat": "Боги",
+  "ru": "Локи",
+  "chars": 2880,
+  "raw_chars": 10634,
+  "path": "data/raw/wiki/loki.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Loki",
+   "image": "800px-TricksterLoki.jpg",
+   "season": "13",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "The TricksterBig Daddy",
+   "occupation": "Norse God",
+   "affiliation": "Norse Pantheon Gabriel Asmodeus",
+   "family": "Odin †Thor Baldur †Jörmungandr Fenrir †Hel Narfi †Sleipnir †",
+   "actor": "Richard Speight Jr."
+  }
+ },
+ {
+  "slug": "fenrir",
+  "wiki": "Fenrir",
+  "cat": "Боги",
+  "ru": "Фенрир",
+  "chars": 2994,
+  "raw_chars": 6952,
+  "path": "data/raw/wiki/fenrir.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Fenrir",
+   "image": "FenrirWolf.png",
+   "season": "13",
+   "category": "Demigod",
+   "status": "Deceased",
+   "title/alias": "Big Wolf Fenris Fenrir Odin's Bane",
+   "occupation": "|affiliation = *Norse Pantheon Odin Loki Narfi Sleipnir Gabriel Asmodeus The Maw of Fenris",
+   "family": "Odin †Loki †Jörmungandr Hel Sleipnir †Narfi †Thor Baldur †",
+   "actor": "Sandy Robson"
+  }
+ },
+ {
+  "slug": "sleipnir",
+  "wiki": "Sleipnir",
+  "cat": "Боги",
+  "ru": "Слейпнир",
+  "chars": 1893,
+  "raw_chars": 6149,
+  "path": "data/raw/wiki/sleipnir.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Sleipnir",
+   "image": "800px-Sleipnir.png",
+   "season": "13",
+   "category": "Demigod",
+   "status": "Deceased",
+   "affiliation": "Norse Pantheon Odin Loki Fenrir Narfi Gabriel Asmodeus",
+   "family": "Odin †Loki †Jörmungandr Hel Fenrir †Narfi †Thor Baldur †",
+   "actor": "Fletcher Donovan"
+  }
+ },
+ {
+  "slug": "hel",
+  "wiki": "Hel",
+  "cat": "Боги",
+  "ru": "Хель",
+  "chars": 2658,
+  "raw_chars": 5019,
+  "path": "data/raw/wiki/hel.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "narfi",
+  "wiki": "Narfi",
+  "cat": "Боги",
+  "ru": "Нарфи",
+  "chars": 2170,
+  "raw_chars": 5021,
+  "path": "data/raw/wiki/narfi.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Narfi",
+   "image": "800px-Narfi.png",
+   "season": "13",
+   "category": "Demigod",
+   "status": "Deceased",
+   "affiliation": "Norse Pantheon Odin Loki Fenrir Sleipnir Gabriel Asmodeus",
+   "family": "Odin †Loki †Jörmungandr Fenrir †Hel Sleipnir †Thor Baldur †",
+   "actor": "Michael Adamthwaite"
+  }
+ },
+ {
+  "slug": "ymir",
+  "wiki": "Ymir",
+  "cat": "Боги",
+  "ru": "Имир",
+  "chars": 1500,
+  "raw_chars": 2781,
+  "path": "data/raw/wiki/ymir.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Ymir",
+   "season": "8",
+   "category": "Frost Giant",
+   "status": "Unknown",
+   "title/alias": "|occupation =",
+   "affiliation": "Norse Pantheon",
+   "family": "God (creator)",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "vanir",
+  "wiki": "Vanir",
+  "cat": "Боги",
+  "ru": "Ваны",
+  "chars": 2934,
+  "raw_chars": 6224,
+  "path": "data/raw/wiki/vanir.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "The Vanir of Burkitsville",
+   "image": "Vanir.jpg",
+   "season": "1",
+   "category": "Deity (vanir)",
+   "status": "Deceased",
+   "title/alias": "Scarecrow",
+   "occupation": "Norse God",
+   "affiliation": "Norse PantheonBurkitsville",
+   "family": "God",
+   "actor": "Mike Carpenter"
+  }
+ },
+ {
+  "slug": "kali",
+  "wiki": "Kali",
+  "cat": "Боги",
+  "ru": "Кали",
+  "chars": 3854,
+  "raw_chars": 13775,
+  "path": "data/raw/wiki/kali.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Kali",
+   "image": "Kali.jpg",
+   "season": "5",
+   "category": "Deity",
+   "status": "Alive",
+   "title/alias": "The DestroyerGoddess of Creation and DestructionPrincess",
+   "occupation": "Hindu Goddess",
+   "affiliation": "Hindu Pantheon Ganesh Baldur Gabriel",
+   "family": "God",
+   "actor": "Rekha Sharma"
+  }
+ },
+ {
+  "slug": "ganesh",
+  "wiki": "Ganesh",
+  "cat": "Боги",
+  "ru": "Ганеша",
+  "chars": 2842,
+  "raw_chars": 5219,
+  "path": "data/raw/wiki/ganesh.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Ganesh",
+   "image": "Ganesh.jpg",
+   "season": "5",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "God of Success and WisdomRemover of Obstacles",
+   "occupation": "Hindu God",
+   "affiliation": "Hindu Pantheon Kali",
+   "family": "God",
+   "actor": "Keith Dallas"
+  }
+ },
+ {
+  "slug": "anubis",
+  "wiki": "Anubis",
+  "cat": "Боги",
+  "ru": "Анубис",
+  "chars": 2115,
+  "raw_chars": 8103,
+  "path": "data/raw/wiki/anubis.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Anubis",
+   "image": "Anubis 1408.png",
+   "season": "14",
+   "category": "Deity",
+   "status": "Alive",
+   "title/alias": "God of the Dead",
+   "occupation": "Judge of the DeadEgyptian God",
+   "affiliation": "HeavenThe Natural OrderEgyptian Pantheon Angels",
+   "family": "Osiris",
+   "actor": "Sean Amsing"
+  }
+ },
+ {
+  "slug": "osiris",
+  "wiki": "Osiris",
+  "cat": "Боги",
+  "ru": "Осирис",
+  "chars": 2561,
+  "raw_chars": 6028,
+  "path": "data/raw/wiki/osiris.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Osiris",
+   "image": "Orisis.jpg",
+   "season": "7",
+   "category": "Deity",
+   "status": "Incapacitated",
+   "title/alias": "God of the Underworld",
+   "occupation": "Egyptian God",
+   "affiliation": "Egyptian Pantheon",
+   "family": "God Anubis",
+   "actor": "Faran Tahir"
+  }
+ },
+ {
+  "slug": "isis",
+  "wiki": "Isis",
+  "cat": "Боги",
+  "ru": "Исида",
+  "chars": 1291,
+  "raw_chars": 3109,
+  "path": "data/raw/wiki/isis.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Isis",
+   "image": "Isis3.jpg",
+   "season": "5",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "Goddess of Magic",
+   "occupation": "Egyptian GoddessWaitress",
+   "affiliation": "Egyptian Pantheon",
+   "family": "God",
+   "actor": "Uncredited actress"
+  }
+ },
+ {
+  "slug": "ra",
+  "wiki": "Ra",
+  "cat": "Боги",
+  "ru": "Ра",
+  "chars": 580,
+  "raw_chars": 1049,
+  "path": "data/raw/wiki/ra.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Ra",
+   "image": "|season = 15",
+   "category": "Deity",
+   "status": "Unknown",
+   "title/alias": "God of the Sun",
+   "occupation": "Egyptian God",
+   "affiliation": "Egyptian Pantheon",
+   "family": "God (creator)",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "tiamat",
+  "wiki": "Tiamat",
+  "cat": "Боги",
+  "ru": "Тиамат",
+  "chars": 2146,
+  "raw_chars": 2848,
+  "path": "data/raw/wiki/tiamat.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Tiamat",
+   "season": "4",
+   "category": "Deity",
+   "status": "Unknown",
+   "title/alias": "Goddess of the Sea",
+   "occupation": "Babylonian Goddess",
+   "affiliation": "Babylonian Pantheon",
+   "family": "God",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "anu",
+  "wiki": "Anu",
+  "cat": "Боги",
+  "ru": "Ану",
+  "chars": 642,
+  "raw_chars": 1125,
+  "path": "data/raw/wiki/anu.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Anu",
+   "season": "15",
+   "category": "Deity",
+   "status": "Unknown",
+   "title/alias": "God of the Sky",
+   "occupation": "Babylonian God",
+   "affiliation": "Babylonian Pantheon",
+   "family": "God",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "baron-samedi",
+  "wiki": "Baron Samedi",
+  "cat": "Боги",
+  "ru": "Барон Самди",
+  "chars": 1273,
+  "raw_chars": 3724,
+  "path": "data/raw/wiki/baron-samedi.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Baron Samedi",
+   "image": "002qxxpb.jpg",
+   "season": "5",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "|occupation =Voodoo God",
+   "affiliation": "Voodoo Pantheon",
+   "family": "God",
+   "actor": "Precious Silburne"
+  }
+ },
+ {
+  "slug": "anansi",
+  "wiki": "Anansi",
+  "cat": "Боги",
+  "ru": "Ананси",
+  "chars": 1498,
+  "raw_chars": 2906,
+  "path": "data/raw/wiki/anansi.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Anansi",
+   "image": "Anansi.jpg",
+   "season": "Bobby Singer's Guide to Hunting",
+   "category": "Deity",
+   "status": "Alive",
+   "title/alias": "God of Knowledge",
+   "occupation": "Akan God",
+   "affiliation": "Akan Pantheon",
+   "family": "God",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "cacao",
+  "wiki": "Cacao",
+  "cat": "Боги",
+  "ru": "Какао",
+  "chars": 2270,
+  "raw_chars": 2722,
+  "path": "data/raw/wiki/cacao.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Cacao",
+   "image": "|season = 8",
+   "category": "Deity",
+   "status": "Unknown",
+   "title/alias": "KawkawGod of Maize",
+   "occupation": "Chief Mayan God",
+   "affiliation": "Mayan PantheonBrick HolmesRanda Moreno",
+   "family": "God",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "huehuecoyotl",
+  "wiki": "Huehuecoyotl",
+  "cat": "Боги",
+  "ru": "Уэуэкойотль",
+  "chars": 1125,
+  "raw_chars": 1988,
+  "path": "data/raw/wiki/huehuecoyotl.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "mixcoatl",
+  "wiki": "Mixcoatl",
+  "cat": "Боги",
+  "ru": "Мишкоатль",
+  "chars": 692,
+  "raw_chars": 1134,
+  "path": "data/raw/wiki/mixcoatl.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Mixcoatl",
+   "season": "15",
+   "category": "Deity",
+   "status": "Unknown",
+   "occupation": "Aztec God",
+   "affiliation": "Aztec Pantheon",
+   "family": "God",
+   "actor": "None|Title/Alias=God of War"
+  }
+ },
+ {
+  "slug": "tzitzimimeh",
+  "wiki": "Tzitzimimeh",
+  "cat": "Боги",
+  "ru": "Цицимиме",
+  "chars": 1679,
+  "raw_chars": 4024,
+  "path": "data/raw/wiki/tzitzimimeh.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "vesta",
+  "wiki": "Vesta",
+  "cat": "Боги",
+  "ru": "Веста",
+  "chars": 2181,
+  "raw_chars": 8382,
+  "path": "data/raw/wiki/vesta.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Vesta",
+   "image": "Vesta2.png",
+   "season": "9",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "Bonnie FuschauGoddess of the Hearth",
+   "occupation": "Roman GoddessLeader of Abstinence Purifies Us",
+   "affiliation": "Roman PantheonAbstinence Purifies Us",
+   "family": "God",
+   "actor": "Lindy Booth"
+  }
+ },
+ {
+  "slug": "veritas",
+  "wiki": "Veritas",
+  "cat": "Боги",
+  "ru": "Веритас",
+  "chars": 3029,
+  "raw_chars": 8758,
+  "path": "data/raw/wiki/veritas.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Veritas",
+   "image": "VeritasSPN 1117.jpg",
+   "season": "6",
+   "category": "Deity",
+   "status": "Deceased",
+   "title/alias": "Ashley FrankGoddess of Truth",
+   "occupation": "Roman GoddessInvestigative Journalist",
+   "affiliation": "Roman Pantheon",
+   "family": "God",
+   "actor": "Serinda Swan"
+  }
+ },
+ {
+  "slug": "fortuna",
+  "wiki": "Fortuna",
+  "cat": "Боги",
+  "ru": "Фортуна",
+  "chars": 3009,
+  "raw_chars": 12130,
+  "path": "data/raw/wiki/fortuna.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Fortuna",
+   "image": "Supernatural-Fortuna-Lynda-Boyd-Gamblers.jpg",
+   "season": "15",
+   "category": "Deity",
+   "status": "Alive",
+   "title/alias": "Goddess of LuckLady LuckMoiraMany others",
+   "occupation": "Roman GoddessOwner of a pool hall",
+   "affiliation": "Roman Pantheon Hercules Cú Chulainn Gilgamesh Pax Sam Winchester Dean Winchester",
+   "family": "God Pax",
+   "actor": "Lynda Boyd"
+  }
+ },
+ {
+  "slug": "pax",
+  "wiki": "Pax",
+  "cat": "Боги",
+  "ru": "Пакс",
+  "chars": 1695,
+  "raw_chars": 2945,
+  "path": "data/raw/wiki/pax.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Pax",
+   "image": "Pax-Stephen-Huszar.jpg",
+   "season": "15",
+   "category": "Demigod",
+   "status": "Alive",
+   "title/alias": "Baby",
+   "occupation": "Manager of Fortuna's pool hall",
+   "affiliation": "Fortuna's pool hall",
+   "family": "Fortuna Unnamed human",
+   "actor": "Stephen Huszar"
+  }
+ },
+ {
+  "slug": "erebus",
+  "wiki": "Erebus",
+  "cat": "Боги",
+  "ru": "Эреб",
+  "chars": 1373,
+  "raw_chars": 2198,
+  "path": "data/raw/wiki/erebus.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Erebus",
+   "image": "|series = The Winchesters",
+   "season": "Season 1",
+   "species": "Deity",
+   "status": "Alive",
+   "titles": "|occupation = Greek God",
+   "affiliation": "Greek Pantheon",
+   "family": "God (creator)",
+   "actor": "N/A",
+   "title/alias": "God of Darkness"
+  }
+ },
+ {
+  "slug": "harmonia",
+  "wiki": "Harmonia",
+  "cat": "Боги",
+  "ru": "Гармония",
+  "chars": 872,
+  "raw_chars": 1285,
+  "path": "data/raw/wiki/harmonia.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Harmonia",
+   "image": "|season = 7",
+   "category": "Deity",
+   "status": "Unknown",
+   "title/alias": "Goddess of Harmony and Concord",
+   "occupation": "Greek Goddess",
+   "affiliation": "Greek Pantheon Ares",
+   "family": "God Ares Amazons",
+   "actor": "None"
+  }
+ },
+ {
+  "slug": "achilles",
+  "wiki": "Achilles",
+  "cat": "Боги",
+  "ru": "Ахиллес",
+  "chars": 582,
+  "raw_chars": 1175,
+  "path": "data/raw/wiki/achilles.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Achilles",
+   "category": "Demigod",
+   "status": "Unconfirmed existence",
+   "title/alias": "|season=None",
+   "occupation": "Greek Hero|affiliation=Greek Pantheon |actor=None"
+  }
+ },
+ {
+  "slug": "cu-chulainn",
+  "wiki": "Cú Chulainn",
+  "cat": "Боги",
+  "ru": "Кухулин",
+  "chars": 495,
+  "raw_chars": 1918,
+  "path": "data/raw/wiki/cu-chulainn.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Cú Chulainn",
+   "category": "Demigod",
+   "status": "Unknown",
+   "title/alias": "True Hero",
+   "occupation": "Irish Mythological Hero",
+   "affiliation": "Irish Pantheon Fortuna"
+  }
+ },
+ {
+  "slug": "gilgamesh",
+  "wiki": "Gilgamesh",
+  "cat": "Боги",
+  "ru": "Гильгамеш",
+  "chars": 563,
+  "raw_chars": 2009,
+  "path": "data/raw/wiki/gilgamesh.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Gilgamesh",
+   "category": "Demigod",
+   "status": "Unknown",
+   "title/alias": "True Hero",
+   "occupation": "King of Uruk Mesopotamian Mythological Hero",
+   "affiliation": "Fortuna"
+  }
+ },
+ {
+  "slug": "judas-iscariot",
+  "wiki": "Judas Iscariot",
+  "cat": "Боги",
+  "ru": "Иуда Искариот",
+  "chars": 1739,
+  "raw_chars": 3378,
+  "path": "data/raw/wiki/judas-iscariot.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Judas Iscariot",
+   "image": "|season =",
+   "category": "DemonHuman",
+   "status": "Unknown",
+   "title/alias": "|occupation = Apostle",
+   "affiliation": "Jesus Christ The Twelve Apostles St. Peter Lucifer",
+   "family": "|actor = None"
+  }
+ },
+ {
+  "slug": "nox-note",
+  "wiki": "Oblivion",
+  "cat": "Боги",
+  "ru": "Забвение",
+  "chars": 2384,
+  "raw_chars": 3733,
+  "path": "data/raw/wiki/nox-note.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "yokoth",
+  "wiki": "Yokoth",
+  "cat": "Боги",
+  "ru": "Йокот",
+  "chars": 2583,
+  "raw_chars": 7803,
+  "path": "data/raw/wiki/yokoth.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Yokoth",
+   "image": "IMG 0216.jpg",
+   "season": "13",
+   "category": "Deity",
+   "status": "Alive",
+   "title/alias": "Star of Madness Ravager of Galaxies Mother of Faceless Hordes Sandy Porter",
+   "occupation": "Goddess of Another Reality",
+   "affiliation": "Glythur",
+   "family": "Glythur Faceless Hordes",
+   "actor": "Magda Apanowicz"
+  }
+ },
+ {
+  "slug": "glythur",
+  "wiki": "Glythur",
+  "cat": "Боги",
+  "ru": "Глитур",
+  "chars": 1924,
+  "raw_chars": 4386,
+  "path": "data/raw/wiki/glythur.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Glythur",
+   "season": "13",
+   "category": "Deity",
+   "status": "Alive",
+   "family": "Yokoth Faceless Hordes",
+   "image": "Glythur.jpg",
+   "actor": "|affiliation =Yokoth |occupation = God of Another Reality"
+  }
+ },
+ {
+  "slug": "blight",
+  "wiki": "Blight",
+  "cat": "Боги",
+  "ru": "Порча",
+  "chars": 2183,
+  "raw_chars": 5073,
+  "path": "data/raw/wiki/blight.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "wyld",
+  "wiki": "Wyld",
+  "cat": "Боги",
+  "ru": "Уайлд",
+  "chars": 2585,
+  "raw_chars": 7812,
+  "path": "data/raw/wiki/wyld.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "neteru",
+  "wiki": "Neteru",
+  "cat": "Боги",
+  "ru": "Нетеру",
+  "chars": 2080,
+  "raw_chars": 2771,
+  "path": "data/raw/wiki/neteru.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "greek-pantheon",
+  "wiki": "Greek Pantheon",
+  "cat": "Боги",
+  "ru": "Греческий пантеон",
+  "chars": 606,
+  "raw_chars": 11293,
+  "path": "data/raw/wiki/greek-pantheon.txt",
+  "info": {
+   "_template": "Organization",
+   "name": "Greek Pantheon",
+   "season": "4, 6-10, 13-14, Novels",
+   "type": "Pantheon",
+   "status": "Extant",
+   "founders": "God",
+   "leaders": "Titans (formely) Zeus † Hera",
+   "hq": "Olympus",
+   "formed from": "Greek deities and other greek mythological creatures",
+   "date formed": "Shortly after humans climbed down the trees and started to pray for natural phenomena"
+  }
+ },
+ {
+  "slug": "norse-pantheon",
+  "wiki": "Norse Pantheon",
+  "cat": "Боги",
+  "ru": "Скандинавский пантеон",
+  "chars": 1065,
+  "raw_chars": 5484,
+  "path": "data/raw/wiki/norse-pantheon.txt",
+  "info": {
+   "_template": "Organization",
+   "name": "Norse Pantheon",
+   "season": "1, 5, 8, 13, The Winchesters",
+   "type": "Pantheon",
+   "status": "Unknown",
+   "founders": "God",
+   "leaders": "Odin †",
+   "formed from": "Norse deities and other creatures from Norse mythology",
+   "date formed": "Shortly after humans climbed down the trees and started to pray for natural phenomena"
+  }
+ },
+ {
+  "slug": "egyptian-pantheon",
+  "wiki": "Egyptian Pantheon",
+  "cat": "Боги",
+  "ru": "Египетский пантеон",
+  "chars": 944,
+  "raw_chars": 3086,
+  "path": "data/raw/wiki/egyptian-pantheon.txt",
+  "info": {
+   "_template": "Organization",
+   "name": "Egyptian Pantheon",
+   "season": "4-5, 7, 14, Novel",
+   "type": "Pantheon",
+   "status": "Extant",
+   "founders": "God",
+   "leaders": "Ra",
+   "formed from": "Egyptian Deities and other creatures from the egyptian mythology",
+   "date formed": "Shortly after humans climbed down the trees and started to pray for natural phenomena"
+  }
+ },
+ {
+  "slug": "roman-pantheon",
+  "wiki": "Roman Pantheon",
+  "cat": "Боги",
+  "ru": "Римский пантеон",
+  "chars": 1220,
+  "raw_chars": 4185,
+  "path": "data/raw/wiki/roman-pantheon.txt",
+  "info": {
+   "_template": "Organization",
+   "name": "Roman Pantheon",
+   "season": "5-6, 9, 15",
+   "type": "Pantheon",
+   "status": "Extant",
+   "founders": "God",
+   "leaders": "Jupiter Juno",
+   "hq": "|formed from = Roman Deities and other creatures from the Roman mythology",
+   "date formed": "Shortly after humans climbed down the trees and started to pray for natural phenomena"
+  }
+ },
+ {
+  "slug": "ghosts",
+  "wiki": "Ghosts",
+  "cat": "Духи",
+  "ru": "Призраки",
+  "chars": 4428,
+  "raw_chars": 29751,
+  "path": "data/raw/wiki/ghosts.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Ghosts",
+   "image": "Ghost.gif",
+   "season": "All seasons",
+   "category": "Human SoulsAnimal Souls",
+   "status": "Extant",
+   "occupation": "Various",
+   "affiliation": "|actor = Various",
+   "title/alias": "Spirits Caspers"
+  }
+ },
+ {
+  "slug": "vengeful-spirit",
+  "wiki": "Vengeful Spirit",
+  "cat": "Духи",
+  "ru": "Мстительный дух",
+  "chars": 3386,
+  "raw_chars": 16673,
+  "path": "data/raw/wiki/vengeful-spirit.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Vengeful Spirits",
+   "category": "Human",
+   "status": "Active",
+   "actor": "Various",
+   "image": "File:FionaGhost.png",
+   "season": "1-4, 6-8, 10-15, The Winchesters"
+  }
+ },
+ {
+  "slug": "poltergeists",
+  "wiki": "Poltergeists",
+  "cat": "Духи",
+  "ru": "Полтергейсты",
+  "chars": 2872,
+  "raw_chars": 7778,
+  "path": "data/raw/wiki/poltergeists.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Poltergeists",
+   "image": "Poltergeists.png",
+   "season": "1, 5",
+   "status": "Active",
+   "occupation": "Ghostly attention seekers",
+   "category": "Ghosts"
+  }
+ },
+ {
+  "slug": "specter",
+  "wiki": "Specter",
+  "cat": "Духи",
+  "ru": "Спектр",
+  "chars": 2824,
+  "raw_chars": 4443,
+  "path": "data/raw/wiki/specter.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Specters",
+   "image": "Southern Comfort 01.jpg",
+   "season": "8",
+   "category": "Ghosts",
+   "status": "Extant",
+   "actor": "Nathan Dashwood"
+  }
+ },
+ {
+  "slug": "woman-in-white",
+  "wiki": "Woman in White",
+  "cat": "Духи",
+  "ru": "Женщина в белом",
+  "chars": 3509,
+  "raw_chars": 5238,
+  "path": "data/raw/wiki/woman-in-white.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Woman in White",
+   "image": "Typical_woman_in_white.png",
+   "season": "1, 14-15",
+   "category": "Ghost",
+   "status": "Extant",
+   "actor": "Sarah ShahiShanae Tomasevich"
+  }
+ },
+ {
+  "slug": "banshee",
+  "wiki": "Banshee",
+  "cat": "Духи",
+  "ru": "Банши",
+  "chars": 3535,
+  "raw_chars": 6847,
+  "path": "data/raw/wiki/banshee.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Banshee",
+   "image": "Banshee.png",
+   "season": "11",
+   "status": "Extant",
+   "actor": "Atlin Mitchell",
+   "category": "Fairies Creatures"
+  }
+ },
+ {
+  "slug": "ghost-banshee",
+  "wiki": "Ghost Banshee",
+  "cat": "Духи",
+  "ru": "Банши-призрак",
+  "chars": 1146,
+  "raw_chars": 1633,
+  "path": "data/raw/wiki/ghost-banshee.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "death-omen",
+  "wiki": "Death Omen",
+  "cat": "Духи",
+  "ru": "Предвестник смерти",
+  "chars": 1673,
+  "raw_chars": 8165,
+  "path": "data/raw/wiki/death-omen.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Death Omen",
+   "image": "SPN 0907.jpg",
+   "season": "1-5, 7, 12",
+   "category": "Ghosts",
+   "status": "Extant",
+   "occupation": "Various",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "death-echo",
+  "wiki": "Death Echo",
+  "cat": "Духи",
+  "ru": "Эхо смерти",
+  "chars": 1381,
+  "raw_chars": 1941,
+  "path": "data/raw/wiki/death-echo.txt",
+  "info": {
+   "_template": "Stub"
+  }
+ },
+ {
+  "slug": "violent-spirits",
+  "wiki": "Violent Spirits",
+  "cat": "Духи",
+  "ru": "Жестокие духи",
+  "chars": 2265,
+  "raw_chars": 7788,
+  "path": "data/raw/wiki/violent-spirits.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Violent Spirits",
+   "image": "Hookmanfindslori.jpg",
+   "season": "1-5, 7, 12-15",
+   "category": "Ghosts",
+   "status": "Extant",
+   "occupation": "Various",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "shadow-people",
+  "wiki": "The Shadow People",
+  "cat": "Духи",
+  "ru": "Теневые люди",
+  "chars": 2957,
+  "raw_chars": 12624,
+  "path": "data/raw/wiki/shadow-people.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "shadow-spirit",
+  "wiki": "Shadow Spirit",
+  "cat": "Духи",
+  "ru": "Теневой дух",
+  "chars": 1472,
+  "raw_chars": 2203,
+  "path": "data/raw/wiki/shadow-spirit.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "|image = Shadow Spirit 1.jpg",
+   "series": "The Winchesters",
+   "season": "Season 1",
+   "species": "Spirit",
+   "status": "Alive",
+   "titles": "|occupation =",
+   "affiliation": "Erebus",
+   "family": "|actor = Bella DeLong"
+  }
+ },
+ {
+  "slug": "maggies-shadow-spirit",
+  "wiki": "Maggie's Shadow Spirit",
+  "cat": "Духи",
+  "ru": "Теневой дух Мэгги",
+  "chars": 1635,
+  "raw_chars": 2238,
+  "path": "data/raw/wiki/maggies-shadow-spirit.txt",
+  "info": {
+   "_template": "RecurringCharacters"
+  }
+ },
+ {
+  "slug": "hell-ghosts",
+  "wiki": "Hell Ghosts",
+  "cat": "Духи",
+  "ru": "Адские призраки",
+  "chars": 3196,
+  "raw_chars": 12015,
+  "path": "data/raw/wiki/hell-ghosts.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Hell Ghosts",
+   "image": "Raising Hell 03.jpg",
+   "season": "14-15",
+   "category": "Human",
+   "status": "Trapped in a Soul Catcher or in Hell aside from Kevin Tran and Eileen Leahy",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "heaven-ghost",
+  "wiki": "Heaven Ghost",
+  "cat": "Духи",
+  "ru": "Небесный призрак",
+  "chars": 3181,
+  "raw_chars": 6942,
+  "path": "data/raw/wiki/heaven-ghost.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Heaven Ghost",
+   "image": "Dean and Bobby in the Monster Club Universe.jpg",
+   "season": "The Winchesters",
+   "category": "Human",
+   "status": "Extant",
+   "actor": "Jensen AcklesJim Beaver"
+  }
+ },
+ {
+  "slug": "borderwalker",
+  "wiki": "Borderwalker",
+  "cat": "Духи",
+  "ru": "Пограничник",
+  "chars": 2269,
+  "raw_chars": 5253,
+  "path": "data/raw/wiki/borderwalker.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "alpha-borderwalker",
+  "wiki": "Alpha Borderwalker",
+  "cat": "Духи",
+  "ru": "Альфа-пограничник",
+  "chars": 1573,
+  "raw_chars": 3038,
+  "path": "data/raw/wiki/alpha-borderwalker.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "tulpa",
+  "wiki": "Tulpa: Tibetan Spirit Sigil",
+  "cat": "Духи",
+  "ru": "Тулпа",
+  "chars": 1059,
+  "raw_chars": 4607,
+  "path": "data/raw/wiki/tulpa.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Tulpa",
+   "image": "Image.jpg",
+   "season": "1",
+   "status": "Extant",
+   "creator": "Thought Forms",
+   "appearance": "Various"
+  }
+ },
+ {
+  "slug": "zombies",
+  "wiki": "Zombies",
+  "cat": "Духи",
+  "ru": "Зомби",
+  "chars": 4144,
+  "raw_chars": 13306,
+  "path": "data/raw/wiki/zombies.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Zombies",
+   "image": "250px",
+   "season": "2, 4-5, 7-8, 11-15, The Winchesters",
+   "status": "Extant",
+   "creator": "Various, Necromancy",
+   "powers and abilities": "Superior strength, cannibalistic urges.",
+   "vulnerabilities": "Staking in their coffin, beheading or obliteration of the head, shooting.",
+   "appearance": "Human, but with rotting appearance"
+  }
+ },
+ {
+  "slug": "ghost-ships",
+  "wiki": "Ghost Ships",
+  "cat": "Духи",
+  "ru": "Корабли-призраки",
+  "chars": 828,
+  "raw_chars": 1532,
+  "path": "data/raw/wiki/ghost-ships.txt",
+  "info": {
+   "_template": "C"
+  }
+ },
+ {
+  "slug": "moaah",
+  "wiki": "Moa'ah",
+  "cat": "Духи",
+  "ru": "Моа'ах",
+  "chars": 2469,
+  "raw_chars": 3824,
+  "path": "data/raw/wiki/moaah.txt",
+  "info": {
+   "_template": "NonCanon"
+  }
+ },
+ {
+  "slug": "soul",
+  "wiki": "Soul",
+  "cat": "Духи",
+  "ru": "Душа",
+  "chars": 3063,
+  "raw_chars": 16501,
+  "path": "data/raw/wiki/soul.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Souls",
+   "image": "SamHumanSoul.gif",
+   "manufacturer": "God",
+   "use": "|powers = *Indestructibility Power Granting Filter for the Word of God Corruption",
+   "location": "ExtantIn almost every living being"
+  }
+ },
+ {
+  "slug": "lost-soul",
+  "wiki": "Lost Soul",
+  "cat": "Духи",
+  "ru": "Заблудшая душа",
+  "chars": 3077,
+  "raw_chars": 13599,
+  "path": "data/raw/wiki/lost-soul.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Lost Soul",
+   "image": "Dean appears in a soul eater's nest.jpg",
+   "season": "1, 7, 9-14",
+   "status": "Extant",
+   "actor": "|category = Ghosts"
+  }
+ },
+ {
+  "slug": "witch",
+  "wiki": "Witch",
+  "cat": "Ведьмы",
+  "ru": "Ведьмы",
+  "chars": 3969,
+  "raw_chars": 26626,
+  "path": "data/raw/wiki/witch.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "witches-category",
+  "wiki": "Witch",
+  "cat": "Ведьмы",
+  "ru": "Ведьмы (сообщество)",
+  "chars": 3969,
+  "raw_chars": 26626,
+  "path": "data/raw/wiki/witches-category.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "rowena",
+  "wiki": "Rowena MacLeod",
+  "cat": "Ведьмы",
+  "ru": "Ровена Маклауд",
+  "chars": 4140,
+  "raw_chars": 31803,
+  "path": "data/raw/wiki/rowena.txt",
+  "info": {
+   "_template": "Parent Tab Template",
+   "backcolor": "007BA7",
+   "altbackcolor": "000000",
+   "textcolor": "000000",
+   "alttextcolor": "FFFFFF",
+   "maxwidth": "19",
+   "height": "2.3",
+   "tab1": "Overview",
+   "tab2": "Synopsis",
+   "tab3": "Abilities and Weaknesses",
+   "tab4": "Major Kills",
+   "tab6": "Quotes"
+  }
+ },
+ {
+  "slug": "mega-coven",
+  "wiki": "Mega Coven",
+  "cat": "Ведьмы",
+  "ru": "Мега-ковен",
+  "chars": 1544,
+  "raw_chars": 2318,
+  "path": "data/raw/wiki/mega-coven.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Mega Coven",
+   "season": "11",
+   "category": "Humans",
+   "status": "Disbanded",
+   "affiliation": "Rowena MacLeod"
+  }
+ },
+ {
+  "slug": "grand-coven-note",
+  "wiki": "Il Soarta",
+  "cat": "Ведьмы",
+  "ru": "Иль Соарта (Ковен)",
+  "chars": 1647,
+  "raw_chars": 2317,
+  "path": "data/raw/wiki/grand-coven-note.txt",
+  "info": {
+   "_template": "Organization"
+  }
+ },
+ {
+  "slug": "conjure-woman",
+  "wiki": "Conjure Woman",
+  "cat": "Ведьмы",
+  "ru": "Женщина-заклинательница",
+  "chars": 640,
+  "raw_chars": 934,
+  "path": "data/raw/wiki/conjure-woman.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Unknown",
+   "season": "3",
+   "category": "Human",
+   "status": "Unknown",
+   "affiliation": "Black magic",
+   "family": "|actor ="
+  }
+ },
+ {
+  "slug": "shamans",
+  "wiki": "Shamans",
+  "cat": "Ведьмы",
+  "ru": "Шаманы",
+  "chars": 1915,
+  "raw_chars": 3201,
+  "path": "data/raw/wiki/shamans.txt",
+  "info": {
+   "_template": "Stub"
+  }
+ },
+ {
+  "slug": "psychics-note",
+  "wiki": "Special Children Competition",
+  "cat": "Ведьмы",
+  "ru": "Дети-медиумы (особые дети)",
+  "chars": 1757,
+  "raw_chars": 23137,
+  "path": "data/raw/wiki/psychics-note.txt",
+  "info": {
+   "_template": "Battle2",
+   "prev": "|next = Battle of the Devil's Gate",
+   "name": "Special Children Competition",
+   "image": "Spn221 1063.jpg",
+   "conflict": "Prelude to the Apocalypse",
+   "date": "2007",
+   "result": "All of the Special Children except Jake Talley are wiped out Sam Winchester is killed",
+   "side1": "Special Children",
+   "side2": "Special Children Demons",
+   "commanders1": "Sam Winchester",
+   "commanders2": "Azazel",
+   "forces1": "Special Children Sam Winchester Lily Baker Andrew Gallagher Jake Talley Dozens of unnamed Special Children",
+   "forces2": "Special Children Ava Wilson Jake Talley Demons Acheri Demon",
+   "casual1": "Dozens of unnamed Special Children Lily Baker Andrew Gallagher Sam Winchester",
+   "casual2": "Ava Wilson"
+  }
+ },
+ {
+  "slug": "prophets",
+  "wiki": "Prophet",
+  "cat": "Ведьмы",
+  "ru": "Пророки",
+  "chars": 3358,
+  "raw_chars": 16161,
+  "path": "data/raw/wiki/prophets.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Prophets",
+   "season": "7-9, 11, 13-15",
+   "category": "Human",
+   "status": "Extant",
+   "title/alias": "The Voice of God",
+   "affiliation": "GodArchangelsVarious",
+   "actor": "Various",
+   "image": "Donatello=250px"
+  }
+ },
+ {
+  "slug": "kevin-tran",
+  "wiki": "Kevin Tran",
+  "cat": "Ведьмы",
+  "ru": "Кевин Тран",
+  "chars": 3443,
+  "raw_chars": 42043,
+  "path": "data/raw/wiki/kevin-tran.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "donatello",
+  "wiki": "Donatello Redfield",
+  "cat": "Ведьмы",
+  "ru": "Донателло Редфилд",
+  "chars": 3772,
+  "raw_chars": 18706,
+  "path": "data/raw/wiki/donatello.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Donatello Redfield",
+   "season": "11, 13-15",
+   "image": "Game Night 04.jpg",
+   "category": "Human",
+   "status": "Alive",
+   "occupation": "Professor Prophet",
+   "affiliation": "Winchester FamilyGodLucifer Asmodeus",
+   "actor": "Keith Szarabajka",
+   "title/alias": "DonnieUncle Donnie, The Muppet Professor"
+  }
+ },
+ {
+  "slug": "dreamwalkers",
+  "wiki": "Dreamwalkers",
+  "cat": "Ведьмы",
+  "ru": "Сноходцы",
+  "chars": 887,
+  "raw_chars": 1827,
+  "path": "data/raw/wiki/dreamwalkers.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Dreamwalkers",
+   "image": "The Bad Place 09.jpg",
+   "season": "13-15",
+   "status": "Extant",
+   "category": "Humans",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "magic",
+  "wiki": "Magic",
+  "cat": "Ведьмы",
+  "ru": "Магия",
+  "chars": 1502,
+  "raw_chars": 11032,
+  "path": "data/raw/wiki/magic.txt",
+  "info": {
+   "_template": "Quote"
+  }
+ },
+ {
+  "slug": "demon-blood",
+  "wiki": "Demon Blood",
+  "cat": "Ведьмы",
+  "ru": "Демоническая кровь",
+  "chars": 2438,
+  "raw_chars": 6029,
+  "path": "data/raw/wiki/demon-blood.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Demon Blood",
+   "image": "File: DsdsDS.jpg",
+   "season": "4, 5",
+   "manufacturer": "Demons",
+   "use": "Consuming to obtain power, Spells/rituals",
+   "powers": "Immunity to Croatoan Virus Telekinesis Mind Control Demonic Transformation Containing Lucifer",
+   "location": "In Demonic Vessels"
+  }
+ },
+ {
+  "slug": "leviathans",
+  "wiki": "Leviathans",
+  "cat": "Левиафаны",
+  "ru": "Левиафаны",
+  "chars": 4701,
+  "raw_chars": 52298,
+  "path": "data/raw/wiki/leviathans.txt",
+  "info": {
+   "_template": "Creatures",
+   "name": "Leviathans",
+   "powers and abilities": "Possession Immortality Shapeshifting Regeneration Super Strength",
+   "vulnerabilities": "Bone of Righteous Mortal Washed in Three Bloods of The Fallen Borax Beheading",
+   "appearance": "serpent-like black goo",
+   "actor": "|season = 6, 7, 8, 10, 15",
+   "status": "Unclear (on Earth) Extant (in Purgatory)|creator=God|affiliation=Dick Roman (till his death) Eve|Alias=Wide Mouth (by Bobby Singer)"
+  }
+ },
+ {
+  "slug": "dick-roman",
+  "wiki": "Dick Roman",
+  "cat": "Левиафаны",
+  "ru": "Дик Роман",
+  "chars": 4052,
+  "raw_chars": 29168,
+  "path": "data/raw/wiki/dick-roman.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Dick Roman",
+   "image": "250xDickRoman.jpg",
+   "season": "7",
+   "category": "Leviathan",
+   "title/alias": "Mr. RomanBig Daddy Chomper",
+   "status": "Deceased Soul exists in Purgatory",
+   "occupation": "BusinessmanLeader of the Leviathans",
+   "affiliation": "LeviathansEdgarRichard Roman Enterprises Alpha Vampire Crowley Donald Trump George W. Bush",
+   "actor": "Misha Collins James Patrick Stuart",
+   "family": "God Richard Roman †"
+  }
+ },
+ {
+  "slug": "edgar",
+  "wiki": "Edgar",
+  "cat": "Левиафаны",
+  "ru": "Эдгар",
+  "chars": 2320,
+  "raw_chars": 12164,
+  "path": "data/raw/wiki/edgar.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "leviathan-blossom",
+  "wiki": "Leviathan Blossom",
+  "cat": "Левиафаны",
+  "ru": "Цветок левиафана",
+  "chars": 1524,
+  "raw_chars": 2331,
+  "path": "data/raw/wiki/leviathan-blossom.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Leviathan Blossom",
+   "image": "LeviathanBlossom.png",
+   "season": "15",
+   "manufacturer": "God",
+   "use": "Key component in the Primordial Entity Trapping Spell",
+   "powers": "|location = In Purgatory"
+  }
+ },
+ {
+  "slug": "eve",
+  "wiki": "Eve",
+  "cat": "Левиафаны",
+  "ru": "Ева (Мать всех монстров)",
+  "chars": 4209,
+  "raw_chars": 25748,
+  "path": "data/raw/wiki/eve.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Eve",
+   "image": "SN619-Eve.jpg",
+   "season": "6",
+   "category": "Primordial Creature",
+   "status": "Deceased Spirit condemned to Purgatory",
+   "title/alias": "Mother of AllMother of All MonstersDragon MotherAngela",
+   "occupation": "Originator of MonstersRuler of Purgatory",
+   "affiliation": "MonstersThe LeviathanThe Natural Order",
+   "family": "Alphas Monsters Leviathans Unnamed Woman †",
+   "actor": "Julia MaxwellSamantha Smith"
+  }
+ },
+ {
+  "slug": "purgatory",
+  "wiki": "Purgatory",
+  "cat": "Левиафаны",
+  "ru": "Чистилище",
+  "chars": 2532,
+  "raw_chars": 19598,
+  "path": "data/raw/wiki/purgatory.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Purgatory",
+   "image": "Vlcsnap-2012-05-19-23h23m03s74.png",
+   "season": "6-8, 10, 15",
+   "creator": "God",
+   "boss": "Eve",
+   "whereabouts": "Adjacent to Hell, according to Crowley",
+   "state": "Active"
+  }
+ },
+ {
+  "slug": "alidjinn-note",
+  "wiki": "Aliens",
+  "cat": "Левиафаны",
+  "ru": "Пришельцы",
+  "chars": 656,
+  "raw_chars": 5985,
+  "path": "data/raw/wiki/alidjinn-note.txt",
+  "info": {
+   "_template": "Improvement"
+  }
+ },
+ {
+  "slug": "akrida",
+  "wiki": "Akrida",
+  "cat": "Левиафаны",
+  "ru": "Акрида",
+  "chars": 3803,
+  "raw_chars": 25643,
+  "path": "data/raw/wiki/akrida.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Akrida",
+   "image": "Akrida_profile.png",
+   "category": "Creatures",
+   "status": "Extinct",
+   "season": "The Winchesters",
+   "family": "God",
+   "title/alias": "|actor =",
+   "affiliation": "Joan Hopkins"
+  }
+ },
+ {
+  "slug": "the-watch-note",
+  "wiki": "The Watch",
+  "cat": "Левиафаны",
+  "ru": "Дозор",
+  "chars": 400,
+  "raw_chars": 962,
+  "path": "data/raw/wiki/the-watch-note.txt",
+  "info": {
+   "_template": "Items",
+   "name": "The Watch",
+   "season": "15",
+   "manufacturer": "God",
+   "use": "See the future",
+   "powers": "Chronokinesis",
+   "location": "With God",
+   "image": "Watch.PNG"
+  }
+ },
+ {
+  "slug": "mark-of-cain",
+  "wiki": "Mark of Cain",
+  "cat": "Левиафаны",
+  "ru": "Печать Каина",
+  "chars": 4028,
+  "raw_chars": 22216,
+  "path": "data/raw/wiki/mark-of-cain.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Mark of Cain",
+   "image": "ImageMOC.jpg",
+   "manufacturer": "God",
+   "use": "Keeping the Darkness locked away Powers the First Blade",
+   "location": "Active (on the Darkness) Unknown (Alternate Reality)",
+   "powers": "Powers the First Blade Grants immunity to demonic, angelic and magical powers Telekinesis Super Strength Resurrection Conversion into a demon Precognition Binding the Darkness Corruption of the wielder Retroactive Immortality",
+   "season": "9-11, 15"
+  }
+ },
+ {
+  "slug": "first-blade",
+  "wiki": "The First Blade",
+  "cat": "Левиафаны",
+  "ru": "Первое Лезвие",
+  "chars": 1175,
+  "raw_chars": 13221,
+  "path": "data/raw/wiki/first-blade.txt",
+  "info": {
+   "_template": "Items",
+   "name": "First Blade",
+   "image": "250px",
+   "season": "9-10, 15",
+   "manufacturer": "Cain",
+   "use": "Killing",
+   "powers": "It can kill Knights of Hell, reapers, angels and demons when empowered by the Mark of Cain",
+   "location": "Hidden by CastielDepoweredIn Alternate Dean's possession"
+  }
+ },
+ {
+  "slug": "the-equalizer",
+  "wiki": "The Equalizer",
+  "cat": "Левиафаны",
+  "ru": "Уравнитель",
+  "chars": 2140,
+  "raw_chars": 5839,
+  "path": "data/raw/wiki/the-equalizer.txt",
+  "info": {
+   "_template": "Items",
+   "name": "The Equalizer",
+   "image": "The Equalizer.jpg",
+   "season": "14-15",
+   "manufacturer": "God",
+   "use": "Killing Jack Kline",
+   "powers": "Claimed by God to be able to kill anything, and can wound and weaken God",
+   "location": "Destroyed by Lilith"
+  }
+ },
+ {
+  "slug": "the-occultum",
+  "wiki": "The Occultum",
+  "cat": "Левиафаны",
+  "ru": "Оккультум",
+  "chars": 1181,
+  "raw_chars": 6042,
+  "path": "data/raw/wiki/the-occultum.txt",
+  "info": {
+   "_template": "Items",
+   "name": "The Occultum",
+   "image": "Occultum.png",
+   "season": "15",
+   "manufacturer": "God",
+   "use": "|powers= *Transportation to the Garden of Eden",
+   "location": "In Jack's possession"
+  }
+ },
+ {
+  "slug": "leviathan-tablet",
+  "wiki": "Leviathan Tablet",
+  "cat": "Левиафаны",
+  "ru": "Скрижаль Левиафанов",
+  "chars": 1911,
+  "raw_chars": 3960,
+  "path": "data/raw/wiki/leviathan-tablet.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Leviathan Tablet",
+   "image": "250px",
+   "manufacturer": "Metatron",
+   "use": "Gaining knowledge Making Spells Making Weapon(s)",
+   "powers": "It can repair self if handled by a Prophet",
+   "location": "Unknown, on Earth"
+  }
+ },
+ {
+  "slug": "angel-tablet",
+  "wiki": "Angel Tablet",
+  "cat": "Левиафаны",
+  "ru": "Скрижаль Ангелов",
+  "chars": 1782,
+  "raw_chars": 13710,
+  "path": "data/raw/wiki/angel-tablet.txt",
+  "info": {
+   "_template": "Featured Article"
+  }
+ },
+ {
+  "slug": "demon-tablet",
+  "wiki": "Demon Tablet",
+  "cat": "Левиафаны",
+  "ru": "Скрижаль Демонов",
+  "chars": 1091,
+  "raw_chars": 19293,
+  "path": "data/raw/wiki/demon-tablet.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Demon Tablet",
+   "image": "250px",
+   "manufacturer": "Metatron",
+   "use": "Gaining knowledge Making Spells",
+   "powers": "It can repair self if handled by a Prophet",
+   "location": "In the Winchesters' possession",
+   "season": "8-11, 13, 15"
+  }
+ },
+ {
+  "slug": "book-of-the-damned",
+  "wiki": "Book of the Damned",
+  "cat": "Левиафаны",
+  "ru": "Книга Проклятых",
+  "chars": 692,
+  "raw_chars": 14036,
+  "path": "data/raw/wiki/book-of-the-damned.txt",
+  "info": {
+   "_template": "Infobox Television episode",
+   "title": "Book of the Damned",
+   "series": "Supernatural",
+   "season": "10",
+   "episode": "18",
+   "airdate": "April 15, 2015",
+   "writer": "Robbie Thompson",
+   "director": "P.J. Pesce",
+   "previous": "Inside Man",
+   "next": "The Werther Project",
+   "episode list": "Season 10",
+   "image": "Book of the Damned 03.jpg"
+  }
+ },
+ {
+  "slug": "the-bad-place",
+  "wiki": "The Bad Place (Alternate Universe)",
+  "cat": "Левиафаны",
+  "ru": "Плохое место",
+  "chars": 731,
+  "raw_chars": 9317,
+  "path": "data/raw/wiki/the-bad-place.txt",
+  "info": {
+   "_template": "Locations",
+   "season": "13, 15",
+   "creator": "God",
+   "name": "The Bad Place",
+   "state": "Destroyed by GodRestored by Jack Kline",
+   "image": "Alternate Universe (The Bad Place).gif",
+   "boss": "Unknown"
+  }
+ },
+ {
+  "slug": "apocalypse-world",
+  "wiki": "Apocalypse World",
+  "cat": "Левиафаны",
+  "ru": "Мир Апокалипсиса",
+  "chars": 2613,
+  "raw_chars": 32976,
+  "path": "data/raw/wiki/apocalypse-world.txt",
+  "info": {
+   "_template": "Locations",
+   "season": "12-13",
+   "creator": "God",
+   "name": "Apocalypse World",
+   "state": "Destroyed by God Restored by Jack Kline",
+   "image": "Alternate Universe (All Along the Watchtower).gif",
+   "boss": "Michael |series=Supernatural|whereabouts=MultiverseUniverse"
+  }
+ },
+ {
+  "slug": "the-multiverse",
+  "wiki": "The Multiverse",
+  "cat": "Левиафаны",
+  "ru": "Мультивселенная",
+  "chars": 2986,
+  "raw_chars": 15214,
+  "path": "data/raw/wiki/the-multiverse.txt",
+  "info": {
+   "_template": "Locations",
+   "image": "AlternateUniverse.JPG",
+   "season": "All",
+   "name": "The Multiverse",
+   "creator": "God",
+   "boss": "The Natural Order Jack Kline God",
+   "state": "Extant"
+  }
+ },
+ {
+  "slug": "axis-mundi",
+  "wiki": "Axis Mundi",
+  "cat": "Левиафаны",
+  "ru": "Ось мира",
+  "chars": 336,
+  "raw_chars": 880,
+  "path": "data/raw/wiki/axis-mundi.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Axis Mundi",
+   "image": "AxisofHeaven.jpg",
+   "season": "5",
+   "creator": "God",
+   "whereabouts": "In Heaven",
+   "state": "Active"
+  }
+ },
+ {
+  "slug": "world-between-worlds",
+  "wiki": "World Between Worlds",
+  "cat": "Левиафаны",
+  "ru": "Мир между мирами",
+  "chars": 465,
+  "raw_chars": 2743,
+  "path": "data/raw/wiki/world-between-worlds.txt",
+  "info": {
+   "_template": "Quote"
+  }
+ },
+ {
+  "slug": "afterlife",
+  "wiki": "Afterlife",
+  "cat": "Левиафаны",
+  "ru": "Загробный мир",
+  "chars": 2041,
+  "raw_chars": 6512,
+  "path": "data/raw/wiki/afterlife.txt",
+  "info": {
+   "_template": "Stub"
+  }
+ },
+ {
+  "slug": "heaven",
+  "wiki": "Heaven",
+  "cat": "Левиафаны",
+  "ru": "Рай",
+  "chars": 3542,
+  "raw_chars": 37187,
+  "path": "data/raw/wiki/heaven.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Heaven",
+   "image": "Heaven.gif",
+   "season": "5-11, 13-15",
+   "creator": "God",
+   "boss": "Current: Jack Past:God Michael Raphael Castiel Metatron Hannah Lucifer Naomi Duma Alternate Michael",
+   "whereabouts": "In the Sky",
+   "state": "Active",
+   "caption": "|Title="
+  }
+ },
+ {
+  "slug": "hell",
+  "wiki": "Hell",
+  "cat": "Левиафаны",
+  "ru": "Ад",
+  "chars": 3375,
+  "raw_chars": 45173,
+  "path": "data/raw/wiki/hell.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Hell",
+   "image": "Hell8x19.png",
+   "season": "2-8, 11, 13-15",
+   "title": "DownstairsHadesThe AbyssThe BasementThe Fiery PitThe Hot BoxThe Deep FryerThe Netherworld",
+   "creator": "God",
+   "boss": "Current: Rowena Past:Lucifer Azazel Lilith Abaddon Crowley Asmodeus",
+   "whereabouts": "\"Downwards\"Adjacent to Purgatory",
+   "state": "Active Apocalypse World Hell"
+  }
+ },
+ {
+  "slug": "limbo",
+  "wiki": "Limbo",
+  "cat": "Левиафаны",
+  "ru": "Лимб",
+  "chars": 770,
+  "raw_chars": 1478,
+  "path": "data/raw/wiki/limbo.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Limbo",
+   "image": "Limbo.jpg",
+   "season": "11",
+   "creator": "God",
+   "boss": "Ruler of Hell",
+   "whereabouts": "Furthest reaches of Hell",
+   "state": "Active"
+  }
+ },
+ {
+  "slug": "earth-2",
+  "wiki": "Earth 2",
+  "cat": "Левиафаны",
+  "ru": "Земля-2",
+  "chars": 1883,
+  "raw_chars": 4227,
+  "path": "data/raw/wiki/earth-2.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Earth 2",
+   "season": "15",
+   "creator": "God",
+   "state": "Destroyed by GodRestored by Jack Kline",
+   "image": "Earth2.png",
+   "caption": "|Title =",
+   "boss": "God Hillary Clinton",
+   "whereabouts": "In the Multiverse"
+  }
+ },
+ {
+  "slug": "humans",
+  "wiki": "Humans",
+  "cat": "Левиафаны",
+  "ru": "Люди",
+  "chars": 3689,
+  "raw_chars": 15340,
+  "path": "data/raw/wiki/humans.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Humans",
+   "image": "SN202 001.jpg",
+   "season": "All Seasons",
+   "category": "Sentient Animals",
+   "status": "Extant",
+   "title/alias": "Homo Sapiens Works of Art Hairless Apes Featherless Bipeds (by Plato) Vessels, Meatsuits (by angels and demons)",
+   "occupation": "Various",
+   "affiliation": "Various",
+   "family": "God Proto-lifeform Adam Eve",
+   "actor": "Various|series=SupernaturalThe Winchesters"
+  }
+ },
+ {
+  "slug": "monster-general",
+  "wiki": "Monster",
+  "cat": "Левиафаны",
+  "ru": "Монстр (общее понятие)",
+  "chars": 3852,
+  "raw_chars": 43003,
+  "path": "data/raw/wiki/monster-general.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Monsters",
+   "image": "Werewolf Brad.jpg",
+   "season": "All Seasons",
+   "category": "Children and Descendants of Eve",
+   "status": "Extant",
+   "title/alias": "All Things Hungry, Sharp, and NastyNocturnalsClawed ThingsFanged ThingsBottom Dwelling Nasties CrittersFangs",
+   "occupation": "Various",
+   "affiliation": "EveTheir respective AlphasLeviathans MichaelTheir own pack/nest",
+   "family": "Leviathans Eve Their respective Alphas",
+   "actor": "Various|series=SupernaturalThe Winchesters"
+  }
+ },
+ {
+  "slug": "creatures-general",
+  "wiki": "Creatures",
+  "cat": "Левиафаны",
+  "ru": "Существа (классификация)",
+  "chars": 1530,
+  "raw_chars": 6837,
+  "path": "data/raw/wiki/creatures-general.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Creatures",
+   "image": "Shedim 1302.jpg",
+   "season": "1-3, 5, 7-8, 11, 13-15, The Winchesters",
+   "category": "Various/Unknown",
+   "status": "Extant",
+   "occupation": "Various",
+   "affiliation": "Various",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "garden-of-eden",
+  "wiki": "Garden of Eden",
+  "cat": "Левиафаны",
+  "ru": "Эдемский сад",
+  "chars": 2647,
+  "raw_chars": 8041,
+  "path": "data/raw/wiki/garden-of-eden.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Garden of Eden",
+   "image": "Garden of Eden.png",
+   "season": "15",
+   "creator": "God",
+   "boss": "God",
+   "whereabouts": "Unknown",
+   "state": "Active"
+  }
+ },
+ {
+  "slug": "garden-snake",
+  "wiki": "Garden of Eden's Snake",
+  "cat": "Левиафаны",
+  "ru": "Змей Эдема",
+  "chars": 1024,
+  "raw_chars": 1351,
+  "path": "data/raw/wiki/garden-snake.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Unknown",
+   "image": "15x13 The Snake.png",
+   "season": "15",
+   "category": "Unknown",
+   "status": "Alive",
+   "affiliation": "Garden of EdenGarden of Eden's Girl"
+  }
+ },
+ {
+  "slug": "the-forbidden-fruit",
+  "wiki": "The Forbidden Fruit",
+  "cat": "Левиафаны",
+  "ru": "Запретный плод",
+  "chars": 902,
+  "raw_chars": 1464,
+  "path": "data/raw/wiki/the-forbidden-fruit.txt",
+  "info": {
+   "_template": "Items",
+   "name": "The Forbidden Fruit",
+   "manufacturer": "God",
+   "use": "Unknown",
+   "powers": "Can be used to remove the Mark of Cain",
+   "location": "Destroyed"
+  }
+ },
+ {
+  "slug": "hand-of-god",
+  "wiki": "Hand of God",
+  "cat": "Левиафаны",
+  "ru": "Длань Божья",
+  "chars": 2283,
+  "raw_chars": 3960,
+  "path": "data/raw/wiki/hand-of-god.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Hand of God",
+   "manufacturer": "God",
+   "use": "Contains a portion of God's power",
+   "appeared": "The Vessel",
+   "powers": "Harm The Darkness Harm Archangels Instantly kill most other beings struck with it Molecular Combustion",
+   "location": "In Men of Letters bunker, with the Winchesters In Lucifer's possession",
+   "season": "11"
+  }
+ },
+ {
+  "slug": "angel-wings",
+  "wiki": "Angel's Wings",
+  "cat": "Левиафаны",
+  "ru": "Ангельские крылья",
+  "chars": 2801,
+  "raw_chars": 13949,
+  "path": "data/raw/wiki/angel-wings.txt",
+  "info": {
+   "_template": "Items",
+   "name": "Angel Wings",
+   "manufacturer": "God Lucifer Jack",
+   "use": "Transportation through space and time. Shielding",
+   "powers": "Time Travel Teleportation/Flight Apporting Invulnerability",
+   "location": "On Angels On Jack Kline"
+  }
+ },
+ {
+  "slug": "lucifers-cage",
+  "wiki": "Lucifer's Cage",
+  "cat": "Левиафаны",
+  "ru": "Клетка Люцифера",
+  "chars": 4714,
+  "raw_chars": 36459,
+  "path": "data/raw/wiki/lucifers-cage.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "Lucifer's Cage",
+   "image": "250px",
+   "season": "4-6, 11",
+   "creator": "God",
+   "boss": "Lucifer",
+   "whereabouts": "The Gateway was located in St. Mary's Convent, Ilchester, Maryland. The cage itself is located near Limbo in Hell.",
+   "state": "Damaged; opened by God, and empty Erased Restored by Jack"
+  }
+ },
+ {
+  "slug": "the-universe",
+  "wiki": "The Universe",
+  "cat": "Левиафаны",
+  "ru": "Вселенная",
+  "chars": 2777,
+  "raw_chars": 12516,
+  "path": "data/raw/wiki/the-universe.txt",
+  "info": {
+   "_template": "Locations",
+   "name": "The Universe",
+   "season": "All Seasons",
+   "creator": "God",
+   "boss": "Jack Kline God Castiel",
+   "whereabouts": "The Multiverse",
+   "state": "Extant",
+   "image": "The universe.JPG",
+   "caption": "|Title="
+  }
+ },
+ {
+  "slug": "creation",
+  "wiki": "Creation",
+  "cat": "Левиафаны",
+  "ru": "Творение",
+  "chars": 405,
+  "raw_chars": 12960,
+  "path": "data/raw/wiki/creation.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Creation",
+   "season": "All Seasons",
+   "status": "Extant",
+   "category": "AngelsLeviathansHellhoundsHumans|family = God"
+  }
+ },
+ {
+  "slug": "bobby-guide",
+  "wiki": "Bobby Singer's Guide to Hunting",
+  "cat": "Левиафаны",
+  "ru": "Справочник Бобби Сингера",
+  "chars": 1158,
+  "raw_chars": 4272,
+  "path": "data/raw/wiki/bobby-guide.txt",
+  "info": {
+   "_template": "Novel",
+   "name": "Bobby Singer's Guide to Hunting",
+   "image": "Bobbysguide.jpg",
+   "author": "David Reed",
+   "released": "September 6th, 2011",
+   "publisher": "It Books"
+  }
+ },
+ {
+  "slug": "men-of-letters",
+  "wiki": "Men of Letters",
+  "cat": "Ведьмы",
+  "ru": "Люди Письма",
+  "chars": 2645,
+  "raw_chars": 20710,
+  "path": "data/raw/wiki/men-of-letters.txt",
+  "info": {
+   "_template": "Organization",
+   "name": "Men of Letters 40px|border|link= United States",
+   "image": "300px",
+   "image2": "300px",
+   "season": "8-15",
+   "status": "Active",
+   "founders": "Original Men of Letters",
+   "leaders": "Winchester Family",
+   "hq": "Men of Letters bunker",
+   "date formed": "UnclearReformed by Sam and Dean in 2013|date disbanded = 12 August 1958"
+  }
+ },
+ {
+  "slug": "hunters",
+  "wiki": "Hunter",
+  "cat": "Ведьмы",
+  "ru": "Охотники",
+  "chars": 3823,
+  "raw_chars": 29365,
+  "path": "data/raw/wiki/hunters.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Hunters",
+   "image": "709.jpg",
+   "season": "All Seasons",
+   "category": "Mostly humans",
+   "status": "Extant",
+   "title/alias": "ハンター (Hanta) Breakers Monster Killers Bigfoot Truthers",
+   "occupation": "Monks Hunting monsters and other supernatural creatures Breaking Curses Destroying/containing Cursed Objects",
+   "affiliation": "Men of Letters British Men of Letters Harvelle's Roadhouse Bobby Singer Garth Fitzgerald IV Ellsworth Psychics HunterCorp",
+   "actor": "Various"
+  }
+ },
+ {
+  "slug": "alpha-vampire",
+  "wiki": "Alpha Vampire",
+  "cat": "Монстры",
+  "ru": "Альфа-вампир",
+  "chars": 3697,
+  "raw_chars": 30328,
+  "path": "data/raw/wiki/alpha-vampire.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Alpha Vampire",
+   "image": "250px",
+   "season": "6-7, 12",
+   "category": "Alpha Vampire",
+   "status": "Deceased Soul exists in Purgatory",
+   "occupation": "Original Vampire and progenitor of vampires",
+   "affiliation": "VampiresEve Leviathans Pierce Moncrieff",
+   "actor": "Rick Worthy",
+   "family": "Eve †Vampires Emily Monster Leviathans",
+   "title/alias": "Big Daddy Father The First Vampire|species=Alpha Vampire Human (formerly)"
+  }
+ },
+ {
+  "slug": "first-vampire",
+  "wiki": "First Vampire",
+  "cat": "Монстры",
+  "ru": "Первый вампир",
+  "chars": 640,
+  "raw_chars": 1374,
+  "path": "data/raw/wiki/first-vampire.txt",
+  "info": {
+   "_template": "MinorCharacters"
+  }
+ },
+ {
+  "slug": "alpha-shapeshifter",
+  "wiki": "Alpha Shapeshifter",
+  "cat": "Монстры",
+  "ru": "Альфа-перевёртыш",
+  "chars": 3383,
+  "raw_chars": 13966,
+  "path": "data/raw/wiki/alpha-shapeshifter.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Alpha Shapeshifter",
+   "image": "250px",
+   "season": "6",
+   "category": "Alpha Shapeshifter",
+   "status": "Deceased Soul exists in Purgatory",
+   "actor": "Mitch Pileggi Jared Padalecki Jensen Ackles Mark Sheppard",
+   "occupation": "Original Shapeshifter and progenitor of all shapeshifters. They are the child of Eve, and siblings to all the other Alphas.",
+   "tile/alias": "Father",
+   "affiliation": "EveShapeshifters Bobby John",
+   "family": "Eve † Monsters Leviathans Shapeshifters",
+   "title/alias": "King ShapeshifterThe First Shapeshifter Father of all shapeshifters Father|species=Alpha Shapeshifter Human (Formerly)"
+  }
+ },
+ {
+  "slug": "lenore",
+  "wiki": "Lenore",
+  "cat": "Монстры",
+  "ru": "Линор",
+  "chars": 2898,
+  "raw_chars": 7587,
+  "path": "data/raw/wiki/lenore.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Lenore",
+   "image": "Lenore S6.png",
+   "season": "2, 6",
+   "category": "VampireHuman",
+   "status": "Deceased (the Soul exists in Purgatory)",
+   "title/alias": "Good monster",
+   "occupation": "Vampire nest leader",
+   "affiliation": "Winchester FamilyEliLenore's nest",
+   "actor": "Amber Benson"
+  }
+ },
+ {
+  "slug": "benny-lafitte",
+  "wiki": "Benny Lafitte",
+  "cat": "Монстры",
+  "ru": "Бенни Лафит",
+  "chars": 3648,
+  "raw_chars": 23175,
+  "path": "data/raw/wiki/benny-lafitte.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Benny",
+   "image": "The Werther Project 04.jpg",
+   "season": "8, 10",
+   "category": "VampireHuman",
+   "title/alias": "RoyThe guy who got out and then came back",
+   "family": "Elizabeth",
+   "status": "Deceased on Earth Deceased in Purgatory",
+   "occupation": "Vampirate Employee at Guidry's Cajun Café",
+   "affiliation": "Vampirates Winchester Family The Old Man † Andrea Kormos † Castiel",
+   "actor": "Ty Olsson"
+  }
+ },
+ {
+  "slug": "boris",
+  "wiki": "Boris",
+  "cat": "Монстры",
+  "ru": "Борис",
+  "chars": 2587,
+  "raw_chars": 5617,
+  "path": "data/raw/wiki/boris.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Boris",
+   "image": "250px",
+   "season": "6",
+   "category": "VampireHuman",
+   "status": "Deceased",
+   "actor": "Joseph D. Reitman",
+   "occupation": "Vampire nest leaderRecruiter",
+   "affiliation": "Alpha Vampire †Boris's nest",
+   "family": "Alpha Vampire †Vampires"
+  }
+ },
+ {
+  "slug": "kate-werewolf",
+  "wiki": "Kate (werewolf)",
+  "cat": "Монстры",
+  "ru": "Кейт (оборотень)",
+  "chars": 1602,
+  "raw_chars": 8146,
+  "path": "data/raw/wiki/kate-werewolf.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Kate",
+   "season": "8, 10",
+   "category": "Werewolf Human",
+   "status": "Alive",
+   "occupation": "Student (formerly)",
+   "actor": "Brit Sheridan",
+   "image": "250px",
+   "family": "Tasha † Unnamed Mother Unnamed Father Michael Wheeler †"
+  }
+ },
+ {
+  "slug": "garth-fitzgerald",
+  "wiki": "Garth Fitzgerald IV",
+  "cat": "Монстры",
+  "ru": "Гарт Фицджеральд IV",
+  "chars": 3037,
+  "raw_chars": 28837,
+  "path": "data/raw/wiki/garth-fitzgerald.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Garth Fitzgerald",
+   "image": "The Heroes' Journey 01.jpg",
+   "season": "7-9, 14-15",
+   "category": "Werewolf Human",
+   "status": "Alive",
+   "title/alias": "New Bobby",
+   "occupation": "DentistHunter",
+   "affiliation": "Bobby Singer Winchester Family Kevin Tran Jim Myers' pack Michael",
+   "actor": "DJ Qualls",
+   "family": "Unnamed mother Bess Fitzgerald Gertie Fitzgerald Sam Fitzgerald Castiel Fitzgerald Jim Myers Joy Myers †Brandon †Frank †"
+  }
+ },
+ {
+  "slug": "tasha-werewolf",
+  "wiki": "Tasha",
+  "cat": "Монстры",
+  "ru": "Таша",
+  "chars": 2046,
+  "raw_chars": 5755,
+  "path": "data/raw/wiki/tasha-werewolf.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Tasha",
+   "season": "10",
+   "category": "WerewolfHuman",
+   "status": "Deceased Soul exists in Purgatory",
+   "family": "Kate Unnamed Father Unnamed Mother",
+   "image": "250px",
+   "actor": "Emily Tennant",
+   "affiliation": "Her pack"
+  }
+ },
+ {
+  "slug": "lydia-crawford",
+  "wiki": "Lydia Crawford",
+  "cat": "Монстры",
+  "ru": "Лидия Кроуфорд",
+  "chars": 2464,
+  "raw_chars": 5898,
+  "path": "data/raw/wiki/lydia-crawford.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Lydia Crawford",
+   "image": "thumb",
+   "season": "14",
+   "category": "VampireHuman",
+   "status": "Deceased",
+   "affiliation": "Her nest",
+   "actor": "Meganne Young"
+  }
+ },
+ {
+  "slug": "zachariah",
+  "wiki": "Zachariah",
+  "cat": "Ангелы",
+  "ru": "Захария",
+  "chars": 3657,
+  "raw_chars": 35003,
+  "path": "data/raw/wiki/zachariah.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Zachariah",
+   "image": "Zachariah 422 .png",
+   "season": "4-5",
+   "category": "Angel",
+   "status": "Deceased Essence resides in The Empty",
+   "occupation": "Castiel's Superior Michael's SubordinateFallen Angel",
+   "affiliation": "Host of HeavenMichael †Raphael †Castiel",
+   "actor": "Kurt Fuller",
+   "title/alias": "Mr. AdlerChuckles Zach",
+   "family": "God Angels Archangels †The Darkness Jane †Jack Queen of Sheba † Djinn Queen"
+  }
+ },
+ {
+  "slug": "hael",
+  "wiki": "Hael",
+  "cat": "Ангелы",
+  "ru": "Хаэль",
+  "chars": 1739,
+  "raw_chars": 3932,
+  "path": "data/raw/wiki/hael.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Hael",
+   "image": "Hael.jpg",
+   "season": "9",
+   "category": "Angel",
+   "status": "Deceased",
+   "affiliation": "Host of Heaven",
+   "occupation": "Fallen Angel",
+   "family": "God Angels Archangels The Darkness Jane †Jack Kline Queen of Sheba †",
+   "actor": "Grace Phipps"
+  }
+ },
+ {
+  "slug": "muriel",
+  "wiki": "Muriel",
+  "cat": "Ангелы",
+  "ru": "Муриэль",
+  "chars": 1754,
+  "raw_chars": 2883,
+  "path": "data/raw/wiki/muriel.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Muriel",
+   "season": "9",
+   "category": "Angel",
+   "status": "Deceased",
+   "occupation": "Fallen Angel",
+   "affiliation": "Host of Heaven Castiel",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba † Unnamed Vessel †",
+   "actor": "Britt Irvin",
+   "image": "250px"
+  }
+ },
+ {
+  "slug": "ephraim",
+  "wiki": "Ephraim",
+  "cat": "Ангелы",
+  "ru": "Ефраим",
+  "chars": 2436,
+  "raw_chars": 4564,
+  "path": "data/raw/wiki/ephraim.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Ephraim",
+   "image": "250px",
+   "season": "9",
+   "category": "Rit Zien",
+   "status": "Deceased",
+   "occupation": "HealerMerciful ExecutionerFallen Angel",
+   "affiliation": "Heaven",
+   "actor": "Ashton Holmes",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba †"
+  }
+ },
+ {
+  "slug": "benjamin",
+  "wiki": "Benjamin",
+  "cat": "Ангелы",
+  "ru": "Бенджамин",
+  "chars": 2448,
+  "raw_chars": 4792,
+  "path": "data/raw/wiki/benjamin.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Benjamin",
+   "image": "Benjamin.png",
+   "season": "12",
+   "category": "Angel",
+   "status": "Deceased",
+   "occupation": "Soldier",
+   "affiliation": "Host of Heaven",
+   "family": "God Angels Archangels The Darkness Jane †Jack Queen of Sheba † Djinn Queen Sister-in-law",
+   "actor": "Miranda Edwards"
+  }
+ },
+ {
+  "slug": "barthamus",
+  "wiki": "Barthamus",
+  "cat": "Демоны",
+  "ru": "Бартамус",
+  "chars": 2596,
+  "raw_chars": 12918,
+  "path": "data/raw/wiki/barthamus.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Barthamus",
+   "image": "The Scorpion and The Frog 02.jpg",
+   "title/alias": "Bart",
+   "season": "13",
+   "category": "Crossroad Demon Human",
+   "status": "Deceased",
+   "occupation": "King of the Crossroads",
+   "affiliation": "HellCrowley",
+   "actor": "David Cubitt",
+   "family": "Lucifer †"
+  }
+ },
+ {
+  "slug": "abraxas",
+  "wiki": "Abraxas",
+  "cat": "Демоны",
+  "ru": "Абраксас",
+  "chars": 3062,
+  "raw_chars": 10841,
+  "path": "data/raw/wiki/abraxas.txt",
+  "info": {
+   "_template": "MinorCharacters",
+   "name": "Abraxas",
+   "image": "Abraxas.jpg",
+   "season": "14",
+   "category": "DemonHuman",
+   "status": "Deceased Soul resides in The Empty",
+   "title/alias": "Braxy",
+   "actor": "Nelson Leis",
+   "affiliation": "LuciferHell",
+   "family": "Lucifer",
+   "occupation": "Servant of LuciferAssassin"
+  }
+ },
+ {
+  "slug": "drexel",
+  "wiki": "Drexel",
+  "cat": "Демоны",
+  "ru": "Дрексель",
+  "chars": 2213,
+  "raw_chars": 5807,
+  "path": "data/raw/wiki/drexel.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "image": "IMG 1107.jpg",
+   "name": "Drexel",
+   "season": "12-13",
+   "category": "Demon Human",
+   "status": "Alive",
+   "affiliation": "Crowley LuciferAsmodeus",
+   "actor": "Alex Barima|family=Lucifer (father/creator) †"
+  }
+ },
+ {
+  "slug": "gavin-macleod",
+  "wiki": "Gavin MacLeod",
+  "cat": "Демоны",
+  "ru": "Гэвин Маклауд",
+  "chars": 1526,
+  "raw_chars": 11435,
+  "path": "data/raw/wiki/gavin-macleod.txt",
+  "info": {
+   "_template": "RecurringCharacters",
+   "name": "Gavin MacLeod",
+   "season": "6, 9, 12",
+   "category": "Ghost Human",
+   "family": "Fergus MacLeod †Unnamed Mother †Rowena MacLeod †Unnamed grandfather †Unnamed great-grandfather †Fiona Duncan †",
+   "status": "Deceased",
+   "title/alias": "Little Bugger The Prince of Hell",
+   "occupation": "Captain of The Star",
+   "actor": "Adam Groves Theo Devaney",
+   "image": "280px"
+  }
+ }
+]

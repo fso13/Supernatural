@@ -1,0 +1,19 @@
+### WIKI: The Giant (The Bad Place) | RU: Гигант из Плохого места | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Unknown
+category: Unknown
+status: Deceased
+season: 13
+title/alias: |occupation =
+affiliation: |actor = None
+
+[ОПИСАНИЕ]
+The unnamed giant was an unknown creature in The Bad Place. It seems to be the same type as the Giant or related to it.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Gigantic Size - The skeletal remains of the creature was larger than natural creatures.
+
+[ПОЯВЛЕНИЯ]
+Season 13
+The Bad Place

@@ -1,0 +1,23 @@
+### WIKI: Conjure Woman | RU: Женщина-заклинательница | КАТЕГОРИЯ: Ведьмы
+
+[ИНФОБОКС]
+name: Unknown
+category: Human
+status: Unknown
+season: 3
+family: |actor =
+affiliation: Black magic
+
+[ОПИСАНИЕ]
+The unnamed woman was a hundred years old witch who made the Rabbit's Foot, but not the first one.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Cursing - She put a curse on a rabbit's foot.
+Enhancing - She enhanced the foot's durability.
+
+[ПРЕДЫСТОРИЯ]
+A woman from the state of Louisiana, she killed a rabbit and cut off its foot to make a cursed object. Over the years, the foot has granted its possessors incredibly good luck, only for the luck to turn lethally bad when they inevitably lost it.
+
+[ПОЯВЛЕНИЯ]
+Season 3
+Bad Day at Black Rock

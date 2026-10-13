@@ -1,0 +1,25 @@
+### WIKI: Alpha Phoenix | RU: Альфа-феникс | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Alpha Phoenix
+category: Alpha Phoenix
+status: Uknown
+family: Eve † Phoenixes Monster (siblings)
+title/alias: The First Phoenix
+
+[ОПИСАНИЕ]
+The Alpha Phoenix was the first Phoenix.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Immortality - The Alpha Phoenix was impervious to natural death and disease.
+Pyrokinesis - The Alpha Phoenix could generate potent fire, eviscerating a person's blood and bones.
+Phoenix Creation - The Alpha Phoenix turned one of the first humans into a Phoenix, which started the speciation of the creature.
+
+[СЛАБОСТИ]
+The Colt - The Colt can kill anything in all of creation.
+
+[ИСТОРИЯ]
+The Alpha Phoenix was a malignant and toxic agent that evolved from Eve, so she forced it out of her and it became a degenerate amongst other monsters. Alpha Phoenix was one of the only monsters besides Khan worm that wasn't created from a human, unlike the other Alphas who were originally human but were transformed and had their souls deformed by Eve
+
+[ПОЯВЛЕНИЯ]
+Season Six The Official Companion Guide

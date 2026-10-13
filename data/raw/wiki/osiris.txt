@@ -1,0 +1,42 @@
+### WIKI: Osiris | RU: Осирис | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Osiris
+category: Deity
+status: Incapacitated
+season: 7
+family: God Anubis
+title/alias: God of the Underworld
+actor: Faran Tahir
+occupation: Egyptian God
+affiliation: Egyptian Pantheon
+
+[ОПИСАНИЕ]
+Osiris, the Egyptian god of the dead. He puts people who feel guilty on trial; if found guilty, they were sentenced to death. Osiris also commanded ghosts or specters to carry out the sentence.
+
+[СИЛЫ И СПОСОБНОСТИ]
+thumb|225px|Osiris (weigher of the heart).Osiris is one of the more powerful deity shown in the series harnessing many abilities and few weaknesses.
+Invulnerability - As an ancient Egyptian deity, the only known thing that can harm him was a ram's horn.
+Telekinesis - The power to move things with his mind.
+Biokinesis - Was able to stop Dean from speaking, with a gesture.
+Teleportation - He could casually move from place to place in the blink of an eye. He could also teleport others from one place to another with a gesture.
+Super Strength - He was strong enough to overpower several grown men, with no difficulty.
+Immortality - As a deity, Osiris could live forever and nothing is known to be able to kill him. He already existed in God's departure time, meaning he is thousands of years old.
+Super Senses - Osiris knew Sam was present despite his attempts to hide.
+Telepathy - He was able to read others' minds to …
+
+[СЛАБОСТИ]
+Ram's Horn - Being stabbed by a ram's horn will put Osiris into a deep sleep from which he (apparently) cannot be awakened, effectively incapacitating him. However, this isn't a permanent solution; he will only sleep for a couple of centuries.
+
+[ПРЕДЫСТОРИЯ]
+===Season 7===
+Osiris went to a local bar where he found people who felt guilty. He later grabbed Matthew Hammond, Christopher Fisher, and Warren and took them to his court where he held a trial and condemned them. Dean Winchester bumped into him in a bar, where Dean told his guilt to the bartender.
+thumb|250px|Sam defeats Osiris.
+
+After Dean left the bar, Osiris abducted him. Dean was taken to a farm where he was put on trial by Osiris. Sam acted as Dean's lawyer in the trial. Osiris called three witnesses: Jo Harvelle, Sam and Dean himself. In the end, Dean was found guilty and Osiris told him that he would die soon. Just before Dean could be killed, Sam stabbed Osiris with a ram's horn and put him into a centuries-long sleep while freeing Dean from death. However, Dean continued to feel guilty about his past action, including lying to his brother about Amy Pond.
+
+[ПОЯВЛЕНИЯ]
+Season 7
+Defending Your Life
+Season 14
+Byzantium

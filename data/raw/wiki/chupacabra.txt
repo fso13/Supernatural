@@ -1,0 +1,31 @@
+### WIKI: Chupacabra | RU: Чупакабра | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Chupacabra
+category: Unknown Creatures
+status: Extant
+season: None
+
+[ОПИСАНИЕ]
+Chupacabras are a kind of supernatural creatures. Not much is known about the Chupacabra due to the fact that it was only mentioned.
+
+[ПРЕДЫСТОРИЯ]
+Not much is known about the Chupacabra due to the fact that it was only mentioned. It is mentioned when Gordon Walker tells Sam and Dean Winchester he's more of a go-it-alone type of a guy to which Dean responds with "Come on, man, I've been itching for a hunt" to which Gordon responds with "Sorry. But hey, I hear there's a chupacabra two states over. You go ahead and knock yourselves out."
+
+It is mentioned again after Sam and Dean investigate the death of a victim of ghost sickness and Sam asks Dean what could scare someone to death to which Dean responds with "What can't? Ghosts, vampires, chupacabra? It could be a hundred things".
+
+In a flashback, a younger Sam mentions one.
+
+During a phone conversation between Arthur Ketch and the Winchesters, Arthur tells them that their mother is busy hunting a Chupacabra in Texas.
+
+[ПОЯВЛЕНИЯ]
+Season 2
+Bloodlust 
+Season 4
+Yellow Fever 
+Season 8
+Goodbye Stranger 
+Season 11
+The Devil in the Details 
+Season 12
+The British Invasion

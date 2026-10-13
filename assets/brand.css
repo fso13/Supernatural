@@ -1,0 +1,116 @@
+/* ============================================================
+   Фирменный стиль бестиария «Сверхъестественного»
+   Оригинальные эмблемы: ловушка дьявола, пентаграмма,
+   звезда Людей Письма, соляная линия, энохианское письмо.
+
+   Все знаки рисуются CSS-маской: цвет берётся из currentColor,
+   поэтому одна и та же эмблема работает и красной, и золотой,
+   и чёрной на печати.
+
+   Подключается после основного style.css всеми редакциями.
+   ============================================================ */
+
+:root {
+  --brand-red:   #e0454f;
+  --brand-amber: #e8bb63;
+  --brand-glow:  rgba(224, 69, 79, .32);
+}
+
+/* ---------- базовый знак ---------- */
+.sig {
+  display: inline-block; flex: 0 0 auto; vertical-align: middle;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: center;  mask-position: center;
+  -webkit-mask-size: contain;     mask-size: contain;
+}
+.sig-trap { -webkit-mask-image: url("brand/devils-trap.svg");   mask-image: url("brand/devils-trap.svg"); }
+.sig-star { -webkit-mask-image: url("brand/sigil-star.svg");     mask-image: url("brand/sigil-star.svg"); }
+.sig-mol  { -webkit-mask-image: url("brand/men-of-letters.svg"); mask-image: url("brand/men-of-letters.svg"); }
+
+/* ---------- знак в шапке ---------- */
+.brandmark {
+  width: 46px; height: 46px; color: var(--brand-red);
+  filter: drop-shadow(0 0 14px var(--brand-glow));
+  transition: transform .5s cubic-bezier(.2,.9,.3,1.2), filter .3s;
+}
+.brand:hover .brandmark { transform: rotate(72deg); filter: drop-shadow(0 0 20px var(--brand-glow)); }
+@media (max-width: 640px) { .brandmark { width: 36px; height: 36px; } }
+
+/* ---------- заставка серии: светящийся заголовок ---------- */
+.wordmark {
+  font-family: var(--serif);
+  letter-spacing: .055em;
+  color: #f4efe6;
+  text-shadow:
+    0 0 2px rgba(255,255,255,.55),
+    0 0 20px rgba(255,255,255,.26),
+    0 0 48px var(--brand-glow),
+    0 0 90px rgba(224,69,79,.18),
+    0 3px 1px rgba(0,0,0,.65);
+  animation: titleGlow 7s ease-in-out infinite;
+}
+@keyframes titleGlow {
+  0%, 100% { text-shadow: 0 0 2px rgba(255,255,255,.55), 0 0 20px rgba(255,255,255,.26),
+                         0 0 48px var(--brand-glow), 0 0 90px rgba(224,69,79,.18),
+                         0 3px 1px rgba(0,0,0,.65); }
+  50%      { text-shadow: 0 0 3px rgba(255,255,255,.75), 0 0 26px rgba(255,255,255,.34),
+                         0 0 62px rgba(224,69,79,.42), 0 0 110px rgba(224,69,79,.22),
+                         0 3px 1px rgba(0,0,0,.65); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wordmark { animation: none; }
+  .brand:hover .brandmark { transform: none; }
+}
+
+/* ---------- соляная линия: разделитель ---------- */
+.salt-divider {
+  display: block; width: 100%; height: 22px; margin: 30px 0;
+  background-color: currentColor; color: var(--brand-amber); opacity: .55;
+  -webkit-mask: url("brand/salt-line.svg") center / 100% 22px no-repeat;
+  mask: url("brand/salt-line.svg") center / 100% 22px no-repeat;
+}
+.salt-divider.tight { margin: 14px 0; }
+
+/* ---------- энохианская полоса ---------- */
+.eno-band {
+  display: block; height: 20px; margin: 0 auto 14px; max-width: 380px;
+  background-color: currentColor; color: var(--brand-amber); opacity: .4;
+  -webkit-mask: url("brand/enochian-band.svg") center / contain no-repeat;
+  mask: url("brand/enochian-band.svg") center / contain no-repeat;
+}
+
+/* ---------- водяной знак в карточке существа ---------- */
+.sheet-head { position: relative; }
+.sheet-head::after {
+  content: ""; position: absolute; right: 54px; top: 2px;
+  width: 54px; height: 54px; pointer-events: none;
+  background-color: currentColor; color: var(--brand-red); opacity: .22;
+  -webkit-mask: url("brand/devils-trap.svg") center / contain no-repeat;
+  mask: url("brand/devils-trap.svg") center / contain no-repeat;
+}
+
+/* ---------- знак в пустых состояниях ---------- */
+.empty::before {
+  content: ""; display: block; width: 76px; height: 76px; margin: 0 auto 18px;
+  background-color: currentColor; color: var(--brand-red); opacity: .32;
+  -webkit-mask: url("brand/devils-trap.svg") center / contain no-repeat;
+  mask: url("brand/devils-trap.svg") center / contain no-repeat;
+}
+
+/* ---------- подпись в подвале ---------- */
+.brandline {
+  display: flex; align-items: center; justify-content: center; gap: 14px;
+  margin: 0 0 14px; color: var(--brand-amber); opacity: .8;
+}
+.brandline .sig { width: 22px; height: 22px; }
+.brandline span {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 2.4px; text-transform: uppercase;
+}
+
+/* ---------- печать ---------- */
+@media print {
+  .brandmark { color: #000 !important; filter: none !important; }
+  .wordmark { color: #000 !important; text-shadow: none !important; animation: none !important; }
+  .salt-divider, .eno-band, .sheet-head::after, .empty::before { display: none !important; }
+}

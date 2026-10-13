@@ -1,0 +1,33 @@
+### WIKI: Cloaked Figures | RU: Фигуры в плащах | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Unknown
+category: Creature
+status: Extant
+season: 13, 15
+actor: Various
+
+[ОПИСАНИЕ]
+These unnamed cloaked figures are creatures that inhabit The Bad Place.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Super Speed - These monsters are able to move very quickly when hunting their target.
+Super Strength - They were quite powerful physically.
+Super Agility - These monsters are quite agile when moving and hurdle any obstacles.
+
+[СЛАБОСТИ]
+thumb|250px|Cloaked figures bleed blue blood when wounded
+These monsters have no specific resistances attributed to them, which made them relatively easy to kill.
+Mortality - Bullets were able to wound and kill them. Claire also killed them by stabbing their throat with a presumably ordinary knife.
+Fire - They can be effectively killed by concentrated fire from a flamethrower.
+Primordial Entities - God wiped them out, alongside their universe, when he decided to destroy the Multiverse.
+
+[ИСТОРИЯ]
+These monsters are native to The Bad Place and known for living in packs. When Kaia Nieves and Jack inadvertently opened the portal to The Bad Place when trying to access Apocalypse World and leaving the portal opened for many days later, some were able to escape the The Bad Place and some ended up in Sioux Falls, South Dakota.
+
+[ПОЯВЛЕНИЯ]
+Season 13
+The Bad Place
+Wayward Sisters
+Season 15
+Galaxy Brain

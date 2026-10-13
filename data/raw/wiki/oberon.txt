@@ -1,0 +1,32 @@
+### WIKI: Oberon | RU: Оберон | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Oberon
+category: Supreme Fairy
+status: Alive
+season: None
+title/alias: King of the Fairies
+actor: None
+occupation: Ruler of Avalon
+affiliation: Avalon
+
+[ОПИСАНИЕ]
+Oberon is the king of the fairies. A race of magical beings, fairies come from Avalon, a dimension separate from Earth.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Fairy Physiology - Oberon is the highest in the fairy hierarchy and holds supremacy over all of fairy kind who worships him.
+Fairy Magic: As a fairy, Oberon is assumed to have mastery over the magic of his species, being the king of all fairies his magical powers must be immense.
+
+[ЛОР]
+The idea of Oberon being king of the fairies dates back to the 13th Century.
+Such an idea was popularised by William Shakespeare including him as a character in his play, A Midsummer Night's Dream in which the King is having relationship issues with his queen Titania.
+The play also may provide the idea of Oberon's need to steal male children specifically, as the source of Oberon and Titania's quarrel is a young boy Titania has claimed and that Oberon wants for himself.
+Oberon's (Auberon in French) name and status as fairy king comes from Alberich (alb - "elf" and rih - "ruler, king), a character of the German mythology.
+
+[ПОЯВЛЕНИЯ]
+Season 6
+Clap Your Hands If You Believe
+
+[ИСТОРИЯ]
+In Avalon, according to Gilda, a good fairy, there also exists a fairy Tribunal, which her former master, a LARPer who had bound her to his will, would be brought before. It is not known if Oberon leads this tribunal, and his actual power, abilities, origin and appearance have not been revealed.
+It is not known if Oberon and Titania have a marital relationship within the series, however Titania's existence was confirmed when Rowena MacLeod mentioned her in a spell.

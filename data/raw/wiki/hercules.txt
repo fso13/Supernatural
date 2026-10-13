@@ -1,0 +1,26 @@
+### WIKI: Hercules | RU: Геракл | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Hercules
+category: Demigod
+status: Unknown
+season: None
+title/alias: True Hero
+actor: None
+occupation: Roman Hero
+affiliation: Roman Pantheon Fortuna
+
+[ОПИСАНИЕ]
+Hercules was a demigod hero from the Roman Pantheon.
+
+[ИСТОРИЯ]
+===Background===
+Several millennia after God created the lesser deities, the roman goddess of luck, Fortuna, who favored those she deemed "true heroes", encountered Hercules and gave him luck in his journey/adventures.
+
+[ПОЯВЛЕНИЯ]
+Season 8
+Trial and Error 
+Season 14
+Ouroboros 
+Season 15
+The Gamblers

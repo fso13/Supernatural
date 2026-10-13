@@ -1,0 +1,18 @@
+### WIKI: Cthulhu | RU: Ктулху | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Cthulhu
+status: Unknown
+title/alias: |season=None|affiliation=H.P. Lovecraft Leviathans |actor=-
+
+[ОПИСАНИЕ]
+Cthulhu is an ancient mysterious being researched by the horror writer H.P. Lovecraft, potentially with a connection to Purgatory and Leviathans.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Cthulhu is a being of considerable power in the Lovecraft world. 
+Tentacles - Cthulhu possesses great long tentacles.
+Gigantic Size - Cthulhu is larger than humans.
+
+[ПОЯВЛЕНИЯ]
+Season 6
+Let It Bleed

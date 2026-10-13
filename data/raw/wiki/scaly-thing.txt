@@ -1,0 +1,18 @@
+### WIKI: Scaly Thing | RU: Чешуйчатая тварь | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Scaly Things
+category: Proto-lifeform
+status: Deceased
+season: 6, 9
+affiliation: |family = God Adam Eve Humans (and vertebrates)
+
+[ОПИСАНИЕ]
+Scaly Things were one of the first Stem-tetrapods that evolved in Earths waters during prehistoric times.
+
+[ПОЯВЛЕНИЯ]
+Season 6
+The Man Who Would Be King 
+Let It Bleed 
+Season 9
+Meta Fiction

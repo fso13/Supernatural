@@ -1,0 +1,31 @@
+### WIKI: Rawhead | RU: Роухед | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Rawhead
+season: 1, 14
+
+[ОПИСАНИЕ]
+A Rawhead is a type of creature that lurks in basements and preys upon children.
+
+[СИЛЫ И СПОСОБНОСТИ]
+thumb|200px|A bitemark and tooth left from a Rawhead.
+Super Strength - He was able to throw Dean to the ground with one punch.
+Super Speed - The Rawhead quickly disappeared after his first attack on the Winchester Brothers.
+Invulnerability - This type of creature can only be killed by high-voltage electrocution.
+
+[СЛАБОСТИ]
+thumb|200px|A Rawhead is electrocuted.
+Electrocution - A Rawhead is only vulnerable to electrocution, so a weapon such as a taser can kill one.
+
+[ИСТОРИЯ]
+===Season 1===
+Sam and Dean are seen hunting a Rawhead. They go into a basement, where they find a boy and girl hiding in a cupboard. As they are taking the children to safety, the Rawhead ambushes them.
+
+Sam leaves with the children while Dean fights the Rawhead himself. The Rawhead attacks Dean and throws him onto a wet floor. Despite the fact that they are both in a puddle of water, Dean uses his taser to electrocute the Rawhead, killing it but also severely injuring himself too. Dean is later healed by Roy Le Grange.
+
+[ПОЯВЛЕНИЯ]
+Season 1
+Faith
+Season 14
+Stranger in a Strange Land 
+Bobby Singer's Guide to Hunting

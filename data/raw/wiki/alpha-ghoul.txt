@@ -1,0 +1,14 @@
+### WIKI: Alpha Ghoul | RU: Альфа-гуль | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Alpha Ghoul
+category: Alpha Ghoul Human (Formerly)
+status: Unknown
+season: None
+family: Eve Leviathans Ghouls Monster |affiliation=Eve Ghouls (His Children)
+
+[ОПИСАНИЕ]
+The Alpha Ghoul was the first ghoul and who created the other ghouls.His existence is confirmed by Bobby Singer.
+
+[ПОЯВЛЕНИЯ]
+Bobby Singer's Guide to Hunting

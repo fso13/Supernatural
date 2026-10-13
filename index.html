@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Бестиарий «Сверхъестественного» — три редакции</title>
+<meta name="description" content="Бестиарий всех существ сериала «Сверхъестественное» в трёх редакциях: под Dungeons & Dragons 5e, под GUMSHOE («Сыщик») и под «The Edge!».">
+<link rel="stylesheet" href="site/style.css">
+<link rel="stylesheet" href="assets/brand.css">
+<link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg">
+<style>
+  body { background: #0b0a0d; }
+
+  /* ---------- ночное шоссе на фоне ---------- */
+  .hero {
+    position: relative; overflow: hidden;
+    padding: 9vh 24px 46px;
+    border-bottom: 1px solid var(--line);
+  }
+  .hero::before {
+    content: ""; position: absolute; inset: 0;
+    background: url("assets/brand/road.svg") center bottom / cover no-repeat;
+    color: var(--brand-red); opacity: .85; pointer-events: none;
+  }
+  .hero::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background:
+      radial-gradient(900px 420px at 50% 108%, rgba(224,69,79,.26), transparent 72%),
+      linear-gradient(180deg, rgba(11,10,13,.55) 0%, rgba(11,10,13,.12) 42%, rgba(11,10,13,.92) 100%);
+  }
+  .hero-inner { position: relative; z-index: 2; max-width: 1080px; margin: 0 auto; text-align: center; }
+
+  .hero .trap {
+    width: 96px; height: 96px; margin: 0 auto 20px; display: block;
+    color: var(--brand-red);
+    filter: drop-shadow(0 0 26px rgba(224,69,79,.5));
+    animation: trapSpin 90s linear infinite;
+  }
+  @keyframes trapSpin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .hero .trap { animation: none; } }
+
+  .hero h1 {
+    font-family: var(--serif); font-weight: 600; margin: 0;
+    font-size: clamp(34px, 6.4vw, 70px); line-height: 1.06;
+  }
+  .hero h1 .thin { display: block; font-weight: 400; font-style: italic; font-size: .62em; }
+
+  .hero .tagline-quote {
+    margin: 24px auto 0; max-width: 64ch; font-size: 16px; color: var(--ink-dim);
+    line-height: 1.66;
+  }
+  .hero .tagline-quote em { color: var(--ink); }
+  .hero .tagline-quote b { color: var(--brand-amber); }
+
+  .hero .stats {
+    margin: 24px 0 0; font-family: var(--mono); font-size: 11.5px;
+    color: var(--ink-faint); letter-spacing: .6px;
+  }
+
+  /* ---------- три редакции ---------- */
+  .pickwrap { max-width: 1180px; margin: 0 auto; padding: 48px 24px 20px; }
+  .pick { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  @media (max-width: 1080px) { .pick { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 760px) { .pick { grid-template-columns: 1fr; } }
+
+  .sys {
+    display: flex; flex-direction: column; text-decoration: none; position: relative;
+    overflow: hidden; background: linear-gradient(165deg, var(--panel), var(--bg-2));
+    border: 1px solid var(--line); border-radius: 18px; padding: 26px 26px 22px;
+    transition: .2s ease;
+  }
+  .sys:hover { transform: translateY(-4px); border-color: var(--line-2); box-shadow: var(--shadow); }
+  .sys::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 4px; background: var(--acc); }
+  .sys .emblem {
+    width: 50px; height: 50px; color: var(--acc); opacity: .92;
+    filter: drop-shadow(0 0 12px var(--acc));
+  }
+  .sys h2 { font-family: var(--serif); font-size: 27px; color: var(--ink); margin: 16px 0 3px; }
+  .sys .sub { color: var(--acc); font-family: var(--mono); font-size: 10.5px;
+              letter-spacing: 1.4px; text-transform: uppercase; margin-bottom: 15px; }
+  .sys p { color: var(--ink-dim); font-size: 14.4px; line-height: 1.62; margin: 0 0 13px; }
+  .sys ul { color: var(--ink-faint); font-size: 13.2px; line-height: 1.58; padding-left: 17px; margin: 0 0 18px; }
+  .sys li { margin-bottom: 3px; }
+  .sys li::marker { color: var(--acc); }
+  .sys .go { margin-top: auto; color: var(--acc); font-family: var(--mono); font-size: 12px; letter-spacing: .6px; }
+  .dnd { --acc: #b7222b; }
+  .gum { --acc: #4fb3c7; }
+  .edge { --acc: #d9a441; }
+
+  /* ---------- ссылки на файлы ---------- */
+  .other { max-width: 1180px; margin: 0 auto; padding: 20px 24px 70px; }
+  .other h3 {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase;
+    color: var(--brass); border-bottom: 1px solid var(--line); padding-bottom: 7px; margin: 0 0 16px;
+  }
+  .other .row { display: flex; flex-wrap: wrap; gap: 9px; }
+  .other a {
+    display: block; padding: 9px 15px; border: 1px solid var(--line-2); border-radius: 10px;
+    color: var(--ink-dim); text-decoration: none; font-size: 13.2px; transition: .16s;
+  }
+  .other a:hover { color: var(--ink); border-color: var(--brass); }
+
+  .sitefoot {
+    text-align: center; color: var(--ink-faint); font-size: 12.5px;
+    padding: 34px 20px 54px; border-top: 1px solid var(--line);
+  }
+  .sitefoot .eno-band { margin-bottom: 14px; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="sig sig-trap trap" role="img" aria-label="Ловушка дьявола"></span>
+    <h1 class="wordmark">Бестиарий <span class="thin">Сверхъестественного</span></h1>
+    <p class="tagline-quote">
+      Все существа сериала <em>Supernatural</em> — 354 записи: от вендиго и штриги до архангелов,
+      Принцев Ада и первичных сущностей. Собрано по Supernatural Wiki и адаптировано
+      под <b>три ролевые системы</b>.
+    </p>
+    <p class="stats">354 записи · 295 существ и высших сущностей · 269 иллюстраций · три редакции правил</p>
+  </div>
+</section>
+
+<div class="pickwrap">
+  <div class="pick">
+
+    <a class="sys dnd" href="site/index.html">
+      <span class="sig sig-star emblem" role="img" aria-label="Пентаграмма"></span>
+      <h2>Dungeons &amp; Dragons 5e</h2>
+      <div class="sub">первая редакция</div>
+      <p>Полные статблоки пятой редакции: КД, хиты, характеристики, действия,
+      легендарные действия и уровень опасности от 0 до 30.</p>
+      <ul>
+        <li>Классический бестиарий с CR и тактикой</li>
+        <li>Книга на 677 страниц и шпаргалка мастера на 304</li>
+        <li>Приключение «Спящие» для трёх героев 7-го уровня</li>
+      </ul>
+      <div class="go">Открыть бестиарий →</div>
+    </a>
+
+    <a class="sys gum" href="site-gumshoe/index.html">
+      <span class="sig sig-mol emblem" role="img" aria-label="Звезда Людей Письма"></span>
+      <h2>GUMSHOE &middot; «Сыщик»</h2>
+      <div class="sub">вторая редакция</div>
+      <p>Пулы способностей, Порог попадания, потеря Стабильности и — главное —
+      улики: через какие способности охотники узнают, как тварь убивается.</p>
+      <ul>
+        <li>Расследование без броска кубика</li>
+        <li>Правило твари: пока оно не установлено, монстр почти неуязвим</li>
+        <li>Быстрый старт на одну страницу и приключение «Спящие»</li>
+      </ul>
+      <div class="go">Открыть бестиарий →</div>
+    </a>
+
+    <a class="sys edge" href="site-edge/index.html">
+      <span class="sig sig-trap emblem" role="img" aria-label="Ловушка дьявола"></span>
+      <h2>The Edge!</h2>
+      <div class="sub">третья редакция</div>
+      <p>Только d6 и пара кубиков — светлый и тёмный. Успех читают по светлому,
+      провал по тёмному: цена и обязательный шаг вперёд.</p>
+      <ul>
+        <li>Четыре атрибута, раны и стресс</li>
+        <li>Дистанции и 2 ОД вместо гексов и инициативы</li>
+        <li>Приключение «Спящие» с таблицами светлого и тёмного</li>
+      </ul>
+      <div class="go">Открыть бестиарий →</div>
+    </a>
+
+  </div>
+</div>
+
+<div class="other">
+  <h3>Что внутри каждой редакции</h3>
+  <div class="row">
+    <a href="site/index.html">Бестиарий D&amp;D 5e</a>
+    <a href="site/adventure.html">Приключение «Спящие» (D&amp;D)</a>
+    <a href="site-gumshoe/index.html">Бестиарий GUMSHOE</a>
+    <a href="site-gumshoe/quickstart.html">Быстрый старт (GUMSHOE)</a>
+    <a href="site-gumshoe/rules.html">Правила: Охотники (GUMSHOE)</a>
+    <a href="site-gumshoe/adventure.html">Приключение «Спящие» (GUMSHOE)</a>
+    <a href="site-edge/index.html">Бестиарий The Edge!</a>
+    <a href="site-edge/rules.html">Правила: Охотники (The Edge!)</a>
+    <a href="site-edge/adventure.html">Приключение «Спящие» (The Edge!)</a>
+    <a href="README.md">README проекта</a>
+  </div>
+</div>
+
+
+<div class="other">
+  <h3>Скачать книги</h3>
+  <div class="row">
+    <a href="downloads/bestiary-dnd5e.pdf">Бестиарий D&amp;D 5e — 677 страниц</a>
+    <a href="downloads/statblocks-dnd5e.pdf">Статблоки D&amp;D 5e — 304 страницы</a>
+    <a href="downloads/adventure-dnd5e.pdf">Приключение «Спящие» (D&amp;D)</a>
+    <a href="downloads/quickstart-gumshoe.pdf">Быстрый старт GUMSHOE — 8 страниц</a>
+    <a href="downloads/rules-gumshoe.pdf">Правила: Охотники (GUMSHOE)</a>
+    <a href="downloads/adventure-gumshoe.pdf">Приключение «Спящие» (GUMSHOE)</a>
+    <a href="downloads/rules-edge.pdf">Правила: Охотники (The Edge!)</a>
+    <a href="downloads/adventure-edge.pdf">Приключение «Спящие» (The Edge!)</a>
+  </div>
+</div>
+
+<footer class="sitefoot">
+  <div class="eno-band" aria-hidden="true"></div>
+  <div class="brandline">
+    <span class="sig sig-trap"></span>
+    <span>Saving people, hunting things</span>
+    <span class="sig sig-trap"></span>
+  </div>
+  Неофициальный фанатский материал. Supernatural — Warner Bros. Television;
+  GUMSHOE — Pelgrane Press; Dungeons &amp; Dragons — Wizards of the Coast.
+</footer>
+
+</body>
+</html>

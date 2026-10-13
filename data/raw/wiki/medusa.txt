@@ -1,0 +1,34 @@
+### WIKI: Medusa | RU: Медуза | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Medusa
+category: Gorgon
+status: Deceased
+season: 9, 14
+title/alias: |occupation =
+actor: None
+affiliation: |family =
+
+[ОПИСАНИЕ]
+Medusa is a mythological gorgon that existed at some point in the past.
+thumb|The wikipedia:Medusa (Rubens)|Medusa portrait by Peter Paul Rubens seen in [[Cuthbert Sinclair's house]]
+
+[СЛАБОСТИ]
+Decapitation with a Silver Blade - The only known way to kill a gorgon is cut their head off with a silver blade.
+
+[ЛОР]
+In Greek mythology, Medusa ("guardian, protectress") was a monster, a Gorgon, generally described as a winged human female with living venomous snakes in place of hair. Those who gazed upon her face would turn to stone. Most sources describe her as the daughter of Phorcys and Ceto, though the author Hyginus makes her the daughter of Gorgon and Ceto. According to Hesiod and Aeschylus, she lived and died on an island named Sarpedon, somewhere near Cisthene.
+
+The three Gorgon sisters—Medusa, Stheno, and Euryale—were all children of the ancient marine deities Phorcys (or "Phorkys") and his sister Ceto (or "Keto"), chthonic monsters from an archaic world. Their genealogy is shared with other sisters, the Graeae, as in Aeschylus's Prometheus Bound, which places both trinities of sisters far off "on Kisthene's dreadful plain".
+
+[ПОЯВЛЕНИЯ]
+Season 9
+Blade Runners 
+Season 14
+Ouroboros
+
+[ИСТОРИЯ]
+Paralyzing Poison - Gorgons possess a powerful paralyzing poison, the source of the myth about Medusa and gorgons in general being able to turn people into stone. This poison is so potent that it can even affect a Seraphim.
+Super Strength - Gorgons possess an incredible degree of strength, able to overpower humans with ease.
+Snake Communication - Gorgons can understand and communicate with snakes, in Medusa's case, her snake-hair as well.
+Immortality - Being a race of demigods, they can potentially live forever.

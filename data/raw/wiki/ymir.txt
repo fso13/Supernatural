@@ -1,0 +1,30 @@
+### WIKI: Ymir | RU: Имир | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Ymir
+category: Frost Giant
+status: Unknown
+season: 8
+family: God (creator)
+title/alias: |occupation =
+actor: None
+affiliation: Norse Pantheon
+
+[ОПИСАНИЕ]
+Ymir is a Frost Giant from Norse mythology.
+
+[СИЛЫ И СПОСОБНОСТИ]
+Cryokinesis - Some ice came out of his decaying finger.
+
+[ИСТОРИЯ]
+===Background===
+Ymir's status and location are unknown. Many years ago, Mr. Vili, a deity from the same pantheon, managed to obtain Ymir's finger. Mr. Vili then stored it in a bank in Chicago and left it there until 2012.
+
+[ЛОР]
+In Norse mythology, Ymir, Aurgelmir, Brimir, or Bláinn is the ancestor of all jötnar. Four poems collected in the Poetic Edda refer to Ymir as a primeval being who was born from venom that dripped from the icy rivers Élivágar and lived in the grassless void of Ginnungagap. Ymir birthed a male and female from the pits of his arms, and his legs together begat a six-headed being. The gods Odin, Vili and Vé fashioned the Earth (elsewhere personified as a goddess; Jörð) from his flesh, from his blood the ocean, from his bones the hills, from his hair the trees, from his brains the clouds, from his skull the heavens, and from his eyebrows the middle realm in which mankind lives, Midgard. In addition, one stanza relates that the dwarfs were given life by the gods from Ymir's flesh and blood (or the Earth and sea).
+
+In the Prose Edda, a narrative is provided that draws from, adds to, and differs from the accounts …
+
+[ПОЯВЛЕНИЯ]
+Season 8
+What's Up, Tiger Mommy?

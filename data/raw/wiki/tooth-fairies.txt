@@ -1,0 +1,29 @@
+### WIKI: Tooth Fairies | RU: Зубные феи | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Tooth Fairies
+category: Fairies
+status: Extant
+season: 3, 5, 8, 15
+title/alias: |occupation = Collecting teeth
+actor: Mark Acheson
+affiliation: Oberon
+
+[ОПИСАНИЕ]
+Tooth Fairies are a type of fairy mentioned by Garth Fitzgerald in the series.
+
+Tooth fairies, as all fairies in general, are believed to not be real even among most hunters and other people aware of the supernatural world like Bela Talbot.
+
+[ИСТОРИЯ]
+===Season 3===
+In Fresh Blood, Gordon Walker affirms to Bela Talbot that he believes Sam Winchester is the Antichrist, Bella (who doesn't believe him) then mocks him telling that she "might have heard something about it from her good friend, the Easter Bunny, who'd heard it from the Tooth Fairy", then asks Gordon if he is off his medications.
+
+[ПОЯВЛЕНИЯ]
+Season 3
+Fresh Blood 
+Season 5
+I Believe the Children Are Our Future 
+Season 8
+Southern Comfort 
+Season 15
+The Heroes' Journey

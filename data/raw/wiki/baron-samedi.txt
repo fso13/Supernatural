@@ -1,0 +1,31 @@
+### WIKI: Baron Samedi | RU: Барон Самди | КАТЕГОРИЯ: Боги
+
+[ИНФОБОКС]
+name: Baron Samedi
+category: Deity
+status: Deceased
+season: 5
+family: God
+title/alias: |occupation =Voodoo God
+actor: Precious Silburne
+affiliation: Voodoo Pantheon
+
+[ОПИСАНИЕ]
+Baron Samedi was one of the Pagan Deities who met at the Elysian Fields Hotel to try to work out a way to stop the Apocalypse. He was then killed by Lucifer. Baron was the Haitian loa (god-spirit) of the dead.
+
+[СЛАБОСТИ]
+Archangels - Lucifer could easily kill him.
+
+[ИСТОРИЯ]
+===Season 5===
+thumb|left|200px|Baron Samedi depicted in a book.
+He was at the Elysian Fields Hotel, along with at least eight other deities from different cultures to talk about the Apocalypse and how to avert it, appearing as a well-dressed African-American male.
+
+He and Zao Shen seemed to make up the brawn of the meeting; they were both used to detain the Winchester brothers and were later entrusted with safeguarding the conference room. 
+
+thumb|225px|Baron fights with Lucifer.
+When Lucifer showed up in the hotel, Baron and other deities tried to fight him, but were subsequently slaughtered. Baron appeared to have survived the longest againt the archangel, even throwing a punch at him before the latter caught his fist and ripped him to pieces off-screen.
+
+[ПОЯВЛЕНИЯ]
+Season 5
+Hammer of the Gods

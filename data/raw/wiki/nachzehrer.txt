@@ -1,0 +1,34 @@
+### WIKI: Nachzehrer | RU: Нахцерер | КАТЕГОРИЯ: Монстры
+
+[ИНФОБОКС]
+name: Nachzehrer
+category: Monsters
+status: Extant
+season: 11
+family: Eve †Leviathans Monsters
+title/alias: Ghoul-pires
+actor: Various
+
+[ОПИСАНИЕ]
+Nachzehrers were monsters that were similar to ghouls and vampires. Their existence was known since ancient Greece and by the Men of Letters. They can be cured by killing the pack alpha.
+
+[СЛАБОСТИ]
+thumb|230px|Dean stuffing the coins down the Nachzehrer's mouth.
+
+Silver - Slows down nachzehrers but causes no serious harm.
+Copper Coins - Placing a copper coin in its mouth combined with decapitation is the only thing that can kill it.
+Decapitation - Complete removal of the head and placing a Charon's obol or copper coin in their mouth kill nachzehrers.﻿ The nachzehrer Dean killed was done with pennies from a woman's purse and the Impala's car door.
+Killing the Pack Alpha - Turns everyone turned by the alpha back to human.
+
+[ХАРАКТЕРИСТИКИ]
+According to the lore Castiel was reading at the Men of Letters bunker, some nachzehrers feed on the blood and hearts of the living, and others the flesh of the dead. They run in small packs and usually keep a low profile. Nachzehrer seem to have an overwhelming pack-mentality; newly transformed members are utterly devoted to the pack alpha, even to the point of killing those they loved as humans for refusing to join the pack. If the alpha of the pack is killed, the others will turn back into human form. The only way to kill one is to put a Charon's obol or copper coin in its mouth and then decapitate it.
+thumb|230px|The fangs of a Nachzehrer.
+
+[ИСТОРИЯ]
+Due to their tendency to keep a low-profile, nachzehrers don't have much contact with hunters though the Men of Letters have encountered and killed them before.
+
+In 2015, the Darkness was released, something that was detected by all monsters. Desperate to live as long as possible, a nachzehrer named Deputy Donelly turned sixteen people in one month to create an army to survive. However, one of his newly turned pack, Lily Markham, was unable to correctly hide the body of her husband after he refused to join and his death drew the attention of hunters Sam and Dean Winchester. During a fight, Dean shot Donelly with silver and decapitated him, neither of which killed him, resulting in Dean sending a picture of Donelly's fangs to Castiel. Using the Men of Letters archives, Castiel was able to identify Donelly as a nachzehrer and how to kill him. After Lily restored Donelly's head to his body, Donelly explained …
+
+[ПОЯВЛЕНИЯ]
+Season 11
+Baby
