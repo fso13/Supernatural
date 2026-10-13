@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лист охотника — «Охотники» на GUMSHOE</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../assets/brand.css">
+<link rel="icon" type="image/svg+xml" href="../assets/brand/favicon.svg">
+<style>
+  main { max-width: 1180px; }
+  .sheet-top { display: grid; grid-template-columns: 1fr; gap: 14px; margin-bottom: 22px; }
+  .frow { display: grid; grid-template-columns: 190px 1fr; gap: 12px; align-items: center; }
+  .frow label {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase;
+    color: var(--gum);
+  }
+  .frow input[type=text], .frow textarea, .res input {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    color: var(--ink); padding: 9px 12px; font: inherit; font-size: 14.5px; width: 100%;
+    outline: none;
+  }
+  .frow input:focus, .res input:focus { border-color: var(--gum); }
+  .frow textarea { min-height: 54px; resize: vertical; }
+
+  .budget {
+    display: flex; flex-wrap: wrap; gap: 14px; align-items: center;
+    padding: 12px 16px; border-radius: 10px; margin: 8px 0 4px;
+    background: rgba(79,179,199,.07); border: 1px solid var(--gum-dim);
+  }
+  .budget b { font-family: var(--serif); font-size: 20px; color: var(--gum-2); }
+  .budget span { font-size: 13px; color: var(--ink-dim); }
+  .budget.over { background: rgba(183,34,43,.12); border-color: rgba(183,34,43,.5); }
+  .budget.over b { color: var(--blood-2); }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; align-items: start; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+
+  .abgroup { margin-bottom: 18px; }
+  .abgroup h4 {
+    margin: 0 0 8px; font-family: var(--mono); font-size: 10.5px; letter-spacing: 1.4px;
+    text-transform: uppercase; color: var(--brass);
+    border-bottom: 1px solid var(--line); padding-bottom: 5px;
+  }
+  .abrow {
+    display: grid; grid-template-columns: 1fr 62px 62px; gap: 8px; align-items: center;
+    padding: 3px 0;
+  }
+  .abrow label { font-size: 14px; color: var(--ink-dim); }
+  .abrow input {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 7px;
+    color: var(--ink); padding: 6px 6px; font: inherit; font-size: 14px; text-align: center;
+    outline: none; width: 100%;
+  }
+  .abrow input.rate { color: var(--gum-2); font-weight: 600; }
+  .abrow input.pool { color: var(--ink-faint); }
+  .abrow input:focus { border-color: var(--gum); }
+  .abhead {
+    display: grid; grid-template-columns: 1fr 62px 62px; gap: 8px;
+    font-family: var(--mono); font-size: 9.5px; letter-spacing: .8px; text-transform: uppercase;
+    color: var(--ink-faint); padding-bottom: 6px; border-bottom: 1px solid var(--line);
+    margin-bottom: 6px;
+  }
+
+  .res { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 4px 0 20px; }
+  .res .box {
+    background: linear-gradient(180deg, #101a1e, #0c1417); border: 1px solid var(--gum-dim);
+    border-radius: 10px; padding: 12px; text-align: center;
+  }
+  .res .box label {
+    display: block; font-family: var(--mono); font-size: 10px; letter-spacing: 1px;
+    text-transform: uppercase; color: var(--ink-faint); margin-bottom: 6px;
+  }
+  .res .box input { font-size: 22px; font-family: var(--serif); color: var(--gum-2);
+                    text-align: center; padding: 4px; }
+  .res .box small { display: block; font-size: 10.5px; color: var(--ink-faint); margin-top: 4px; }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 26px 0 10px; }
+  .sheet-hint { font-size: 12.5px; color: var(--ink-faint); margin: 8px 0 0; }
+  .warn { color: #e8bb63; }
+  .bad { color: var(--blood-2); }
+
+  @media print {
+    .topbar, .toolbar, .sheet-hint { display: none !important; }
+    body { background: #fff !important; color: #000 !important; }
+    .abrow label, .abgroup h4, .res .box label, .frow label { color: #333 !important; }
+    .abrow input, .res .box input, .frow input, .frow textarea {
+      background: #fff !important; border-color: #999 !important; color: #000 !important;
+    }
+    .res .box, .budget { background: #f4f4f4 !important; border-color: #999 !important; }
+    .res .box input, .budget b { color: #000 !important; }
+    .cols { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="sig sig-trap brandmark" role="img" aria-label="Ловушка дьявола"></span>
+    <div>
+      <h1 class="wordmark">Лист <span class="thin">охотника</span></h1>
+      <p class="tagline">«Охотники» · GUMSHOE · 18 очков расследования, 50 общих</p>
+    </div>
+  </div>
+  <nav class="tabs">
+    <a class="tab" href="quickstart.html">Быстрый старт</a>
+    <a class="tab" href="rules.html">Правила</a>
+    <a class="tab is-active" href="sheet.html">Лист персонажа</a>
+    <a class="tab" href="adventure.html">Приключение</a>
+    <a class="tab" href="index.html">← Бестиарий</a>
+    <a class="tab" href="../index.html">Все редакции</a>
+  </nav>
+</header>
+
+<main>
+  <div class="sheet-top">
+    <div class="frow"><label for="f-name">Имя</label><input id="f-name" type="text" placeholder="Роуз «Соль» Макэллистер"></div>
+    <div class="frow"><label for="f-info">Возраст, откуда</label><input id="f-info" type="text" placeholder="44, Флагстафф, Аризона"></div>
+    <div class="frow"><label for="f-cover">Легенда</label><input id="f-cover" type="text" placeholder="страховой следователь из Хелены"></div>
+    <div class="frow"><label for="f-drive">Драйв</label><input id="f-drive" type="text" placeholder="Месть · Долг · Искупление · Знание · Защита · Азарт"></div>
+    <div class="frow"><label for="f-anchor">Источники стабильности</label>
+      <textarea id="f-anchor" placeholder="1. брат Джим&#10;2. барменша Карла&#10;3. напарник Хэл"></textarea></div>
+  </div>
+
+  <div class="res">
+    <div class="box"><label for="f-health">Здоровье</label>
+      <input id="f-health" type="number" min="0" max="40" value="8"><small>текущее из максимума</small></div>
+    <div class="box"><label for="f-stab">Стабильность</label>
+      <input id="f-stab" type="number" min="0" max="40" value="8"><small>не восстанавливается сном</small></div>
+    <div class="box"><label for="f-conv">Убеждённость</label>
+      <input id="f-conv" type="number" min="0" max="10" value="10"><small>не растёт никогда</small></div>
+  </div>
+
+  <div class="cols">
+    <section>
+      <h3 style="font-family:var(--serif);color:var(--gum-2);margin:0 0 10px">Расследовательские способности</h3>
+      <div class="budget" id="b-inv">
+        <b><span id="inv-used">0</span> / 18</b>
+        <span>очков распределено · от 1 до 4 в способность, не меньше восьми разных</span>
+      </div>
+      <div class="abhead"><span>Способность</span><span>Рейтинг</span><span>Пул</span></div>
+      <div class="abgroup"><h4>Академические</h4>
+      <div class="abrow" data-ab="антропология" data-inv="1"><label for="r-антропология">Антропология</label><input class="rate" id="r-антропология" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Антропология"></div>
+      <div class="abrow" data-ab="археология" data-inv="1"><label for="r-археология">Археология</label><input class="rate" id="r-археология" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Археология"></div>
+      <div class="abrow" data-ab="архивы" data-inv="1"><label for="r-архивы">Архивы</label><input class="rate" id="r-архивы" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Архивы"></div>
+      <div class="abrow" data-ab="баллистика" data-inv="1"><label for="r-баллистика">Баллистика</label><input class="rate" id="r-баллистика" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Баллистика"></div>
+      <div class="abrow" data-ab="демонология" data-inv="1"><label for="r-демонология">Демонология</label><input class="rate" id="r-демонология" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Демонология"></div>
+      <div class="abrow" data-ab="история" data-inv="1"><label for="r-история">История</label><input class="rate" id="r-история" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул История"></div>
+      <div class="abrow" data-ab="криптозоология" data-inv="1"><label for="r-криптозоология">Криптозоология</label><input class="rate" id="r-криптозоология" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Криптозоология"></div>
+      <div class="abrow" data-ab="медицина" data-inv="1"><label for="r-медицина">Медицина</label><input class="rate" id="r-медицина" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Медицина"></div>
+      <div class="abrow" data-ab="оккултизм" data-inv="1"><label for="r-оккултизм">Оккультизм</label><input class="rate" id="r-оккултизм" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Оккультизм"></div>
+      <div class="abrow" data-ab="теология" data-inv="1"><label for="r-теология">Теология</label><input class="rate" id="r-теология" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Теология"></div>
+      <div class="abrow" data-ab="химия" data-inv="1"><label for="r-химия">Химия</label><input class="rate" id="r-химия" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Химия"></div>
+      <div class="abrow" data-ab="языки" data-inv="1"><label for="r-языки">Языки</label><input class="rate" id="r-языки" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Языки"></div>
+      </div>
+      <div class="abgroup"><h4>Межличностные</h4>
+      <div class="abrow" data-ab="допрос" data-inv="1"><label for="r-допрос">Допрос</label><input class="rate" id="r-допрос" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Допрос"></div>
+      <div class="abrow" data-ab="запугивание" data-inv="1"><label for="r-запугивание">Запугивание</label><input class="rate" id="r-запугивание" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Запугивание"></div>
+      <div class="abrow" data-ab="лест" data-inv="1"><label for="r-лест">Лесть</label><input class="rate" id="r-лест" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Лесть"></div>
+      <div class="abrow" data-ab="лож" data-inv="1"><label for="r-лож">Ложь</label><input class="rate" id="r-лож" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Ложь"></div>
+      <div class="abrow" data-ab="проницателност" data-inv="1"><label for="r-проницателност">Проницательность</label><input class="rate" id="r-проницателност" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Проницательность"></div>
+      <div class="abrow" data-ab="репутация" data-inv="1"><label for="r-репутация">Репутация</label><input class="rate" id="r-репутация" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Репутация"></div>
+      <div class="abrow" data-ab="уличное-чутe" data-inv="1"><label for="r-уличное-чутe">Уличное чутьё</label><input class="rate" id="r-уличное-чутe" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Уличное чутьё"></div>
+      </div>
+      <div class="abgroup"><h4>Технические</h4>
+      <div class="abrow" data-ab="взлом" data-inv="1"><label for="r-взлом">Взлом</label><input class="rate" id="r-взлом" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Взлом"></div>
+      <div class="abrow" data-ab="наружное-наблюдение" data-inv="1"><label for="r-наружное-наблюдение">Наружное наблюдение</label><input class="rate" id="r-наружное-наблюдение" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Наружное наблюдение"></div>
+      <div class="abrow" data-ab="осмотр-места" data-inv="1"><label for="r-осмотр-места">Осмотр места</label><input class="rate" id="r-осмотр-места" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Осмотр места"></div>
+      <div class="abrow" data-ab="слежка" data-inv="1"><label for="r-слежка">Слежка</label><input class="rate" id="r-слежка" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Слежка"></div>
+      <div class="abrow" data-ab="фотосъeмка" data-inv="1"><label for="r-фотосъeмка">Фотосъёмка</label><input class="rate" id="r-фотосъeмка" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Фотосъёмка"></div>
+      <div class="abrow" data-ab="эксплуатация" data-inv="1"><label for="r-эксплуатация">Эксплуатация</label><input class="rate" id="r-эксплуатация" type="number" min="0" max="6" value="0" data-role="rate"><input class="pool" type="number" min="0" max="20" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Эксплуатация"></div>
+      </div>
+    </section>
+
+    <section>
+      <h3 style="font-family:var(--serif);color:var(--gum-2);margin:0 0 10px">Общие способности</h3>
+      <div class="budget" id="b-gen">
+        <b><span id="gen-used">0</span> / 50</b>
+        <span>очков распределено · минимум: Здоровье 4, Стабильность 4, Бдительность 2</span>
+      </div>
+      <div class="abhead"><span>Способность</span><span>Рейтинг</span><span>Пул</span></div>
+      <div class="abrow" data-ab="атлетика" data-gen="1"><label for="g-атлетика">Атлетика</label><input class="rate" id="g-атлетика" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Атлетика"></div>
+      <div class="abrow" data-ab="бдителност" data-gen="1"><label for="g-бдителност">Бдительность</label><input class="rate" id="g-бдителност" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Бдительность"></div>
+      <div class="abrow" data-ab="бой" data-gen="1"><label for="g-бой">Бой</label><input class="rate" id="g-бой" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Бой"></div>
+      <div class="abrow" data-ab="вера" data-gen="1"><label for="g-вера">Вера</label><input class="rate" id="g-вера" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Вера"></div>
+      <div class="abrow" data-ab="вождение" data-gen="1"><label for="g-вождение">Вождение</label><input class="rate" id="g-вождение" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Вождение"></div>
+      <div class="abrow" data-ab="здорове" data-gen="1"><label for="g-здорове">Здоровье</label><input class="rate" id="g-здорове" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Здоровье"></div>
+      <div class="abrow" data-ab="первая-помощ" data-gen="1"><label for="g-первая-помощ">Первая помощь</label><input class="rate" id="g-первая-помощ" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Первая помощь"></div>
+      <div class="abrow" data-ab="подготовка" data-gen="1"><label for="g-подготовка">Подготовка</label><input class="rate" id="g-подготовка" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Подготовка"></div>
+      <div class="abrow" data-ab="связи" data-gen="1"><label for="g-связи">Связи</label><input class="rate" id="g-связи" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Связи"></div>
+      <div class="abrow" data-ab="скрытност" data-gen="1"><label for="g-скрытност">Скрытность</label><input class="rate" id="g-скрытност" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Скрытность"></div>
+      <div class="abrow" data-ab="стабилност" data-gen="1"><label for="g-стабилност">Стабильность</label><input class="rate" id="g-стабилност" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Стабильность"></div>
+      <div class="abrow" data-ab="стрелба" data-gen="1"><label for="g-стрелба">Стрельба</label><input class="rate" id="g-стрелба" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Стрельба"></div>
+      <div class="abrow" data-ab="воля" data-gen="1"><label for="g-воля">Воля</label><input class="rate" id="g-воля" type="number" min="0" max="18" value="0" data-role="rate"><input class="pool" type="number" min="0" max="30" value="0" data-role="pool" title="текущий пул" aria-label="текущий пул Воля"></div>
+
+      <h4 style="font-family:var(--mono);font-size:10.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--brass);border-bottom:1px solid var(--line);padding-bottom:5px;margin:22px 0 10px">Шрамы</h4>
+      <div class="frow" style="grid-template-columns:1fr"><input id="f-scar1" type="text" placeholder="1."></div>
+      <div class="frow" style="grid-template-columns:1fr;margin-top:8px"><input id="f-scar2" type="text" placeholder="2."></div>
+      <div class="frow" style="grid-template-columns:1fr;margin-top:8px"><input id="f-scar3" type="text" placeholder="3. — третий шрам: уход из дела"></div>
+
+      <h4 style="font-family:var(--mono);font-size:10.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--brass);border-bottom:1px solid var(--line);padding-bottom:5px;margin:22px 0 10px">Снаряжение и заметки</h4>
+      <textarea id="f-gear" style="width:100%;min-height:110px;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--ink);padding:10px 12px;font:inherit;font-size:14px" placeholder="Дробовик, соль, серебряный нож, набор отмычек…"></textarea>
+    </section>
+  </div>
+
+  <div class="toolbar">
+    <button class="ghostbtn" id="btn-save">Сохранить в браузере</button>
+    <button class="ghostbtn" id="btn-load">Загрузить</button>
+    <button class="ghostbtn" id="btn-clear">Очистить</button>
+    <button class="ghostbtn" id="btn-reset-pools">Восстановить пулы</button>
+    <button class="ghostbtn" id="btn-print">🖨 Печать</button>
+  </div>
+  <p class="sheet-hint" id="hint"></p>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var INV_TOTAL = 18, GEN_TOTAL = 50;
+  var KEY = "hunters-sheet-v1";
+  var rows = Array.prototype.slice.call(document.querySelectorAll(".abrow"));
+  var fields = ["f-name","f-info","f-cover","f-drive","f-anchor","f-health","f-stab","f-conv",
+                "f-scar1","f-scar2","f-scar3","f-gear"];
+
+  function num(el) { var v = parseInt(el.value, 10); return isNaN(v) ? 0 : v; }
+  function rowByLabel(name) {
+    for (var i = 0; i < rows.length; i++) {
+      var l = rows[i].querySelector("label");
+      if (l && l.textContent.trim() === name) return rows[i];
+    }
+    return null;
+  }
+  function rateOf(name) { var r = rowByLabel(name); return r ? num(r.querySelector('[data-role="rate"]')) : 0; }
+
+  function recalc() {
+    var inv = 0, gen = 0, invCount = 0;
+    rows.forEach(function (r) {
+      var rate = r.querySelector('[data-role="rate"]');
+      var v = num(rate);
+      if (r.hasAttribute("data-inv")) { inv += v; if (v > 0) invCount++; }
+      else { gen += v; }
+    });
+    document.getElementById("inv-used").textContent = inv;
+    document.getElementById("gen-used").textContent = gen;
+
+    var bInv = document.getElementById("b-inv"), bGen = document.getElementById("b-gen");
+    bInv.classList.toggle("over", inv > INV_TOTAL);
+    bGen.classList.toggle("over", gen > GEN_TOTAL);
+
+    var msgs = [];
+    if (inv > INV_TOTAL) msgs.push('<span class="bad">Расследование: перебор на ' + (inv - INV_TOTAL) + '</span>');
+    else if (inv < INV_TOTAL) msgs.push('<span class="warn">Расследование: осталось ' + (INV_TOTAL - inv) + '</span>');
+    else msgs.push("Расследование: ровно 18");
+    if (invCount > 0 && invCount < 8) msgs.push('<span class="warn">меньше восьми разных способностей</span>');
+
+    if (gen > GEN_TOTAL) msgs.push('<span class="bad">Общие: перебор на ' + (gen - GEN_TOTAL) + '</span>');
+    else if (gen < GEN_TOTAL) msgs.push('<span class="warn">Общие: осталось ' + (GEN_TOTAL - gen) + '</span>');
+    else msgs.push("Общие: ровно 50");
+
+    [["Здоровье", 4], ["Стабильность", 4], ["Бдительность", 2]].forEach(function (p) {
+      if (rateOf(p[0]) < p[1]) {
+        msgs.push('<span class="bad">' + p[0] + " ниже минимума (" + p[1] + ")</span>");
+      }
+    });
+    document.getElementById("hint").innerHTML = msgs.join(" · ");
+  }
+
+  function syncPools() {
+    rows.forEach(function (r) {
+      var rate = r.querySelector('[data-role="rate"]');
+      var pool = r.querySelector('[data-role="pool"]');
+      if (num(pool) > num(rate)) pool.value = num(rate);
+    });
+    document.getElementById("f-health").max = Math.max(1, rateOf("Здоровье"));
+    document.getElementById("f-stab").max = Math.max(1, rateOf("Стабильность"));
+  }
+
+  rows.forEach(function (r) {
+    r.addEventListener("input", function () { syncPools(); recalc(); });
+  });
+  document.querySelectorAll("input, textarea").forEach(function (el) {
+    el.addEventListener("input", function () {
+      if (el.id && el.id.indexOf("f-") === 0) return;
+      recalc();
+    });
+  });
+
+  function collect() {
+    var d = { rows: {}, fields: {} };
+    rows.forEach(function (r) {
+      d.rows[r.getAttribute("data-ab")] = [
+        num(r.querySelector('[data-role="rate"]')),
+        num(r.querySelector('[data-role="pool"]'))
+      ];
+    });
+    fields.forEach(function (id) { var e = document.getElementById(id); if (e) d.fields[id] = e.value; });
+    return d;
+  }
+  function apply(d) {
+    if (!d) return;
+    Object.keys(d.rows || {}).forEach(function (k) {
+      var r = document.querySelector('.abrow[data-ab="' + k + '"]');
+      if (!r) return;
+      r.querySelector('[data-role="rate"]').value = d.rows[k][0];
+      r.querySelector('[data-role="pool"]').value = d.rows[k][1];
+    });
+    Object.keys(d.fields || {}).forEach(function (id) {
+      var e = document.getElementById(id); if (e) e.value = d.fields[id];
+    });
+    syncPools(); recalc();
+  }
+
+  document.getElementById("btn-save").addEventListener("click", function () {
+    try {
+      localStorage.setItem(KEY, JSON.stringify(collect()));
+      document.getElementById("hint").innerHTML = "Сохранено в этом браузере.";
+    } catch (e) { document.getElementById("hint").textContent = "Не удалось сохранить: " + e; }
+  });
+  document.getElementById("btn-load").addEventListener("click", function () {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (!raw) { document.getElementById("hint").textContent = "Сохранений нет."; return; }
+      apply(JSON.parse(raw));
+      document.getElementById("hint").textContent = "Загружено.";
+    } catch (e) { document.getElementById("hint").textContent = "Не удалось загрузить: " + e; }
+  });
+  document.getElementById("btn-clear").addEventListener("click", function () {
+    if (!confirm("Очистить лист?")) return;
+    rows.forEach(function (r) {
+      r.querySelector('[data-role="rate"]').value = 0;
+      r.querySelector('[data-role="pool"]').value = 0;
+    });
+    fields.forEach(function (id) { var e = document.getElementById(id); if (e) e.value = ""; });
+    document.getElementById("f-health").value = 0;
+    document.getElementById("f-stab").value = 0;
+    document.getElementById("f-conv").value = 10;
+    recalc();
+  });
+  document.getElementById("btn-reset-pools").addEventListener("click", function () {
+    rows.forEach(function (r) {
+      var rate = r.querySelector('[data-role="rate"]');
+      var pool = r.querySelector('[data-role="pool"]');
+      pool.value = num(rate);
+    });
+    document.getElementById("f-health").value = rateOf("Здоровье");
+    document.getElementById("f-stab").value = rateOf("Стабильность");
+    document.getElementById("hint").textContent = "Пулы восстановлены — как между делами.";
+  });
+  document.getElementById("btn-print").addEventListener("click", function () { window.print(); });
+
+  // подтянуть пулы к рейтингам при первом вводе
+  rows.forEach(function (r) {
+    var rate = r.querySelector('[data-role="rate"]');
+    rate.addEventListener("change", function () {
+      var pool = r.querySelector('[data-role="pool"]');
+      if (num(pool) === 0) pool.value = num(rate);
+    });
+  });
+  recalc();
+})();
+</script>
+</body>
+</html>

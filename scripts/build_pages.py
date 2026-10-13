@@ -14,7 +14,8 @@ DIRS = ["assets", "site", "site-gumshoe", "site-edge"]
 FILES = ["index.html", "README.md"]
 PDFS = [
     "bestiary-dnd5e.pdf", "statblocks-dnd5e.pdf", "adventure-dnd5e.pdf",
-    "quickstart-gumshoe.pdf", "rules-gumshoe.pdf", "adventure-gumshoe.pdf",
+    "quickstart-gumshoe.pdf", "rules-gumshoe.pdf", "sheet-gumshoe.pdf",
+    "adventure-gumshoe.pdf",
     "rules-edge.pdf", "adventure-edge.pdf",
 ]
 SKIP = shutil.ignore_patterns("__pycache__", ".DS_Store", "*.pyc", "book.html", "statblocks.html")
