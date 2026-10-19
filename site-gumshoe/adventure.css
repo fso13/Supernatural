@@ -38,7 +38,6 @@
 .adv h1 {
   font-family: var(--serif); font-size: clamp(34px, 5vw, 52px); letter-spacing: 2px;
   margin: 0 0 4px; color: var(--ink);
-  text-shadow: 0 0 40px rgba(183,34,43,.35);
 }
 .adv h1 + h3 {
   color: var(--brass-2); font-family: var(--serif); font-size: 18px; font-weight: 400;
@@ -111,6 +110,7 @@ table.md td:first-child { color: var(--ink); }
   .adv-wrap { display: block; }
   body { background: #fff; }
   .adv h1, .adv h2, .adv h3, .adv h4, .adv p, .adv li, .adv td, .adv th { color: #000 !important; }
+  .adv * { text-shadow: none !important; }
   .adv h2 { border-bottom: 2px solid #000; }
   .adv blockquote { border-left: 3px solid #000; background: #f4f4f4; }
 }
